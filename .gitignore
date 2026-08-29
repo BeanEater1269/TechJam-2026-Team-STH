@@ -1,0 +1,24 @@
+# raw downloads and pixel caches -- big, and regeneratable from the manifest + scripts
+data/raw/*
+!data/raw/.gitkeep
+data/cache/clean/*
+!data/cache/clean/.gitkeep
+data/cache/embeddings/*
+!data/cache/embeddings/.gitkeep
+
+# manifest.csv is small (path, source, generator_family, label, split) -- keep this one in git,
+# it IS the reproducibility story. Do not ignore it once it exists.
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# checkpoints / model weights
+*.pt
+*.pth
+*.ckpt
+
+# os cruft
+.DS_Store

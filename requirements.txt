@@ -1,0 +1,22 @@
+# --- core ML ---
+torch
+torchvision
+transformers
+pyiqa            # LIQE, later -- pulls in most other IQA metrics too
+
+# --- image + signal processing ---
+pillow
+opencv-python    # Laplacian variance, general image ops
+scipy            # DCT (scipy.fft), noise/statistics helpers
+numpy
+
+# --- data wrangling / training utils ---
+pandas           # split manifests, results tables
+scikit-learn     # SVM baseline row, general utils
+tqdm
+
+# --- dataset download ---
+datasets         # HF: SID-Set (streams parquet, don't need the full 140GB)
+huggingface_hub
+modelscope       # WildFake
+kaggle           # CIFAKE (needs ~/.kaggle/kaggle.json API token)
