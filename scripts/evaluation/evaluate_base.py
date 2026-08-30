@@ -30,10 +30,10 @@ import numpy as np
 import torch
 from sklearn.metrics import roc_auc_score
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent / "utils"))
 from eval_metrics import print_fpr_table  # noqa: E402
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 from base_classifier import BaseClassifier  # noqa: E402
 
 

@@ -17,7 +17,7 @@ import pandas as pd
 from PIL import Image
 from tqdm import tqdm
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 from transforms import (  # noqa: E402
     WORKING_RES,
     build_all_variants,

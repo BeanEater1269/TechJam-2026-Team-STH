@@ -35,11 +35,11 @@ import numpy as np
 import torch
 from sklearn.metrics import roc_auc_score
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent / "utils"))
 from eval_metrics import print_fpr_table  # noqa: E402
 from normalize import apply_normalization, compute_train_stats  # noqa: E402
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 from model_film import FiLMClassifier  # noqa: E402
 
 SIGNAL_COLUMNS = ["laplacian_var", "dct_low_energy", "dct_high_energy", "noise_variance"]

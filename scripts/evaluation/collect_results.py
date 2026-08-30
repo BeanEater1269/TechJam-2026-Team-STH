@@ -1,6 +1,7 @@
 """
-Runs train_base.py, train_concat_normalize.py, train_film_normalize.py, then
-evaluate_base.py, evaluate_concat.py, evaluate_film.py in sequence, and saves each
+Runs training/train_base.py, training/train_concat_normalize.py,
+training/train_film_normalize.py, then evaluation/evaluate_base.py,
+evaluation/evaluate_concat.py, evaluation/evaluate_film.py in sequence, and saves each
 run's results into a new results/ directory as JSON -- tagged with which model
 (base/concat/film), which signals were used, and which CLIP backbone (default
 ViT-B/32, backbone_dim=512).
@@ -15,8 +16,8 @@ in checkpoints/. None of the training scripts fix a random seed, so re-run numbe
 be close to, but not bit-identical to, a previous run.
 
 Usage:
-    python scripts/collect_results.py
-    python scripts/collect_results.py --backbone-dim 512 --backbone-label "ViT-B/32"
+    python scripts/evaluation/collect_results.py
+    python scripts/evaluation/collect_results.py --backbone-dim 512 --backbone-label "ViT-B/32"
 """
 import argparse
 import csv
@@ -27,19 +28,19 @@ import sys
 from pathlib import Path
 
 PYTHON = sys.executable
-SCRIPTS_DIR = Path(__file__).parent
+SCRIPTS_DIR = Path(__file__).parent.parent  # this file lives in scripts/evaluation/
 REPO_ROOT = SCRIPTS_DIR.parent
 
 SIGNAL_COLUMNS = ["laplacian_var", "dct_low_energy", "dct_high_energy", "noise_variance"]
 
-# (run_name, script, kind, model_label, signals, signals_normalized)
+# (run_name, script (relative to scripts/), kind, model_label, signals, signals_normalized)
 JOBS = [
-    ("base_train", "train_base.py", "train", "base", [], None),
-    ("concat_train", "train_concat_normalize.py", "train", "concat", SIGNAL_COLUMNS, True),
-    ("film_train", "train_film_normalize.py", "train", "film", SIGNAL_COLUMNS, True),
-    ("base_eval", "evaluate_base.py", "eval", "base", [], None),
-    ("concat_eval", "evaluate_concat.py", "eval", "concat", SIGNAL_COLUMNS, True),
-    ("film_eval", "evaluate_film.py", "eval", "film", SIGNAL_COLUMNS, True),
+    ("base_train", "training/train_base.py", "train", "base", [], None),
+    ("concat_train", "training/train_concat_normalize.py", "train", "concat", SIGNAL_COLUMNS, True),
+    ("film_train", "training/train_film_normalize.py", "train", "film", SIGNAL_COLUMNS, True),
+    ("base_eval", "evaluation/evaluate_base.py", "eval", "base", [], None),
+    ("concat_eval", "evaluation/evaluate_concat.py", "eval", "concat", SIGNAL_COLUMNS, True),
+    ("film_eval", "evaluation/evaluate_film.py", "eval", "film", SIGNAL_COLUMNS, True),
 ]
 
 EPOCH_RE = re.compile(r"epoch (\d+): avg loss ([\d.]+), val acc ([\d.]+), val auc ([\d.]+)")
