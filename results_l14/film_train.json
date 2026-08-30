@@ -1,0 +1,85 @@
+{
+  "run_name": "film_train",
+  "script": "training/train_film_normalize.py",
+  "kind": "train",
+  "model": "film",
+  "signals": [
+    "laplacian_var",
+    "dct_low_energy",
+    "dct_high_energy",
+    "noise_variance"
+  ],
+  "signals_normalized": true,
+  "backbone": "ViT-L/14",
+  "backbone_dim": 768,
+  "results": {
+    "epochs": [
+      {
+        "epoch": 1,
+        "avg_loss": 0.669,
+        "val_acc": 0.912,
+        "val_auc": 0.9638
+      },
+      {
+        "epoch": 2,
+        "avg_loss": 0.5155,
+        "val_acc": 0.9237,
+        "val_auc": 0.9717
+      },
+      {
+        "epoch": 3,
+        "avg_loss": 0.4618,
+        "val_acc": 0.9323,
+        "val_auc": 0.9749
+      },
+      {
+        "epoch": 4,
+        "avg_loss": 0.4284,
+        "val_acc": 0.933,
+        "val_auc": 0.977
+      },
+      {
+        "epoch": 5,
+        "avg_loss": 0.3993,
+        "val_acc": 0.9317,
+        "val_auc": 0.9764
+      },
+      {
+        "epoch": 6,
+        "avg_loss": 0.3716,
+        "val_acc": 0.93,
+        "val_auc": 0.9757
+      },
+      {
+        "epoch": 7,
+        "avg_loss": 0.3458,
+        "val_acc": 0.939,
+        "val_auc": 0.9767
+      },
+      {
+        "epoch": 8,
+        "avg_loss": 0.3296,
+        "val_acc": 0.934,
+        "val_auc": 0.9769
+      },
+      {
+        "epoch": 9,
+        "avg_loss": 0.3043,
+        "val_acc": 0.937,
+        "val_auc": 0.9763
+      },
+      {
+        "epoch": 10,
+        "avg_loss": 0.2795,
+        "val_acc": 0.9323,
+        "val_auc": 0.9753
+      }
+    ],
+    "final": {
+      "epoch": 10,
+      "avg_loss": 0.2795,
+      "val_acc": 0.9323,
+      "val_auc": 0.9753
+    }
+  }
+}

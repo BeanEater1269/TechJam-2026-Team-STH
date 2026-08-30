@@ -1,0 +1,77 @@
+[
+  {
+    "run": "base_train",
+    "kind": "train",
+    "model": "base",
+    "signals": "none",
+    "signals_normalized": null,
+    "backbone": "ViT-L/14",
+    "val_acc": 0.9253,
+    "val_auc": 0.9693,
+    "avg_loss": 0.1523
+  },
+  {
+    "run": "concat_train",
+    "kind": "train",
+    "model": "concat",
+    "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
+    "signals_normalized": true,
+    "backbone": "ViT-L/14",
+    "val_acc": 0.9257,
+    "val_auc": 0.9721,
+    "avg_loss": 0.1455
+  },
+  {
+    "run": "film_train",
+    "kind": "train",
+    "model": "film",
+    "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
+    "signals_normalized": true,
+    "backbone": "ViT-L/14",
+    "val_acc": 0.9323,
+    "val_auc": 0.9753,
+    "avg_loss": 0.2795
+  },
+  {
+    "run": "base_eval",
+    "kind": "eval",
+    "model": "base",
+    "signals": "none",
+    "signals_normalized": null,
+    "backbone": "ViT-L/14",
+    "overall_acc": 0.9138,
+    "overall_auc": 0.9635,
+    "clean_acc": 0.9273,
+    "clean_auc": 0.9693,
+    "mean15_acc": 0.9129,
+    "mean15_auc": 0.9631
+  },
+  {
+    "run": "concat_eval",
+    "kind": "eval",
+    "model": "concat",
+    "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
+    "signals_normalized": true,
+    "backbone": "ViT-L/14",
+    "overall_acc": 0.9159,
+    "overall_auc": 0.9652,
+    "clean_acc": 0.9293,
+    "clean_auc": 0.9699,
+    "mean15_acc": 0.915,
+    "mean15_auc": 0.9648
+  },
+  {
+    "run": "film_eval",
+    "kind": "eval",
+    "model": "film",
+    "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
+    "signals_normalized": true,
+    "backbone": "ViT-L/14",
+    "overall_acc": 0.9168,
+    "overall_auc": 0.9691,
+    "clean_acc": 0.9287,
+    "clean_auc": 0.9748,
+    "mean15_acc": 0.916,
+    "mean15_auc": 0.9689
+  }
+]

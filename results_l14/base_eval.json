@@ -1,0 +1,113 @@
+{
+  "run_name": "base_eval",
+  "script": "evaluation/evaluate_base.py",
+  "kind": "eval",
+  "model": "base",
+  "signals": [],
+  "signals_normalized": null,
+  "backbone": "ViT-L/14",
+  "backbone_dim": 768,
+  "results": {
+    "per_variant": {
+      "clean": {
+        "n": 3000,
+        "accuracy": 0.9273,
+        "auc": 0.9693
+      },
+      "blur_s0.5": {
+        "n": 3000,
+        "accuracy": 0.9277,
+        "auc": 0.9693
+      },
+      "blur_s1.0": {
+        "n": 3000,
+        "accuracy": 0.9207,
+        "auc": 0.9676
+      },
+      "blur_s2.0": {
+        "n": 3000,
+        "accuracy": 0.914,
+        "auc": 0.964
+      },
+      "color_down": {
+        "n": 3000,
+        "accuracy": 0.9133,
+        "auc": 0.9629
+      },
+      "color_up": {
+        "n": 3000,
+        "accuracy": 0.9133,
+        "auc": 0.9625
+      },
+      "crop80": {
+        "n": 3000,
+        "accuracy": 0.9197,
+        "auc": 0.9674
+      },
+      "jpeg_q30": {
+        "n": 3000,
+        "accuracy": 0.906,
+        "auc": 0.9597
+      },
+      "jpeg_q50": {
+        "n": 3000,
+        "accuracy": 0.9093,
+        "auc": 0.9623
+      },
+      "jpeg_q70": {
+        "n": 3000,
+        "accuracy": 0.917,
+        "auc": 0.9664
+      },
+      "jpeg_q90": {
+        "n": 3000,
+        "accuracy": 0.922,
+        "auc": 0.9688
+      },
+      "noise_s0.02": {
+        "n": 3000,
+        "accuracy": 0.9047,
+        "auc": 0.96
+      },
+      "noise_s0.05": {
+        "n": 3000,
+        "accuracy": 0.899,
+        "auc": 0.955
+      },
+      "noise_s0.1": {
+        "n": 3000,
+        "accuracy": 0.8887,
+        "auc": 0.9476
+      },
+      "resize_0.25": {
+        "n": 3000,
+        "accuracy": 0.916,
+        "auc": 0.9649
+      },
+      "resize_0.5": {
+        "n": 3000,
+        "accuracy": 0.922,
+        "auc": 0.968
+      }
+    },
+    "overall": {
+      "n": 48000,
+      "accuracy": 0.9138,
+      "auc": 0.9635
+    },
+    "robustness_summary": {
+      "clean": {
+        "acc": 0.9273,
+        "auc": 0.9693
+      },
+      "mean_15_variants": {
+        "acc": 0.9129,
+        "auc": 0.9631
+      },
+      "gap": {
+        "acc": 0.0144,
+        "auc": 0.0062
+      }
+    }
+  }
+}

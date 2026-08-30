@@ -1,0 +1,118 @@
+{
+  "run_name": "film_eval",
+  "script": "evaluation/evaluate_film.py",
+  "kind": "eval",
+  "model": "film",
+  "signals": [
+    "laplacian_var",
+    "dct_low_energy",
+    "dct_high_energy",
+    "noise_variance"
+  ],
+  "signals_normalized": true,
+  "backbone": "ViT-L/14",
+  "backbone_dim": 768,
+  "results": {
+    "per_variant": {
+      "clean": {
+        "n": 3000,
+        "accuracy": 0.9287,
+        "auc": 0.9748
+      },
+      "blur_s0.5": {
+        "n": 3000,
+        "accuracy": 0.9277,
+        "auc": 0.9759
+      },
+      "blur_s1.0": {
+        "n": 3000,
+        "accuracy": 0.9257,
+        "auc": 0.9745
+      },
+      "blur_s2.0": {
+        "n": 3000,
+        "accuracy": 0.9167,
+        "auc": 0.9689
+      },
+      "color_down": {
+        "n": 3000,
+        "accuracy": 0.9143,
+        "auc": 0.9688
+      },
+      "color_up": {
+        "n": 3000,
+        "accuracy": 0.9103,
+        "auc": 0.966
+      },
+      "crop80": {
+        "n": 3000,
+        "accuracy": 0.9143,
+        "auc": 0.9713
+      },
+      "jpeg_q30": {
+        "n": 3000,
+        "accuracy": 0.907,
+        "auc": 0.9655
+      },
+      "jpeg_q50": {
+        "n": 3000,
+        "accuracy": 0.9117,
+        "auc": 0.9687
+      },
+      "jpeg_q70": {
+        "n": 3000,
+        "accuracy": 0.919,
+        "auc": 0.9697
+      },
+      "jpeg_q90": {
+        "n": 3000,
+        "accuracy": 0.9253,
+        "auc": 0.973
+      },
+      "noise_s0.02": {
+        "n": 3000,
+        "accuracy": 0.9173,
+        "auc": 0.97
+      },
+      "noise_s0.05": {
+        "n": 3000,
+        "accuracy": 0.9137,
+        "auc": 0.9658
+      },
+      "noise_s0.1": {
+        "n": 3000,
+        "accuracy": 0.8913,
+        "auc": 0.9493
+      },
+      "resize_0.25": {
+        "n": 3000,
+        "accuracy": 0.9207,
+        "auc": 0.9706
+      },
+      "resize_0.5": {
+        "n": 3000,
+        "accuracy": 0.9253,
+        "auc": 0.9753
+      }
+    },
+    "overall": {
+      "n": 48000,
+      "accuracy": 0.9168,
+      "auc": 0.9691
+    },
+    "robustness_summary": {
+      "clean": {
+        "acc": 0.9287,
+        "auc": 0.9748
+      },
+      "mean_15_variants": {
+        "acc": 0.916,
+        "auc": 0.9689
+      },
+      "gap": {
+        "acc": 0.0126,
+        "auc": 0.0059
+      }
+    }
+  }
+}

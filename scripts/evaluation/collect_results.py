@@ -125,16 +125,27 @@ def parse_eval_output(output: str) -> dict:
     return {"per_variant": per_variant, "overall": overall, "robustness_summary": summary}
 
 
+BACKBONE_LABELS = {512: "ViT-B/32", 768: "ViT-L/14"}
+BACKBONE_TAGS = {512: "b32", 768: "l14"}
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--backbone-dim", type=int, default=512)
-    ap.add_argument("--backbone-label", default="ViT-B/32",
-                     help="human-readable label recorded alongside every result, e.g. 'ViT-B/32'")
-    ap.add_argument("--out-dir", default="results")
+    ap.add_argument("--backbone-label", default=None,
+                     help="human-readable label recorded alongside every result, e.g. 'ViT-B/32'. "
+                          "Auto-derived from --backbone-dim if not given (512 -> ViT-B/32, 768 -> ViT-L/14).")
+    ap.add_argument("--out-dir", default=None,
+                     help="Auto-derived from --backbone-dim if not given -- results_b32/ for 512, "
+                          "results_l14/ for 768 -- so different backbones never overwrite each other's "
+                          "results. Pass explicitly to override.")
     args = ap.parse_args()
 
-    out_dir = REPO_ROOT / args.out_dir
+    backbone_label = args.backbone_label or BACKBONE_LABELS.get(args.backbone_dim, f"dim={args.backbone_dim}")
+    out_dir_name = args.out_dir or f"results_{BACKBONE_TAGS.get(args.backbone_dim, f'dim{args.backbone_dim}')}"
+    out_dir = REPO_ROOT / out_dir_name
     out_dir.mkdir(parents=True, exist_ok=True)
+    print(f"backbone: {backbone_label} (dim={args.backbone_dim}) -> writing results to {out_dir}")
 
     summary_rows = []
 
@@ -149,7 +160,7 @@ def main() -> None:
             "model": model_label,
             "signals": signals,
             "signals_normalized": signals_normalized,
-            "backbone": args.backbone_label,
+            "backbone": backbone_label,
             "backbone_dim": args.backbone_dim,
             "results": parsed,
         }
@@ -161,7 +172,7 @@ def main() -> None:
         row = {
             "run": run_name, "kind": kind, "model": model_label,
             "signals": ",".join(signals) if signals else "none",
-            "signals_normalized": signals_normalized, "backbone": args.backbone_label,
+            "signals_normalized": signals_normalized, "backbone": backbone_label,
         }
         if kind == "train" and parsed["final"]:
             row.update({
