@@ -195,6 +195,30 @@ h1 {
   padding: 0 24px;
 }
 
+.backbone-switcher {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.backbone-tab {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.85em;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.backbone-tab.active {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
 #clean-summary {
   display: flex;
   gap: 16px;
