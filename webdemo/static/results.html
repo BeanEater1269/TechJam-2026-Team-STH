@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Robustness Dashboard</title>
+  <title>Results Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -13,12 +13,13 @@
     <span class="team-name">Team Sweaty Try Hard</span>
     <nav class="nav">
       <a href="/">Detector</a>
-      <a href="/dashboard" class="active">Dashboard</a>
+      <a href="/live">Live</a>
+      <a href="/results" class="active">Results</a>
     </nav>
     <img src="/static/logo.png" alt="TikTok TechJam 2026" class="logo" onerror="this.style.display='none'">
   </header>
 
-  <h1>Robustness Evaluation</h1>
+  <h1>Results Dashboard</h1>
   <p class="subtitle">AUC on clean images vs. each transformation — Base vs. Concatenation vs. FiLM</p>
 
   <div class="backbone-switcher">
@@ -53,6 +54,6 @@
     </details>
   </div>
 
-  <script src="/static/dashboard.js?v=2"></script>
+  <script src="/static/results-dashboard.js?v=2"></script>
 </body>
 </html>

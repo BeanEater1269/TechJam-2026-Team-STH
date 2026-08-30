@@ -332,3 +332,78 @@ h1 {
   font-weight: 400;
   font-size: 0.9em;
 }
+
+/* --- Live dashboard (/live) -- new rules, scoped to #live-* ids so the existing
+   #clean-summary/#detail-table (results dashboard) styling above is untouched. --- */
+
+#live-summary {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+#live-table-wrap {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px 20px;
+}
+
+#live-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.85em;
+}
+
+#live-table th,
+#live-table td {
+  padding: 8px 12px;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+#live-table th:first-child,
+#live-table td:first-child,
+#live-table th:nth-child(2),
+#live-table td:nth-child(2) {
+  text-align: left;
+  color: var(--muted);
+}
+
+#live-table thead th {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.badge {
+  display: inline-block;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: 0.03em;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.badge.fake {
+  color: var(--fake);
+  background: rgba(255, 92, 92, 0.12);
+}
+
+.badge.real {
+  color: var(--real);
+  background: rgba(61, 220, 132, 0.12);
+}

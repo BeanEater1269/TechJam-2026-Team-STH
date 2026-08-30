@@ -4,6 +4,9 @@ torch
 torchvision
 transformers
 pyiqa            # LIQE, later -- pulls in most other IQA metrics too
+setuptools<81    # LIQE needs pkg_resources internally (via openai's clip package) --
+                 # removed in newer setuptools. Confirmed: without this, pyiqa
+                 # crashes on import.
 
 # --- image + signal processing ---
 pillow
@@ -21,3 +24,8 @@ datasets         # HF: SID-Set (streams parquet, don't need the full 140GB)
 huggingface_hub
 modelscope       # WildFake
 kaggle           # CIFAKE (needs ~/.kaggle/kaggle.json API token)
+
+# --- webdemo ---
+fastapi==0.135.3
+uvicorn==0.44.0
+python-multipart  # required by FastAPI's UploadFile/File() handling

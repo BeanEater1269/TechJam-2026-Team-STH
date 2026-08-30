@@ -5,6 +5,7 @@ const result = document.getElementById("result");
 const previewImage = document.getElementById("preview-image");
 const resultLabel = document.getElementById("result-label");
 const resultScore = document.getElementById("result-score");
+const resultRaw = document.getElementById("result-raw");
 const tryAgainButton = document.getElementById("try-again");
 
 function showOnly(sectionToShow) {
@@ -31,6 +32,7 @@ async function handleFile(file) {
       body: formData,
     });
     const data = await response.json();
+    if (!response.ok) throw new Error(data.detail || "prediction failed");
     showResult(data.pred);
   } catch (err) {
     alert("Something went wrong talking to the server. Check the console.");
@@ -40,12 +42,15 @@ async function handleFile(file) {
 }
 
 function showResult(pred) {
-  const percent = Math.round(pred * 100);
   const isLikelyAi = pred >= 0.5;
+  // Confidence in the ASSIGNED label, not the raw score -- pred=0.02 predicting
+  // REAL should read "98% confidence", not "2% confidence".
+  const confidence = isLikelyAi ? pred : 1 - pred;
 
   resultLabel.textContent = isLikelyAi ? "LIKELY AI-GENERATED" : "LIKELY REAL";
   resultLabel.className = isLikelyAi ? "fake" : "real";
-  resultScore.textContent = `${percent}% confidence`;
+  resultScore.textContent = `${Math.round(confidence * 100)}% confidence`;
+  resultRaw.textContent = `p(AI-generated) = ${pred.toFixed(4)}`;
 
   showOnly(result);
 }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Analysis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <span class="team-name">Team Sweaty Try Hard</span>
+    <nav class="nav">
+      <a href="/">Detector</a>
+      <a href="/live" class="active">Live</a>
+      <a href="/results">Results</a>
+    </nav>
+    <img src="/static/logo.png" alt="TikTok TechJam 2026" class="logo" onerror="this.style.display='none'">
+  </header>
+
+  <h1>Live Analysis</h1>
+  <p class="subtitle">Upload 1 image for an instant result, or several for a saved batch run</p>
+
+  <div id="page-wrap">
+    <div id="app">
+      <!-- State 1: waiting for image(s) -->
+      <div id="dropzone">
+        <p>Drag image(s) here, or click to choose (up to 50)</p>
+        <input type="file" id="file-input" accept="image/*" multiple hidden>
+      </div>
+
+      <!-- State 2: waiting for the result -->
+      <div id="loading" class="hidden">
+        <div class="spinner"></div>
+        <p id="loading-text">Analyzing...</p>
+      </div>
+
+      <!-- State 3a: single-image inline result -- nothing persisted, no dashboard -->
+      <div id="single-result" class="hidden">
+        <img id="preview-image" alt="Uploaded preview">
+        <p id="result-label"></p>
+        <p id="result-score"></p>
+        <p id="result-raw" class="mono"></p>
+      </div>
+
+      <!-- State 3b: batch result, read back from the saved run -->
+      <div id="batch-result" class="hidden">
+        <p id="batch-run-id" class="mono"></p>
+      </div>
+
+      <button id="try-again" class="hidden">Analyze more images</button>
+    </div>
+
+    <!-- Batch summary + table live outside #app (wider than the 440px single-image card) -->
+    <div id="live-summary"></div>
+    <details id="live-table-wrap" class="hidden">
+      <summary>Per-image results</summary>
+      <table id="live-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Filename</th>
+            <th>Prediction</th>
+            <th>Confidence</th>
+            <th>p(AI-generated)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </details>
+  </div>
+
+  <script src="/static/live.js"></script>
+</body>
+</html>

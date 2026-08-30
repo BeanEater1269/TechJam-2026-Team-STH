@@ -20,5 +20,8 @@ venv/
 *.pth
 *.ckpt
 
+# judge-uploaded images + their inference runs -- arbitrary third-party images, never commit
+results_judge/
+
 # os cruft
 .DS_Store
