@@ -19,7 +19,12 @@
   </header>
 
   <h1>Robustness Evaluation</h1>
-  <p class="subtitle">AUC on clean images vs. each transformation, Model A vs. Model B</p>
+  <p class="subtitle">AUC on clean images vs. each transformation — Base vs. Concatenation vs. FiLM</p>
+
+  <div class="backbone-switcher">
+    <button class="backbone-tab" data-backbone="b32">ViT-B/32</button>
+    <button class="backbone-tab" data-backbone="l14">ViT-L/14</button>
+  </div>
 
   <div id="page-wrap">
     <div id="clean-summary"></div>
@@ -32,11 +37,13 @@
         <thead>
           <tr>
             <th>Condition</th>
-            <th colspan="2">Model A</th>
-            <th colspan="2">Model B</th>
+            <th colspan="2">Base</th>
+            <th colspan="2">Concatenation</th>
+            <th colspan="2">FiLM</th>
           </tr>
           <tr class="subhead">
             <th></th>
+            <th>Acc.</th><th>AUC</th>
             <th>Acc.</th><th>AUC</th>
             <th>Acc.</th><th>AUC</th>
           </tr>
@@ -46,6 +53,6 @@
     </details>
   </div>
 
-  <script src="/static/dashboard.js"></script>
+  <script src="/static/dashboard.js?v=2"></script>
 </body>
 </html>
