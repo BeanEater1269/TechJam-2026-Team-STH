@@ -25,6 +25,7 @@ from pathlib import Path
 import numpy as np
 import torch
 import torch.nn.functional as F
+from sklearn.metrics import roc_auc_score
 from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
@@ -89,20 +90,30 @@ def consistency_weight(step: int, total_steps: int, max_weight: float, ramp_frac
     return min(step / ramp_steps, 1.0) * max_weight
 
 
-def evaluate(model: torch.nn.Module, by_img: dict, device: str) -> float:
+def evaluate(model: torch.nn.Module, by_img: dict, device: str) -> tuple[float, float]:
+    """Accuracy AND AUC on each image's clean version. AUC is computed on the raw
+    sigmoid probability, not the thresholded prediction, since it measures ranking
+    quality across every threshold rather than just the fixed 0.5 cutoff accuracy
+    uses."""
     model.eval()
     correct, total = 0, 0
+    all_probs, all_labels = [], []
     with torch.no_grad():
         for variants in by_img.values():
             emb, sig, label = variants["clean"]
             emb_t = torch.tensor(emb, dtype=torch.float32, device=device).unsqueeze(0)
             sig_t = torch.tensor(sig, dtype=torch.float32, device=device).unsqueeze(0)
             logit = model(emb_t, sig_t)
-            pred = int(torch.sigmoid(logit).item() > 0.5)
+            prob = torch.sigmoid(logit).item()
+            pred = int(prob > 0.5)
             correct += int(pred == label)
             total += 1
+            all_probs.append(prob)
+            all_labels.append(label)
     model.train()
-    return correct / total if total else 0.0
+    acc = correct / total if total else 0.0
+    auc = roc_auc_score(all_labels, all_probs) if total else 0.0
+    return acc, auc
 
 
 def main() -> None:
@@ -167,8 +178,9 @@ def main() -> None:
             epoch_loss += loss.item()
             step += 1
 
-        val_acc = evaluate(model, val_by_img, device)
-        print(f"epoch {epoch + 1}: avg loss {epoch_loss / steps_per_epoch:.4f}, val acc {val_acc:.4f}")
+        val_acc, val_auc = evaluate(model, val_by_img, device)
+        print(f"epoch {epoch + 1}: avg loss {epoch_loss / steps_per_epoch:.4f}, "
+              f"val acc {val_acc:.4f}, val auc {val_auc:.4f}")
 
     torch.save(model.state_dict(), args.out)
     print(f"\nSaved trained model to {args.out}")
