@@ -34,13 +34,19 @@ from base_classifier import BaseClassifier  # noqa: E402
 def group_by_image(npz_path: Path) -> dict:
     """Loads one split's npz, groups rows by img_id -> {variant_name: (embedding, label)}.
     This is the "pairing" reconstruction -- nothing pre-paired in the file itself, just
-    img_id + variant columns sitting next to each embedding."""
+    img_id + variant columns sitting next to each embedding.
+
+    Arrays are pulled out of the NpzFile ONCE, up front -- data[key] re-reads the whole
+    array fresh from the zip archive on every access, so indexing data[key][i] inside the
+    loop was re-loading the entire (multi-hundred-MB) array on every single row instead of
+    once, which is both why this was catastrophically slow and why it ran out of memory."""
     data = np.load(npz_path, allow_pickle=True)
+    embeddings, img_ids, variants, labels = (
+        data["embeddings"], data["img_ids"], data["variant"], data["labels"]
+    )
     by_img = defaultdict(dict)
-    for i in range(len(data["embeddings"])):
-        img_id = str(data["img_ids"][i])
-        variant = str(data["variant"][i])
-        by_img[img_id][variant] = (data["embeddings"][i], int(data["labels"][i]))
+    for i in range(len(embeddings)):
+        by_img[str(img_ids[i])][str(variants[i])] = (embeddings[i], int(labels[i]))
     return by_img
 
 

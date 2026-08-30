@@ -39,28 +39,38 @@ def load_merged_split(embeddings_path: Path, stats_path: Path) -> dict:
     """Returns img_id -> {variant_name: (embedding, signals_array, label)}.
 
     Merge key is (img_id, variant) -- explicit, not positional. If a row exists in one
-    file but not the other, it's dropped and counted, not silently guessed at."""
+    file but not the other, it's dropped and counted, not silently guessed at.
+
+    All arrays are pulled out of both NpzFiles ONCE, up front -- data[key] re-reads the
+    whole array fresh from the zip archive on every access, so indexing data[key][i]
+    inside a loop was re-loading the entire array on every single row instead of once
+    (catastrophically slow, and the direct cause of the OOM crash on train.npz)."""
     emb_data = np.load(embeddings_path, allow_pickle=True)
     stats_data = np.load(stats_path, allow_pickle=True)
 
+    s_img_ids, s_variant = stats_data["img_ids"], stats_data["variant"]
+    s_cols = {col: stats_data[col] for col in SIGNAL_COLUMNS}
     stats_lookup = {}
-    for i in range(len(stats_data["img_ids"])):
-        key = (str(stats_data["img_ids"][i]), str(stats_data["variant"][i]))
-        stats_lookup[key] = np.array([stats_data[col][i] for col in SIGNAL_COLUMNS], dtype=np.float32)
+    for i in range(len(s_img_ids)):
+        key = (str(s_img_ids[i]), str(s_variant[i]))
+        stats_lookup[key] = np.array([s_cols[col][i] for col in SIGNAL_COLUMNS], dtype=np.float32)
 
+    e_embeddings, e_img_ids, e_variant, e_labels = (
+        emb_data["embeddings"], emb_data["img_ids"], emb_data["variant"], emb_data["labels"]
+    )
     by_img: dict = defaultdict(dict)
     missing = 0
-    for i in range(len(emb_data["embeddings"])):
-        img_id = str(emb_data["img_ids"][i])
-        variant = str(emb_data["variant"][i])
+    for i in range(len(e_embeddings)):
+        img_id = str(e_img_ids[i])
+        variant = str(e_variant[i])
         key = (img_id, variant)
         if key not in stats_lookup:
             missing += 1
             continue
         by_img[img_id][variant] = (
-            emb_data["embeddings"][i],
+            e_embeddings[i],
             stats_lookup[key],
-            int(emb_data["labels"][i]),
+            int(e_labels[i]),
         )
     if missing:
         print(f"  WARNING: {missing} embedding row(s) had no matching stats row -- "
