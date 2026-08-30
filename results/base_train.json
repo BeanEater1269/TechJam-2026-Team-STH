@@ -1,0 +1,80 @@
+{
+  "run_name": "base_train",
+  "script": "train_base.py",
+  "kind": "train",
+  "model": "base",
+  "signals": [],
+  "signals_normalized": null,
+  "backbone": "ViT-B/32",
+  "backbone_dim": 512,
+  "results": {
+    "epochs": [
+      {
+        "epoch": 1,
+        "avg_loss": 0.6785,
+        "val_acc": 0.894,
+        "val_auc": 0.9604
+      },
+      {
+        "epoch": 2,
+        "avg_loss": 0.5099,
+        "val_acc": 0.9093,
+        "val_auc": 0.9673
+      },
+      {
+        "epoch": 3,
+        "avg_loss": 0.4426,
+        "val_acc": 0.9127,
+        "val_auc": 0.9699
+      },
+      {
+        "epoch": 4,
+        "avg_loss": 0.3931,
+        "val_acc": 0.913,
+        "val_auc": 0.9684
+      },
+      {
+        "epoch": 5,
+        "avg_loss": 0.3438,
+        "val_acc": 0.9093,
+        "val_auc": 0.9695
+      },
+      {
+        "epoch": 6,
+        "avg_loss": 0.2957,
+        "val_acc": 0.9123,
+        "val_auc": 0.9664
+      },
+      {
+        "epoch": 7,
+        "avg_loss": 0.2631,
+        "val_acc": 0.907,
+        "val_auc": 0.9657
+      },
+      {
+        "epoch": 8,
+        "avg_loss": 0.2289,
+        "val_acc": 0.9047,
+        "val_auc": 0.9643
+      },
+      {
+        "epoch": 9,
+        "avg_loss": 0.197,
+        "val_acc": 0.9063,
+        "val_auc": 0.9627
+      },
+      {
+        "epoch": 10,
+        "avg_loss": 0.1815,
+        "val_acc": 0.9037,
+        "val_auc": 0.9634
+      }
+    ],
+    "final": {
+      "epoch": 10,
+      "avg_loss": 0.1815,
+      "val_acc": 0.9037,
+      "val_auc": 0.9634
+    }
+  }
+}
