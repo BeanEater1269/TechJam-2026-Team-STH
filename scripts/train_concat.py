@@ -121,8 +121,8 @@ def main() -> None:
     print(f"device: {device}, signal_dim: {SIGNAL_DIM} ({', '.join(SIGNAL_COLUMNS)})")
 
     emb_root, stats_root = Path(args.embeddings_root), Path(args.stats_root)
-    train_by_img = load_merged_split(emb_root / "train.npz", stats_root / "train.npz")
-    val_by_img = load_merged_split(emb_root / "val.npz", stats_root / "val.npz")
+    train_by_img = load_merged_split(emb_root / "train.npz", stats_root / "train_signals.npz")
+    val_by_img = load_merged_split(emb_root / "val.npz", stats_root / "val_signals.npz")
     train_ids = list(train_by_img.keys())
     print(f"train images: {len(train_ids)}, val images: {len(val_by_img)}")
 
