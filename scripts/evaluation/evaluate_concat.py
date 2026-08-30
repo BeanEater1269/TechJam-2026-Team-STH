@@ -35,7 +35,7 @@ import torch
 from sklearn.metrics import roc_auc_score
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "utils"))
-from eval_metrics import print_fpr_table  # noqa: E402
+from eval_metrics import collect_errors, print_fpr_table, write_error_csv  # noqa: E402
 from normalize import apply_normalization, compute_train_stats  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
@@ -48,13 +48,14 @@ SIGNAL_DIM = len(SIGNAL_COLUMNS)
 def load_by_variant(embeddings_path: Path, stats_path: Path, mean: np.ndarray, std: np.ndarray) -> dict:
     """Merges embeddings + signals by (img_id, variant), then groups by variant_name ->
     (embeddings_array, signals_array, labels_array, source_dataset_array,
-    generator_family_array). Unlike train_concat_normalize.py's load_merged_split()
-    (grouped by img_id, for DCPT pairing), this groups by variant, since the
-    robustness table needs "every jpeg_q30 row" as one batch, not paired.
+    generator_family_array, img_ids_array). Unlike train_concat_normalize.py's
+    load_merged_split() (grouped by img_id, for DCPT pairing), this groups by variant,
+    since the robustness table needs "every jpeg_q30 row" as one batch, not paired.
     source_dataset/generator_family come from the embeddings file (test_signals.npz
-    has no such columns -- it's pure pixel measurements, no metadata) and are carried
-    through unused for most variants -- only the "clean" group's copies get used, for
-    the confound-slice breakdown.
+    has no such columns -- it's pure pixel measurements, no metadata) and, along with
+    img_ids, are carried through for every variant -- only the "clean" group's copies
+    get used for the confound-slice breakdown, but the FP/FN CSV dump needs every
+    variant's img_ids to name the exact example.
 
     Arrays are pulled out of both NpzFiles ONCE, up front -- see
     train_concat_normalize.py's load_merged_split() for why indexing data[key][i] in a
@@ -80,7 +81,7 @@ def load_by_variant(embeddings_path: Path, stats_path: Path, mean: np.ndarray, s
         emb_data["embeddings"], emb_data["img_ids"], emb_data["variant"], emb_data["labels"]
     )
     e_source, e_family = emb_data["source_dataset"], emb_data["generator_family"]
-    by_variant: dict = defaultdict(lambda: ([], [], [], [], []))
+    by_variant: dict = defaultdict(lambda: ([], [], [], [], [], []))
     missing = 0
     for i in range(len(e_embeddings)):
         key = (str(e_img_ids[i]), str(e_variant[i]))
@@ -93,10 +94,11 @@ def load_by_variant(embeddings_path: Path, stats_path: Path, mean: np.ndarray, s
         by_variant[v][2].append(int(e_labels[i]))
         by_variant[v][3].append(str(e_source[i]))
         by_variant[v][4].append(str(e_family[i]))
+        by_variant[v][5].append(key[0])
     if missing:
         print(f"  WARNING: {missing} embedding row(s) had no matching stats row -- dropped.")
-    return {v: (np.stack(e), np.stack(s), np.array(l), np.array(src), np.array(fam))
-            for v, (e, s, l, src, fam) in by_variant.items()}
+    return {v: (np.stack(e), np.stack(s), np.array(l), np.array(src), np.array(fam), np.array(iid))
+            for v, (e, s, l, src, fam, iid) in by_variant.items()}
 
 
 def evaluate_variant(model, embeddings: np.ndarray, signals: np.ndarray, labels: np.ndarray, device: str) -> tuple:
@@ -117,6 +119,11 @@ def main() -> None:
     ap.add_argument("--stats-root", default="data/cache/stats")
     ap.add_argument("--checkpoint", default="checkpoints/model_concat_normalized.pt")
     ap.add_argument("--backbone-dim", type=int, default=512, help="512 for ViT-B/32, 768 for ViT-L/14")
+    ap.add_argument("--cache-root", default="data/cache/clean",
+                     help="Only used to reconstruct the `path` column in the FP/FN CSVs -- "
+                          "must match extract_embeddings.py's --cache-root for those paths to resolve.")
+    ap.add_argument("--errors-dir", default="results/errors",
+                     help="Where concat_fp.csv / concat_fn.csv (every variant, threshold 0.5) get written.")
     args = ap.parse_args()
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -138,15 +145,19 @@ def main() -> None:
     results = {}
     all_probs, all_labels = [], []
     fpr_groups = {}
+    fp_all, fn_all = [], []
     clean_source = clean_family = clean_probs_for_slices = clean_labels_for_slices = None
     for v in variant_order:
-        embeddings, signals, labels, source_ds, gen_fam = by_variant[v]
+        embeddings, signals, labels, source_ds, gen_fam, img_ids = by_variant[v]
         acc, auc, probs = evaluate_variant(model, embeddings, signals, labels, device)
         results[v] = (acc, auc)
         print(f"{v:<14} {len(labels):>7} {acc:>10.4f} {auc:>10.4f}")
         all_probs.append(probs)
         all_labels.append(labels)
         fpr_groups[v] = (probs, labels)
+        fp_rows, fn_rows = collect_errors(probs, labels, img_ids, v, source_ds, gen_fam, args.cache_root)
+        fp_all.extend(fp_rows)
+        fn_all.extend(fn_rows)
         if v == "clean":
             clean_source, clean_family = source_ds, gen_fam
             clean_probs_for_slices, clean_labels_for_slices = probs, labels
@@ -182,6 +193,12 @@ def main() -> None:
         for g in sorted(set(clean_family))
     }
     print_fpr_table("By generator_family (clean images only):", family_groups)
+
+    errors_dir = Path(args.errors_dir)
+    write_error_csv(errors_dir / "concat_fp.csv", fp_all)
+    write_error_csv(errors_dir / "concat_fn.csv", fn_all)
+    print(f"\nWrote {len(fp_all)} false positive(s) to {errors_dir / 'concat_fp.csv'}")
+    print(f"Wrote {len(fn_all)} false negative(s) to {errors_dir / 'concat_fn.csv'}")
 
 
 if __name__ == "__main__":

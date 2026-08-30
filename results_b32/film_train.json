@@ -1,6 +1,6 @@
 {
   "run_name": "film_train",
-  "script": "train_film_normalize.py",
+  "script": "training/train_film_normalize.py",
   "kind": "train",
   "model": "film",
   "signals": [
@@ -12,74 +12,75 @@
   "signals_normalized": true,
   "backbone": "ViT-B/32",
   "backbone_dim": 512,
+  "seed": 42,
   "results": {
     "epochs": [
       {
         "epoch": 1,
-        "avg_loss": 0.7974,
-        "val_acc": 0.8667,
-        "val_auc": 0.9423
+        "avg_loss": 0.8155,
+        "val_acc": 0.875,
+        "val_auc": 0.9471
       },
       {
         "epoch": 2,
-        "avg_loss": 0.6332,
-        "val_acc": 0.8933,
-        "val_auc": 0.956
+        "avg_loss": 0.6436,
+        "val_acc": 0.8903,
+        "val_auc": 0.9571
       },
       {
         "epoch": 3,
-        "avg_loss": 0.5893,
-        "val_acc": 0.9043,
-        "val_auc": 0.9624
+        "avg_loss": 0.5895,
+        "val_acc": 0.9023,
+        "val_auc": 0.9627
       },
       {
         "epoch": 4,
-        "avg_loss": 0.5429,
-        "val_acc": 0.911,
-        "val_auc": 0.9652
+        "avg_loss": 0.5536,
+        "val_acc": 0.8973,
+        "val_auc": 0.9593
       },
       {
         "epoch": 5,
-        "avg_loss": 0.5097,
-        "val_acc": 0.9057,
-        "val_auc": 0.9667
+        "avg_loss": 0.5206,
+        "val_acc": 0.904,
+        "val_auc": 0.9657
       },
       {
         "epoch": 6,
-        "avg_loss": 0.4861,
-        "val_acc": 0.906,
-        "val_auc": 0.9645
+        "avg_loss": 0.4891,
+        "val_acc": 0.9097,
+        "val_auc": 0.9689
       },
       {
         "epoch": 7,
-        "avg_loss": 0.4652,
-        "val_acc": 0.9143,
-        "val_auc": 0.9683
+        "avg_loss": 0.4661,
+        "val_acc": 0.9123,
+        "val_auc": 0.9672
       },
       {
         "epoch": 8,
         "avg_loss": 0.4412,
-        "val_acc": 0.9133,
-        "val_auc": 0.967
+        "val_acc": 0.9127,
+        "val_auc": 0.9682
       },
       {
         "epoch": 9,
-        "avg_loss": 0.4183,
-        "val_acc": 0.9167,
-        "val_auc": 0.9697
+        "avg_loss": 0.4104,
+        "val_acc": 0.918,
+        "val_auc": 0.9702
       },
       {
         "epoch": 10,
-        "avg_loss": 0.3971,
-        "val_acc": 0.9053,
-        "val_auc": 0.9685
+        "avg_loss": 0.3924,
+        "val_acc": 0.9113,
+        "val_auc": 0.9665
       }
     ],
     "final": {
       "epoch": 10,
-      "avg_loss": 0.3971,
-      "val_acc": 0.9053,
-      "val_auc": 0.9685
+      "avg_loss": 0.3924,
+      "val_acc": 0.9113,
+      "val_auc": 0.9665
     }
   }
 }

@@ -6,9 +6,9 @@
     "signals": "none",
     "signals_normalized": null,
     "backbone": "ViT-L/14",
-    "val_acc": 0.9253,
-    "val_auc": 0.9693,
-    "avg_loss": 0.1523
+    "val_acc": 0.9283,
+    "val_auc": 0.9708,
+    "avg_loss": 0.1393
   },
   {
     "run": "concat_train",
@@ -17,9 +17,9 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-L/14",
-    "val_acc": 0.9257,
-    "val_auc": 0.9721,
-    "avg_loss": 0.1455
+    "val_acc": 0.9367,
+    "val_auc": 0.9744,
+    "avg_loss": 0.1429
   },
   {
     "run": "film_train",
@@ -28,9 +28,9 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-L/14",
-    "val_acc": 0.9323,
-    "val_auc": 0.9753,
-    "avg_loss": 0.2795
+    "val_acc": 0.9373,
+    "val_auc": 0.9764,
+    "avg_loss": 0.26
   },
   {
     "run": "base_eval",
@@ -39,11 +39,11 @@
     "signals": "none",
     "signals_normalized": null,
     "backbone": "ViT-L/14",
-    "overall_acc": 0.9138,
-    "overall_auc": 0.9635,
-    "clean_acc": 0.9273,
-    "clean_auc": 0.9693,
-    "mean15_acc": 0.9129,
+    "overall_acc": 0.9163,
+    "overall_auc": 0.9636,
+    "clean_acc": 0.927,
+    "clean_auc": 0.9683,
+    "mean15_acc": 0.9156,
     "mean15_auc": 0.9631
   },
   {
@@ -53,12 +53,12 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-L/14",
-    "overall_acc": 0.9159,
-    "overall_auc": 0.9652,
-    "clean_acc": 0.9293,
-    "clean_auc": 0.9699,
-    "mean15_acc": 0.915,
-    "mean15_auc": 0.9648
+    "overall_acc": 0.9181,
+    "overall_auc": 0.9654,
+    "clean_acc": 0.927,
+    "clean_auc": 0.9706,
+    "mean15_acc": 0.9175,
+    "mean15_auc": 0.965
   },
   {
     "run": "film_eval",
@@ -67,11 +67,11 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-L/14",
-    "overall_acc": 0.9168,
-    "overall_auc": 0.9691,
-    "clean_acc": 0.9287,
-    "clean_auc": 0.9748,
-    "mean15_acc": 0.916,
-    "mean15_auc": 0.9689
+    "overall_acc": 0.9152,
+    "overall_auc": 0.9676,
+    "clean_acc": 0.931,
+    "clean_auc": 0.9751,
+    "mean15_acc": 0.9142,
+    "mean15_auc": 0.9677
   }
 ]

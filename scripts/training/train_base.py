@@ -114,10 +114,18 @@ def main() -> None:
     ap.add_argument("--lr", type=float, default=1e-3)
     ap.add_argument("--consistency-max-weight", type=float, default=1.0)
     ap.add_argument("--out", default="checkpoints/base_classifier.pt")
+    ap.add_argument("--seed", type=int, default=42,
+                     help="Seeds random/numpy/torch before model init and DCPT's random "
+                          "per-step transform pick, so re-runs are reproducible.")
     args = ap.parse_args()
 
+    random.seed(args.seed)
+    np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed_all(args.seed)
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"device: {device}")
+    print(f"device: {device}, seed: {args.seed}")
 
     root = Path(args.embeddings_root)
     train_by_img = group_by_image(root / "train.npz")

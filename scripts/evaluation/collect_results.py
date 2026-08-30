@@ -12,8 +12,10 @@ scripts, and across all 3 eval scripts), so results are pulled as real numbers, 
 copy-pasted.
 
 WARNING: this retrains all three models from scratch, overwriting whatever's currently
-in checkpoints/. None of the training scripts fix a random seed, so re-run numbers will
-be close to, but not bit-identical to, a previous run.
+in checkpoints/. --seed (default 42) is passed to each train_*.py job and seeds
+random/numpy/torch before model init, so re-runs are reproducible on the same machine --
+but not guaranteed bit-identical across different hardware/CUDA versions/torch builds,
+since GPU op nondeterminism isn't separately forced here.
 
 Usage:
     python scripts/evaluation/collect_results.py
@@ -27,9 +29,12 @@ import subprocess
 import sys
 from pathlib import Path
 
+import numpy as np
+
 PYTHON = sys.executable
 SCRIPTS_DIR = Path(__file__).parent.parent  # this file lives in scripts/evaluation/
 REPO_ROOT = SCRIPTS_DIR.parent
+EMBEDDINGS_ROOT = REPO_ROOT / "data/cache/embeddings"  # matches every job script's --embeddings-root default
 
 SIGNAL_COLUMNS = ["laplacian_var", "dct_low_energy", "dct_high_energy", "noise_variance"]
 
@@ -47,6 +52,22 @@ EPOCH_RE = re.compile(r"epoch (\d+): avg loss ([\d.]+), val acc ([\d.]+), val au
 VARIANT_LINE_RE = re.compile(r"^(\S+)\s+(\d+)\s+([\d.]+)\s+([\d.]+)$")
 ALL_LINE_RE = re.compile(r"^ALL \(16\)\s+(\d+)\s+([\d.]+)\s+([\d.]+)$")
 SUMMARY_LINE_RE = re.compile(r"acc\s+([+-]?[\d.]+),\s+auc\s+([+-]?[\d.]+)")
+
+# The 3 tables print_fpr_table() (eval_metrics.py) produces: name, n, accuracy, auc,
+# then one fpr@<threshold> column and one fnr@<threshold> column per FPR_THRESHOLDS
+# entry (currently 3: 0.3/0.5/0.7) -- 10 columns total. float() parses "nan" natively,
+# so no special-casing needed for the undefined-AUC/FPR single-class slices (e.g.
+# StyleGAN-XL, which is fake-only -- see eval_metrics.py).
+FPR_SECTION_TITLES = {
+    "False positive rate by threshold (per variant):": "fpr_by_variant",
+    "By source_dataset (clean images only):": "by_source_dataset",
+    "By generator_family (clean images only):": "by_generator_family",
+}
+FPR_ROW_RE = re.compile(
+    r"^(\S+)\s+(\d+)\s+([\d.]+|nan)\s+([\d.]+|nan)"
+    r"\s+([\d.]+|nan)\s+([\d.]+|nan)\s+([\d.]+|nan)"
+    r"\s+([\d.]+|nan)\s+([\d.]+|nan)\s+([\d.]+|nan)$"
+)
 
 
 def run_script(script: str, extra_args: list) -> str:
@@ -83,15 +104,49 @@ def parse_train_output(output: str) -> dict:
 
 def parse_eval_output(output: str) -> dict:
     """Every eval script (evaluate_base.py, evaluate_concat.py, evaluate_film.py)
-    prints an identical per-variant table + overall row + robustness summary -- one
-    parser covers all three. "ALL (16)" is handled separately from the per-variant
-    rows since its name contains a space, unlike every actual variant name."""
+    prints an identical structure -- one parser covers all three:
+      1. per-variant table + overall row + robustness summary
+      2. "False positive rate by threshold (per variant):" table
+      3. "By source_dataset (clean images only):" table
+      4. "By generator_family (clean images only):" table
+
+    "ALL (16)" is handled separately from the per-variant rows since its name
+    contains a space, unlike every actual variant name. Section 1's table is parsed
+    by VARIANT_LINE_RE/ALL_LINE_RE (4 columns); sections 2-4 share one wider format
+    (10 columns, via FPR_ROW_RE) and are told apart by which title line preceded them,
+    tracked as `section` while scanning line by line."""
     per_variant = {}
     overall = None
     summary = {}
+    fpr_sections = {key: {} for key in FPR_SECTION_TITLES.values()}
+    section = None  # which of fpr_sections we're currently inside, if any
 
     for raw_line in output.splitlines():
         line = raw_line.strip()
+
+        if line in FPR_SECTION_TITLES:
+            section = FPR_SECTION_TITLES[line]
+            continue
+
+        if section is not None:
+            m_fpr = FPR_ROW_RE.match(line)
+            if m_fpr:
+                fpr_sections[section][m_fpr.group(1)] = {
+                    "n": int(m_fpr.group(2)),
+                    "accuracy": float(m_fpr.group(3)),
+                    "auc": float(m_fpr.group(4)),
+                    "fpr": {
+                        "0.3": float(m_fpr.group(5)),
+                        "0.5": float(m_fpr.group(6)),
+                        "0.7": float(m_fpr.group(7)),
+                    },
+                    "fnr": {
+                        "0.3": float(m_fpr.group(8)),
+                        "0.5": float(m_fpr.group(9)),
+                        "0.7": float(m_fpr.group(10)),
+                    },
+                }
+            continue  # once in a section, every line belongs to it until the next title
 
         m_all = ALL_LINE_RE.match(line)
         if m_all:
@@ -122,11 +177,50 @@ def parse_eval_output(output: str) -> dict:
 
     if overall is None:
         print("  WARNING: no 'ALL (16)' line matched -- eval output format may have changed")
-    return {"per_variant": per_variant, "overall": overall, "robustness_summary": summary}
+    for key, title in ((v, k) for k, v in FPR_SECTION_TITLES.items()):
+        if not fpr_sections[key]:
+            print(f"  WARNING: no rows matched for '{title}' -- eval output format may have changed")
+    return {
+        "per_variant": per_variant,
+        "overall": overall,
+        "robustness_summary": summary,
+        "fpr_by_variant": fpr_sections["fpr_by_variant"],
+        "by_source_dataset": fpr_sections["by_source_dataset"],
+        "by_generator_family": fpr_sections["by_generator_family"],
+    }
 
 
 BACKBONE_LABELS = {512: "ViT-B/32", 768: "ViT-L/14"}
 BACKBONE_TAGS = {512: "b32", 768: "l14"}
+
+
+def check_embeddings_match_backbone(backbone_dim: int, backbone_label: str) -> None:
+    """Every job script here (train_*.py, evaluate_*.py) reads
+    data/cache/embeddings/{train,val,test}.npz via its own --embeddings-root default --
+    there's no backbone tag in those filenames, so extract_embeddings.py --backbone b32
+    and --backbone l14 both write to the exact same paths, overwriting whichever ran
+    before. If --backbone-dim here doesn't match what's actually sitting in those .npz
+    files (e.g. you re-ran extract_embeddings.py for the other backbone but forgot to
+    also change --backbone-dim, or vice versa), every job would still "succeed" --
+    nn.Linear(clip_dim, ...) throws a hard shape-mismatch RuntimeError on the very first
+    batch, which run_script() turns into a RuntimeError after burning through however
+    much of training already ran -- so this checks all 3 splits up front, before any
+    subprocess starts, and fails fast with the actual mismatch instead of a generic
+    torch stack trace after minutes of wasted training."""
+    for split in ("train", "val", "test"):
+        npz_path = EMBEDDINGS_ROOT / f"{split}.npz"
+        if not npz_path.exists():
+            raise SystemExit(f"{npz_path} not found -- run extract_embeddings.py first.")
+        actual_dim = int(np.load(npz_path, allow_pickle=True)["embeddings"].shape[1])
+        if actual_dim != backbone_dim:
+            raise SystemExit(
+                f"embeddings/backbone mismatch: {npz_path} holds {actual_dim}-dim embeddings, "
+                f"but --backbone-dim={backbone_dim} ({backbone_label}) was requested. "
+                f"Either re-run extract_embeddings.py --backbone "
+                f"{BACKBONE_TAGS.get(backbone_dim, '?')} to regenerate matching embeddings, "
+                f"or pass --backbone-dim {actual_dim} to match what's currently cached."
+            )
+    print(f"  embeddings check OK: train/val/test.npz all {backbone_dim}-dim, matches {backbone_label}")
 
 
 def main() -> None:
@@ -139,18 +233,34 @@ def main() -> None:
                      help="Auto-derived from --backbone-dim if not given -- results_b32/ for 512, "
                           "results_l14/ for 768 -- so different backbones never overwrite each other's "
                           "results. Pass explicitly to override.")
+    ap.add_argument("--seed", type=int, default=42,
+                     help="Passed to each train_*.py job as --seed (eval scripts have no "
+                          "randomness -- no shuffling, no dropout at eval() -- so it's not "
+                          "passed to them). Same seed for base/concat/film keeps the 3 models "
+                          "comparable to each other, not just reproducible run-to-run.")
     args = ap.parse_args()
 
     backbone_label = args.backbone_label or BACKBONE_LABELS.get(args.backbone_dim, f"dim={args.backbone_dim}")
     out_dir_name = args.out_dir or f"results_{BACKBONE_TAGS.get(args.backbone_dim, f'dim{args.backbone_dim}')}"
     out_dir = REPO_ROOT / out_dir_name
-    out_dir.mkdir(parents=True, exist_ok=True)
     print(f"backbone: {backbone_label} (dim={args.backbone_dim}) -> writing results to {out_dir}")
+
+    check_embeddings_match_backbone(args.backbone_dim, backbone_label)
+
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     summary_rows = []
 
     for run_name, script, kind, model_label, signals, signals_normalized in JOBS:
-        output = run_script(script, ["--backbone-dim", str(args.backbone_dim)])
+        extra_args = ["--backbone-dim", str(args.backbone_dim)]
+        if kind == "train":
+            extra_args += ["--seed", str(args.seed)]
+        elif kind == "eval":
+            # Errors go under this run's own results_b32/results_l14 dir (not the
+            # eval script's own relative "results/errors" default), so a b32 run's
+            # FP/FN CSVs never get silently overwritten by a later l14 run.
+            extra_args += ["--errors-dir", str(out_dir / "errors")]
+        output = run_script(script, extra_args)
         parsed = parse_train_output(output) if kind == "train" else parse_eval_output(output)
 
         record = {
@@ -162,6 +272,7 @@ def main() -> None:
             "signals_normalized": signals_normalized,
             "backbone": backbone_label,
             "backbone_dim": args.backbone_dim,
+            "seed": args.seed if kind == "train" else None,
             "results": parsed,
         }
 

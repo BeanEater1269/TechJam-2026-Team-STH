@@ -1,7 +1,7 @@
 avg_loss,backbone,clean_acc,clean_auc,kind,mean15_acc,mean15_auc,model,overall_acc,overall_auc,run,signals,signals_normalized,val_acc,val_auc
-0.1815,ViT-B/32,,,train,,,base,,,base_train,none,,0.9037,0.9634
-0.1768,ViT-B/32,,,train,,,concat,,,concat_train,"laplacian_var,dct_low_energy,dct_high_energy,noise_variance",True,0.9,0.9622
-0.3971,ViT-B/32,,,train,,,film,,,film_train,"laplacian_var,dct_low_energy,dct_high_energy,noise_variance",True,0.9053,0.9685
-,ViT-B/32,0.9063,0.9581,eval,0.8956,0.9524,base,0.8963,0.9528,base_eval,none,,,
-,ViT-B/32,0.9017,0.9585,eval,0.8927,0.9539,concat,0.8933,0.9542,concat_eval,"laplacian_var,dct_low_energy,dct_high_energy,noise_variance",True,,
-,ViT-B/32,0.9033,0.9636,eval,0.8928,0.9569,film,0.8934,0.9562,film_eval,"laplacian_var,dct_low_energy,dct_high_energy,noise_variance",True,,
+0.1871,ViT-B/32,,,train,,,base,,,base_train,none,,0.902,0.9635
+0.1819,ViT-B/32,,,train,,,concat,,,concat_train,"laplacian_var,dct_low_energy,dct_high_energy,noise_variance",True,0.91,0.9637
+0.3924,ViT-B/32,,,train,,,film,,,film_train,"laplacian_var,dct_low_energy,dct_high_energy,noise_variance",True,0.9113,0.9665
+,ViT-B/32,0.9023,0.9563,eval,0.8933,0.9517,base,0.8938,0.952,base_eval,none,,,
+,ViT-B/32,0.9047,0.9599,eval,0.8937,0.9548,concat,0.8944,0.9552,concat_eval,"laplacian_var,dct_low_energy,dct_high_energy,noise_variance",True,,
+,ViT-B/32,0.901,0.9609,eval,0.8872,0.9536,film,0.8881,0.9538,film_eval,"laplacian_var,dct_low_energy,dct_high_energy,noise_variance",True,,

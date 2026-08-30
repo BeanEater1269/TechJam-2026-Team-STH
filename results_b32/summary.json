@@ -6,9 +6,9 @@
     "signals": "none",
     "signals_normalized": null,
     "backbone": "ViT-B/32",
-    "val_acc": 0.9037,
-    "val_auc": 0.9634,
-    "avg_loss": 0.1815
+    "val_acc": 0.902,
+    "val_auc": 0.9635,
+    "avg_loss": 0.1871
   },
   {
     "run": "concat_train",
@@ -17,9 +17,9 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-B/32",
-    "val_acc": 0.9,
-    "val_auc": 0.9622,
-    "avg_loss": 0.1768
+    "val_acc": 0.91,
+    "val_auc": 0.9637,
+    "avg_loss": 0.1819
   },
   {
     "run": "film_train",
@@ -28,9 +28,9 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-B/32",
-    "val_acc": 0.9053,
-    "val_auc": 0.9685,
-    "avg_loss": 0.3971
+    "val_acc": 0.9113,
+    "val_auc": 0.9665,
+    "avg_loss": 0.3924
   },
   {
     "run": "base_eval",
@@ -39,12 +39,12 @@
     "signals": "none",
     "signals_normalized": null,
     "backbone": "ViT-B/32",
-    "overall_acc": 0.8963,
-    "overall_auc": 0.9528,
-    "clean_acc": 0.9063,
-    "clean_auc": 0.9581,
-    "mean15_acc": 0.8956,
-    "mean15_auc": 0.9524
+    "overall_acc": 0.8938,
+    "overall_auc": 0.952,
+    "clean_acc": 0.9023,
+    "clean_auc": 0.9563,
+    "mean15_acc": 0.8933,
+    "mean15_auc": 0.9517
   },
   {
     "run": "concat_eval",
@@ -53,12 +53,12 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-B/32",
-    "overall_acc": 0.8933,
-    "overall_auc": 0.9542,
-    "clean_acc": 0.9017,
-    "clean_auc": 0.9585,
-    "mean15_acc": 0.8927,
-    "mean15_auc": 0.9539
+    "overall_acc": 0.8944,
+    "overall_auc": 0.9552,
+    "clean_acc": 0.9047,
+    "clean_auc": 0.9599,
+    "mean15_acc": 0.8937,
+    "mean15_auc": 0.9548
   },
   {
     "run": "film_eval",
@@ -67,11 +67,11 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-B/32",
-    "overall_acc": 0.8934,
-    "overall_auc": 0.9562,
-    "clean_acc": 0.9033,
-    "clean_auc": 0.9636,
-    "mean15_acc": 0.8928,
-    "mean15_auc": 0.9569
+    "overall_acc": 0.8881,
+    "overall_auc": 0.9538,
+    "clean_acc": 0.901,
+    "clean_auc": 0.9609,
+    "mean15_acc": 0.8872,
+    "mean15_auc": 0.9536
   }
 ]
