@@ -69,13 +69,38 @@ def main() -> None:
     ap.add_argument("--manifest", default="data/manifest.csv")
     ap.add_argument("--cache-root", default="data/cache/clean")
     ap.add_argument("--out-root", default="data/cache/embeddings")
-    ap.add_argument("--backbone", choices=["b32", "l14"], default="b32")
+    ap.add_argument("--backbone", choices=["b32", "l14"], default="l14")
     ap.add_argument("--batch-size", type=int, default=64)
     args = ap.parse_args()
 
     manifest = pd.read_csv(args.manifest)
     if "img_id" not in manifest.columns:
+        # Should not happen with a manifest from the current build_manifest.py -- it
+        # writes a source-prefixed, collision-checked img_id itself. This bare-stem
+        # fallback only exists for an old/manually-edited manifest missing that column,
+        # and is NOT collision-safe (see build_manifest.py's make_unique_img_ids() for
+        # why). Regenerate the manifest with build_manifest.py instead of relying on
+        # this path.
+        print("WARNING: manifest has no img_id column -- falling back to bare filename "
+              "stems, which are NOT guaranteed unique across sources. Recommend "
+              "regenerating the manifest with build_manifest.py instead.")
         manifest["img_id"] = [Path(p).stem for p in manifest["path"]]
+
+    # Fail fast and clearly if img_id somehow isn't unique -- manifest.loc[img_id]
+    # inside extract_split() silently returns MULTIPLE rows for a duplicate index
+    # instead of erroring, which corrupts every embedding downstream of the first
+    # collision (this is exactly what caused the earlier
+    # "inhomogeneous shape" crash from a manifest that predated make_unique_img_ids()).
+    dupes = manifest["img_id"][manifest["img_id"].duplicated(keep=False)]
+    if not dupes.empty:
+        raise SystemExit(
+            f"manifest has {dupes.nunique()} duplicate img_id value(s) -- refusing to "
+            f"extract, since metadata lookups would silently return the wrong row. "
+            f"Regenerate the manifest with the current build_manifest.py (it guarantees "
+            f"unique img_id) and re-run build_cache.py before retrying this script. "
+            f"First few duplicates: {sorted(dupes.unique())[:5]}"
+        )
+
     manifest = manifest.set_index("img_id")
 
     device = "cuda" if torch.cuda.is_available() else "cpu"

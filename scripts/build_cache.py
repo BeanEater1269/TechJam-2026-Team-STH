@@ -94,6 +94,17 @@ def main() -> None:
 
     df = pd.read_csv(args.manifest)
     if "img_id" not in df.columns:
+        # Should not happen with a manifest from the current build_manifest.py -- it
+        # writes a source-prefixed, collision-checked img_id itself. This bare-stem
+        # fallback only exists for an old/manually-edited manifest missing that column,
+        # and is NOT collision-safe: two different sources can share a bare filename
+        # stem (e.g. "00048.png" showing up in both gigagan/ and dalle/), which is
+        # exactly the bug that caused cached images to silently overwrite each other
+        # and manifest.loc[img_id] lookups to return multiple rows. Regenerate the
+        # manifest with build_manifest.py instead of relying on this path.
+        print("WARNING: manifest has no img_id column -- falling back to bare filename "
+              "stems, which are NOT guaranteed unique across sources. Recommend "
+              "regenerating the manifest with build_manifest.py instead.")
         df["img_id"] = [Path(p).stem for p in df["path"]]
 
     cache_root = Path(args.cache_root)
@@ -110,6 +121,19 @@ def main() -> None:
         print(f"{len(failed)} failed:")
         for path, err in failed[:10]:
             print(f"  {path}: {err}")
+
+        # Drop the failed rows from the manifest itself (not just skip them this run) --
+        # these are almost always corrupted/truncated source files (bad downloads), not
+        # something a retry will fix, so leaving them in manifest.csv just means every
+        # future build_cache.py run hits the exact same failures again. Match on "path"
+        # since that's the only column guaranteed unique per row across sources.
+        failed_paths = {path for path, _ in failed}
+        before = len(df)
+        df = df[~df["path"].isin(failed_paths)].reset_index(drop=True)
+        removed = before - len(df)
+        df.to_csv(args.manifest, index=False)
+        print(f"\nRemoved {removed} failed row(s) from {args.manifest} "
+              f"({len(df)} rows remain)")
 
 
 if __name__ == "__main__":
