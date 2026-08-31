@@ -1,0 +1,29 @@
+{
+  "description": "Out-of-distribution robustness check: COCO (real, label=0) vs DALLE-3 (fake, label=1), clean vs transformed. AUC computed with sklearn.metrics.roc_auc_score on raw 'pred' (P(fake)) scores.",
+  "sources": {
+    "clean_real": "validation_result/coco.json",
+    "clean_fake": "validation_result/della.json",
+    "transformed_real": "validation_result/coco_transformed.json",
+    "transformed_fake": "validation_result/della_transformed.json"
+  },
+  "clean": {
+    "n_real": 4996,
+    "n_fake": 1808,
+    "auc": 0.9680,
+    "accuracy_at_0.5": 0.7127,
+    "real_false_positive_rate": 0.3815,
+    "fake_recall": 0.9729
+  },
+  "transformed": {
+    "n_real": 2000,
+    "n_fake": 2000,
+    "auc": 0.9516,
+    "accuracy_at_0.5": 0.7778,
+    "real_false_positive_rate": 0.4075,
+    "fake_recall": 0.9630
+  },
+  "robustness_gap": {
+    "auc_drop": 0.0164,
+    "note": "Accuracy is NOT directly comparable between clean and transformed here -- clean is a 4996:1808 (73/27) real:fake split, transformed is 2000:2000 (50/50), so accuracy at a fixed threshold is confounded by class balance. AUC is the valid robustness comparison."
+  }
+}
