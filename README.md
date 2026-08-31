@@ -128,6 +128,7 @@ troubleshot the signals, ran the pipeline end-to-end, and fine-tuned the signals
 hypotheses.
 
 Lionel and Terence worked on the FiLM-vs-concatenation fusion comparison and ablation testing.
+
 Jaden worked on the web demo and helped set up the base CLIP model, testing, and ablations.
 
 ## Repository guide -- what to look at
