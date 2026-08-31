@@ -15,18 +15,6 @@ pip install -r requirements.txt
 (`data/cache/stats/*.npz`) are committed in this repository. 
 To obtain the final model file, please use `git clone`
 
-## Before pulling any data: two checks
-
-Both are cheap and gate real decisions below; run them to detect the video 
-
-```bash
-# 1. Backbone timing -- on YOUR actual GPU, using any ~100-500 photos already on your machine
-python scripts/check_clip_backbone_timing.py --images <folder of any local jpg/png files> --n 100
-
-# 2. Native resolution -- once you have a small sample (a few hundred images) from each source
-python scripts/check_native_resolution.py --root <sample folder 1> --root <sample folder 2>
-```
-
 ## Data
 
 See `docs/dataset-plan.md` for the full source breakdown (WildFake, SID-Set, CIFAKE,
