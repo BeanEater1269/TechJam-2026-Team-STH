@@ -86,7 +86,7 @@ images total. Full numbers in `results_l14/final_model_eval.json`.
 | Color jitter (±) | 91.2–92.7% | 92.0% | brighten |
 | Gaussian noise (σ0.02–0.1) | 90.2–91.8% | 91.1% | σ0.1 |
 
-AUC stays within ~1 point of clean (0.957–0.977) across every condition — degradation
+AUC stays within ~2 points of clean (0.957–0.977) across every condition — degradation
 under transformation shows up mainly as a threshold/accuracy effect, not a loss of
 ranking ability. Heavy noise (σ0.1) is the worst case, at -3.4 pts accuracy vs. clean.
 
