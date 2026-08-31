@@ -98,8 +98,60 @@ ranking ability. Heavy noise (σ0.1) is the worst case, at -3.4 pts accuracy vs.
 
 ## Limitations
 
-The main trade-off this time around is the lack of prevention against semantic bias, given our inherent focus on robustness to image transformations. Real images from one dataset (SID_SET) result in larger false positives for scenery images, especially mountain views. Another limitation in our architecture is the lack of direct cropping detection, as we did not have enough time to properly implement the strategy into our system effectively. In the future, on top of heavier emphasis on the dataset, we will be exploring new signals to quantify a wider range of transformations, as well as fine-tuning the vector concatenation. 
+Our main limitation is a labeling error in our own data, not a modeling one. During manual
+sorting of downloaded validation images, a batch of genuinely real photos got misfiled into
+the fake bucket -- so some of what we scored our model against as "fake" was actually real,
+and some of the "false positives" we measured are the model being right against a wrong label,
+not the model being fooled. We caught this too late in the hackathon to re-sort the data and
+retrain -- if we had more time, that's the first thing we'd fix, followed by re-running our
+evaluation numbers with the corrected labels.
+
+See `docs/error_analysis.md` for the concrete examples (including a labeled-fake image that is
+visibly a real photo with a photographer's watermark on it) and `validation_result/` for the
+underlying prediction data and the before/after numbers this produced.
+
+Beyond that: the main trade-off this time around is the lack of prevention against semantic
+bias, given our inherent focus on robustness to image transformations. Real images from one
+dataset (SID-Set) result in larger false positives for scenery images, especially mountain
+views. Another limitation in our architecture is the lack of direct cropping detection, as we
+did not have enough time to properly implement the strategy into our system effectively. In
+the future, on top of heavier emphasis on the dataset, we will be exploring new signals to
+quantify a wider range of transformations, as well as fine-tuning the vector concatenation.
 
 ## Team contributions
 
-TODO.
+**Kaiqiang** (team lead) — came up with the core architecture and big idea, implemented the
+base CLIP model and Degradation-Consistent Paired Training (DCPT), led the team.
+
+**Jiatai** — cleaned the data and set up the pipeline, contributed to the architecture,
+troubleshot the signals, ran the pipeline end-to-end, and fine-tuned the signals and their
+hypotheses.
+
+Lionel and Terence worked on the FiLM-vs-concatenation fusion comparison and ablation testing.
+Jaden worked on the web demo and helped set up the base CLIP model, testing, and ablations.
+
+## Repository guide -- what to look at
+
+A quick map of what's in this repo and why it's here, for judges working through the
+deliverables:
+
+- **`scripts/infer.py`** -- the required inference script. Takes an image directory (or a
+  single image) and outputs a JSON file with `image_path` and `pred` (P(AI-generated)) per
+  image, plus a `prediction`/`confidence` label. See [Reproduction](#reproduction) above.
+- **`results_l14/`** -- our own held-out evaluation of the final model (`final_model_eval.json`
+  is the main robustness table: clean vs. 15 transformed variants, by-source and
+  by-generator-family breakdowns).
+- **`final_model_fn_fp/`** -- representative false positive / false negative images from our
+  own held-out test set, referenced in `docs/error_analysis.md`.
+- **`validation_result/`** -- a supplementary out-of-distribution stress test we built
+  ourselves: real COCO photos vs. independently-sourced DALLE-3 generations, entirely outside
+  our training data. `coco_dalle3_auc_comparison.json` has the clean-vs-transformed AUC/accuracy
+  comparison (both a balanced and an unbalanced version, clearly labeled).
+- **`validation_fn_fp/`** -- representative false positive / false negative images from that
+  out-of-distribution stress test, also referenced in `docs/error_analysis.md`.
+- **`docs/error_analysis.md`** -- the full error analysis writeup: representative false
+  positives/negatives from both evaluation sets above, with images embedded, plus the
+  trade-offs made in our approach.
+- **`DriftClip.pdf`** -- project poster / one-pager.
+- **Robustness summary table (PDF)** -- compact clean-vs-transformed visual summary, to be
+  added.

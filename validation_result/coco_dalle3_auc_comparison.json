@@ -29,7 +29,8 @@
     "robustness_gap": {
       "auc_drop": 0.0164,
       "accuracy_drop": 0.0142,
-      "note":
+      "note": "NIL"
+    }
   },
 
   "full_imbalanced": {
