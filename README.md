@@ -15,6 +15,12 @@ pip install -r requirements.txt
 (`data/cache/stats/*.npz`) are committed in this repository. 
 To obtain the final model file, please use `git clone`
 
+Download below link for embedded vectors files
+
+Train: https://drive.google.com/file/d/1_7v-TGS5Wg7QK0mHzBx3ZIrnYpQ2G7kA/view?usp=drive_link
+Validation: https://drive.google.com/file/d/1u4EJ5yPf6bk7t60aJxFKHpt2u1u7yS2W/view?usp=drive_link
+Test: https://drive.google.com/file/d/1hvUixsPcWBm8feye4vG3_FuOE0-xNRKp/view?usp=drive_link
+
 ## Data
 
 See `docs/dataset-plan.md` for the full source breakdown (WildFake, SID-Set, CIFAKE,
