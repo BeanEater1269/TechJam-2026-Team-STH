@@ -1,14 +1,13 @@
 """
-Evaluates a trained FiLMClassifier (from train_film_drift_liqe.py ONLY -- the 5-signal
-train_film_normalize_drift.py/model_film_drift_normalized.pt path is a separate,
-untouched baseline) on the TEST split, broken out per variant. Same table shape as
-evaluate_film_drift.py -- same test images, same metrics -- except this model takes 6
-signals (the 4 B-signals + clip_drift + liqe_score) instead of 5.
+Evaluates a trained ConcatClassifier (from train_concat_drift_liqe.py ONLY -- the
+5-signal train_concat_normalize_drift.py/model_concat_drift_normalized.pt path is a
+separate, untouched baseline) on the TEST split, broken out per variant. Same table
+shape as evaluate_concat_drift.py -- same test images, same metrics -- except this
+model takes 6 signals (the 4 B-signals + clip_drift + liqe_score) instead of 5.
 
 Signals are ALWAYS z-scored before evaluation, using TRAIN split stats (via
-normalize.py) -- not optional, since FiLMClassifier uses the signals to generate a
-scale/shift that modulates the CLIP embedding directly; unnormalized signals would
-distort that modulation before the MLP ever sees it.
+normalize.py) -- this is not optional, since the only checkpoint this script supports
+was trained on normalized signals and would get garbage predictions on raw ones.
 
 Also reports:
   - False positive rate at 3 thresholds (0.3 / 0.5 / 0.7), per variant.
@@ -17,16 +16,16 @@ Also reports:
 
 Merges data/cache/embeddings/test.npz with data/cache/stats/test_signals.npz,
 test_drift.npz, AND test_liqe.npz by matching (img_id, variant) as keys -- same
-reasoning as train_film_drift_liqe.py's load_merged_split(), just grouped by variant
+reasoning as train_concat_drift_liqe.py's load_merged_split(), just grouped by variant
 here instead of by img_id (the robustness table needs "every jpeg_q30 row" as one
 batch, not paired for DCPT).
 
-Run this AFTER train_film_drift_liqe.py has produced a checkpoint. Touches test.npz,
+Run this AFTER train_concat_drift_liqe.py has produced a checkpoint. Touches test.npz,
 which nothing else in the pipeline reads -- meant to be run once, at the end.
 
 Usage:
-    python scripts/evaluation/evaluate_film_drift_liqe.py
-    python scripts/evaluation/evaluate_film_drift_liqe.py --checkpoint checkpoints/model_film_drift_liqe_normalized.pt
+    python scripts/evaluation/evaluate_concat_drift_liqe.py
+    python scripts/evaluation/evaluate_concat_drift_liqe.py --checkpoint checkpoints/model_concat_drift_liqe_normalized.pt
 """
 import argparse
 import sys
@@ -42,7 +41,7 @@ from eval_metrics import collect_errors, print_fpr_table, write_error_csv  # noq
 from normalize import apply_normalization, compute_train_stats  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
-from model_film import FiLMClassifier  # noqa: E402
+from model_concat import ConcatClassifier  # noqa: E402
 
 SIGNAL_COLUMNS = ["laplacian_var", "dct_low_energy", "dct_high_energy", "noise_variance"]
 DRIFT_COLUMNS = ["clip_drift"]
@@ -54,7 +53,7 @@ SIGNAL_DIM = len(ALL_SIGNAL_COLUMNS)
 def _build_lookup(stats_data, columns: list) -> dict:
     """(img_id, variant) -> raw (unnormalized) column vector, for one stats npz. Keys
     are normalized to plain Python str on both sides of every comparison -- see
-    train_film_drift_liqe.py's _build_lookup() for why that makes the three files'
+    train_concat_drift_liqe.py's _build_lookup() for why that makes the three files'
     independently-derived id arrays safe to merge regardless of exact numpy dtype."""
     img_ids, variant = stats_data["img_ids"], stats_data["variant"]
     matrix = np.stack([stats_data[col] for col in columns], axis=1).astype(np.float32)
@@ -68,7 +67,7 @@ def load_by_variant(
     """Merges embeddings + 4 B-signals + clip_drift + liqe_score by (img_id, variant),
     then groups by variant_name -> (embeddings_array, signals_array [6-dim, normalized],
     labels_array, source_dataset_array, generator_family_array, img_ids_array). Unlike
-    train_film_drift_liqe.py's load_merged_split() (grouped by img_id, for DCPT
+    train_concat_drift_liqe.py's load_merged_split() (grouped by img_id, for DCPT
     pairing), this groups by variant, since the robustness table needs "every jpeg_q30
     row" as one batch, not paired. source_dataset/generator_family/img_ids come from the
     embeddings file and are carried through for every variant -- only the "clean"
@@ -76,7 +75,7 @@ def load_by_variant(
     needs every variant's img_ids to name the exact example.
 
     Arrays are pulled out of every NpzFile ONCE, up front -- see
-    train_film_normalize.py's load_merged_split() for why indexing data[key][i] in a
+    train_concat_normalize.py's load_merged_split() for why indexing data[key][i] in a
     loop is a correctness/memory bug, not just a style choice.
 
     mean/std are always the TRAIN split's (concatenated from three compute_train_stats()
@@ -135,19 +134,19 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--embeddings-root", default="data/cache/embeddings")
     ap.add_argument("--stats-root", default="data/cache/stats")
-    ap.add_argument("--checkpoint", default="checkpoints/model_film_drift_liqe_normalized.pt")
+    ap.add_argument("--checkpoint", default="checkpoints/model_concat_drift_liqe_normalized.pt")
     ap.add_argument("--backbone-dim", type=int, default=512, help="512 for ViT-B/32, 768 for ViT-L/14")
     ap.add_argument("--cache-root", default="data/cache/clean",
                      help="Only used to reconstruct the `path` column in the FP/FN CSVs -- "
                           "must match extract_embeddings.py's --cache-root for those paths to resolve.")
     ap.add_argument("--errors-dir", default="results/errors",
-                     help="Where film_drift_liqe_fp.csv / film_drift_liqe_fn.csv (every variant, threshold 0.5) get written.")
+                     help="Where concat_drift_liqe_fp.csv / concat_drift_liqe_fn.csv (every variant, threshold 0.5) get written.")
     args = ap.parse_args()
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"device: {device}, signal_dim: {SIGNAL_DIM} ({', '.join(ALL_SIGNAL_COLUMNS)}), normalized: True")
 
-    model = FiLMClassifier(clip_dim=args.backbone_dim, signal_dim=SIGNAL_DIM).to(device)
+    model = ConcatClassifier(clip_dim=args.backbone_dim, signal_dim=SIGNAL_DIM).to(device)
     model.load_state_dict(torch.load(args.checkpoint, map_location=device))
 
     emb_root, stats_root = Path(args.embeddings_root), Path(args.stats_root)
@@ -219,10 +218,10 @@ def main() -> None:
     print_fpr_table("By generator_family (clean images only):", family_groups)
 
     errors_dir = Path(args.errors_dir)
-    write_error_csv(errors_dir / "film_drift_liqe_fp.csv", fp_all)
-    write_error_csv(errors_dir / "film_drift_liqe_fn.csv", fn_all)
-    print(f"\nWrote {len(fp_all)} false positive(s) to {errors_dir / 'film_drift_liqe_fp.csv'}")
-    print(f"Wrote {len(fn_all)} false negative(s) to {errors_dir / 'film_drift_liqe_fn.csv'}")
+    write_error_csv(errors_dir / "concat_drift_liqe_fp.csv", fp_all)
+    write_error_csv(errors_dir / "concat_drift_liqe_fn.csv", fn_all)
+    print(f"\nWrote {len(fp_all)} false positive(s) to {errors_dir / 'concat_drift_liqe_fp.csv'}")
+    print(f"Wrote {len(fn_all)} false negative(s) to {errors_dir / 'concat_drift_liqe_fn.csv'}")
 
 
 if __name__ == "__main__":

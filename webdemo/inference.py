@@ -1,21 +1,30 @@
 """
-Shared inference module for the webdemo -- used by both /predict (single image,
-index.html) and /api/live/analyze (batch, live.html). One implementation, so the two
-surfaces can never disagree on a score.
+Shared inference module for the webdemo -- used by /predict (single image,
+index.html), /api/live/analyze (batch, live.html), AND scripts/infer.py (the CLI
+deliverable). One implementation, so all three surfaces can never disagree on a score.
 
-Production model is fixed: FiLMClassifier + CLIP ViT-L/14 (768-dim). No other
-model/backbone is served -- b32 embeddings were retired, results_b32/ is a frozen
-historical snapshot only.
+Production model is fixed: ConcatClassifier + CLIP ViT-L/14 (768-dim) + 5 signals (the
+4 classical B-signals + clip_drift). This is "concat_drift", the model the team settled
+on after comparing against film_drift/film_drift_liqe/concat_drift_liqe -- see
+results_l14/ for the comparison. No other model/backbone is served -- b32 embeddings
+were retired, results_b32/ is a frozen historical snapshot only.
 
 Preprocessing MUST match scripts/data_prep/build_cache.py's make_clean_baseline() (the
 real-image branch: crop_to_square() if non-square, then resize_to_working() to 512x512)
--- that's what every training/eval image went through before CLIP embeddings and the 4
+-- that's what every training/eval image went through before CLIP embeddings and the
 signals were computed on it. Skipping this, or doing it differently, feeds the model
-data far outside what it was trained on: FiLM uses the signals to modulate the CLIP
-embedding directly, so bad signals corrupt the prediction itself, not just a side
-channel. jitter_crop_square() is intentionally NOT used here -- it's a fakes-only
-anti-fingerprint step from build_cache.py, and we don't know the true label at
-inference time, so every uploaded image goes through the same real-image path.
+data far outside what it was trained on. jitter_crop_square() is intentionally NOT used
+here -- it's a fakes-only anti-fingerprint step from build_cache.py, and we don't know
+the true label at inference time, so every uploaded image goes through the same
+real-image path.
+
+clip_drift is NOT a cheap pixel-math signal like the other 4 -- it requires a SECOND
+CLIP forward pass per image (nudge the standardized image with a small fixed pixel
+perturbation, re-embed it, cosine-similarity against the first embedding). This roughly
+doubles CLIP compute per prediction; that's inherent to what concat_drift needs, not
+something to optimize away. nudge_image()/cosine_similarity() are imported directly
+from scripts/features/clip_drift.py (not reimplemented) so the live nudge is byte-for-
+byte the same procedure the offline training data was generated with.
 
 transformers>=5 changed CLIPModel.get_image_features() to return a
 BaseModelOutputWithPooling instead of a bare tensor -- `.pooler_output` is the correct
@@ -37,16 +46,21 @@ sys.path.insert(0, str(REPO_ROOT / "src"))
 sys.path.insert(0, str(REPO_ROOT / "scripts" / "utils"))
 sys.path.insert(0, str(REPO_ROOT / "scripts" / "features"))
 
-from model_film import FiLMClassifier  # noqa: E402
+from clip_drift import cosine_similarity, nudge_image  # noqa: E402
+from model_concat import ConcatClassifier  # noqa: E402
 from normalize import apply_normalization, compute_train_stats  # noqa: E402
 from signals import dct_band_energies, laplacian_variance, noise_variance  # noqa: E402
 from transforms import WORKING_RES, crop_to_square, resize_to_working  # noqa: E402
 
-SIGNAL_COLUMNS = ["laplacian_var", "dct_low_energy", "dct_high_energy", "noise_variance"]
+BASE_SIGNAL_COLUMNS = ["laplacian_var", "dct_low_energy", "dct_high_energy", "noise_variance"]
+DRIFT_COLUMNS = ["clip_drift"]
+SIGNAL_COLUMNS = BASE_SIGNAL_COLUMNS + DRIFT_COLUMNS
 CLIP_CHECKPOINT = "openai/clip-vit-large-patch14"
 BACKBONE_LABEL, BACKBONE_DIM = "ViT-L/14", 768
-FILM_CHECKPOINT = REPO_ROOT / "checkpoints" / "model_film_normalized.pt"
-TRAIN_STATS_PATH = REPO_ROOT / "data" / "cache" / "stats" / "train_signals.npz"
+MODEL_CHECKPOINT = REPO_ROOT / "checkpoints" / "final_model.pt"
+STATS_ROOT = REPO_ROOT / "data" / "cache" / "stats"
+BASE_STATS_PATH = STATS_ROOT / "train_signals.npz"
+DRIFT_STATS_PATH = STATS_ROOT / "train_drift.npz"
 THRESHOLD = 0.5
 CLIP_BATCH_SIZE = 16  # extract_embeddings.py uses 64 offline; smaller here since this
                       # runs inside a web request, not a batch job with the machine to itself
@@ -72,10 +86,10 @@ def standardize(image: Image.Image) -> Image.Image:
     return image
 
 
-def compute_signals(std_image: Image.Image) -> np.ndarray:
-    """Raw (unnormalized) 4 signals for one already-standardized image, in
-    SIGNAL_COLUMNS order -- mirrors signals.py's compute_stats_for_path(), but works
-    in-memory since an uploaded image (single-image path) never touches disk."""
+def compute_base_signals(std_image: Image.Image) -> np.ndarray:
+    """Raw (unnormalized) 4 classical signals for one already-standardized image, in
+    BASE_SIGNAL_COLUMNS order -- mirrors signals.py's compute_stats_for_path(), but
+    works in-memory since an uploaded image (single-image path) never touches disk."""
     gray = np.asarray(std_image.convert("L"), dtype=np.float64)
     lap_var = laplacian_variance(gray)
     dct_low, dct_high = dct_band_energies(gray)
@@ -90,11 +104,14 @@ class Predictor:
         self.clip_model = CLIPModel.from_pretrained(CLIP_CHECKPOINT).to(self.device).eval()
         self.clip_processor = CLIPProcessor.from_pretrained(CLIP_CHECKPOINT)
 
-        self.film = FiLMClassifier(clip_dim=BACKBONE_DIM, signal_dim=len(SIGNAL_COLUMNS))
-        self.film.load_state_dict(torch.load(FILM_CHECKPOINT, map_location=self.device))
-        self.film.to(self.device).eval()
+        self.model = ConcatClassifier(clip_dim=BACKBONE_DIM, signal_dim=len(SIGNAL_COLUMNS))
+        self.model.load_state_dict(torch.load(MODEL_CHECKPOINT, map_location=self.device))
+        self.model.to(self.device).eval()
 
-        self.signal_mean, self.signal_std = compute_train_stats(TRAIN_STATS_PATH, SIGNAL_COLUMNS)
+        base_mean, base_std = compute_train_stats(BASE_STATS_PATH, BASE_SIGNAL_COLUMNS)
+        drift_mean, drift_std = compute_train_stats(DRIFT_STATS_PATH, DRIFT_COLUMNS)
+        self.signal_mean = np.concatenate([base_mean, drift_mean])
+        self.signal_std = np.concatenate([base_std, drift_std])
 
         self._lock = threading.Lock()
 
@@ -116,20 +133,31 @@ class Predictor:
           confidence  -- confidence in the ASSIGNED label: raw_prob if FAKE else
                           1-raw_prob. Always in [0.5, 1.0] -- distinct from raw_prob,
                           which is a fixed "P(fake)" regardless of which label won.
-          signals_raw -- dict of the 4 raw (unnormalized) signal values
+          signals_raw -- dict of the 5 raw (unnormalized) signal values (4 base + clip_drift)
           std_image   -- the standardized PIL.Image actually fed to the model (caller's
                           responsibility to persist or discard; not JSON-serializable)
         """
         with self._lock:
             std_images = [standardize(im) for im in images]
-            embeddings = self._embed(std_images)
-            raw_signals = np.stack([compute_signals(im) for im in std_images], axis=0)
+            # One batched CLIP call over [all originals, all nudged] instead of two
+            # separate calls -- same total forward-pass count, fewer round trips.
+            nudged_images = [nudge_image(im) for im in std_images]
+            all_embeddings = self._embed(std_images + nudged_images)
+            n = len(std_images)
+            embeddings, nudged_embeddings = all_embeddings[:n], all_embeddings[n:]
+
+            base_signals = np.stack([compute_base_signals(im) for im in std_images], axis=0)
+            drift_signals = np.array(
+                [[cosine_similarity(embeddings[i], nudged_embeddings[i])] for i in range(n)],
+                dtype=np.float32,
+            )
+            raw_signals = np.concatenate([base_signals, drift_signals], axis=1)
             norm_signals = apply_normalization(raw_signals, self.signal_mean, self.signal_std)
 
             emb_t = torch.tensor(embeddings, dtype=torch.float32, device=self.device)
             sig_t = torch.tensor(norm_signals, dtype=torch.float32, device=self.device)
             with torch.no_grad():
-                probs = torch.sigmoid(self.film(emb_t, sig_t)).cpu().numpy()
+                probs = torch.sigmoid(self.model(emb_t, sig_t)).cpu().numpy()
 
         results = []
         for i, p in enumerate(probs):
@@ -152,7 +180,7 @@ _PREDICTOR_LOCK = threading.Lock()
 
 def get_predictor() -> Predictor:
     """Lazy singleton -- double-checked locking so concurrent first requests don't each
-    load their own CLIP+FiLM copy."""
+    load their own CLIP+ConcatClassifier copy."""
     global _PREDICTOR
     if _PREDICTOR is None:
         with _PREDICTOR_LOCK:

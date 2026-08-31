@@ -13,6 +13,7 @@
   "backbone": "ViT-L/14",
   "backbone_dim": 768,
   "seed": 42,
+  "device": "cuda",
   "results": {
     "epochs": [
       {
@@ -23,64 +24,64 @@
       },
       {
         "epoch": 2,
-        "avg_loss": 0.4242,
-        "val_acc": 0.935,
-        "val_auc": 0.974
+        "avg_loss": 0.4245,
+        "val_acc": 0.9347,
+        "val_auc": 0.9737
       },
       {
         "epoch": 3,
-        "avg_loss": 0.3724,
-        "val_acc": 0.9347,
-        "val_auc": 0.9778
+        "avg_loss": 0.372,
+        "val_acc": 0.9333,
+        "val_auc": 0.9777
       },
       {
         "epoch": 4,
-        "avg_loss": 0.321,
-        "val_acc": 0.9357,
-        "val_auc": 0.9754
+        "avg_loss": 0.3214,
+        "val_acc": 0.936,
+        "val_auc": 0.9751
       },
       {
         "epoch": 5,
         "avg_loss": 0.2759,
-        "val_acc": 0.9357,
-        "val_auc": 0.9763
+        "val_acc": 0.9323,
+        "val_auc": 0.9767
       },
       {
         "epoch": 6,
-        "avg_loss": 0.2408,
-        "val_acc": 0.934,
-        "val_auc": 0.9761
+        "avg_loss": 0.2381,
+        "val_acc": 0.9367,
+        "val_auc": 0.9759
       },
       {
         "epoch": 7,
-        "avg_loss": 0.2041,
-        "val_acc": 0.9313,
-        "val_auc": 0.9764
+        "avg_loss": 0.2028,
+        "val_acc": 0.9287,
+        "val_auc": 0.9748
       },
       {
         "epoch": 8,
-        "avg_loss": 0.1765,
-        "val_acc": 0.9323,
-        "val_auc": 0.9744
+        "avg_loss": 0.1735,
+        "val_acc": 0.9283,
+        "val_auc": 0.9721
       },
       {
         "epoch": 9,
-        "avg_loss": 0.1586,
-        "val_acc": 0.9387,
-        "val_auc": 0.9743
+        "avg_loss": 0.158,
+        "val_acc": 0.9307,
+        "val_auc": 0.9729
       },
       {
         "epoch": 10,
-        "avg_loss": 0.1429,
-        "val_acc": 0.9367,
-        "val_auc": 0.9744
+        "avg_loss": 0.14,
+        "val_acc": 0.9297,
+        "val_auc": 0.9732
       }
     ],
     "final": {
       "epoch": 10,
-      "avg_loss": 0.1429,
-      "val_acc": 0.9367,
-      "val_auc": 0.9744
+      "avg_loss": 0.14,
+      "val_acc": 0.9297,
+      "val_auc": 0.9732
     }
   }
 }

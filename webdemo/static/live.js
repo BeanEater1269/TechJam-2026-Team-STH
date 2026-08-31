@@ -124,6 +124,45 @@ function renderLiveTable(run) {
   liveTableWrap.classList.remove("hidden");
 }
 
+// Plain `e.dataTransfer.files` does NOT recurse into a dropped folder -- a dropped
+// directory shows up there as nothing usable (or a phantom 0-byte entry), not its
+// contents. Walking `e.dataTransfer.items` via the (despite the name, broadly
+// supported -- Chrome/Edge/Firefox) webkitGetAsEntry() FileSystemEntry API is what
+// actually reads a dropped folder's contents.
+async function filesFromDataTransfer(dataTransfer) {
+  const items = dataTransfer.items;
+  if (!items) return Array.from(dataTransfer.files || []);
+
+  const entries = Array.from(items)
+    .map((item) => (item.webkitGetAsEntry ? item.webkitGetAsEntry() : null))
+    .filter(Boolean);
+
+  if (entries.length === 0) {
+    // Browser doesn't support the entry API -- fall back to whatever files() gave us
+    // (individual file drops still work; a dropped folder just won't expand).
+    return Array.from(dataTransfer.files || []);
+  }
+
+  const files = [];
+  async function walk(entry) {
+    if (entry.isFile) {
+      const file = await new Promise((resolve, reject) => entry.file(resolve, reject));
+      files.push(file);
+    } else if (entry.isDirectory) {
+      const reader = entry.createReader();
+      // readEntries() is paginated by the browser (commonly capped ~100/call) --
+      // MUST loop until it returns an empty array, a single call is not the full list.
+      let batch;
+      do {
+        batch = await new Promise((resolve, reject) => reader.readEntries(resolve, reject));
+        for (const child of batch) await walk(child);
+      } while (batch.length > 0);
+    }
+  }
+  await Promise.all(entries.map(walk));
+  return files;
+}
+
 dropzone.addEventListener("click", () => fileInput.click());
 fileInput.addEventListener("change", () => handleFiles(fileInput.files));
 
@@ -134,10 +173,11 @@ dropzone.addEventListener("dragover", (e) => {
 dropzone.addEventListener("dragleave", () => {
   dropzone.classList.remove("dragover");
 });
-dropzone.addEventListener("drop", (e) => {
+dropzone.addEventListener("drop", async (e) => {
   e.preventDefault();
   dropzone.classList.remove("dragover");
-  handleFiles(e.dataTransfer.files);
+  const files = await filesFromDataTransfer(e.dataTransfer);
+  handleFiles(files);
 });
 
 tryAgainButton.addEventListener("click", () => {

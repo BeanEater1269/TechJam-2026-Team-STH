@@ -1,36 +1,33 @@
 """
-Evaluates a trained FiLMClassifier (from train_film_normalize_drift.py ONLY -- the
-4-signal train_film_normalize.py/model_film_normalized.pt path is a separate, untouched
-baseline) on the TEST split, broken out per variant. Same table shape as
-evaluate_film.py -- same test images, same metrics -- except this model takes 5 signals
-(the 4 B-signals + clip_drift) instead of 4.
+Identical to evaluate_concat_drift.py -- this is a separately-named copy that defaults
+to checkpoints/final_model.pt (the output of
+scripts/training/concat_drift_epoch_optimization.py), for evaluating whichever epoch
+count you settled on there, without needing to override --checkpoint by hand.
 
 Signals are ALWAYS z-scored before evaluation, using TRAIN split stats (via
-normalize.py) -- not optional, since FiLMClassifier uses the signals to generate a
-scale/shift that modulates the CLIP embedding directly; unnormalized signals would
-distort that modulation before the MLP ever sees it.
+normalize.py) -- this is not optional, since the only checkpoint this script supports
+was trained on normalized signals and would get garbage predictions on raw ones.
 
 Also reports:
   - False positive rate at 3 thresholds (0.3 / 0.5 / 0.7), per variant.
   - Accuracy/AUC/FPR broken out by source_dataset and by generator_family, on the clean
     images only -- per dataset-plan.md's "Known residual risks" table.
 
-Merges data/cache/embeddings/test.npz with BOTH data/cache/stats/test_signals.npz and
-data/cache/stats/test_drift.npz by matching (img_id, variant) as keys -- same reasoning
-as train_film_normalize_drift.py's load_merged_split(), just grouped by variant here
+Merges data/cache/embeddings/test.npz with data/cache/stats/test_signals.npz and
+test_drift.npz by matching (img_id, variant) as keys -- same reasoning as
+concat_drift_epoch_optimization.py's load_merged_split(), just grouped by variant here
 instead of by img_id (the robustness table needs "every jpeg_q30 row" as one batch, not
 paired for DCPT).
 
-Run this AFTER train_film_normalize_drift.py has produced a checkpoint. Touches
-test.npz, which nothing else in the pipeline reads -- meant to be run once, at the end.
-
 Usage:
-    python scripts/evaluation/evaluate_film_drift.py
-    python scripts/evaluation/evaluate_film_drift.py --checkpoint checkpoints/model_film_drift_normalized.pt
+    python scripts/evaluation/evaluate_concat_drift_epoch_optimization.py
+    python scripts/evaluation/evaluate_concat_drift_epoch_optimization.py --checkpoint checkpoints/final_model.pt
 """
 import argparse
+import json
 import sys
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -42,7 +39,7 @@ from eval_metrics import collect_errors, print_fpr_table, write_error_csv  # noq
 from normalize import apply_normalization, compute_train_stats  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
-from model_film import FiLMClassifier  # noqa: E402
+from model_concat import ConcatClassifier  # noqa: E402
 
 SIGNAL_COLUMNS = ["laplacian_var", "dct_low_energy", "dct_high_energy", "noise_variance"]
 DRIFT_COLUMNS = ["clip_drift"]
@@ -63,16 +60,15 @@ def load_by_variant(
 ) -> dict:
     """Merges embeddings + 4 B-signals + clip_drift by (img_id, variant), then groups by
     variant_name -> (embeddings_array, signals_array [5-dim, normalized], labels_array,
-    source_dataset_array, generator_family_array, img_ids_array). Unlike
-    train_film_normalize_drift.py's load_merged_split() (grouped by img_id, for DCPT
-    pairing), this groups by variant, since the robustness table needs "every jpeg_q30
-    row" as one batch, not paired. source_dataset/generator_family/img_ids come from the
-    embeddings file and are carried through for every variant -- only the "clean"
-    group's copies get used for the confound-slice breakdown, but the FP/FN CSV dump
-    needs every variant's img_ids to name the exact example.
+    source_dataset_array, generator_family_array, img_ids_array). Grouped by variant
+    (not by img_id, unlike the training script's DCPT pairing) since the robustness
+    table needs "every jpeg_q30 row" as one batch. source_dataset/generator_family/
+    img_ids come from the embeddings file and are carried through for every variant --
+    only the "clean" group's copies get used for the confound-slice breakdown, but the
+    FP/FN CSV dump needs every variant's img_ids to name the exact example.
 
     Arrays are pulled out of every NpzFile ONCE, up front -- see
-    train_film_normalize.py's load_merged_split() for why indexing data[key][i] in a
+    train_concat_normalize.py's load_merged_split() for why indexing data[key][i] in a
     loop is a correctness/memory bug, not just a style choice.
 
     mean/std are always the TRAIN split's (concatenated from two compute_train_stats()
@@ -129,19 +125,23 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--embeddings-root", default="data/cache/embeddings")
     ap.add_argument("--stats-root", default="data/cache/stats")
-    ap.add_argument("--checkpoint", default="checkpoints/model_film_drift_normalized.pt")
+    ap.add_argument("--checkpoint", default="checkpoints/final_model.pt")
     ap.add_argument("--backbone-dim", type=int, default=512, help="512 for ViT-B/32, 768 for ViT-L/14")
     ap.add_argument("--cache-root", default="data/cache/clean",
                      help="Only used to reconstruct the `path` column in the FP/FN CSVs -- "
                           "must match extract_embeddings.py's --cache-root for those paths to resolve.")
     ap.add_argument("--errors-dir", default="results/errors",
-                     help="Where film_drift_fp.csv / film_drift_fn.csv (every variant, threshold 0.5) get written.")
+                     help="Where final_model_fp.csv / final_model_fn.csv (every variant, threshold 0.5) get written.")
+    ap.add_argument("--results-dir", default="Epoch_Result",
+                     help="Where this run's JSON record gets written -- one file per run, "
+                          "named eval_<UTC timestamp>.json so repeated runs never overwrite "
+                          "each other's results.")
     args = ap.parse_args()
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"device: {device}, signal_dim: {SIGNAL_DIM} ({', '.join(ALL_SIGNAL_COLUMNS)}), normalized: True")
 
-    model = FiLMClassifier(clip_dim=args.backbone_dim, signal_dim=SIGNAL_DIM).to(device)
+    model = ConcatClassifier(clip_dim=args.backbone_dim, signal_dim=SIGNAL_DIM).to(device)
     model.load_state_dict(torch.load(args.checkpoint, map_location=device))
 
     emb_root, stats_root = Path(args.embeddings_root), Path(args.stats_root)
@@ -159,6 +159,7 @@ def main() -> None:
     print("-" * 44)
 
     results = {}
+    per_variant_out = {}
     all_probs, all_labels = [], []
     fpr_groups = {}
     fp_all, fn_all = [], []
@@ -167,6 +168,7 @@ def main() -> None:
         embeddings, signals, labels, source_ds, gen_fam, img_ids = by_variant[v]
         acc, auc, probs = evaluate_variant(model, embeddings, signals, labels, device)
         results[v] = (acc, auc)
+        per_variant_out[v] = {"n": len(labels), "accuracy": acc, "auc": auc}
         print(f"{v:<14} {len(labels):>7} {acc:>10.4f} {auc:>10.4f}")
         all_probs.append(probs)
         all_labels.append(labels)
@@ -196,25 +198,57 @@ def main() -> None:
     print(f"  mean over 15 variants: acc {mean_trans_acc:.4f}, auc {mean_trans_auc:.4f}")
     print(f"  gap (clean - mean):    acc {clean_acc - mean_trans_acc:+.4f}, auc {clean_auc - mean_trans_auc:+.4f}")
 
-    print_fpr_table("False positive rate by threshold (per variant):", fpr_groups)
+    fpr_by_variant = print_fpr_table("False positive rate by threshold (per variant):", fpr_groups)
 
     source_groups = {
         s: (clean_probs_for_slices[clean_source == s], clean_labels_for_slices[clean_source == s])
         for s in sorted(set(clean_source))
     }
-    print_fpr_table("By source_dataset (clean images only):", source_groups)
+    by_source_dataset = print_fpr_table("By source_dataset (clean images only):", source_groups)
 
     family_groups = {
         g: (clean_probs_for_slices[clean_family == g], clean_labels_for_slices[clean_family == g])
         for g in sorted(set(clean_family))
     }
-    print_fpr_table("By generator_family (clean images only):", family_groups)
+    by_generator_family = print_fpr_table("By generator_family (clean images only):", family_groups)
 
     errors_dir = Path(args.errors_dir)
-    write_error_csv(errors_dir / "film_drift_fp.csv", fp_all)
-    write_error_csv(errors_dir / "film_drift_fn.csv", fn_all)
-    print(f"\nWrote {len(fp_all)} false positive(s) to {errors_dir / 'film_drift_fp.csv'}")
-    print(f"Wrote {len(fn_all)} false negative(s) to {errors_dir / 'film_drift_fn.csv'}")
+    write_error_csv(errors_dir / "final_model_fp.csv", fp_all)
+    write_error_csv(errors_dir / "final_model_fn.csv", fn_all)
+    print(f"\nWrote {len(fp_all)} false positive(s) to {errors_dir / 'final_model_fp.csv'}")
+    print(f"Wrote {len(fn_all)} false negative(s) to {errors_dir / 'final_model_fn.csv'}")
+
+    backbone_label = {512: "ViT-B/32", 768: "ViT-L/14"}.get(args.backbone_dim, f"dim={args.backbone_dim}")
+    record = {
+        "run_name": "final_model_eval",
+        "script": "evaluation/evaluate_concat_drift_epoch_optimization.py",
+        "kind": "eval",
+        "model": "final_model",
+        "signals": ALL_SIGNAL_COLUMNS,
+        "signals_normalized": True,
+        "backbone": backbone_label,
+        "backbone_dim": args.backbone_dim,
+        "device": device,
+        "checkpoint": str(args.checkpoint),
+        "results": {
+            "per_variant": per_variant_out,
+            "overall": {"n": len(overall_labels), "accuracy": overall_acc, "auc": overall_auc},
+            "robustness_summary": {
+                "clean": {"acc": clean_acc, "auc": clean_auc},
+                "mean_15_variants": {"acc": mean_trans_acc, "auc": mean_trans_auc},
+                "gap": {"acc": clean_acc - mean_trans_acc, "auc": clean_auc - mean_trans_auc},
+            },
+            "fpr_by_variant": fpr_by_variant,
+            "by_source_dataset": by_source_dataset,
+            "by_generator_family": by_generator_family,
+        },
+    }
+    results_dir = Path(args.results_dir)
+    results_dir.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    out_path = results_dir / f"eval_{ts}.json"
+    out_path.write_text(json.dumps(record, indent=2))
+    print(f"Saved run record to {out_path}")
 
 
 if __name__ == "__main__":

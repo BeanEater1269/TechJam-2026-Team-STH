@@ -1,0 +1,3164 @@
+{
+  "summary": {
+    "n": 394,
+    "n_fake": 387,
+    "n_real": 7,
+    "fake_rate": 0.9822335025380711,
+    "mean_pred": 0.9664286544102098,
+    "mean_confidence": 0.9759044454711948
+  },
+  "predictions": [
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\01cfcdaa562b1b75f551662cbdc6074d.jpg",
+      "pred": 0.9998386800289154,
+      "prediction": "FAKE",
+      "confidence": 0.9998386800289154,
+      "whole_image_pred": 0.9999417066574097,
+      "crop80_pred": 0.9997356534004211
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\02b2e98e890996caeaf45878232bee96.jpg",
+      "pred": 0.9126699864864349,
+      "prediction": "FAKE",
+      "confidence": 0.9126699864864349,
+      "whole_image_pred": 0.9880030155181885,
+      "crop80_pred": 0.8373369574546814
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\02bfd00b73e8e1cd9e0c0c5f0adbe759.jpg",
+      "pred": 0.9978732466697693,
+      "prediction": "FAKE",
+      "confidence": 0.9978732466697693,
+      "whole_image_pred": 0.9982151985168457,
+      "crop80_pred": 0.9975312948226929
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0302b91b3b0c82b3470e1958924cc341.jpg",
+      "pred": 0.99705970287323,
+      "prediction": "FAKE",
+      "confidence": 0.99705970287323,
+      "whole_image_pred": 0.9981268048286438,
+      "crop80_pred": 0.9959926009178162
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\03828f9d1c69b0fdd7dd553a9844fa7a.jpg",
+      "pred": 0.999384343624115,
+      "prediction": "FAKE",
+      "confidence": 0.999384343624115,
+      "whole_image_pred": 0.9998558759689331,
+      "crop80_pred": 0.9989128112792969
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\041bcfc51abd8b1fabbf7439561e1689.jpg",
+      "pred": 0.987084150314331,
+      "prediction": "FAKE",
+      "confidence": 0.987084150314331,
+      "whole_image_pred": 0.9938175082206726,
+      "crop80_pred": 0.9803507924079895
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\04ab68e337ea2fdb469d66cbcefdfeec.jpg",
+      "pred": 0.9995306730270386,
+      "prediction": "FAKE",
+      "confidence": 0.9995306730270386,
+      "whole_image_pred": 0.9999105930328369,
+      "crop80_pred": 0.9991507530212402
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\05e7476027ef3b71c1b422f35647caec.jpg",
+      "pred": 0.9994836747646332,
+      "prediction": "FAKE",
+      "confidence": 0.9994836747646332,
+      "whole_image_pred": 0.9994634985923767,
+      "crop80_pred": 0.9995038509368896
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\06eb2e8bc1a8cfdf06abf871abcb09ef.jpg",
+      "pred": 0.8680903911590576,
+      "prediction": "FAKE",
+      "confidence": 0.8680903911590576,
+      "whole_image_pred": 0.9687603116035461,
+      "crop80_pred": 0.7674204707145691
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\07e873c7a2542748b6d412af8a5564bf.jpg",
+      "pred": 0.9987181425094604,
+      "prediction": "FAKE",
+      "confidence": 0.9987181425094604,
+      "whole_image_pred": 0.9989042282104492,
+      "crop80_pred": 0.9985320568084717
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\089ff188ee40d5ca5174f06929f45270.jpg",
+      "pred": 0.726068764925003,
+      "prediction": "FAKE",
+      "confidence": 0.726068764925003,
+      "whole_image_pred": 0.7591622471809387,
+      "crop80_pred": 0.6929752826690674
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0922937226c89baaee7836eda5a84b42.jpg",
+      "pred": 0.9950925409793854,
+      "prediction": "FAKE",
+      "confidence": 0.9950925409793854,
+      "whole_image_pred": 0.9969635605812073,
+      "crop80_pred": 0.9932215213775635
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\094a61e07a1a974e5d09aed09d3f4f42.jpg",
+      "pred": 0.9992003440856934,
+      "prediction": "FAKE",
+      "confidence": 0.9992003440856934,
+      "whole_image_pred": 0.9997058510780334,
+      "crop80_pred": 0.9986948370933533
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\095fd6660e2d5eab32cdc465646c82a0.jpg",
+      "pred": 0.9998981356620789,
+      "prediction": "FAKE",
+      "confidence": 0.9998981356620789,
+      "whole_image_pred": 0.9998970031738281,
+      "crop80_pred": 0.9998992681503296
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0a6282b89ebec706bd7c9a878b6e145d.jpg",
+      "pred": 0.9981739819049835,
+      "prediction": "FAKE",
+      "confidence": 0.9981739819049835,
+      "whole_image_pred": 0.9987857937812805,
+      "crop80_pred": 0.9975621700286865
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0a7a25f030db8f3a7d708df10ce8e576.jpg",
+      "pred": 0.9980376064777374,
+      "prediction": "FAKE",
+      "confidence": 0.9980376064777374,
+      "whole_image_pred": 0.9991531372070312,
+      "crop80_pred": 0.9969220757484436
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0a91eb995bc069847ae7f2bbe17f0af5.jpg",
+      "pred": 0.9193809330463409,
+      "prediction": "FAKE",
+      "confidence": 0.9193809330463409,
+      "whole_image_pred": 0.9852539896965027,
+      "crop80_pred": 0.8535078763961792
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0ac358789edc3690eaba87fe3e46ba8e.jpg",
+      "pred": 0.9996500313282013,
+      "prediction": "FAKE",
+      "confidence": 0.9996500313282013,
+      "whole_image_pred": 0.9997856020927429,
+      "crop80_pred": 0.9995144605636597
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0bac655b0502e607d769b42cb15afbca.jpg",
+      "pred": 0.9254468083381653,
+      "prediction": "FAKE",
+      "confidence": 0.9254468083381653,
+      "whole_image_pred": 0.9453915953636169,
+      "crop80_pred": 0.9055020213127136
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0c1e8923dd628c147851182ffebcdde1.jpg",
+      "pred": 0.9999508857727051,
+      "prediction": "FAKE",
+      "confidence": 0.9999508857727051,
+      "whole_image_pred": 0.9999392032623291,
+      "crop80_pred": 0.999962568283081
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0d30016e6885776c2da853608d063d89.jpg",
+      "pred": 0.999957799911499,
+      "prediction": "FAKE",
+      "confidence": 0.999957799911499,
+      "whole_image_pred": 0.9999774694442749,
+      "crop80_pred": 0.9999381303787231
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0e0d3012e11249c1ae5d316723f9fc0e.jpg",
+      "pred": 0.9999926090240479,
+      "prediction": "FAKE",
+      "confidence": 0.9999926090240479,
+      "whole_image_pred": 0.9999995231628418,
+      "crop80_pred": 0.9999856948852539
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0f6bcf14a320ef51babb323d14f95f01.jpg",
+      "pred": 0.9995075464248657,
+      "prediction": "FAKE",
+      "confidence": 0.9995075464248657,
+      "whole_image_pred": 0.9997642636299133,
+      "crop80_pred": 0.9992508292198181
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0f9a1dd942383b3c4fd8d5087b322aa8.jpg",
+      "pred": 0.9999708533287048,
+      "prediction": "FAKE",
+      "confidence": 0.9999708533287048,
+      "whole_image_pred": 0.9999912977218628,
+      "crop80_pred": 0.9999504089355469
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\0fc69ef5faac4518f1f0bbbe38412fd4.jpg",
+      "pred": 0.9727957546710968,
+      "prediction": "FAKE",
+      "confidence": 0.9727957546710968,
+      "whole_image_pred": 0.9874557256698608,
+      "crop80_pred": 0.9581357836723328
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\10757af4b9deab971ec6802beafdb9a8.jpg",
+      "pred": 0.9402031600475311,
+      "prediction": "FAKE",
+      "confidence": 0.9402031600475311,
+      "whole_image_pred": 0.9718971848487854,
+      "crop80_pred": 0.9085091352462769
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1085325f27bad8b4b78935b73fcddd97.jpg",
+      "pred": 0.9998049139976501,
+      "prediction": "FAKE",
+      "confidence": 0.9998049139976501,
+      "whole_image_pred": 0.9999878406524658,
+      "crop80_pred": 0.9996219873428345
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\10ba5beb10686307887a86e9f15fff63.jpg",
+      "pred": 0.9999974370002747,
+      "prediction": "FAKE",
+      "confidence": 0.9999974370002747,
+      "whole_image_pred": 0.9999983310699463,
+      "crop80_pred": 0.999996542930603
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1175953c8f21c6f60cbd27bd5187c2c1.jpg",
+      "pred": 0.9999485611915588,
+      "prediction": "FAKE",
+      "confidence": 0.9999485611915588,
+      "whole_image_pred": 0.999994158744812,
+      "crop80_pred": 0.9999029636383057
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1252844e575604ab501a656d4d83e6b2.jpg",
+      "pred": 0.9716774821281433,
+      "prediction": "FAKE",
+      "confidence": 0.9716774821281433,
+      "whole_image_pred": 0.9881187081336975,
+      "crop80_pred": 0.9552362561225891
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1285b22169e1f73dc6ab673d76b1fc0a.jpg",
+      "pred": 0.9999732971191406,
+      "prediction": "FAKE",
+      "confidence": 0.9999732971191406,
+      "whole_image_pred": 0.9999959468841553,
+      "crop80_pred": 0.999950647354126
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\14001cf8f6c37f2d8aed5a3efa15fa3a.jpg",
+      "pred": 0.9827432632446289,
+      "prediction": "FAKE",
+      "confidence": 0.9827432632446289,
+      "whole_image_pred": 0.9983965754508972,
+      "crop80_pred": 0.9670899510383606
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\140128103eeb68bca0befe802dff154c.jpg",
+      "pred": 0.9998115301132202,
+      "prediction": "FAKE",
+      "confidence": 0.9998115301132202,
+      "whole_image_pred": 0.9999890327453613,
+      "crop80_pred": 0.9996340274810791
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\144bf4439008b15820d255f1822dc51f.jpg",
+      "pred": 0.9966692328453064,
+      "prediction": "FAKE",
+      "confidence": 0.9966692328453064,
+      "whole_image_pred": 0.9976492524147034,
+      "crop80_pred": 0.9956892132759094
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\14b910056e706d349452b6ee411021c3.jpg",
+      "pred": 0.9484784007072449,
+      "prediction": "FAKE",
+      "confidence": 0.9484784007072449,
+      "whole_image_pred": 0.9314424395561218,
+      "crop80_pred": 0.9655143618583679
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\14d4fc0e3e2f6c693e7b61ea45812362.jpg",
+      "pred": 0.9997270107269287,
+      "prediction": "FAKE",
+      "confidence": 0.9997270107269287,
+      "whole_image_pred": 0.9999567270278931,
+      "crop80_pred": 0.9994972944259644
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\150b92f3e1719ff75ee1249f807347f1.jpg",
+      "pred": 0.9856928586959839,
+      "prediction": "FAKE",
+      "confidence": 0.9856928586959839,
+      "whole_image_pred": 0.9905953407287598,
+      "crop80_pred": 0.980790376663208
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1662263ca31e8fb05c01bd0060d09668.jpg",
+      "pred": 0.999390184879303,
+      "prediction": "FAKE",
+      "confidence": 0.999390184879303,
+      "whole_image_pred": 0.9993914365768433,
+      "crop80_pred": 0.9993889331817627
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\168fd34cbc6d98cb49a8920d3e737e50.jpg",
+      "pred": 0.999231606721878,
+      "prediction": "FAKE",
+      "confidence": 0.999231606721878,
+      "whole_image_pred": 0.9991021156311035,
+      "crop80_pred": 0.9993610978126526
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\16c91c6c79512daf61f1dbd58a6eb0b1.jpg",
+      "pred": 0.9997256696224213,
+      "prediction": "FAKE",
+      "confidence": 0.9997256696224213,
+      "whole_image_pred": 0.999771773815155,
+      "crop80_pred": 0.9996795654296875
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\16cb33f93f29d0cfb5264f153850d71c.jpg",
+      "pred": 0.9997221231460571,
+      "prediction": "FAKE",
+      "confidence": 0.9997221231460571,
+      "whole_image_pred": 0.9999370574951172,
+      "crop80_pred": 0.9995071887969971
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\174fa4b98cc53c6417d2fa7f34cda36f.jpg",
+      "pred": 0.9999359250068665,
+      "prediction": "FAKE",
+      "confidence": 0.9999359250068665,
+      "whole_image_pred": 0.9999849796295166,
+      "crop80_pred": 0.9998868703842163
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1778e6e8e51de0d385ebe8d56efb797b.jpg",
+      "pred": 0.9979154169559479,
+      "prediction": "FAKE",
+      "confidence": 0.9979154169559479,
+      "whole_image_pred": 0.9996618032455444,
+      "crop80_pred": 0.9961690306663513
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\182c2deaa11e5b39b2b344891a02e5a8.jpg",
+      "pred": 0.9998436272144318,
+      "prediction": "FAKE",
+      "confidence": 0.9998436272144318,
+      "whole_image_pred": 0.9998660087585449,
+      "crop80_pred": 0.9998212456703186
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\18f78e75028c941aeaed74117043f902.jpg",
+      "pred": 0.9998957514762878,
+      "prediction": "FAKE",
+      "confidence": 0.9998957514762878,
+      "whole_image_pred": 0.9999444484710693,
+      "crop80_pred": 0.9998470544815063
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1901d9b5eb67465b950402333ada68d5.jpg",
+      "pred": 0.9998742640018463,
+      "prediction": "FAKE",
+      "confidence": 0.9998742640018463,
+      "whole_image_pred": 0.9999675750732422,
+      "crop80_pred": 0.9997809529304504
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1925399e20620db3d9a88c173c961409.jpg",
+      "pred": 0.9995771944522858,
+      "prediction": "FAKE",
+      "confidence": 0.9995771944522858,
+      "whole_image_pred": 0.9994543194770813,
+      "crop80_pred": 0.9997000694274902
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\197b3a6044ff51aa729b31cb3b739910.jpg",
+      "pred": 0.9994988441467285,
+      "prediction": "FAKE",
+      "confidence": 0.9994988441467285,
+      "whole_image_pred": 0.9993078708648682,
+      "crop80_pred": 0.9996898174285889
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\19884a0a5f4c1b5d247cc4f72686ad45.jpg",
+      "pred": 0.9931800365447998,
+      "prediction": "FAKE",
+      "confidence": 0.9931800365447998,
+      "whole_image_pred": 0.9992521405220032,
+      "crop80_pred": 0.9871079325675964
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\19ae7b6846068ba979a1a3fbe471a17f.jpg",
+      "pred": 0.9999266266822815,
+      "prediction": "FAKE",
+      "confidence": 0.9999266266822815,
+      "whole_image_pred": 0.9999710321426392,
+      "crop80_pred": 0.9998822212219238
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\19b19e423f67fd13135d7b9df9d18da6.jpg",
+      "pred": 0.9989874362945557,
+      "prediction": "FAKE",
+      "confidence": 0.9989874362945557,
+      "whole_image_pred": 0.9980411529541016,
+      "crop80_pred": 0.9999337196350098
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\19d264ca67fe179c7ed8fa4aab5ce963.jpg",
+      "pred": 0.9999978542327881,
+      "prediction": "FAKE",
+      "confidence": 0.9999978542327881,
+      "whole_image_pred": 0.9999990463256836,
+      "crop80_pred": 0.9999966621398926
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\19dad8fb0930913092b9ea73f20ccfcb.jpg",
+      "pred": 0.9999411106109619,
+      "prediction": "FAKE",
+      "confidence": 0.9999411106109619,
+      "whole_image_pred": 0.999964714050293,
+      "crop80_pred": 0.9999175071716309
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\19e21fef6474f7b71ec4cfc11495f07a.jpg",
+      "pred": 0.9999744296073914,
+      "prediction": "FAKE",
+      "confidence": 0.9999744296073914,
+      "whole_image_pred": 0.9999881982803345,
+      "crop80_pred": 0.9999606609344482
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1a5f665c5101732f3e3cfeb1364ae189.jpg",
+      "pred": 0.9999932646751404,
+      "prediction": "FAKE",
+      "confidence": 0.9999932646751404,
+      "whole_image_pred": 0.9999940395355225,
+      "crop80_pred": 0.9999924898147583
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1c7c2818b0f880887bca7628bae27255.jpg",
+      "pred": 0.9998922646045685,
+      "prediction": "FAKE",
+      "confidence": 0.9998922646045685,
+      "whole_image_pred": 0.9999803304672241,
+      "crop80_pred": 0.9998041987419128
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1d4135eb385210a437a2c66e5a1487c1.jpg",
+      "pred": 0.5305752605199814,
+      "prediction": "FAKE",
+      "confidence": 0.5305752605199814,
+      "whole_image_pred": 0.6996679902076721,
+      "crop80_pred": 0.36148253083229065
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1d4b413c365eb9641f86b994cf04762a.jpg",
+      "pred": 0.9998307526111603,
+      "prediction": "FAKE",
+      "confidence": 0.9998307526111603,
+      "whole_image_pred": 0.9999028444290161,
+      "crop80_pred": 0.9997586607933044
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1e157dd6f34ae03d520c2b296696d4f9.jpg",
+      "pred": 0.999480813741684,
+      "prediction": "FAKE",
+      "confidence": 0.999480813741684,
+      "whole_image_pred": 0.9999576807022095,
+      "crop80_pred": 0.9990039467811584
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\1f63e539db55875c8cbea317df542e3c.jpg",
+      "pred": 0.9937115013599396,
+      "prediction": "FAKE",
+      "confidence": 0.9937115013599396,
+      "whole_image_pred": 0.9968904852867126,
+      "crop80_pred": 0.9905325174331665
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\20249ae0758f698e086a744d89402425.jpg",
+      "pred": 0.9865088164806366,
+      "prediction": "FAKE",
+      "confidence": 0.9865088164806366,
+      "whole_image_pred": 0.9875805377960205,
+      "crop80_pred": 0.9854370951652527
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\20d48150507002702ef6f3ce4f08ab85.jpg",
+      "pred": 0.9989559054374695,
+      "prediction": "FAKE",
+      "confidence": 0.9989559054374695,
+      "whole_image_pred": 0.9996753931045532,
+      "crop80_pred": 0.9982364177703857
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\211fba1ce04702f9976a4f37877ffdce.jpg",
+      "pred": 0.9998134970664978,
+      "prediction": "FAKE",
+      "confidence": 0.9998134970664978,
+      "whole_image_pred": 0.9999392032623291,
+      "crop80_pred": 0.9996877908706665
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\238873eb45a0ca58fc54b1971d10b9ca.jpg",
+      "pred": 0.9996847212314606,
+      "prediction": "FAKE",
+      "confidence": 0.9996847212314606,
+      "whole_image_pred": 0.9998904466629028,
+      "crop80_pred": 0.9994789958000183
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\240b2cd9e2ca99d74335dfa9a0b27da6.jpg",
+      "pred": 0.9997673034667969,
+      "prediction": "FAKE",
+      "confidence": 0.9997673034667969,
+      "whole_image_pred": 0.9998505115509033,
+      "crop80_pred": 0.9996840953826904
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\25070761234eadcd2dee2130d2e3f40b.jpg",
+      "pred": 0.5119628608226776,
+      "prediction": "FAKE",
+      "confidence": 0.5119628608226776,
+      "whole_image_pred": 0.5078983902931213,
+      "crop80_pred": 0.5160273313522339
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\25b59738235d4e9804bc068d0eb4cb91.jpg",
+      "pred": 0.9800920486450195,
+      "prediction": "FAKE",
+      "confidence": 0.9800920486450195,
+      "whole_image_pred": 0.9959074258804321,
+      "crop80_pred": 0.9642766714096069
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\260e2627757cdb6f1b1b4665420c3328.jpg",
+      "pred": 0.9940235614776611,
+      "prediction": "FAKE",
+      "confidence": 0.9940235614776611,
+      "whole_image_pred": 0.995955228805542,
+      "crop80_pred": 0.9920918941497803
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\2809bae5893be9f99f3c72701700884e.jpg",
+      "pred": 0.9913796484470367,
+      "prediction": "FAKE",
+      "confidence": 0.9913796484470367,
+      "whole_image_pred": 0.9974702596664429,
+      "crop80_pred": 0.9852890372276306
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\2924a05bea98b66d8c7f0e4eec349561.jpg",
+      "pred": 0.9928244650363922,
+      "prediction": "FAKE",
+      "confidence": 0.9928244650363922,
+      "whole_image_pred": 0.9968448877334595,
+      "crop80_pred": 0.988804042339325
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\29921df61d77655ab6f8ca5176b7e629.jpg",
+      "pred": 0.9988275170326233,
+      "prediction": "FAKE",
+      "confidence": 0.9988275170326233,
+      "whole_image_pred": 0.9987772107124329,
+      "crop80_pred": 0.9988778233528137
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\2995e8195cbaa51b57eb61980f497ad1.jpg",
+      "pred": 0.9800940454006195,
+      "prediction": "FAKE",
+      "confidence": 0.9800940454006195,
+      "whole_image_pred": 0.9926671385765076,
+      "crop80_pred": 0.9675209522247314
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\2bda254cc552a62f288a53f1e0711ff2.jpg",
+      "pred": 0.9569081664085388,
+      "prediction": "FAKE",
+      "confidence": 0.9569081664085388,
+      "whole_image_pred": 0.9877917170524597,
+      "crop80_pred": 0.9260246157646179
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\2cfc6a3b68c35c9a2fa47c4ade5e5b1f.jpg",
+      "pred": 0.9993387460708618,
+      "prediction": "FAKE",
+      "confidence": 0.9993387460708618,
+      "whole_image_pred": 0.9989503026008606,
+      "crop80_pred": 0.999727189540863
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\2d4972bbff6ae33f73b9bafd742cbab7.jpg",
+      "pred": 0.9999902844429016,
+      "prediction": "FAKE",
+      "confidence": 0.9999902844429016,
+      "whole_image_pred": 0.9999924898147583,
+      "crop80_pred": 0.9999880790710449
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\2dff529cb9185165e97f477561f88c72.jpg",
+      "pred": 0.9554223120212555,
+      "prediction": "FAKE",
+      "confidence": 0.9554223120212555,
+      "whole_image_pred": 0.9897788166999817,
+      "crop80_pred": 0.9210658073425293
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\2e31abd4741a029060cc87322ee1b52a.jpg",
+      "pred": 0.553210899233818,
+      "prediction": "FAKE",
+      "confidence": 0.553210899233818,
+      "whole_image_pred": 0.810822069644928,
+      "crop80_pred": 0.29559972882270813
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\307aa523fb5466db271d9a666cc942a8.jpg",
+      "pred": 0.9993655681610107,
+      "prediction": "FAKE",
+      "confidence": 0.9993655681610107,
+      "whole_image_pred": 0.9995993971824646,
+      "crop80_pred": 0.9991317391395569
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3090e5350c1ee459e17343ce7e3a9c6d.jpg",
+      "pred": 0.9977686703205109,
+      "prediction": "FAKE",
+      "confidence": 0.9977686703205109,
+      "whole_image_pred": 0.9981628060340881,
+      "crop80_pred": 0.9973745346069336
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\30d05ed86ccbf919cf9293abba292137.jpg",
+      "pred": 0.9890957772731781,
+      "prediction": "FAKE",
+      "confidence": 0.9890957772731781,
+      "whole_image_pred": 0.9871490597724915,
+      "crop80_pred": 0.9910424947738647
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3149d2059bac8556087cdad66859552c.jpg",
+      "pred": 0.9983079135417938,
+      "prediction": "FAKE",
+      "confidence": 0.9983079135417938,
+      "whole_image_pred": 0.9986843466758728,
+      "crop80_pred": 0.9979314804077148
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\314c3b54119772209c98e848b91104d9.jpg",
+      "pred": 0.999950110912323,
+      "prediction": "FAKE",
+      "confidence": 0.999950110912323,
+      "whole_image_pred": 0.9999874830245972,
+      "crop80_pred": 0.9999127388000488
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\32b41dc6d2fb43be5796d098d67651ce.jpg",
+      "pred": 0.9995678067207336,
+      "prediction": "FAKE",
+      "confidence": 0.9995678067207336,
+      "whole_image_pred": 0.9995664954185486,
+      "crop80_pred": 0.9995691180229187
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\337c3c545b683ef47db63085daaec64c.jpg",
+      "pred": 0.9920317828655243,
+      "prediction": "FAKE",
+      "confidence": 0.9920317828655243,
+      "whole_image_pred": 0.9918163418769836,
+      "crop80_pred": 0.9922472238540649
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\347af2320603d4d10543d320bf20739f.jpg",
+      "pred": 0.9998959302902222,
+      "prediction": "FAKE",
+      "confidence": 0.9998959302902222,
+      "whole_image_pred": 0.9998880624771118,
+      "crop80_pred": 0.9999037981033325
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3563c2e374aaf4c6138554f995c56a7d.jpg",
+      "pred": 0.9998006522655487,
+      "prediction": "FAKE",
+      "confidence": 0.9998006522655487,
+      "whole_image_pred": 0.9998717308044434,
+      "crop80_pred": 0.999729573726654
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3664205ac8d22d8fa0ac4213f491542e.jpg",
+      "pred": 0.9809972047805786,
+      "prediction": "FAKE",
+      "confidence": 0.9809972047805786,
+      "whole_image_pred": 0.9791427850723267,
+      "crop80_pred": 0.9828516244888306
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\366fd74433d5db99b9e4b7d37b01346c.jpg",
+      "pred": 0.9990289807319641,
+      "prediction": "FAKE",
+      "confidence": 0.9990289807319641,
+      "whole_image_pred": 0.9992450475692749,
+      "crop80_pred": 0.9988129138946533
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\36d6ba8fbf17fc6a59b5fb5daf16432e.jpg",
+      "pred": 0.9999422430992126,
+      "prediction": "FAKE",
+      "confidence": 0.9999422430992126,
+      "whole_image_pred": 0.9999351501464844,
+      "crop80_pred": 0.9999493360519409
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\374a93d2b3550d9a895e83b1446170c4.jpg",
+      "pred": 0.9819072186946869,
+      "prediction": "FAKE",
+      "confidence": 0.9819072186946869,
+      "whole_image_pred": 0.9992218017578125,
+      "crop80_pred": 0.9645926356315613
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\37b0192d15b3f58c79988b496a894574.jpg",
+      "pred": 0.9999760985374451,
+      "prediction": "FAKE",
+      "confidence": 0.9999760985374451,
+      "whole_image_pred": 0.9999938011169434,
+      "crop80_pred": 0.9999583959579468
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3844aea29641243f2b4f90b7404249ec.jpg",
+      "pred": 0.9988144636154175,
+      "prediction": "FAKE",
+      "confidence": 0.9988144636154175,
+      "whole_image_pred": 0.9992632269859314,
+      "crop80_pred": 0.9983657002449036
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\38a67f43e77432478d303bc88bd77f87.jpg",
+      "pred": 0.9999842643737793,
+      "prediction": "FAKE",
+      "confidence": 0.9999842643737793,
+      "whole_image_pred": 0.9999924898147583,
+      "crop80_pred": 0.9999760389328003
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\38fad4c1b729997a2992e8f59051be41.jpg",
+      "pred": 0.9998772144317627,
+      "prediction": "FAKE",
+      "confidence": 0.9998772144317627,
+      "whole_image_pred": 0.9999141693115234,
+      "crop80_pred": 0.999840259552002
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\394aca3cd90d52de06cc97c0c233dfd0.jpg",
+      "pred": 0.9998801052570343,
+      "prediction": "FAKE",
+      "confidence": 0.9998801052570343,
+      "whole_image_pred": 0.9999346733093262,
+      "crop80_pred": 0.9998255372047424
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\395306b07fd9c88722987def6dbf55d4.jpg",
+      "pred": 0.9999998211860657,
+      "prediction": "FAKE",
+      "confidence": 0.9999998211860657,
+      "whole_image_pred": 1.0,
+      "crop80_pred": 0.9999996423721313
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\39ebe35adf389b093cc16e1faaf94ea4.jpg",
+      "pred": 0.9990503787994385,
+      "prediction": "FAKE",
+      "confidence": 0.9990503787994385,
+      "whole_image_pred": 0.9994634985923767,
+      "crop80_pred": 0.9986372590065002
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3a042b56742ec8631a436956a5bb46b8.jpg",
+      "pred": 0.9998472034931183,
+      "prediction": "FAKE",
+      "confidence": 0.9998472034931183,
+      "whole_image_pred": 0.9999905824661255,
+      "crop80_pred": 0.9997038245201111
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3a1569aad417032d42ae66e6eed979ab.jpg",
+      "pred": 0.9999983310699463,
+      "prediction": "FAKE",
+      "confidence": 0.9999983310699463,
+      "whole_image_pred": 0.9999982118606567,
+      "crop80_pred": 0.9999984502792358
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3a2346a0eb14f3e0483fc6ec6930871b.jpg",
+      "pred": 0.9999825954437256,
+      "prediction": "FAKE",
+      "confidence": 0.9999825954437256,
+      "whole_image_pred": 0.9999996423721313,
+      "crop80_pred": 0.9999655485153198
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3a4cf2463f3eb852369594a8d87b6f74.jpg",
+      "pred": 0.9994868338108063,
+      "prediction": "FAKE",
+      "confidence": 0.9994868338108063,
+      "whole_image_pred": 0.999440610408783,
+      "crop80_pred": 0.9995330572128296
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3a5be020a177b0d03ef0fa96d3893da2.jpg",
+      "pred": 0.9741780161857605,
+      "prediction": "FAKE",
+      "confidence": 0.9741780161857605,
+      "whole_image_pred": 0.9856383204460144,
+      "crop80_pred": 0.9627177119255066
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3bd269886075470b1f4c2e1940cbad48.jpg",
+      "pred": 0.9999995827674866,
+      "prediction": "FAKE",
+      "confidence": 0.9999995827674866,
+      "whole_image_pred": 0.9999998807907104,
+      "crop80_pred": 0.9999992847442627
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3c212b06081b3c6bcff6320b64f1ddca.jpg",
+      "pred": 0.9993425011634827,
+      "prediction": "FAKE",
+      "confidence": 0.9993425011634827,
+      "whole_image_pred": 0.9995143413543701,
+      "crop80_pred": 0.9991706609725952
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3c3524cbabc000c9b139481d62fbf200.jpg",
+      "pred": 0.9963623881340027,
+      "prediction": "FAKE",
+      "confidence": 0.9963623881340027,
+      "whole_image_pred": 0.9971463084220886,
+      "crop80_pred": 0.9955784678459167
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3c68404e037b2e351eae6f3eeddac55a.jpg",
+      "pred": 0.9999611973762512,
+      "prediction": "FAKE",
+      "confidence": 0.9999611973762512,
+      "whole_image_pred": 0.9999822378158569,
+      "crop80_pred": 0.9999401569366455
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3d016abaeb3b2b2314f989835f797ce0.jpg",
+      "pred": 0.9992162883281708,
+      "prediction": "FAKE",
+      "confidence": 0.9992162883281708,
+      "whole_image_pred": 0.9994544386863708,
+      "crop80_pred": 0.9989781379699707
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3d2ca065036ec479eeb3ca1a2db543d1.jpg",
+      "pred": 0.9999585747718811,
+      "prediction": "FAKE",
+      "confidence": 0.9999585747718811,
+      "whole_image_pred": 0.9999679327011108,
+      "crop80_pred": 0.9999492168426514
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3d50c057e3b928f038ccee2031dec4bf.jpg",
+      "pred": 0.8784402012825012,
+      "prediction": "FAKE",
+      "confidence": 0.8784402012825012,
+      "whole_image_pred": 0.9323880076408386,
+      "crop80_pred": 0.8244923949241638
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3f7596a78f51e14c094bdbca60b5802c.jpg",
+      "pred": 0.9999023675918579,
+      "prediction": "FAKE",
+      "confidence": 0.9999023675918579,
+      "whole_image_pred": 0.9999769926071167,
+      "crop80_pred": 0.9998277425765991
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\3fa30c49e5eabc94209ee2398d439cd4.jpg",
+      "pred": 0.9995178282260895,
+      "prediction": "FAKE",
+      "confidence": 0.9995178282260895,
+      "whole_image_pred": 0.9997195601463318,
+      "crop80_pred": 0.9993160963058472
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4069cf371848e3926888ed725a28a603.jpg",
+      "pred": 0.9997104108333588,
+      "prediction": "FAKE",
+      "confidence": 0.9997104108333588,
+      "whole_image_pred": 0.9999849796295166,
+      "crop80_pred": 0.9994358420372009
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\40d20caf74e20323469ce03276fab407.jpg",
+      "pred": 0.999813586473465,
+      "prediction": "FAKE",
+      "confidence": 0.999813586473465,
+      "whole_image_pred": 0.9999085664749146,
+      "crop80_pred": 0.9997186064720154
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\417f36569e81c3bd6e1a60ec9f0c48a8.jpg",
+      "pred": 0.999922513961792,
+      "prediction": "FAKE",
+      "confidence": 0.999922513961792,
+      "whole_image_pred": 0.9999697208404541,
+      "crop80_pred": 0.9998753070831299
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\418cf0bb9dce5a96db153efc96ed3ca4.jpg",
+      "pred": 0.9986754059791565,
+      "prediction": "FAKE",
+      "confidence": 0.9986754059791565,
+      "whole_image_pred": 0.9996625185012817,
+      "crop80_pred": 0.9976882934570312
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\43ccb6087c5be327e9db3d7ed2b67f04.jpg",
+      "pred": 0.9994945228099823,
+      "prediction": "FAKE",
+      "confidence": 0.9994945228099823,
+      "whole_image_pred": 0.9999477863311768,
+      "crop80_pred": 0.9990412592887878
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4419f7c4bdf12a9ba8197b28ffdf007a.jpg",
+      "pred": 0.999946653842926,
+      "prediction": "FAKE",
+      "confidence": 0.999946653842926,
+      "whole_image_pred": 0.9999314546585083,
+      "crop80_pred": 0.9999618530273438
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\444d8a16b1c261f6c951711c9f400760.jpg",
+      "pred": 0.6811475157737732,
+      "prediction": "FAKE",
+      "confidence": 0.6811475157737732,
+      "whole_image_pred": 0.8528152704238892,
+      "crop80_pred": 0.5094797611236572
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\44d1600cc6ed14939281ef8455ef6aad.jpg",
+      "pred": 0.9991323351860046,
+      "prediction": "FAKE",
+      "confidence": 0.9991323351860046,
+      "whole_image_pred": 0.9996441602706909,
+      "crop80_pred": 0.9986205101013184
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4516450e984161a9d16b8be9edf5e8ed.jpg",
+      "pred": 0.9991934597492218,
+      "prediction": "FAKE",
+      "confidence": 0.9991934597492218,
+      "whole_image_pred": 0.9993550181388855,
+      "crop80_pred": 0.9990319013595581
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\45cb8ac5459b1a9e14f4ca7cf4b8f057.jpg",
+      "pred": 0.9882068336009979,
+      "prediction": "FAKE",
+      "confidence": 0.9882068336009979,
+      "whole_image_pred": 0.9979528188705444,
+      "crop80_pred": 0.9784608483314514
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4736492919f625bf1a0f120f54b734a0.jpg",
+      "pred": 0.9992121458053589,
+      "prediction": "FAKE",
+      "confidence": 0.9992121458053589,
+      "whole_image_pred": 0.9995038509368896,
+      "crop80_pred": 0.9989204406738281
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4859dfb70f8751a2dd97eaf46b5c1411.jpg",
+      "pred": 0.9911775887012482,
+      "prediction": "FAKE",
+      "confidence": 0.9911775887012482,
+      "whole_image_pred": 0.9987961053848267,
+      "crop80_pred": 0.9835590720176697
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\48b743ee7239f1d32f1811bf01543531.jpg",
+      "pred": 0.9999976754188538,
+      "prediction": "FAKE",
+      "confidence": 0.9999976754188538,
+      "whole_image_pred": 0.9999973773956299,
+      "crop80_pred": 0.9999979734420776
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\49b1be2eb789cb86f7ed7fbe27f95c6a.jpg",
+      "pred": 0.9993090331554413,
+      "prediction": "FAKE",
+      "confidence": 0.9993090331554413,
+      "whole_image_pred": 0.9998879432678223,
+      "crop80_pred": 0.9987301230430603
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\49f8d4b1eb4343463652e10bb5fde341.jpg",
+      "pred": 0.9999949336051941,
+      "prediction": "FAKE",
+      "confidence": 0.9999949336051941,
+      "whole_image_pred": 0.9999985694885254,
+      "crop80_pred": 0.9999912977218628
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4a2205be50a5a5424bfcf55d2f40511a.jpg",
+      "pred": 0.9997069239616394,
+      "prediction": "FAKE",
+      "confidence": 0.9997069239616394,
+      "whole_image_pred": 0.9998738765716553,
+      "crop80_pred": 0.9995399713516235
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4b3463e6e592bfbf7b209f337a044c6a.jpg",
+      "pred": 0.9998679459095001,
+      "prediction": "FAKE",
+      "confidence": 0.9998679459095001,
+      "whole_image_pred": 0.9999114274978638,
+      "crop80_pred": 0.9998244643211365
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4b60d5866897e0b0407906b67dd0b630.jpg",
+      "pred": 0.9999983906745911,
+      "prediction": "FAKE",
+      "confidence": 0.9999983906745911,
+      "whole_image_pred": 0.9999977350234985,
+      "crop80_pred": 0.9999990463256836
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4c8caae532fe8b62f0054ed10367bf41.jpg",
+      "pred": 0.9999394416809082,
+      "prediction": "FAKE",
+      "confidence": 0.9999394416809082,
+      "whole_image_pred": 0.9999840259552002,
+      "crop80_pred": 0.9998948574066162
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4d9f55ce938ceef5423298ec55e4cf04.jpg",
+      "pred": 0.9999809265136719,
+      "prediction": "FAKE",
+      "confidence": 0.9999809265136719,
+      "whole_image_pred": 0.9999884366989136,
+      "crop80_pred": 0.9999734163284302
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4e5dfe5a160981927dd2e89532e3a4e0.jpg",
+      "pred": 0.9984001815319061,
+      "prediction": "FAKE",
+      "confidence": 0.9984001815319061,
+      "whole_image_pred": 0.9989176988601685,
+      "crop80_pred": 0.9978826642036438
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4efee20706bbe09d560afe3a6a894c1b.jpg",
+      "pred": 0.9999340772628784,
+      "prediction": "FAKE",
+      "confidence": 0.9999340772628784,
+      "whole_image_pred": 0.9999523162841797,
+      "crop80_pred": 0.9999158382415771
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4f3140a495e82cf4a9e6e0696c278748.jpg",
+      "pred": 0.9992400407791138,
+      "prediction": "FAKE",
+      "confidence": 0.9992400407791138,
+      "whole_image_pred": 0.9992085099220276,
+      "crop80_pred": 0.9992715716362
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\4f4a21855dc5b5bf068460b9af70e6d8.jpg",
+      "pred": 0.9899173974990845,
+      "prediction": "FAKE",
+      "confidence": 0.9899173974990845,
+      "whole_image_pred": 0.9911054968833923,
+      "crop80_pred": 0.9887292981147766
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\50bcdb27830ca8be95298802a0162ba9.jpg",
+      "pred": 0.979303777217865,
+      "prediction": "FAKE",
+      "confidence": 0.979303777217865,
+      "whole_image_pred": 0.9777882695198059,
+      "crop80_pred": 0.9808192849159241
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\50f334a27921adbaec391c75bc09583a.jpg",
+      "pred": 0.9998902082443237,
+      "prediction": "FAKE",
+      "confidence": 0.9998902082443237,
+      "whole_image_pred": 0.9999221563339233,
+      "crop80_pred": 0.9998582601547241
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5122f5e99ea255495c2ee0f5b254c0de.jpg",
+      "pred": 0.998210996389389,
+      "prediction": "FAKE",
+      "confidence": 0.998210996389389,
+      "whole_image_pred": 0.9990322589874268,
+      "crop80_pred": 0.9973897337913513
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\519572105d7d4cbc035a4b58bb21700a.jpg",
+      "pred": 0.9446377754211426,
+      "prediction": "FAKE",
+      "confidence": 0.9446377754211426,
+      "whole_image_pred": 0.9658361077308655,
+      "crop80_pred": 0.9234394431114197
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\51de2bf92513e042b93cb627857571ea.jpg",
+      "pred": 0.996333122253418,
+      "prediction": "FAKE",
+      "confidence": 0.996333122253418,
+      "whole_image_pred": 0.9965163469314575,
+      "crop80_pred": 0.9961498975753784
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\550c42f1abf1111d886ea368184ee404.jpg",
+      "pred": 0.6519095748662949,
+      "prediction": "FAKE",
+      "confidence": 0.6519095748662949,
+      "whole_image_pred": 0.807192325592041,
+      "crop80_pred": 0.4966268241405487
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5568442167f35e47fe0e17d589387ef9.jpg",
+      "pred": 0.9996277391910553,
+      "prediction": "FAKE",
+      "confidence": 0.9996277391910553,
+      "whole_image_pred": 0.9999126195907593,
+      "crop80_pred": 0.9993428587913513
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5577401d6b22d1907b77b652e7ba0a77.jpg",
+      "pred": 0.9966873228549957,
+      "prediction": "FAKE",
+      "confidence": 0.9966873228549957,
+      "whole_image_pred": 0.9959583878517151,
+      "crop80_pred": 0.9974162578582764
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\56122a09fce91d11767b0fc4d67525ef.jpg",
+      "pred": 0.9998059272766113,
+      "prediction": "FAKE",
+      "confidence": 0.9998059272766113,
+      "whole_image_pred": 0.9998125433921814,
+      "crop80_pred": 0.9997993111610413
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\561c61995432b4ca87f7950d4145d7c7.jpg",
+      "pred": 0.9924613237380981,
+      "prediction": "FAKE",
+      "confidence": 0.9924613237380981,
+      "whole_image_pred": 0.9957921504974365,
+      "crop80_pred": 0.9891304969787598
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5715a92ac5c1bf123468e982c451e5dc.jpg",
+      "pred": 0.999943196773529,
+      "prediction": "FAKE",
+      "confidence": 0.999943196773529,
+      "whole_image_pred": 0.9999674558639526,
+      "crop80_pred": 0.9999189376831055
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\578655b70f450ebb000c66dd511c0294.jpg",
+      "pred": 0.9991323947906494,
+      "prediction": "FAKE",
+      "confidence": 0.9991323947906494,
+      "whole_image_pred": 0.9995891451835632,
+      "crop80_pred": 0.9986756443977356
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\57c09b48d7b0aa0be86818e8fefa9db9.jpg",
+      "pred": 0.9186726808547974,
+      "prediction": "FAKE",
+      "confidence": 0.9186726808547974,
+      "whole_image_pred": 0.986513078212738,
+      "crop80_pred": 0.8508322834968567
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\583c5c03eb0081f9be429b480a1ee025.jpg",
+      "pred": 0.9999625086784363,
+      "prediction": "FAKE",
+      "confidence": 0.9999625086784363,
+      "whole_image_pred": 0.9999877214431763,
+      "crop80_pred": 0.9999372959136963
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\585ca3c682481f3b81fa450144c59a05.jpg",
+      "pred": 0.9969740808010101,
+      "prediction": "FAKE",
+      "confidence": 0.9969740808010101,
+      "whole_image_pred": 0.999153733253479,
+      "crop80_pred": 0.9947944283485413
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\58b638ffc47a3265ec8ab2de114a9954.jpg",
+      "pred": 0.9997144639492035,
+      "prediction": "FAKE",
+      "confidence": 0.9997144639492035,
+      "whole_image_pred": 0.9996801614761353,
+      "crop80_pred": 0.9997487664222717
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\59bfbd9ca34d8d146209a61891ff4752.jpg",
+      "pred": 0.9976808428764343,
+      "prediction": "FAKE",
+      "confidence": 0.9976808428764343,
+      "whole_image_pred": 0.9974602460861206,
+      "crop80_pred": 0.997901439666748
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5a071ff766b2356a86bf382715f78c0b.jpg",
+      "pred": 0.9996510148048401,
+      "prediction": "FAKE",
+      "confidence": 0.9996510148048401,
+      "whole_image_pred": 0.9999881982803345,
+      "crop80_pred": 0.9993138313293457
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5a1fbcbcdc9d69f541fb6e327584dc2f.jpg",
+      "pred": 0.9998632371425629,
+      "prediction": "FAKE",
+      "confidence": 0.9998632371425629,
+      "whole_image_pred": 0.9999325275421143,
+      "crop80_pred": 0.9997939467430115
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5a2e6eb95fc8efc631786db2a3b5bfe0.jpg",
+      "pred": 0.9998568594455719,
+      "prediction": "FAKE",
+      "confidence": 0.9998568594455719,
+      "whole_image_pred": 0.9999198913574219,
+      "crop80_pred": 0.9997938275337219
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5bce33a28c2174384a48fe03c577393a.jpg",
+      "pred": 0.9749706089496613,
+      "prediction": "FAKE",
+      "confidence": 0.9749706089496613,
+      "whole_image_pred": 0.9831171035766602,
+      "crop80_pred": 0.9668241143226624
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5c94dd1cdda8010526c569bc39144d8b.jpg",
+      "pred": 0.9998610317707062,
+      "prediction": "FAKE",
+      "confidence": 0.9998610317707062,
+      "whole_image_pred": 0.9999805688858032,
+      "crop80_pred": 0.9997414946556091
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5ca302e819074bc365d57669d218951d.jpg",
+      "pred": 0.9988557994365692,
+      "prediction": "FAKE",
+      "confidence": 0.9988557994365692,
+      "whole_image_pred": 0.9996826648712158,
+      "crop80_pred": 0.9980289340019226
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5ccbda561edf797b9edf12188ca2fe7a.jpg",
+      "pred": 0.8735132217407227,
+      "prediction": "FAKE",
+      "confidence": 0.8735132217407227,
+      "whole_image_pred": 0.9300222396850586,
+      "crop80_pred": 0.8170042037963867
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5d8c393382fd2cae4a3f4c63e87da58e.jpg",
+      "pred": 0.9982518553733826,
+      "prediction": "FAKE",
+      "confidence": 0.9982518553733826,
+      "whole_image_pred": 0.9998453855514526,
+      "crop80_pred": 0.9966583251953125
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5db3f346936509e9399d543da27a1918.jpg",
+      "pred": 0.9995924532413483,
+      "prediction": "FAKE",
+      "confidence": 0.9995924532413483,
+      "whole_image_pred": 0.9999046325683594,
+      "crop80_pred": 0.9992802739143372
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5dff314e0aac5eff049f84e8d8813eae.jpg",
+      "pred": 0.9976151883602142,
+      "prediction": "FAKE",
+      "confidence": 0.9976151883602142,
+      "whole_image_pred": 0.9979698061943054,
+      "crop80_pred": 0.997260570526123
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5e00b24573c92e5e166e47f5224e6233.jpg",
+      "pred": 0.8843406140804291,
+      "prediction": "FAKE",
+      "confidence": 0.8843406140804291,
+      "whole_image_pred": 0.9705119132995605,
+      "crop80_pred": 0.7981693148612976
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\5f1ab372390bf5c52e04afd501f752ba.jpg",
+      "pred": 0.9899527728557587,
+      "prediction": "FAKE",
+      "confidence": 0.9899527728557587,
+      "whole_image_pred": 0.9968473315238953,
+      "crop80_pred": 0.9830582141876221
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\60296cc38250519a1184b2dc3ef03cc2.jpg",
+      "pred": 0.995692104101181,
+      "prediction": "FAKE",
+      "confidence": 0.995692104101181,
+      "whole_image_pred": 0.9968999624252319,
+      "crop80_pred": 0.9944842457771301
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\60f0826c8b7d397fd817ac43fb497de8.jpg",
+      "pred": 0.9964570701122284,
+      "prediction": "FAKE",
+      "confidence": 0.9964570701122284,
+      "whole_image_pred": 0.9947566986083984,
+      "crop80_pred": 0.9981574416160583
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6139690b4e6e8ed98905b2efeccde3fb.jpg",
+      "pred": 0.997298538684845,
+      "prediction": "FAKE",
+      "confidence": 0.997298538684845,
+      "whole_image_pred": 0.9996356964111328,
+      "crop80_pred": 0.9949613809585571
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\622fa7f78c44bca5743c6ec83d30661c.jpg",
+      "pred": 0.9996870160102844,
+      "prediction": "FAKE",
+      "confidence": 0.9996870160102844,
+      "whole_image_pred": 0.9998327493667603,
+      "crop80_pred": 0.9995412826538086
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\624c1826075244cb7b65a01e80350b8c.jpg",
+      "pred": 0.9987964928150177,
+      "prediction": "FAKE",
+      "confidence": 0.9987964928150177,
+      "whole_image_pred": 0.999670147895813,
+      "crop80_pred": 0.9979228377342224
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\62b43ad73c9787f5d266f6223745c6a7.jpg",
+      "pred": 0.9480713605880737,
+      "prediction": "FAKE",
+      "confidence": 0.9480713605880737,
+      "whole_image_pred": 0.9742860794067383,
+      "crop80_pred": 0.9218566417694092
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\62bdbd0afb4ef3cb331f3ae614c27f6a.jpg",
+      "pred": 0.9970785677433014,
+      "prediction": "FAKE",
+      "confidence": 0.9970785677433014,
+      "whole_image_pred": 0.9995408058166504,
+      "crop80_pred": 0.9946163296699524
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\636cbe0d3e5db7767c0743bf718eda6c.jpg",
+      "pred": 0.999672532081604,
+      "prediction": "FAKE",
+      "confidence": 0.999672532081604,
+      "whole_image_pred": 0.9997928738594055,
+      "crop80_pred": 0.9995521903038025
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\64f79e568ceaea646651ed2aa4ebc124.jpg",
+      "pred": 0.9972544014453888,
+      "prediction": "FAKE",
+      "confidence": 0.9972544014453888,
+      "whole_image_pred": 0.9949499368667603,
+      "crop80_pred": 0.9995588660240173
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6541d686db15c99539c2dacc40cac785.jpg",
+      "pred": 0.990293949842453,
+      "prediction": "FAKE",
+      "confidence": 0.990293949842453,
+      "whole_image_pred": 0.9894604682922363,
+      "crop80_pred": 0.9911274313926697
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\659c4ae8e71430cc1b5aceee3ee084ff.jpg",
+      "pred": 0.9944673478603363,
+      "prediction": "FAKE",
+      "confidence": 0.9944673478603363,
+      "whole_image_pred": 0.9996646642684937,
+      "crop80_pred": 0.989270031452179
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6608d014aaf6cad36bd0de07f6cb3c14.jpg",
+      "pred": 0.9246405363082886,
+      "prediction": "FAKE",
+      "confidence": 0.9246405363082886,
+      "whole_image_pred": 0.9172444939613342,
+      "crop80_pred": 0.9320365786552429
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6633822e34b338def43b38b31307e99f.jpg",
+      "pred": 0.9879797101020813,
+      "prediction": "FAKE",
+      "confidence": 0.9879797101020813,
+      "whole_image_pred": 0.9803372025489807,
+      "crop80_pred": 0.9956222176551819
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\66e96ed8e6f7b8a13481ca0ba43d3869.jpg",
+      "pred": 0.9950122237205505,
+      "prediction": "FAKE",
+      "confidence": 0.9950122237205505,
+      "whole_image_pred": 0.9998183846473694,
+      "crop80_pred": 0.9902060627937317
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\67ad6a89cbbdc6f1d604a4fb1d749ba9.jpg",
+      "pred": 0.999657154083252,
+      "prediction": "FAKE",
+      "confidence": 0.999657154083252,
+      "whole_image_pred": 0.9996078610420227,
+      "crop80_pred": 0.9997064471244812
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\68534c50953ae72ef032de3c37ca4a59.jpg",
+      "pred": 0.9998109042644501,
+      "prediction": "FAKE",
+      "confidence": 0.9998109042644501,
+      "whole_image_pred": 0.9999181032180786,
+      "crop80_pred": 0.9997037053108215
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6928758de9730a9096c59bbc801f12be.jpg",
+      "pred": 0.999860018491745,
+      "prediction": "FAKE",
+      "confidence": 0.999860018491745,
+      "whole_image_pred": 0.9997811913490295,
+      "crop80_pred": 0.9999388456344604
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\695097fe48fa5efb0b7e097f58965199.jpg",
+      "pred": 0.9998356401920319,
+      "prediction": "FAKE",
+      "confidence": 0.9998356401920319,
+      "whole_image_pred": 0.9999396800994873,
+      "crop80_pred": 0.9997316002845764
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\699d2c322192d5730309c61339663ea7.jpg",
+      "pred": 0.9995018839836121,
+      "prediction": "FAKE",
+      "confidence": 0.9995018839836121,
+      "whole_image_pred": 0.9994280934333801,
+      "crop80_pred": 0.999575674533844
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6a3881c15e096d6d36ae1cd9234d00b6.jpg",
+      "pred": 0.9999287724494934,
+      "prediction": "FAKE",
+      "confidence": 0.9999287724494934,
+      "whole_image_pred": 0.9999749660491943,
+      "crop80_pred": 0.9998825788497925
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6b29514f99f495ed8c159d239d5ac7e3.jpg",
+      "pred": 0.9613123834133148,
+      "prediction": "FAKE",
+      "confidence": 0.9613123834133148,
+      "whole_image_pred": 0.9802423119544983,
+      "crop80_pred": 0.9423824548721313
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6b4779164ff249b42ee137fcaa94983e.jpg",
+      "pred": 0.9983328878879547,
+      "prediction": "FAKE",
+      "confidence": 0.9983328878879547,
+      "whole_image_pred": 0.9987298846244812,
+      "crop80_pred": 0.9979358911514282
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6c2d50834de8bc88b28ee59cea4f4400.jpg",
+      "pred": 0.9999967813491821,
+      "prediction": "FAKE",
+      "confidence": 0.9999967813491821,
+      "whole_image_pred": 0.9999994039535522,
+      "crop80_pred": 0.999994158744812
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6c43360b97e49e27a771b30fdc5bda53.jpg",
+      "pred": 0.8976057469844818,
+      "prediction": "FAKE",
+      "confidence": 0.8976057469844818,
+      "whole_image_pred": 0.9702579975128174,
+      "crop80_pred": 0.8249534964561462
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6c8df271a759f1db157d40beef2b9eef.jpg",
+      "pred": 0.9974128901958466,
+      "prediction": "FAKE",
+      "confidence": 0.9974128901958466,
+      "whole_image_pred": 0.9990562796592712,
+      "crop80_pred": 0.9957695007324219
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6cbc320b6d9763b492f129a790c7a8ef.jpg",
+      "pred": 0.9999780654907227,
+      "prediction": "FAKE",
+      "confidence": 0.9999780654907227,
+      "whole_image_pred": 0.9999860525131226,
+      "crop80_pred": 0.9999700784683228
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6ccb07aa1f4d989103a9e2754c2a9b11.jpg",
+      "pred": 0.9330708980560303,
+      "prediction": "FAKE",
+      "confidence": 0.9330708980560303,
+      "whole_image_pred": 0.9364798069000244,
+      "crop80_pred": 0.9296619892120361
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6e36c4a5bd958134e9d22b02d1269575.jpg",
+      "pred": 0.9999608993530273,
+      "prediction": "FAKE",
+      "confidence": 0.9999608993530273,
+      "whole_image_pred": 0.9999810457229614,
+      "crop80_pred": 0.9999407529830933
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6e3c48de852e0e055524d53cfe9ae7b5.jpg",
+      "pred": 0.9997299313545227,
+      "prediction": "FAKE",
+      "confidence": 0.9997299313545227,
+      "whole_image_pred": 0.9999336004257202,
+      "crop80_pred": 0.9995262622833252
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\6f1cc30c2297ff11fd31fbb363e72f84.jpg",
+      "pred": 0.9999228119850159,
+      "prediction": "FAKE",
+      "confidence": 0.9999228119850159,
+      "whole_image_pred": 0.9999817609786987,
+      "crop80_pred": 0.999863862991333
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\70e8b0ebe15378b962f9751ca434b90e.jpg",
+      "pred": 0.9989698827266693,
+      "prediction": "FAKE",
+      "confidence": 0.9989698827266693,
+      "whole_image_pred": 0.9999006986618042,
+      "crop80_pred": 0.9980390667915344
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\726e3a6c8b4bf7affe3dbf5e8d891c51.jpg",
+      "pred": 0.9802407622337341,
+      "prediction": "FAKE",
+      "confidence": 0.9802407622337341,
+      "whole_image_pred": 0.9993126392364502,
+      "crop80_pred": 0.9611688852310181
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\73f4034a8f98e82cc5bb04362a7021ab.jpg",
+      "pred": 0.996313065290451,
+      "prediction": "FAKE",
+      "confidence": 0.996313065290451,
+      "whole_image_pred": 0.9994858503341675,
+      "crop80_pred": 0.9931402802467346
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\743e4e3b12b18c2819f2ab7818ce675f.jpg",
+      "pred": 0.9969725012779236,
+      "prediction": "FAKE",
+      "confidence": 0.9969725012779236,
+      "whole_image_pred": 0.9985184073448181,
+      "crop80_pred": 0.995426595211029
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7525d4f00eb1cf369341edf50ef11b2b.jpg",
+      "pred": 0.9846020340919495,
+      "prediction": "FAKE",
+      "confidence": 0.9846020340919495,
+      "whole_image_pred": 0.9935965538024902,
+      "crop80_pred": 0.9756075143814087
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7669168fcb162eb89b42f638e83c6d12.jpg",
+      "pred": 0.998020350933075,
+      "prediction": "FAKE",
+      "confidence": 0.998020350933075,
+      "whole_image_pred": 0.9992607235908508,
+      "crop80_pred": 0.9967799782752991
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7a71bef8ea5f74f862a8b5a2c256fc19.jpg",
+      "pred": 0.9999222755432129,
+      "prediction": "FAKE",
+      "confidence": 0.9999222755432129,
+      "whole_image_pred": 0.9999828338623047,
+      "crop80_pred": 0.9998617172241211
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7ab49cfce7346df6562303c5d654629e.jpg",
+      "pred": 0.999736100435257,
+      "prediction": "FAKE",
+      "confidence": 0.999736100435257,
+      "whole_image_pred": 0.9999226331710815,
+      "crop80_pred": 0.9995495676994324
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7b3f5f205c9a7bc40c9f2e3f7f2cf59a.jpg",
+      "pred": 0.9998781979084015,
+      "prediction": "FAKE",
+      "confidence": 0.9998781979084015,
+      "whole_image_pred": 0.9999344348907471,
+      "crop80_pred": 0.9998219609260559
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7b67bad5b02b7b7fc5d71b30d41177d2.jpg",
+      "pred": 0.9999640583992004,
+      "prediction": "FAKE",
+      "confidence": 0.9999640583992004,
+      "whole_image_pred": 0.999985933303833,
+      "crop80_pred": 0.9999421834945679
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7bf21a9362c2a41affbc2913cf7dbdfb.jpg",
+      "pred": 0.999606728553772,
+      "prediction": "FAKE",
+      "confidence": 0.999606728553772,
+      "whole_image_pred": 0.9998325109481812,
+      "crop80_pred": 0.9993809461593628
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7c073c4bb089efe2e3d34f1c630a939f.jpg",
+      "pred": 0.9999275207519531,
+      "prediction": "FAKE",
+      "confidence": 0.9999275207519531,
+      "whole_image_pred": 0.9999474287033081,
+      "crop80_pred": 0.9999076128005981
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7c9e4d8bcf3c33431cf29112b8a5cb25.jpg",
+      "pred": 0.9996183812618256,
+      "prediction": "FAKE",
+      "confidence": 0.9996183812618256,
+      "whole_image_pred": 0.9997535347938538,
+      "crop80_pred": 0.9994832277297974
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7cb537fbd59581ab76d1a06d753751ed.jpg",
+      "pred": 0.9926142692565918,
+      "prediction": "FAKE",
+      "confidence": 0.9926142692565918,
+      "whole_image_pred": 0.9965519905090332,
+      "crop80_pred": 0.9886765480041504
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7da46621bf94fb46422e988ef7fa230d.jpg",
+      "pred": 0.9989637434482574,
+      "prediction": "FAKE",
+      "confidence": 0.9989637434482574,
+      "whole_image_pred": 0.9997139573097229,
+      "crop80_pred": 0.998213529586792
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7f1725988999a67dda78d79ca1a9063c.jpg",
+      "pred": 0.9980683326721191,
+      "prediction": "FAKE",
+      "confidence": 0.9980683326721191,
+      "whole_image_pred": 0.9996123909950256,
+      "crop80_pred": 0.9965242743492126
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7f1dd40fdb05cc5510b8109526ec0a4d.jpg",
+      "pred": 0.9996397495269775,
+      "prediction": "FAKE",
+      "confidence": 0.9996397495269775,
+      "whole_image_pred": 0.9998248219490051,
+      "crop80_pred": 0.99945467710495
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7f6faa4e792da61d4862106f12d63b61.jpg",
+      "pred": 0.9999979734420776,
+      "prediction": "FAKE",
+      "confidence": 0.9999979734420776,
+      "whole_image_pred": 0.9999978542327881,
+      "crop80_pred": 0.9999980926513672
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7f9ef351fc5ca3ec7a19129afce1bbcc.jpg",
+      "pred": 0.9974197149276733,
+      "prediction": "FAKE",
+      "confidence": 0.9974197149276733,
+      "whole_image_pred": 0.9988940358161926,
+      "crop80_pred": 0.995945394039154
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\7fabc66f01843d72ea1edc316c3b5d1a.jpg",
+      "pred": 0.948639839887619,
+      "prediction": "FAKE",
+      "confidence": 0.948639839887619,
+      "whole_image_pred": 0.9315205216407776,
+      "crop80_pred": 0.9657591581344604
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\80b7f844d5ac6c44d1bb634efbf388b7.jpg",
+      "pred": 0.9997155368328094,
+      "prediction": "FAKE",
+      "confidence": 0.9997155368328094,
+      "whole_image_pred": 0.9998644590377808,
+      "crop80_pred": 0.9995666146278381
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\80c37870bc2fc7223b756ffaf6d62cab.jpg",
+      "pred": 0.6826165616512299,
+      "prediction": "FAKE",
+      "confidence": 0.6826165616512299,
+      "whole_image_pred": 0.8757251501083374,
+      "crop80_pred": 0.4895079731941223
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\80db887f29c9e531fc66826880e7df85.jpg",
+      "pred": 0.9999614357948303,
+      "prediction": "FAKE",
+      "confidence": 0.9999614357948303,
+      "whole_image_pred": 0.9999839067459106,
+      "crop80_pred": 0.99993896484375
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\812a2da673c7dd235176856a745c4d9b.jpg",
+      "pred": 0.9999874830245972,
+      "prediction": "FAKE",
+      "confidence": 0.9999874830245972,
+      "whole_image_pred": 0.9999988079071045,
+      "crop80_pred": 0.9999761581420898
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\816988378320a32944ea7730f84662e9.jpg",
+      "pred": 0.9983574151992798,
+      "prediction": "FAKE",
+      "confidence": 0.9983574151992798,
+      "whole_image_pred": 0.9981379508972168,
+      "crop80_pred": 0.9985768795013428
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\81c988d5bd2a2839de7d985310c28888.jpg",
+      "pred": 0.8386016190052032,
+      "prediction": "FAKE",
+      "confidence": 0.8386016190052032,
+      "whole_image_pred": 0.8001984357833862,
+      "crop80_pred": 0.8770048022270203
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\82a0d8b110a96f02765c01c0b03d2ea6.jpg",
+      "pred": 0.9922322332859039,
+      "prediction": "FAKE",
+      "confidence": 0.9922322332859039,
+      "whole_image_pred": 0.9989342093467712,
+      "crop80_pred": 0.9855302572250366
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\82b078c351005f19be8e4e7f992253c8.jpg",
+      "pred": 0.9984286427497864,
+      "prediction": "FAKE",
+      "confidence": 0.9984286427497864,
+      "whole_image_pred": 0.9981496334075928,
+      "crop80_pred": 0.99870765209198
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\830e6b1cfa79dcb875db2f09e838e863.jpg",
+      "pred": 0.023051978088915348,
+      "prediction": "REAL",
+      "confidence": 0.9769480219110847,
+      "whole_image_pred": 0.012479318305850029,
+      "crop80_pred": 0.03362463787198067
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\84ea1c30bc9563137bd7fea2c1bb5f90.jpg",
+      "pred": 0.9998228251934052,
+      "prediction": "FAKE",
+      "confidence": 0.9998228251934052,
+      "whole_image_pred": 0.9997133612632751,
+      "crop80_pred": 0.9999322891235352
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\84fc21047b39b40c7c88c01f7b3daddc.jpg",
+      "pred": 0.9998554289340973,
+      "prediction": "FAKE",
+      "confidence": 0.9998554289340973,
+      "whole_image_pred": 0.9998157620429993,
+      "crop80_pred": 0.9998950958251953
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\867faea1c4db3dc317d33a8e613878a4.jpg",
+      "pred": 0.9999117255210876,
+      "prediction": "FAKE",
+      "confidence": 0.9999117255210876,
+      "whole_image_pred": 0.999913215637207,
+      "crop80_pred": 0.9999102354049683
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\86d46aac8309a1e15f81dc1ef46477d2.jpg",
+      "pred": 0.9424267113208771,
+      "prediction": "FAKE",
+      "confidence": 0.9424267113208771,
+      "whole_image_pred": 0.957716703414917,
+      "crop80_pred": 0.9271367192268372
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\86dce1ea7c7b9eb62380a4561d16252d.jpg",
+      "pred": 0.9999073147773743,
+      "prediction": "FAKE",
+      "confidence": 0.9999073147773743,
+      "whole_image_pred": 0.9999580383300781,
+      "crop80_pred": 0.9998565912246704
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\87be6ebfc42b40be19376a41528759af.jpg",
+      "pred": 0.9997449517250061,
+      "prediction": "FAKE",
+      "confidence": 0.9997449517250061,
+      "whole_image_pred": 0.9997755885124207,
+      "crop80_pred": 0.9997143149375916
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\891873e49ae9d319795fb43fd6a0da94.jpg",
+      "pred": 0.9996600449085236,
+      "prediction": "FAKE",
+      "confidence": 0.9996600449085236,
+      "whole_image_pred": 0.9999563694000244,
+      "crop80_pred": 0.9993637204170227
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\89787f3190d224ca2067dd65981e165b.jpg",
+      "pred": 0.9926593601703644,
+      "prediction": "FAKE",
+      "confidence": 0.9926593601703644,
+      "whole_image_pred": 0.9873379468917847,
+      "crop80_pred": 0.9979807734489441
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\89c122e7058929a1ad761f827271ce54.jpg",
+      "pred": 0.8154932856559753,
+      "prediction": "FAKE",
+      "confidence": 0.8154932856559753,
+      "whole_image_pred": 0.7764815092086792,
+      "crop80_pred": 0.8545050621032715
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\8a95c97bcab150363c620b10b6755b35.jpg",
+      "pred": 0.9989209175109863,
+      "prediction": "FAKE",
+      "confidence": 0.9989209175109863,
+      "whole_image_pred": 0.9990063309669495,
+      "crop80_pred": 0.9988355040550232
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\8ab124933a67ea7f7a718d541d564942.jpg",
+      "pred": 0.9997081160545349,
+      "prediction": "FAKE",
+      "confidence": 0.9997081160545349,
+      "whole_image_pred": 0.9998127818107605,
+      "crop80_pred": 0.9996034502983093
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\8c5af7d279add19de66b73d2b196eb9b.jpg",
+      "pred": 0.9990870654582977,
+      "prediction": "FAKE",
+      "confidence": 0.9990870654582977,
+      "whole_image_pred": 0.9996259212493896,
+      "crop80_pred": 0.9985482096672058
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\8e5b192360247e6f76e41876ce5a6910.jpg",
+      "pred": 0.9999908804893494,
+      "prediction": "FAKE",
+      "confidence": 0.9999908804893494,
+      "whole_image_pred": 0.9999927282333374,
+      "crop80_pred": 0.9999890327453613
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\8ebe8cb227941ab4ccc6973928fa8452.jpg",
+      "pred": 0.4384383112192154,
+      "prediction": "REAL",
+      "confidence": 0.5615616887807846,
+      "whole_image_pred": 0.6466711759567261,
+      "crop80_pred": 0.2302054464817047
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\8ed29c92edf96e695d21b358b15377f2.jpg",
+      "pred": 0.9880545139312744,
+      "prediction": "FAKE",
+      "confidence": 0.9880545139312744,
+      "whole_image_pred": 0.9978182315826416,
+      "crop80_pred": 0.9782907962799072
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\8f5f63f50d7b71e6951f64d378698fbe.jpg",
+      "pred": 0.9999955296516418,
+      "prediction": "FAKE",
+      "confidence": 0.9999955296516418,
+      "whole_image_pred": 0.9999929666519165,
+      "crop80_pred": 0.9999980926513672
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\8fd00a19340e6970911b48a5092ceec9.jpg",
+      "pred": 0.9991661608219147,
+      "prediction": "FAKE",
+      "confidence": 0.9991661608219147,
+      "whole_image_pred": 0.9994328618049622,
+      "crop80_pred": 0.9988994598388672
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\90001c4f3c8371e6690f452974633d54.jpg",
+      "pred": 0.9960936605930328,
+      "prediction": "FAKE",
+      "confidence": 0.9960936605930328,
+      "whole_image_pred": 0.9978356957435608,
+      "crop80_pred": 0.9943516254425049
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9214d6b39c454a0f93a2de7dbeec852a.jpg",
+      "pred": 0.9993822872638702,
+      "prediction": "FAKE",
+      "confidence": 0.9993822872638702,
+      "whole_image_pred": 0.9998127818107605,
+      "crop80_pred": 0.99895179271698
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9344528baa99020f3c0adb3554e4fdbb.jpg",
+      "pred": 0.999776154756546,
+      "prediction": "FAKE",
+      "confidence": 0.999776154756546,
+      "whole_image_pred": 0.9999750852584839,
+      "crop80_pred": 0.9995772242546082
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\93e89f46f381669f8b2814d625611f04.jpg",
+      "pred": 0.9999987483024597,
+      "prediction": "FAKE",
+      "confidence": 0.9999987483024597,
+      "whole_image_pred": 0.9999997615814209,
+      "crop80_pred": 0.9999977350234985
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\94051e3a0f0d105850a5990e8bdc5785.jpg",
+      "pred": 0.9916126132011414,
+      "prediction": "FAKE",
+      "confidence": 0.9916126132011414,
+      "whole_image_pred": 0.9963775277137756,
+      "crop80_pred": 0.9868476986885071
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\942272171a0cfc8f00be27c5f4a51b91.jpg",
+      "pred": 0.9985514283180237,
+      "prediction": "FAKE",
+      "confidence": 0.9985514283180237,
+      "whole_image_pred": 0.999656081199646,
+      "crop80_pred": 0.9974467754364014
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\94368807bbfb9f9726e42c24e42a647d.jpg",
+      "pred": 0.41278666257858276,
+      "prediction": "REAL",
+      "confidence": 0.5872133374214172,
+      "whole_image_pred": 0.5342594385147095,
+      "crop80_pred": 0.29131388664245605
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\95084052d86affb5a42533eb2a8b8dc5.jpg",
+      "pred": 0.8924302458763123,
+      "prediction": "FAKE",
+      "confidence": 0.8924302458763123,
+      "whole_image_pred": 0.9714961647987366,
+      "crop80_pred": 0.8133643269538879
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\95a36fe67c2053210a96c124ba27bf33.jpg",
+      "pred": 0.9978816509246826,
+      "prediction": "FAKE",
+      "confidence": 0.9978816509246826,
+      "whole_image_pred": 0.9998822212219238,
+      "crop80_pred": 0.9958810806274414
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\96298b6dddfcf6db2aef1a1932c09de9.jpg",
+      "pred": 0.9997788965702057,
+      "prediction": "FAKE",
+      "confidence": 0.9997788965702057,
+      "whole_image_pred": 0.999982476234436,
+      "crop80_pred": 0.9995753169059753
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\97f536e266dcfe1c75a69c9adc36d648.jpg",
+      "pred": 0.9999253153800964,
+      "prediction": "FAKE",
+      "confidence": 0.9999253153800964,
+      "whole_image_pred": 0.9998974800109863,
+      "crop80_pred": 0.9999531507492065
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9821151e29403fcb503a16ec90318080.jpg",
+      "pred": 0.9996688067913055,
+      "prediction": "FAKE",
+      "confidence": 0.9996688067913055,
+      "whole_image_pred": 0.9998816251754761,
+      "crop80_pred": 0.999455988407135
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\985ad4296b49ac218d13ec214d5106af.jpg",
+      "pred": 0.989611804485321,
+      "prediction": "FAKE",
+      "confidence": 0.989611804485321,
+      "whole_image_pred": 0.9946350455284119,
+      "crop80_pred": 0.9845885634422302
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\98e567c883a0bda03579b13e1e2a82df.jpg",
+      "pred": 0.9956209361553192,
+      "prediction": "FAKE",
+      "confidence": 0.9956209361553192,
+      "whole_image_pred": 0.9951505661010742,
+      "crop80_pred": 0.9960913062095642
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\99a563352e6cd5efa1e88b55abfa5cd5.jpg",
+      "pred": 0.9999688863754272,
+      "prediction": "FAKE",
+      "confidence": 0.9999688863754272,
+      "whole_image_pred": 0.999994158744812,
+      "crop80_pred": 0.9999436140060425
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\99e5326efdd7031c958972677fbb4019.jpg",
+      "pred": 0.999555379152298,
+      "prediction": "FAKE",
+      "confidence": 0.999555379152298,
+      "whole_image_pred": 0.9997119307518005,
+      "crop80_pred": 0.9993988275527954
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9a18ccec03282c5d5b28406ba21f1731.jpg",
+      "pred": 0.998036652803421,
+      "prediction": "FAKE",
+      "confidence": 0.998036652803421,
+      "whole_image_pred": 0.9996621608734131,
+      "crop80_pred": 0.996411144733429
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9a546cdd50059af8fd21841751674cf0.jpg",
+      "pred": 0.9902834594249725,
+      "prediction": "FAKE",
+      "confidence": 0.9902834594249725,
+      "whole_image_pred": 0.9927017688751221,
+      "crop80_pred": 0.987865149974823
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9aaef2c05344626e272ab1c618bf0658.jpg",
+      "pred": 0.999411940574646,
+      "prediction": "FAKE",
+      "confidence": 0.999411940574646,
+      "whole_image_pred": 0.9999022483825684,
+      "crop80_pred": 0.9989216327667236
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9b668dc44f2efd93ebcfb61103edb191.jpg",
+      "pred": 0.9999914169311523,
+      "prediction": "FAKE",
+      "confidence": 0.9999914169311523,
+      "whole_image_pred": 0.9999949932098389,
+      "crop80_pred": 0.9999878406524658
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9bf6c5be2e87b109365419d3e58c02e7.jpg",
+      "pred": 0.9995081126689911,
+      "prediction": "FAKE",
+      "confidence": 0.9995081126689911,
+      "whole_image_pred": 0.9997251629829407,
+      "crop80_pred": 0.9992910623550415
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9c0d07526c3e248cef18511be40e53ac.jpg",
+      "pred": 0.9996107816696167,
+      "prediction": "FAKE",
+      "confidence": 0.9996107816696167,
+      "whole_image_pred": 0.9997648596763611,
+      "crop80_pred": 0.9994567036628723
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9c5b9f98452f2d739bbfd6796ee0fe7b.jpg",
+      "pred": 0.9998870193958282,
+      "prediction": "FAKE",
+      "confidence": 0.9998870193958282,
+      "whole_image_pred": 0.9999701976776123,
+      "crop80_pred": 0.9998038411140442
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9c8b73ade3084c688714e9f1f2b69402.jpg",
+      "pred": 0.9994354248046875,
+      "prediction": "FAKE",
+      "confidence": 0.9994354248046875,
+      "whole_image_pred": 0.9997673630714417,
+      "crop80_pred": 0.9991034865379333
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9cb08b6435c0ab499b1543df27183e03.jpg",
+      "pred": 0.5589417964220047,
+      "prediction": "FAKE",
+      "confidence": 0.5589417964220047,
+      "whole_image_pred": 0.31723448634147644,
+      "crop80_pred": 0.800649106502533
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9d4a916b306b8adf8e3bae1a3c06cf59.jpg",
+      "pred": 0.9998520910739899,
+      "prediction": "FAKE",
+      "confidence": 0.9998520910739899,
+      "whole_image_pred": 0.9999656677246094,
+      "crop80_pred": 0.9997385144233704
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9dc5b40f685311714b179f82f37318f0.jpg",
+      "pred": 0.9999984502792358,
+      "prediction": "FAKE",
+      "confidence": 0.9999984502792358,
+      "whole_image_pred": 0.9999985694885254,
+      "crop80_pred": 0.9999983310699463
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9e44f04ec1548bd6f8cc9009ca40e3a4.jpg",
+      "pred": 0.9999875426292419,
+      "prediction": "FAKE",
+      "confidence": 0.9999875426292419,
+      "whole_image_pred": 0.999983549118042,
+      "crop80_pred": 0.9999915361404419
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\9f9014ec4368147dc73eedf9a0f3f5fd.jpg",
+      "pred": 0.9999701976776123,
+      "prediction": "FAKE",
+      "confidence": 0.9999701976776123,
+      "whole_image_pred": 0.9999877214431763,
+      "crop80_pred": 0.9999526739120483
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a33d956b6a2c094db5b8bdbe62f33df8.jpg",
+      "pred": 0.9991737008094788,
+      "prediction": "FAKE",
+      "confidence": 0.9991737008094788,
+      "whole_image_pred": 0.9999306201934814,
+      "crop80_pred": 0.9984167814254761
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a37bc00c36da8c46af6298e6dbfbf4bf.jpg",
+      "pred": 0.9804550409317017,
+      "prediction": "FAKE",
+      "confidence": 0.9804550409317017,
+      "whole_image_pred": 0.9932206869125366,
+      "crop80_pred": 0.9676893949508667
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a39983929af94dbb42b18b350d7699eb.jpg",
+      "pred": 0.9977379441261292,
+      "prediction": "FAKE",
+      "confidence": 0.9977379441261292,
+      "whole_image_pred": 0.9990217685699463,
+      "crop80_pred": 0.996454119682312
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a47efc4de5a3f2b02fc8e1be5c6f7149.jpg",
+      "pred": 0.9999993443489075,
+      "prediction": "FAKE",
+      "confidence": 0.9999993443489075,
+      "whole_image_pred": 0.9999995231628418,
+      "crop80_pred": 0.9999991655349731
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a595a5116274f92b97cb4b53f3745e04.jpg",
+      "pred": 0.9998848736286163,
+      "prediction": "FAKE",
+      "confidence": 0.9998848736286163,
+      "whole_image_pred": 0.9999688863754272,
+      "crop80_pred": 0.9998008608818054
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a6742d09fbfa4ef2998d4183c4255ffc.jpg",
+      "pred": 0.9991806149482727,
+      "prediction": "FAKE",
+      "confidence": 0.9991806149482727,
+      "whole_image_pred": 0.9997708201408386,
+      "crop80_pred": 0.9985904097557068
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a6dc9cb29bfb6b2531e447584977a1bc.jpg",
+      "pred": 0.9995788335800171,
+      "prediction": "FAKE",
+      "confidence": 0.9995788335800171,
+      "whole_image_pred": 0.9996732473373413,
+      "crop80_pred": 0.9994844198226929
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a727a9222004b4165e87e8d75e0bc8e9.jpg",
+      "pred": 0.9897438883781433,
+      "prediction": "FAKE",
+      "confidence": 0.9897438883781433,
+      "whole_image_pred": 0.9991360306739807,
+      "crop80_pred": 0.9803517460823059
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a7668ac9690921c0e5449b1243d8beff.jpg",
+      "pred": 0.9979691803455353,
+      "prediction": "FAKE",
+      "confidence": 0.9979691803455353,
+      "whole_image_pred": 0.9988200068473816,
+      "crop80_pred": 0.997118353843689
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a88349464c0c918a59266181677e1833.jpg",
+      "pred": 0.9999969005584717,
+      "prediction": "FAKE",
+      "confidence": 0.9999969005584717,
+      "whole_image_pred": 0.9999983310699463,
+      "crop80_pred": 0.9999954700469971
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a92998a5de937d044e58a830466ce64e.jpg",
+      "pred": 0.9877175092697144,
+      "prediction": "FAKE",
+      "confidence": 0.9877175092697144,
+      "whole_image_pred": 0.9994142055511475,
+      "crop80_pred": 0.9760208129882812
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a947cd182bdb388d8551611da5e0a47a.jpg",
+      "pred": 0.9665601253509521,
+      "prediction": "FAKE",
+      "confidence": 0.9665601253509521,
+      "whole_image_pred": 0.9853876233100891,
+      "crop80_pred": 0.9477326273918152
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\a991370df1e5e3aea605fd9df5cf81c5.jpg",
+      "pred": 0.9913871884346008,
+      "prediction": "FAKE",
+      "confidence": 0.9913871884346008,
+      "whole_image_pred": 0.9972885847091675,
+      "crop80_pred": 0.9854857921600342
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\aa0120b502b4f6a0e5c8ae504fae47bb.jpg",
+      "pred": 0.9999666810035706,
+      "prediction": "FAKE",
+      "confidence": 0.9999666810035706,
+      "whole_image_pred": 0.9999905824661255,
+      "crop80_pred": 0.9999427795410156
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\aa6f9fa00462834e3e61a163101bd91c.jpg",
+      "pred": 0.9999873638153076,
+      "prediction": "FAKE",
+      "confidence": 0.9999873638153076,
+      "whole_image_pred": 0.9999957084655762,
+      "crop80_pred": 0.9999790191650391
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\aaf22e2e48e4f01deaaa97b1b5bd48e1.jpg",
+      "pred": 0.9999891519546509,
+      "prediction": "FAKE",
+      "confidence": 0.9999891519546509,
+      "whole_image_pred": 0.9999953508377075,
+      "crop80_pred": 0.9999829530715942
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\abc2b051bf037f500010418be149d2ea.jpg",
+      "pred": 0.9984548985958099,
+      "prediction": "FAKE",
+      "confidence": 0.9984548985958099,
+      "whole_image_pred": 0.9987919926643372,
+      "crop80_pred": 0.9981178045272827
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\abc683581fb3d1eb0846cbb183a913ce.jpg",
+      "pred": 0.9998620450496674,
+      "prediction": "FAKE",
+      "confidence": 0.9998620450496674,
+      "whole_image_pred": 0.999911904335022,
+      "crop80_pred": 0.9998121857643127
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ac23c52638e3fb55d7d8bc028e972ac7.jpg",
+      "pred": 0.9962592422962189,
+      "prediction": "FAKE",
+      "confidence": 0.9962592422962189,
+      "whole_image_pred": 0.9983445405960083,
+      "crop80_pred": 0.9941739439964294
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ac563d93efefa94d1e96e8cd94bf0560.jpg",
+      "pred": 0.9999995231628418,
+      "prediction": "FAKE",
+      "confidence": 0.9999995231628418,
+      "whole_image_pred": 0.9999995231628418,
+      "crop80_pred": 0.9999995231628418
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ad73a81d6f15af88c4807d8dd2fef54a.jpg",
+      "pred": 0.9383015632629395,
+      "prediction": "FAKE",
+      "confidence": 0.9383015632629395,
+      "whole_image_pred": 0.9390853643417358,
+      "crop80_pred": 0.9375177621841431
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ae694e9b7eb5f7c1f9eb55a1efb87369.jpg",
+      "pred": 0.9998285472393036,
+      "prediction": "FAKE",
+      "confidence": 0.9998285472393036,
+      "whole_image_pred": 0.9997308850288391,
+      "crop80_pred": 0.9999262094497681
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\aecdbca589ca0f3d531201d00f629eee.jpg",
+      "pred": 0.9997911751270294,
+      "prediction": "FAKE",
+      "confidence": 0.9997911751270294,
+      "whole_image_pred": 0.9998632669448853,
+      "crop80_pred": 0.9997190833091736
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b09cd49b658af652c23ae21575853d87.jpg",
+      "pred": 0.9997729659080505,
+      "prediction": "FAKE",
+      "confidence": 0.9997729659080505,
+      "whole_image_pred": 0.9997543692588806,
+      "crop80_pred": 0.9997915625572205
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b12362fc7f22e0f5b98c60c47e7b565a.jpg",
+      "pred": 0.649506226181984,
+      "prediction": "FAKE",
+      "confidence": 0.649506226181984,
+      "whole_image_pred": 0.8888777494430542,
+      "crop80_pred": 0.4101347029209137
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b1d6e22fd807489c966d2d26e302e9e7.jpg",
+      "pred": 0.9999954700469971,
+      "prediction": "FAKE",
+      "confidence": 0.9999954700469971,
+      "whole_image_pred": 0.9999982118606567,
+      "crop80_pred": 0.9999927282333374
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b246f7f6529b5b287b02dc56aad78e28.jpg",
+      "pred": 0.9987370669841766,
+      "prediction": "FAKE",
+      "confidence": 0.9987370669841766,
+      "whole_image_pred": 0.999945878982544,
+      "crop80_pred": 0.9975282549858093
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b3308b147593599fb44aa69b8e9064ef.jpg",
+      "pred": 0.9945130348205566,
+      "prediction": "FAKE",
+      "confidence": 0.9945130348205566,
+      "whole_image_pred": 0.9933170080184937,
+      "crop80_pred": 0.9957090616226196
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b43791c8fc124aa96c2c7b3ca3afea91.jpg",
+      "pred": 0.9971032738685608,
+      "prediction": "FAKE",
+      "confidence": 0.9971032738685608,
+      "whole_image_pred": 0.9976884126663208,
+      "crop80_pred": 0.9965181350708008
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b473b79179effe3a5c9f0d29ba637f41.jpg",
+      "pred": 0.9302231967449188,
+      "prediction": "FAKE",
+      "confidence": 0.9302231967449188,
+      "whole_image_pred": 0.9119017720222473,
+      "crop80_pred": 0.9485446214675903
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b4e4b11374c1c79ef0ca4f97674e7471.jpg",
+      "pred": 0.9498336613178253,
+      "prediction": "FAKE",
+      "confidence": 0.9498336613178253,
+      "whole_image_pred": 0.9104595184326172,
+      "crop80_pred": 0.9892078042030334
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b58a9920b689b2e86838e96cd2d29e77.jpg",
+      "pred": 0.9994775950908661,
+      "prediction": "FAKE",
+      "confidence": 0.9994775950908661,
+      "whole_image_pred": 0.9998364448547363,
+      "crop80_pred": 0.9991187453269958
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b739deaec7f8ec5923d8bd5eb7c5ec4d.jpg",
+      "pred": 0.9999960064888,
+      "prediction": "FAKE",
+      "confidence": 0.9999960064888,
+      "whole_image_pred": 0.9999990463256836,
+      "crop80_pred": 0.9999929666519165
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b75c7fe3db267d669e3a50473d0e0304.jpg",
+      "pred": 0.9945626854896545,
+      "prediction": "FAKE",
+      "confidence": 0.9945626854896545,
+      "whole_image_pred": 0.9956490397453308,
+      "crop80_pred": 0.9934763312339783
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b856fd72f8485d7d44183ca6e6adedec.jpg",
+      "pred": 0.9999854564666748,
+      "prediction": "FAKE",
+      "confidence": 0.9999854564666748,
+      "whole_image_pred": 0.9999876022338867,
+      "crop80_pred": 0.9999833106994629
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b8d05203c62802f07c8d1cae7e9f982b.jpg",
+      "pred": 0.9999922513961792,
+      "prediction": "FAKE",
+      "confidence": 0.9999922513961792,
+      "whole_image_pred": 0.999996542930603,
+      "crop80_pred": 0.9999879598617554
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b944d749229464a8200a92da98b95506.jpg",
+      "pred": 0.9999814629554749,
+      "prediction": "FAKE",
+      "confidence": 0.9999814629554749,
+      "whole_image_pred": 0.9999823570251465,
+      "crop80_pred": 0.9999805688858032
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b9594b34c0795ff07cfb1f059c609d1a.jpg",
+      "pred": 0.9946296215057373,
+      "prediction": "FAKE",
+      "confidence": 0.9946296215057373,
+      "whole_image_pred": 0.998700737953186,
+      "crop80_pred": 0.9905585050582886
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b974c2e445a95c000f4dad7431ca952c.jpg",
+      "pred": 0.8296046257019043,
+      "prediction": "FAKE",
+      "confidence": 0.8296046257019043,
+      "whole_image_pred": 0.9922722578048706,
+      "crop80_pred": 0.666936993598938
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b98883db516eb017d78083c702ad7018.jpg",
+      "pred": 0.9987113773822784,
+      "prediction": "FAKE",
+      "confidence": 0.9987113773822784,
+      "whole_image_pred": 0.9998107552528381,
+      "crop80_pred": 0.9976119995117188
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b9c98842f63ca861915efbf5b699c51c.jpg",
+      "pred": 0.998060405254364,
+      "prediction": "FAKE",
+      "confidence": 0.998060405254364,
+      "whole_image_pred": 0.9998524188995361,
+      "crop80_pred": 0.9962683916091919
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\b9d162407dedca131299c2a2403c4dcf.jpg",
+      "pred": 0.9994208514690399,
+      "prediction": "FAKE",
+      "confidence": 0.9994208514690399,
+      "whole_image_pred": 0.9996041655540466,
+      "crop80_pred": 0.9992375373840332
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ba0bbe6f47d45c7d6d16664d230bd298.jpg",
+      "pred": 0.9970270693302155,
+      "prediction": "FAKE",
+      "confidence": 0.9970270693302155,
+      "whole_image_pred": 0.9960901141166687,
+      "crop80_pred": 0.9979640245437622
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bb3475916dde1031bcc72c5241dee136.jpg",
+      "pred": 0.9999895691871643,
+      "prediction": "FAKE",
+      "confidence": 0.9999895691871643,
+      "whole_image_pred": 0.9999990463256836,
+      "crop80_pred": 0.999980092048645
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bb52300990a188cd484a1b89ad23b5ed.jpg",
+      "pred": 0.9931405484676361,
+      "prediction": "FAKE",
+      "confidence": 0.9931405484676361,
+      "whole_image_pred": 0.995881199836731,
+      "crop80_pred": 0.9903998970985413
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bc3601f4113aac913b09c530820215f2.jpg",
+      "pred": 0.9942750334739685,
+      "prediction": "FAKE",
+      "confidence": 0.9942750334739685,
+      "whole_image_pred": 0.9991211295127869,
+      "crop80_pred": 0.9894289374351501
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bca902cfca09c1c3f527cd63e8c3fd4d.jpg",
+      "pred": 0.9941596984863281,
+      "prediction": "FAKE",
+      "confidence": 0.9941596984863281,
+      "whole_image_pred": 0.9964748024940491,
+      "crop80_pred": 0.9918445944786072
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bd2bcefa9abc1339b8bd9f28d148a712.jpg",
+      "pred": 0.9998161494731903,
+      "prediction": "FAKE",
+      "confidence": 0.9998161494731903,
+      "whole_image_pred": 0.9998359680175781,
+      "crop80_pred": 0.9997963309288025
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\be6a28d17aa7a887b7d09808ee63444f.jpg",
+      "pred": 0.9999998211860657,
+      "prediction": "FAKE",
+      "confidence": 0.9999998211860657,
+      "whole_image_pred": 1.0,
+      "crop80_pred": 0.9999996423721313
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bea76b8a973790d5478ba92f73a0f94a.jpg",
+      "pred": 0.999224990606308,
+      "prediction": "FAKE",
+      "confidence": 0.999224990606308,
+      "whole_image_pred": 0.9999314546585083,
+      "crop80_pred": 0.9985185265541077
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bf0054965a6119a825a8a8225ace4c53.jpg",
+      "pred": 0.9998739063739777,
+      "prediction": "FAKE",
+      "confidence": 0.9998739063739777,
+      "whole_image_pred": 0.9999655485153198,
+      "crop80_pred": 0.9997822642326355
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bf00d050ec29d9fb40b5b1e2eeeebe00.jpg",
+      "pred": 0.9999927878379822,
+      "prediction": "FAKE",
+      "confidence": 0.9999927878379822,
+      "whole_image_pred": 0.9999926090240479,
+      "crop80_pred": 0.9999929666519165
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bf8561a7d64516c52b84c6ab5046b93c.jpg",
+      "pred": 0.16026853024959564,
+      "prediction": "REAL",
+      "confidence": 0.8397314697504044,
+      "whole_image_pred": 0.15549330413341522,
+      "crop80_pred": 0.16504375636577606
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\bf9dd5463b252289834a2c3f8120052b.jpg",
+      "pred": 0.9987141489982605,
+      "prediction": "FAKE",
+      "confidence": 0.9987141489982605,
+      "whole_image_pred": 0.9986501336097717,
+      "crop80_pred": 0.9987781643867493
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c0b8b12f602a718b413ba878a3d6c720.jpg",
+      "pred": 0.18735870718955994,
+      "prediction": "REAL",
+      "confidence": 0.8126412928104401,
+      "whole_image_pred": 0.274791419506073,
+      "crop80_pred": 0.09992599487304688
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c362fbf905b775f49bc1ca376ca6515b.jpg",
+      "pred": 0.9999996423721313,
+      "prediction": "FAKE",
+      "confidence": 0.9999996423721313,
+      "whole_image_pred": 0.9999998807907104,
+      "crop80_pred": 0.9999994039535522
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c4e4c651167f6c75e2ae8fb8333976e5.jpg",
+      "pred": 0.8166910111904144,
+      "prediction": "FAKE",
+      "confidence": 0.8166910111904144,
+      "whole_image_pred": 0.8405168652534485,
+      "crop80_pred": 0.7928651571273804
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c5097ad662b67c9af001724e3a102d3c.jpg",
+      "pred": 0.368800051510334,
+      "prediction": "REAL",
+      "confidence": 0.631199948489666,
+      "whole_image_pred": 0.5330467224121094,
+      "crop80_pred": 0.20455338060855865
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c5556c8ef0243ba9481be664cdb8075b.jpg",
+      "pred": 0.993005096912384,
+      "prediction": "FAKE",
+      "confidence": 0.993005096912384,
+      "whole_image_pred": 0.9999043941497803,
+      "crop80_pred": 0.9861057996749878
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c5f82c448aacd85d0ba70e86e2861185.jpg",
+      "pred": 0.9999487996101379,
+      "prediction": "FAKE",
+      "confidence": 0.9999487996101379,
+      "whole_image_pred": 0.9999700784683228,
+      "crop80_pred": 0.9999275207519531
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c6107694becab20a9ac14f9450126673.jpg",
+      "pred": 0.999955952167511,
+      "prediction": "FAKE",
+      "confidence": 0.999955952167511,
+      "whole_image_pred": 0.9999423027038574,
+      "crop80_pred": 0.9999696016311646
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c6ca0a28503b7a970f0c5527afe1a5b2.jpg",
+      "pred": 0.9996445178985596,
+      "prediction": "FAKE",
+      "confidence": 0.9996445178985596,
+      "whole_image_pred": 0.9998152852058411,
+      "crop80_pred": 0.9994737505912781
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c73db9e07daad5c11b30a46817c09991.jpg",
+      "pred": 0.9997901916503906,
+      "prediction": "FAKE",
+      "confidence": 0.9997901916503906,
+      "whole_image_pred": 0.9999399185180664,
+      "crop80_pred": 0.9996404647827148
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c7e3da911dcfd74bef28270845b53f10.jpg",
+      "pred": 0.9999834299087524,
+      "prediction": "FAKE",
+      "confidence": 0.9999834299087524,
+      "whole_image_pred": 0.9999744892120361,
+      "crop80_pred": 0.9999923706054688
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c7f0d061f3c126d4d0b9949ce53c90f8.jpg",
+      "pred": 0.9995934665203094,
+      "prediction": "FAKE",
+      "confidence": 0.9995934665203094,
+      "whole_image_pred": 0.9999234676361084,
+      "crop80_pred": 0.9992634654045105
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c83fcf3cb3cab0d34d4db7eec80925fe.jpg",
+      "pred": 0.9977046251296997,
+      "prediction": "FAKE",
+      "confidence": 0.9977046251296997,
+      "whole_image_pred": 0.9967514276504517,
+      "crop80_pred": 0.9986578226089478
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\c885d94922d231ac690c38cbc83542fe.jpg",
+      "pred": 0.9939832091331482,
+      "prediction": "FAKE",
+      "confidence": 0.9939832091331482,
+      "whole_image_pred": 0.9958974123001099,
+      "crop80_pred": 0.9920690059661865
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\cb4ee8388bf3704f20068a9845ee2cf6.jpg",
+      "pred": 0.9961242973804474,
+      "prediction": "FAKE",
+      "confidence": 0.9961242973804474,
+      "whole_image_pred": 0.9978837370872498,
+      "crop80_pred": 0.994364857673645
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\cba976ad8ed2d87fa536999db058df65.jpg",
+      "pred": 0.9994489550590515,
+      "prediction": "FAKE",
+      "confidence": 0.9994489550590515,
+      "whole_image_pred": 0.9999351501464844,
+      "crop80_pred": 0.9989627599716187
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\cd5904939dbbf8aa5239a2118d626e6f.jpg",
+      "pred": 0.9939231276512146,
+      "prediction": "FAKE",
+      "confidence": 0.9939231276512146,
+      "whole_image_pred": 0.9986679553985596,
+      "crop80_pred": 0.9891782999038696
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\cecf88d4e90404717cc4db047072281c.jpg",
+      "pred": 0.9999621510505676,
+      "prediction": "FAKE",
+      "confidence": 0.9999621510505676,
+      "whole_image_pred": 0.9999796152114868,
+      "crop80_pred": 0.9999446868896484
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ced6e2ef81cffd747ec25a96ecd2d76d.jpg",
+      "pred": 0.999973475933075,
+      "prediction": "FAKE",
+      "confidence": 0.999973475933075,
+      "whole_image_pred": 0.9999822378158569,
+      "crop80_pred": 0.999964714050293
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\cfc16fad26de8d178205ece8b58b5e45.jpg",
+      "pred": 0.999999463558197,
+      "prediction": "FAKE",
+      "confidence": 0.999999463558197,
+      "whole_image_pred": 0.9999994039535522,
+      "crop80_pred": 0.9999995231628418
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\d0d6d37b4a806523e840d1aa1e73b8b7.jpg",
+      "pred": 0.9999828338623047,
+      "prediction": "FAKE",
+      "confidence": 0.9999828338623047,
+      "whole_image_pred": 0.9999923706054688,
+      "crop80_pred": 0.9999732971191406
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\d1c317f2429de20b96a2effdeab4215b.jpg",
+      "pred": 0.9949718713760376,
+      "prediction": "FAKE",
+      "confidence": 0.9949718713760376,
+      "whole_image_pred": 0.9947896003723145,
+      "crop80_pred": 0.9951541423797607
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\d4eef373917ae440cdb8950465cc9b30.jpg",
+      "pred": 0.9999227523803711,
+      "prediction": "FAKE",
+      "confidence": 0.9999227523803711,
+      "whole_image_pred": 0.9999954700469971,
+      "crop80_pred": 0.9998500347137451
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\d5a25f99f76339b5285f37ad85e50653.jpg",
+      "pred": 0.9999980926513672,
+      "prediction": "FAKE",
+      "confidence": 0.9999980926513672,
+      "whole_image_pred": 0.9999982118606567,
+      "crop80_pred": 0.9999979734420776
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\d642eb42b1f526824b67054c1f07b33a.jpg",
+      "pred": 0.9995899200439453,
+      "prediction": "FAKE",
+      "confidence": 0.9995899200439453,
+      "whole_image_pred": 0.9997486472129822,
+      "crop80_pred": 0.9994311928749084
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\d847bbb634ba6fc207f25799327e95ac.jpg",
+      "pred": 0.04256492014974356,
+      "prediction": "REAL",
+      "confidence": 0.9574350798502564,
+      "whole_image_pred": 0.028051814064383507,
+      "crop80_pred": 0.05707802623510361
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\d8935151f7f169e654400a2787001aaa.jpg",
+      "pred": 0.9993620812892914,
+      "prediction": "FAKE",
+      "confidence": 0.9993620812892914,
+      "whole_image_pred": 0.9995798468589783,
+      "crop80_pred": 0.9991443157196045
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\d95ab715635fa0b37cf008585a8c8317.jpg",
+      "pred": 0.9989419281482697,
+      "prediction": "FAKE",
+      "confidence": 0.9989419281482697,
+      "whole_image_pred": 0.9987415671348572,
+      "crop80_pred": 0.9991422891616821
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\dae516fd14b428ee74d19ec93f7542e7.jpg",
+      "pred": 0.9999464750289917,
+      "prediction": "FAKE",
+      "confidence": 0.9999464750289917,
+      "whole_image_pred": 0.9999959468841553,
+      "crop80_pred": 0.9998970031738281
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\dbf3d392f62de3ed6808fffcdadb0bdb.jpg",
+      "pred": 0.9995414018630981,
+      "prediction": "FAKE",
+      "confidence": 0.9995414018630981,
+      "whole_image_pred": 0.9996767044067383,
+      "crop80_pred": 0.999406099319458
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\dc45fa1e5828d6b2e51e53b20cab74cd.jpg",
+      "pred": 0.991791695356369,
+      "prediction": "FAKE",
+      "confidence": 0.991791695356369,
+      "whole_image_pred": 0.9942598342895508,
+      "crop80_pred": 0.9893235564231873
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\de8fba5bf89c0e6f9e96ac711024622d.jpg",
+      "pred": 0.9918920695781708,
+      "prediction": "FAKE",
+      "confidence": 0.9918920695781708,
+      "whole_image_pred": 0.9921554923057556,
+      "crop80_pred": 0.9916286468505859
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\dedb3701e5016db4c94a7e4e60f1a419.jpg",
+      "pred": 0.995842307806015,
+      "prediction": "FAKE",
+      "confidence": 0.995842307806015,
+      "whole_image_pred": 0.9967292547225952,
+      "crop80_pred": 0.9949553608894348
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\df3d9e9d9c16965e3c01fbd26ae9b113.jpg",
+      "pred": 0.9994432330131531,
+      "prediction": "FAKE",
+      "confidence": 0.9994432330131531,
+      "whole_image_pred": 0.999663233757019,
+      "crop80_pred": 0.9992232322692871
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\df546ebde8653fe2e8138b0b1ffdc459.jpg",
+      "pred": 0.9974128901958466,
+      "prediction": "FAKE",
+      "confidence": 0.9974128901958466,
+      "whole_image_pred": 0.9980489015579224,
+      "crop80_pred": 0.9967768788337708
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\e0351585cac48682edab9abbe8f38e4c.jpg",
+      "pred": 0.999629408121109,
+      "prediction": "FAKE",
+      "confidence": 0.999629408121109,
+      "whole_image_pred": 0.9997733235359192,
+      "crop80_pred": 0.9994854927062988
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\e111fe2fa3a69ae8fb0195aa41f945ef.jpg",
+      "pred": 0.9985570907592773,
+      "prediction": "FAKE",
+      "confidence": 0.9985570907592773,
+      "whole_image_pred": 0.9996771812438965,
+      "crop80_pred": 0.9974370002746582
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\e5de123b517d2e6cfa0700bf31a3e6be.jpg",
+      "pred": 0.9990334212779999,
+      "prediction": "FAKE",
+      "confidence": 0.9990334212779999,
+      "whole_image_pred": 0.999882698059082,
+      "crop80_pred": 0.9981841444969177
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\e5e69f8f141141dbb0e97055c6454c99.jpg",
+      "pred": 0.9970131516456604,
+      "prediction": "FAKE",
+      "confidence": 0.9970131516456604,
+      "whole_image_pred": 0.9992648959159851,
+      "crop80_pred": 0.9947614073753357
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\e7f011bc0eaabd25f14ff6d60a77f26c.jpg",
+      "pred": 0.9993473589420319,
+      "prediction": "FAKE",
+      "confidence": 0.9993473589420319,
+      "whole_image_pred": 0.9997885823249817,
+      "crop80_pred": 0.998906135559082
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\e8820598f3fc4eb3792dbd09c8c41b9b.jpg",
+      "pred": 0.9999665021896362,
+      "prediction": "FAKE",
+      "confidence": 0.9999665021896362,
+      "whole_image_pred": 0.9999805688858032,
+      "crop80_pred": 0.9999524354934692
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\e9b1605dd03934f99f8d696284a21e95.jpg",
+      "pred": 0.9520497918128967,
+      "prediction": "FAKE",
+      "confidence": 0.9520497918128967,
+      "whole_image_pred": 0.9920910596847534,
+      "crop80_pred": 0.91200852394104
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\e9c7d6547446b9f1d7f36b42fa6ffc06.jpg",
+      "pred": 0.9708104133605957,
+      "prediction": "FAKE",
+      "confidence": 0.9708104133605957,
+      "whole_image_pred": 0.9890201687812805,
+      "crop80_pred": 0.9526006579399109
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ea1d387e4252a232690cee87331b66f2.jpg",
+      "pred": 0.9894266724586487,
+      "prediction": "FAKE",
+      "confidence": 0.9894266724586487,
+      "whole_image_pred": 0.9974656105041504,
+      "crop80_pred": 0.981387734413147
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ebbd656904cb8aa375f45e89fd375ad8.jpg",
+      "pred": 0.9944650232791901,
+      "prediction": "FAKE",
+      "confidence": 0.9944650232791901,
+      "whole_image_pred": 0.9960695505142212,
+      "crop80_pred": 0.9928604960441589
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ec21a19c0cc857efa0be49de2fd7ca85.jpg",
+      "pred": 0.9998255670070648,
+      "prediction": "FAKE",
+      "confidence": 0.9998255670070648,
+      "whole_image_pred": 0.9999203681945801,
+      "crop80_pred": 0.9997307658195496
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ec932ed0fd311b8aa9cc8a448127e6f9.jpg",
+      "pred": 0.9491533637046814,
+      "prediction": "FAKE",
+      "confidence": 0.9491533637046814,
+      "whole_image_pred": 0.9261639714241028,
+      "crop80_pred": 0.97214275598526
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ecbcae940906c02316140918430cdb45.jpg",
+      "pred": 0.9961442649364471,
+      "prediction": "FAKE",
+      "confidence": 0.9961442649364471,
+      "whole_image_pred": 0.9993711113929749,
+      "crop80_pred": 0.9929174184799194
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ed4740ee61bd78c461b59c8d1ec73304.jpg",
+      "pred": 0.5820808410644531,
+      "prediction": "FAKE",
+      "confidence": 0.5820808410644531,
+      "whole_image_pred": 0.7555895447731018,
+      "crop80_pred": 0.40857213735580444
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\eef9d3d1447f94ec5dc6f6b73b68923f.jpg",
+      "pred": 0.7249568700790405,
+      "prediction": "FAKE",
+      "confidence": 0.7249568700790405,
+      "whole_image_pred": 0.6861393451690674,
+      "crop80_pred": 0.7637743949890137
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ef5668cfd9230ed2a6333b043e7fb7a1.jpg",
+      "pred": 0.9091663658618927,
+      "prediction": "FAKE",
+      "confidence": 0.9091663658618927,
+      "whole_image_pred": 0.9181807637214661,
+      "crop80_pred": 0.9001519680023193
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\efc53a45d800045f169d7f86324b5179.jpg",
+      "pred": 0.9997653663158417,
+      "prediction": "FAKE",
+      "confidence": 0.9997653663158417,
+      "whole_image_pred": 0.9999293088912964,
+      "crop80_pred": 0.999601423740387
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f03bb2db06930f3dd0902de49626a25a.jpg",
+      "pred": 0.9999126195907593,
+      "prediction": "FAKE",
+      "confidence": 0.9999126195907593,
+      "whole_image_pred": 0.9999608993530273,
+      "crop80_pred": 0.9998643398284912
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f0aeb3f24af13fa90743e3e7292bd4c0.jpg",
+      "pred": 0.999908834695816,
+      "prediction": "FAKE",
+      "confidence": 0.999908834695816,
+      "whole_image_pred": 0.9999970197677612,
+      "crop80_pred": 0.9998206496238708
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f4cf1a720f9da74cf4d233ffd9247362.jpg",
+      "pred": 0.9993596971035004,
+      "prediction": "FAKE",
+      "confidence": 0.9993596971035004,
+      "whole_image_pred": 0.9998207688331604,
+      "crop80_pred": 0.9988986253738403
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f5fce2451d2149439f604ee9b8b51230.jpg",
+      "pred": 0.9972357451915741,
+      "prediction": "FAKE",
+      "confidence": 0.9972357451915741,
+      "whole_image_pred": 0.998239278793335,
+      "crop80_pred": 0.9962322115898132
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f65e823f390368161e0dc92399e20506.jpg",
+      "pred": 0.9959205090999603,
+      "prediction": "FAKE",
+      "confidence": 0.9959205090999603,
+      "whole_image_pred": 0.9994887113571167,
+      "crop80_pred": 0.992352306842804
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f7475d7d2ed83f05d80fc2aac5bb1ba7.jpg",
+      "pred": 0.9921701848506927,
+      "prediction": "FAKE",
+      "confidence": 0.9921701848506927,
+      "whole_image_pred": 0.9970555305480957,
+      "crop80_pred": 0.9872848391532898
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f84041ee6e27b3cd3fbeda34b493388f.jpg",
+      "pred": 0.9998944401741028,
+      "prediction": "FAKE",
+      "confidence": 0.9998944401741028,
+      "whole_image_pred": 0.999896764755249,
+      "crop80_pred": 0.9998921155929565
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f8762b74d6434c04abb6fb7a570449c3.jpg",
+      "pred": 0.9999300837516785,
+      "prediction": "FAKE",
+      "confidence": 0.9999300837516785,
+      "whole_image_pred": 0.9999594688415527,
+      "crop80_pred": 0.9999006986618042
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f87f1f1d0ed591d78d8ae6d045e7d2fa.jpg",
+      "pred": 0.99981489777565,
+      "prediction": "FAKE",
+      "confidence": 0.99981489777565,
+      "whole_image_pred": 0.9998799562454224,
+      "crop80_pred": 0.9997498393058777
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f935b7169b62b512c2a9cc24cc944527.jpg",
+      "pred": 0.9463711678981781,
+      "prediction": "FAKE",
+      "confidence": 0.9463711678981781,
+      "whole_image_pred": 0.9815890789031982,
+      "crop80_pred": 0.911153256893158
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\f9d569267864222d029980bebf711c58.jpg",
+      "pred": 0.9998718202114105,
+      "prediction": "FAKE",
+      "confidence": 0.9998718202114105,
+      "whole_image_pred": 0.9999707937240601,
+      "crop80_pred": 0.999772846698761
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\fa1e26e46af9040d5688fd9a47f2a70d.jpg",
+      "pred": 0.9999819993972778,
+      "prediction": "FAKE",
+      "confidence": 0.9999819993972778,
+      "whole_image_pred": 0.9999964237213135,
+      "crop80_pred": 0.9999675750732422
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\fad72070bbd686be00666bddc2c08362.jpg",
+      "pred": 0.9937562048435211,
+      "prediction": "FAKE",
+      "confidence": 0.9937562048435211,
+      "whole_image_pred": 0.9902238249778748,
+      "crop80_pred": 0.9972885847091675
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\fd93a21b3d9f755261def828a6615610.jpg",
+      "pred": 0.9993418455123901,
+      "prediction": "FAKE",
+      "confidence": 0.9993418455123901,
+      "whole_image_pred": 0.9997994303703308,
+      "crop80_pred": 0.9988842606544495
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\fdb642fa3c62b6dff468cf824f21e00a.jpg",
+      "pred": 0.9998912513256073,
+      "prediction": "FAKE",
+      "confidence": 0.9998912513256073,
+      "whole_image_pred": 0.9999798536300659,
+      "crop80_pred": 0.9998026490211487
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\fdf594f2b9909053ae93f02a9052362e.jpg",
+      "pred": 0.9682430028915405,
+      "prediction": "FAKE",
+      "confidence": 0.9682430028915405,
+      "whole_image_pred": 0.9639530777931213,
+      "crop80_pred": 0.9725329279899597
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\fe324dbb7d3ec2ab8303b864a3448f2b.jpg",
+      "pred": 0.9937257766723633,
+      "prediction": "FAKE",
+      "confidence": 0.9937257766723633,
+      "whole_image_pred": 0.995452344417572,
+      "crop80_pred": 0.9919992089271545
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\fe48b4106b7e3f3bdff0c82386cd41e0.jpg",
+      "pred": 0.9998396039009094,
+      "prediction": "FAKE",
+      "confidence": 0.9998396039009094,
+      "whole_image_pred": 0.9999899864196777,
+      "crop80_pred": 0.9996892213821411
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\ff378da7839c4c4cbad16cf15336772e.jpg",
+      "pred": 0.9992269277572632,
+      "prediction": "FAKE",
+      "confidence": 0.9992269277572632,
+      "whole_image_pred": 0.9988163709640503,
+      "crop80_pred": 0.9996374845504761
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\dalle\\fff8cce4ea9e3b3751babc4886d8c873.jpg",
+      "pred": 0.9996827244758606,
+      "prediction": "FAKE",
+      "confidence": 0.9996827244758606,
+      "whole_image_pred": 0.9997816681861877,
+      "crop80_pred": 0.9995837807655334
+    }
+  ]
+}

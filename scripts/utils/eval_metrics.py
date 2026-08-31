@@ -46,26 +46,35 @@ def false_negative_rate(probs: np.ndarray, labels: np.ndarray, threshold: float)
     return fn / (fn + tp) if (fn + tp) else float("nan")
 
 
-def print_fpr_table(title: str, groups: dict) -> None:
+def print_fpr_table(title: str, groups: dict) -> dict:
     """groups: {row_name: (probs, labels)}, e.g. one row per variant, or one row per
     source_dataset. Prints accuracy/auc (at the canonical 0.5 threshold) plus FPR and
-    FNR at each of FPR_THRESHOLDS, one row per group, in the order given."""
+    FNR at each of FPR_THRESHOLDS, one row per group, in the order given. Also RETURNS
+    the same per-row data as a dict (added for callers that want to save results to
+    JSON without re-parsing their own stdout, e.g.
+    evaluate_concat_drift_epoch_optimization.py -- existing callers that only wanted
+    the printed table are unaffected, since they simply don't use the return value)."""
     header = (f"{'':<14} {'n':>7} {'accuracy':>10} {'auc':>10}"
               + "".join(f"  fpr@{t:<4}" for t in FPR_THRESHOLDS)
               + "".join(f"  fnr@{t:<4}" for t in FPR_THRESHOLDS))
     print(f"\n{title}")
     print(header)
     print("-" * len(header))
+    rows = {}
     for name, (probs, labels) in groups.items():
         preds = (probs > 0.5).astype(int)
         acc = float((preds == labels).mean()) if len(labels) else float("nan")
         auc = float(roc_auc_score(labels, probs)) if len(set(labels.tolist())) > 1 else float("nan")
+        fpr = {str(t): false_positive_rate(probs, labels, t) for t in FPR_THRESHOLDS}
+        fnr = {str(t): false_negative_rate(probs, labels, t) for t in FPR_THRESHOLDS}
         row = f"{name:<14} {len(labels):>7} {acc:>10.4f} {auc:>10.4f}"
         for t in FPR_THRESHOLDS:
-            row += f"  {false_positive_rate(probs, labels, t):>7.4f}"
+            row += f"  {fpr[str(t)]:>7.4f}"
         for t in FPR_THRESHOLDS:
-            row += f"  {false_negative_rate(probs, labels, t):>7.4f}"
+            row += f"  {fnr[str(t)]:>7.4f}"
         print(row)
+        rows[name] = {"n": len(labels), "accuracy": acc, "auc": auc, "fpr": fpr, "fnr": fnr}
+    return rows
 
 
 def collect_errors(

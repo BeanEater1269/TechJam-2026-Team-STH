@@ -15,7 +15,7 @@ import secrets
 from datetime import datetime, timezone
 from pathlib import Path
 
-from inference import BACKBONE_DIM, BACKBONE_LABEL, FILM_CHECKPOINT, THRESHOLD, to_record
+from inference import BACKBONE_DIM, BACKBONE_LABEL, MODEL_CHECKPOINT, THRESHOLD, to_record
 
 RUN_ID_RE = re.compile(r"^run_\d{8}T\d{6}Z_[0-9a-f]{6}$")
 
@@ -77,10 +77,10 @@ def save_run(results_judge_root: Path, results: list, original_filenames: list) 
         "run_id": run_id,
         "created_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "kind": "judge",
-        "model": "film",
+        "model": "concat_drift",
         "backbone": BACKBONE_LABEL,
         "backbone_dim": BACKBONE_DIM,
-        "checkpoint": f"checkpoints/{FILM_CHECKPOINT.name}",
+        "checkpoint": f"checkpoints/{MODEL_CHECKPOINT.name}",
         "threshold": THRESHOLD,
         "n_images": n,
         "results": {"per_image": per_image, "summary": summary},

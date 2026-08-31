@@ -15,11 +15,6 @@ __pycache__/
 .venv/
 venv/
 
-# checkpoints / model weights
-*.pt
-*.pth
-*.ckpt
-
 # judge-uploaded images + their inference runs -- arbitrary third-party images, never commit
 results_judge/
 

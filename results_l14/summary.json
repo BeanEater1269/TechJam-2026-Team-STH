@@ -6,9 +6,10 @@
     "signals": "none",
     "signals_normalized": null,
     "backbone": "ViT-L/14",
-    "val_acc": 0.9283,
-    "val_auc": 0.9708,
-    "avg_loss": 0.1393
+    "device": "cuda",
+    "val_acc": 0.9327,
+    "val_auc": 0.9714,
+    "avg_loss": 0.1438
   },
   {
     "run": "concat_train",
@@ -17,9 +18,34 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-L/14",
-    "val_acc": 0.9367,
-    "val_auc": 0.9744,
-    "avg_loss": 0.1429
+    "device": "cuda",
+    "val_acc": 0.9297,
+    "val_auc": 0.9732,
+    "avg_loss": 0.14
+  },
+  {
+    "run": "concat_drift_train",
+    "kind": "train",
+    "model": "concat_drift",
+    "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance,clip_drift",
+    "signals_normalized": true,
+    "backbone": "ViT-L/14",
+    "device": "cuda",
+    "val_acc": 0.9297,
+    "val_auc": 0.9733,
+    "avg_loss": 0.1385
+  },
+  {
+    "run": "concat_drift_liqe_train",
+    "kind": "train",
+    "model": "concat_drift_liqe",
+    "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance,clip_drift,liqe_score",
+    "signals_normalized": true,
+    "backbone": "ViT-L/14",
+    "device": "cuda",
+    "val_acc": 0.93,
+    "val_auc": 0.9735,
+    "avg_loss": 0.14
   },
   {
     "run": "film_train",
@@ -28,9 +54,10 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-L/14",
-    "val_acc": 0.9373,
-    "val_auc": 0.9764,
-    "avg_loss": 0.26
+    "device": "cuda",
+    "val_acc": 0.9393,
+    "val_auc": 0.9757,
+    "avg_loss": 0.2618
   },
   {
     "run": "base_eval",
@@ -39,12 +66,13 @@
     "signals": "none",
     "signals_normalized": null,
     "backbone": "ViT-L/14",
-    "overall_acc": 0.9163,
-    "overall_auc": 0.9636,
-    "clean_acc": 0.927,
-    "clean_auc": 0.9683,
-    "mean15_acc": 0.9156,
-    "mean15_auc": 0.9631
+    "device": "cuda",
+    "overall_acc": 0.9191,
+    "overall_auc": 0.965,
+    "clean_acc": 0.932,
+    "clean_auc": 0.9699,
+    "mean15_acc": 0.9183,
+    "mean15_auc": 0.9646
   },
   {
     "run": "concat_eval",
@@ -53,12 +81,43 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-L/14",
-    "overall_acc": 0.9181,
+    "device": "cuda",
+    "overall_acc": 0.9188,
+    "overall_auc": 0.9644,
+    "clean_acc": 0.928,
+    "clean_auc": 0.9698,
+    "mean15_acc": 0.9182,
+    "mean15_auc": 0.964
+  },
+  {
+    "run": "concat_drift_eval",
+    "kind": "eval",
+    "model": "concat_drift",
+    "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance,clip_drift",
+    "signals_normalized": true,
+    "backbone": "ViT-L/14",
+    "device": "cuda",
+    "overall_acc": 0.9203,
     "overall_auc": 0.9654,
-    "clean_acc": 0.927,
-    "clean_auc": 0.9706,
-    "mean15_acc": 0.9175,
-    "mean15_auc": 0.965
+    "clean_acc": 0.929,
+    "clean_auc": 0.9699,
+    "mean15_acc": 0.9197,
+    "mean15_auc": 0.9651
+  },
+  {
+    "run": "concat_drift_liqe_eval",
+    "kind": "eval",
+    "model": "concat_drift_liqe",
+    "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance,clip_drift,liqe_score",
+    "signals_normalized": true,
+    "backbone": "ViT-L/14",
+    "device": "cuda",
+    "overall_acc": 0.9187,
+    "overall_auc": 0.9647,
+    "clean_acc": 0.9313,
+    "clean_auc": 0.9697,
+    "mean15_acc": 0.9179,
+    "mean15_auc": 0.9644
   },
   {
     "run": "film_eval",
@@ -67,11 +126,12 @@
     "signals": "laplacian_var,dct_low_energy,dct_high_energy,noise_variance",
     "signals_normalized": true,
     "backbone": "ViT-L/14",
-    "overall_acc": 0.9152,
+    "device": "cuda",
+    "overall_acc": 0.9166,
     "overall_auc": 0.9676,
-    "clean_acc": 0.931,
-    "clean_auc": 0.9751,
-    "mean15_acc": 0.9142,
-    "mean15_auc": 0.9677
+    "clean_acc": 0.9327,
+    "clean_auc": 0.9744,
+    "mean15_acc": 0.9155,
+    "mean15_auc": 0.9674
   }
 ]

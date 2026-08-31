@@ -1,29 +1,25 @@
 """
-Same as train_film_normalize.py (DCPT + FiLMClassifier, 4 z-scored B-signals), plus a
-5th signal: clip_drift (scripts/features/clip_drift.py's "full" version -- computed on
-all 16 variants, not just clean).
+Same as train_concat_normalize_drift.py (DCPT + ConcatClassifier, 4 z-scored B-signals +
+clip_drift), plus a 6th signal: liqe_score (scripts/features/liqe.py's pretrained
+image-quality probe, "signal D" -- covers color-jitter degradation, the one thing
+nothing else on the signal list touches).
 
-This matters even more for FiLM than for concatenation: FiLM feeds the raw signals
-through a Linear layer to produce a MULTIPLICATIVE scale and additive shift applied
-directly to the CLIP embedding (modulated = clip_embedding * (1 + scale) + shift). If
-the raw signal values are large/unnormalized, that scale/shift can distort the
-embedding severely before the MLP ever sees it -- same reasoning train_film_normalize.py
-already applies to the 4 B-signals, now extended to the 5th.
-
-clip_drift lives in its OWN file (data/cache/stats/{split}_drift.npz), separate from the
-4 B-signals' {split}_signals.npz -- signals.py and clip_drift.py are independent
-pipelines that happen to share a merge key. Both files have the same shape (img_ids +
-variant + score column(s)), so merging them in is "open a second file, key it the same
-(img_id, variant) way, stack the extra column on" -- no broadcasting needed, unlike the
-clean-only version of clip_drift.py this superseded.
+liqe_score lives in its OWN file (data/cache/stats/{split}_liqe.npz), separate from the
+4 B-signals' {split}_signals.npz and clip_drift's {split}_drift.npz -- signals.py,
+clip_drift.py, and liqe.py are three independent pipelines that happen to share a merge
+key. All three files have the same shape (img_ids + variant + score column(s)) -- LIQE
+needs no reference embedding to compare against, so (like signals.py, unlike the
+clean-only version of clip_drift.py) it naturally scores all 16 variants directly, no
+broadcast logic needed here either.
 
 Normalization stats (mean, std) are computed separately per file via normalize.py's
 existing compute_train_stats() (unmodified, still one-file-at-a-time) then concatenated
--- avoids touching normalize.py itself for what both files already do independently.
+-- avoids touching normalize.py itself for what all three files already do
+independently.
 
 Usage:
-    python scripts/training/train_film_normalize_drift.py
-    python scripts/training/train_film_normalize_drift.py --epochs 10 --backbone-dim 768
+    python scripts/training/train_concat_drift_liqe.py
+    python scripts/training/train_concat_drift_liqe.py --epochs 10 --backbone-dim 768
 """
 import argparse
 import random
@@ -41,43 +37,51 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "utils"))
 from normalize import apply_normalization, compute_train_stats  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
-from model_film import FiLMClassifier  # noqa: E402
+from model_concat import ConcatClassifier  # noqa: E402
 
 SIGNAL_COLUMNS = ["laplacian_var", "dct_low_energy", "dct_high_energy", "noise_variance"]
 DRIFT_COLUMNS = ["clip_drift"]
-ALL_SIGNAL_COLUMNS = SIGNAL_COLUMNS + DRIFT_COLUMNS
+LIQE_COLUMNS = ["liqe_score"]
+ALL_SIGNAL_COLUMNS = SIGNAL_COLUMNS + DRIFT_COLUMNS + LIQE_COLUMNS
 SIGNAL_DIM = len(ALL_SIGNAL_COLUMNS)
 
 
 def _build_lookup(stats_data, columns: list) -> dict:
-    """(img_id, variant) -> raw (unnormalized) column vector, for one stats npz."""
+    """(img_id, variant) -> raw (unnormalized) column vector, for one stats npz. Keys
+    are normalized to plain Python str on both sides of every comparison -- img_ids come
+    back as numpy string arrays from np.load(), but str(...) makes the exact numpy
+    dtype/width irrelevant, so signals.py/clip_drift.py/liqe.py's three independently
+    -derived id arrays all compare correctly even if their underlying dtypes differ."""
     img_ids, variant = stats_data["img_ids"], stats_data["variant"]
     matrix = np.stack([stats_data[col] for col in columns], axis=1).astype(np.float32)
     return {(str(img_ids[i]), str(variant[i])): matrix[i] for i in range(len(img_ids))}
 
 
 def load_merged_split(
-    embeddings_path: Path, base_stats_path: Path, drift_stats_path: Path,
+    embeddings_path: Path, base_stats_path: Path, drift_stats_path: Path, liqe_stats_path: Path,
     mean: np.ndarray, std: np.ndarray,
 ) -> dict:
-    """Returns img_id -> {variant_name: (embedding, NORMALIZED 5-dim signals_array, label)}.
+    """Returns img_id -> {variant_name: (embedding, NORMALIZED 6-dim signals_array, label)}.
 
-    Merges THREE sources by (img_id, variant): the CLIP embeddings, the 4 B-signals
-    (base_stats_path), and clip_drift (drift_stats_path) -- concatenated into one raw
-    5-vector per row, THEN normalized in one shot with the 5-dim mean/std (concatenated
-    in main() from two separate compute_train_stats() calls, in ALL_SIGNAL_COLUMNS
-    order). A row missing from EITHER stats file is dropped and counted, not guessed at
-    -- same reasoning as train_film_normalize.py's load_merged_split().
+    Merges FOUR sources by (img_id, variant): the CLIP embeddings, the 4 B-signals
+    (base_stats_path), clip_drift (drift_stats_path), and liqe_score (liqe_stats_path)
+    -- concatenated into one raw 6-vector per row, THEN normalized in one shot with the
+    6-dim mean/std (concatenated in main() from three separate compute_train_stats()
+    calls, in ALL_SIGNAL_COLUMNS order). A row missing from ANY of the three stats files
+    is dropped and counted, not guessed at -- same reasoning as
+    train_concat_normalize_drift.py's load_merged_split().
 
     All arrays are pulled out of every NpzFile ONCE, up front -- see
-    train_film_normalize.py's load_merged_split() for why indexing data[key][i] in a
+    train_concat_normalize.py's load_merged_split() for why indexing data[key][i] in a
     loop is a correctness/memory bug, not just a style choice."""
     emb_data = np.load(embeddings_path, allow_pickle=True)
     base_data = np.load(base_stats_path, allow_pickle=True)
     drift_data = np.load(drift_stats_path, allow_pickle=True)
+    liqe_data = np.load(liqe_stats_path, allow_pickle=True)
 
     base_lookup = _build_lookup(base_data, SIGNAL_COLUMNS)
     drift_lookup = _build_lookup(drift_data, DRIFT_COLUMNS)
+    liqe_lookup = _build_lookup(liqe_data, LIQE_COLUMNS)
 
     e_embeddings, e_img_ids, e_variant, e_labels = (
         emb_data["embeddings"], emb_data["img_ids"], emb_data["variant"], emb_data["labels"]
@@ -88,10 +92,10 @@ def load_merged_split(
         img_id = str(e_img_ids[i])
         variant = str(e_variant[i])
         key = (img_id, variant)
-        if key not in base_lookup or key not in drift_lookup:
+        if key not in base_lookup or key not in drift_lookup or key not in liqe_lookup:
             missing += 1
             continue
-        raw_signals = np.concatenate([base_lookup[key], drift_lookup[key]])
+        raw_signals = np.concatenate([base_lookup[key], drift_lookup[key], liqe_lookup[key]])
         norm_signals = apply_normalization(raw_signals, mean, std)
         by_img[img_id][variant] = (
             e_embeddings[i],
@@ -100,7 +104,8 @@ def load_merged_split(
         )
     if missing:
         print(f"  WARNING: {missing} embedding row(s) had no matching signals AND/OR "
-              f"drift row -- dropped. Check clip_drift.py ran on the same cache/embeddings.")
+              f"drift AND/OR liqe row -- dropped. Check clip_drift.py and liqe.py both "
+              f"ran on the same cache/embeddings.")
     return by_img
 
 
@@ -161,7 +166,7 @@ def main() -> None:
     ap.add_argument("--batch-size", type=int, default=64)
     ap.add_argument("--lr", type=float, default=1e-3)
     ap.add_argument("--consistency-max-weight", type=float, default=1.0)
-    ap.add_argument("--out", default="checkpoints/model_film_drift_normalized.pt")
+    ap.add_argument("--out", default="checkpoints/model_concat_drift_liqe_normalized.pt")
     ap.add_argument("--seed", type=int, default=42,
                      help="Seeds random/numpy/torch before model init and DCPT's random "
                           "per-step transform pick, so re-runs are reproducible.")
@@ -180,19 +185,22 @@ def main() -> None:
 
     base_mean, base_std = compute_train_stats(stats_root / "train_signals.npz", SIGNAL_COLUMNS)
     drift_mean, drift_std = compute_train_stats(stats_root / "train_drift.npz", DRIFT_COLUMNS)
-    mean = np.concatenate([base_mean, drift_mean])
-    std = np.concatenate([base_std, drift_std])
+    liqe_mean, liqe_std = compute_train_stats(stats_root / "train_liqe.npz", LIQE_COLUMNS)
+    mean = np.concatenate([base_mean, drift_mean, liqe_mean])
+    std = np.concatenate([base_std, drift_std, liqe_std])
     print(f"  signal mean (train): {mean}")
     print(f"  signal std  (train): {std}")
 
     train_by_img = load_merged_split(
-        emb_root / "train.npz", stats_root / "train_signals.npz", stats_root / "train_drift.npz", mean, std)
+        emb_root / "train.npz", stats_root / "train_signals.npz",
+        stats_root / "train_drift.npz", stats_root / "train_liqe.npz", mean, std)
     val_by_img = load_merged_split(
-        emb_root / "val.npz", stats_root / "val_signals.npz", stats_root / "val_drift.npz", mean, std)
+        emb_root / "val.npz", stats_root / "val_signals.npz",
+        stats_root / "val_drift.npz", stats_root / "val_liqe.npz", mean, std)
     train_ids = list(train_by_img.keys())
     print(f"train images: {len(train_ids)}, val images: {len(val_by_img)}")
 
-    model = FiLMClassifier(clip_dim=args.backbone_dim, signal_dim=SIGNAL_DIM).to(device)
+    model = ConcatClassifier(clip_dim=args.backbone_dim, signal_dim=SIGNAL_DIM).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
 
     steps_per_epoch = max(len(train_ids) // args.batch_size, 1)

@@ -1,0 +1,4128 @@
+{
+  "summary": {
+    "n": 686,
+    "n_fake": 109,
+    "n_real": 577,
+    "fake_rate": 0.1588921282798834,
+    "mean_pred": 0.27404928943919526,
+    "mean_confidence": 0.8169475951306345
+  },
+  "predictions": [
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\81c69d774a76fc2d.jpg",
+      "pred": 0.0042009805329144,
+      "prediction": "REAL",
+      "confidence": 0.9957990194670856
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\81e07925c384152a.jpg",
+      "pred": 0.015329145826399326,
+      "prediction": "REAL",
+      "confidence": 0.9846708541736007
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\82a06e5f21d877a5.jpg",
+      "pred": 0.6471619009971619,
+      "prediction": "FAKE",
+      "confidence": 0.6471619009971619
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\82c0f5f9ae9dbc9b.jpg",
+      "pred": 0.02593853883445263,
+      "prediction": "REAL",
+      "confidence": 0.9740614611655474
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\82f567b969ae84bf.jpg",
+      "pred": 0.5139212608337402,
+      "prediction": "FAKE",
+      "confidence": 0.5139212608337402
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8a2fdd00fc3145bd.jpg",
+      "pred": 0.2218879759311676,
+      "prediction": "REAL",
+      "confidence": 0.7781120240688324
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8a57551fff5d7d64.jpg",
+      "pred": 0.07816585153341293,
+      "prediction": "REAL",
+      "confidence": 0.9218341484665871
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8a73972565a0ea2a.jpg",
+      "pred": 0.24751432240009308,
+      "prediction": "REAL",
+      "confidence": 0.7524856775999069
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8b3de30c486867a5.jpg",
+      "pred": 0.26359084248542786,
+      "prediction": "REAL",
+      "confidence": 0.7364091575145721
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8b7c6793ba8e2663.jpg",
+      "pred": 0.1445370465517044,
+      "prediction": "REAL",
+      "confidence": 0.8554629534482956
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8c5b4426299dd8c1.jpg",
+      "pred": 0.1947692483663559,
+      "prediction": "REAL",
+      "confidence": 0.8052307516336441
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8c802a4148970f36.jpg",
+      "pred": 0.0010183942504227161,
+      "prediction": "REAL",
+      "confidence": 0.9989816057495773
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8c815d71db7a4282.jpg",
+      "pred": 0.004724358674138784,
+      "prediction": "REAL",
+      "confidence": 0.9952756413258612
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8c86e5bdb117736e.jpg",
+      "pred": 0.4901945888996124,
+      "prediction": "REAL",
+      "confidence": 0.5098054111003876
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8cd736700784edba.jpg",
+      "pred": 0.008528102189302444,
+      "prediction": "REAL",
+      "confidence": 0.9914718978106976
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8cf7ecb65e880473.jpg",
+      "pred": 0.347991019487381,
+      "prediction": "REAL",
+      "confidence": 0.652008980512619
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8d06200b23e1a21c.jpg",
+      "pred": 0.09830477088689804,
+      "prediction": "REAL",
+      "confidence": 0.901695229113102
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8d0a124a98935128.jpg",
+      "pred": 0.09824054688215256,
+      "prediction": "REAL",
+      "confidence": 0.9017594531178474
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8d25bdf1f63cae8d.jpg",
+      "pred": 0.09115778654813766,
+      "prediction": "REAL",
+      "confidence": 0.9088422134518623
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8d4c7a5f2e4ccc74.jpg",
+      "pred": 0.8957966566085815,
+      "prediction": "FAKE",
+      "confidence": 0.8957966566085815
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8d722d0d752af04d.jpg",
+      "pred": 0.12559711933135986,
+      "prediction": "REAL",
+      "confidence": 0.8744028806686401
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8d75b8fbfcb74348.jpg",
+      "pred": 0.8587973713874817,
+      "prediction": "FAKE",
+      "confidence": 0.8587973713874817
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8d912b3cac52c306.jpg",
+      "pred": 0.12547391653060913,
+      "prediction": "REAL",
+      "confidence": 0.8745260834693909
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8dad3652a807bfe4.jpg",
+      "pred": 0.06354880332946777,
+      "prediction": "REAL",
+      "confidence": 0.9364511966705322
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8dc3cbfc4807eaff.jpg",
+      "pred": 0.0166613906621933,
+      "prediction": "REAL",
+      "confidence": 0.9833386093378067
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8dccc79cb10f00a1.jpg",
+      "pred": 0.10637982189655304,
+      "prediction": "REAL",
+      "confidence": 0.893620178103447
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8debee9ef092912c.jpg",
+      "pred": 0.0653817355632782,
+      "prediction": "REAL",
+      "confidence": 0.9346182644367218
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8e6922de35217f85.jpg",
+      "pred": 0.059019535779953,
+      "prediction": "REAL",
+      "confidence": 0.940980464220047
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8e74d18e3b054af4.jpg",
+      "pred": 0.0015047350898385048,
+      "prediction": "REAL",
+      "confidence": 0.9984952649101615
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8eaaf15f19430048.jpg",
+      "pred": 0.06043582037091255,
+      "prediction": "REAL",
+      "confidence": 0.9395641796290874
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8ed50f4283ab7b97.jpg",
+      "pred": 0.25456809997558594,
+      "prediction": "REAL",
+      "confidence": 0.7454319000244141
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8ee5dbfd763b1d8e.jpg",
+      "pred": 0.4262186586856842,
+      "prediction": "REAL",
+      "confidence": 0.5737813413143158
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8f2880da7e70eea6.jpg",
+      "pred": 0.021884212270379066,
+      "prediction": "REAL",
+      "confidence": 0.9781157877296209
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8f3b347dcc083789.jpg",
+      "pred": 0.1557752639055252,
+      "prediction": "REAL",
+      "confidence": 0.8442247360944748
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8f873b1cb9dce21f.jpg",
+      "pred": 0.3078758418560028,
+      "prediction": "REAL",
+      "confidence": 0.6921241581439972
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8fa5e4a3906b1fe1.jpg",
+      "pred": 0.22298285365104675,
+      "prediction": "REAL",
+      "confidence": 0.7770171463489532
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8fb77b1d73772105.jpg",
+      "pred": 0.7779133915901184,
+      "prediction": "FAKE",
+      "confidence": 0.7779133915901184
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\8fe20fe6a80fb0fc.jpg",
+      "pred": 0.26989495754241943,
+      "prediction": "REAL",
+      "confidence": 0.7301050424575806
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9009.jpg",
+      "pred": 0.9986518025398254,
+      "prediction": "FAKE",
+      "confidence": 0.9986518025398254
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9016.jpg",
+      "pred": 0.9983383417129517,
+      "prediction": "FAKE",
+      "confidence": 0.9983383417129517
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\90447b84ed9d1000.jpg",
+      "pred": 0.17389097809791565,
+      "prediction": "REAL",
+      "confidence": 0.8261090219020844
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\90558b473d1ce06d.jpg",
+      "pred": 0.015961255878210068,
+      "prediction": "REAL",
+      "confidence": 0.9840387441217899
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\90ed6733960cf1c5.jpg",
+      "pred": 0.44608402252197266,
+      "prediction": "REAL",
+      "confidence": 0.5539159774780273
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\910c6b44931a40cc.jpg",
+      "pred": 0.2261478304862976,
+      "prediction": "REAL",
+      "confidence": 0.7738521695137024
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9119.jpg",
+      "pred": 0.9998451471328735,
+      "prediction": "FAKE",
+      "confidence": 0.9998451471328735
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9132.jpg",
+      "pred": 0.9995224475860596,
+      "prediction": "FAKE",
+      "confidence": 0.9995224475860596
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9136.jpg",
+      "pred": 0.9980049729347229,
+      "prediction": "FAKE",
+      "confidence": 0.9980049729347229
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9142.jpg",
+      "pred": 0.9998358488082886,
+      "prediction": "FAKE",
+      "confidence": 0.9998358488082886
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9155d4121d5cb6c4.jpg",
+      "pred": 0.32210206985473633,
+      "prediction": "REAL",
+      "confidence": 0.6778979301452637
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9156.jpg",
+      "pred": 0.9998918771743774,
+      "prediction": "FAKE",
+      "confidence": 0.9998918771743774
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9169.jpg",
+      "pred": 0.9998319149017334,
+      "prediction": "FAKE",
+      "confidence": 0.9998319149017334
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9170.jpg",
+      "pred": 0.9961252808570862,
+      "prediction": "FAKE",
+      "confidence": 0.9961252808570862
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9171ede2f20674e2.jpg",
+      "pred": 0.3624860346317291,
+      "prediction": "REAL",
+      "confidence": 0.6375139653682709
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9179.jpg",
+      "pred": 0.9982355833053589,
+      "prediction": "FAKE",
+      "confidence": 0.9982355833053589
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\918f05aaa2897bf4.jpg",
+      "pred": 0.22063560783863068,
+      "prediction": "REAL",
+      "confidence": 0.7793643921613693
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9195.jpg",
+      "pred": 0.9972301125526428,
+      "prediction": "FAKE",
+      "confidence": 0.9972301125526428
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\91a2b654c6b79bfa.jpg",
+      "pred": 0.19351071119308472,
+      "prediction": "REAL",
+      "confidence": 0.8064892888069153
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\91f84520f80a8ce7.jpg",
+      "pred": 0.7215309143066406,
+      "prediction": "FAKE",
+      "confidence": 0.7215309143066406
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\92047693d00af899.jpg",
+      "pred": 0.06065751239657402,
+      "prediction": "REAL",
+      "confidence": 0.939342487603426
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9209.jpg",
+      "pred": 0.9967427849769592,
+      "prediction": "FAKE",
+      "confidence": 0.9967427849769592
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9252.jpg",
+      "pred": 0.9997473359107971,
+      "prediction": "FAKE",
+      "confidence": 0.9997473359107971
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\925618c03d085aaa.jpg",
+      "pred": 0.6829968094825745,
+      "prediction": "FAKE",
+      "confidence": 0.6829968094825745
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9259.jpg",
+      "pred": 0.9999097585678101,
+      "prediction": "FAKE",
+      "confidence": 0.9999097585678101
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\926cb58da6d3783b.jpg",
+      "pred": 0.20348584651947021,
+      "prediction": "REAL",
+      "confidence": 0.7965141534805298
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\926d9ad647b3e001.jpg",
+      "pred": 0.18788549304008484,
+      "prediction": "REAL",
+      "confidence": 0.8121145069599152
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9274.jpg",
+      "pred": 0.9929412603378296,
+      "prediction": "FAKE",
+      "confidence": 0.9929412603378296
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\927936bfc6333f8a.jpg",
+      "pred": 0.49610817432403564,
+      "prediction": "REAL",
+      "confidence": 0.5038918256759644
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9288.jpg",
+      "pred": 0.9996575117111206,
+      "prediction": "FAKE",
+      "confidence": 0.9996575117111206
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9299.jpg",
+      "pred": 0.9988414645195007,
+      "prediction": "FAKE",
+      "confidence": 0.9988414645195007
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\92a46cd143a43bf1.jpg",
+      "pred": 0.1919313222169876,
+      "prediction": "REAL",
+      "confidence": 0.8080686777830124
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\92e4fb73e9c6c306.jpg",
+      "pred": 0.40995121002197266,
+      "prediction": "REAL",
+      "confidence": 0.5900487899780273
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\92ef80d1522bbfc7.jpg",
+      "pred": 0.1362747997045517,
+      "prediction": "REAL",
+      "confidence": 0.8637252002954483
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\92fbbf2cee9c3637.jpg",
+      "pred": 0.23007307946681976,
+      "prediction": "REAL",
+      "confidence": 0.7699269205331802
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9317d430ee32e84c.jpg",
+      "pred": 0.2796037793159485,
+      "prediction": "REAL",
+      "confidence": 0.7203962206840515
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9334.jpg",
+      "pred": 0.9994094371795654,
+      "prediction": "FAKE",
+      "confidence": 0.9994094371795654
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9344.jpg",
+      "pred": 0.9977604150772095,
+      "prediction": "FAKE",
+      "confidence": 0.9977604150772095
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9345.jpg",
+      "pred": 0.994001567363739,
+      "prediction": "FAKE",
+      "confidence": 0.994001567363739
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9379231a31fa1d0f.jpg",
+      "pred": 0.4037533700466156,
+      "prediction": "REAL",
+      "confidence": 0.5962466299533844
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\93ae151433061976.jpg",
+      "pred": 0.01914452761411667,
+      "prediction": "REAL",
+      "confidence": 0.9808554723858833
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9401f4fb224d8d55.jpg",
+      "pred": 0.10433591157197952,
+      "prediction": "REAL",
+      "confidence": 0.8956640884280205
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\947b4b17b0447c21.jpg",
+      "pred": 0.3746357262134552,
+      "prediction": "REAL",
+      "confidence": 0.6253642737865448
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\94831a444a2bfec0.jpg",
+      "pred": 0.2857900857925415,
+      "prediction": "REAL",
+      "confidence": 0.7142099142074585
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9494.jpg",
+      "pred": 0.9447262287139893,
+      "prediction": "FAKE",
+      "confidence": 0.9447262287139893
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9497fb6d892a5766.jpg",
+      "pred": 0.3474864661693573,
+      "prediction": "REAL",
+      "confidence": 0.6525135338306427
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\94b511150518ac06.jpg",
+      "pred": 0.6017643809318542,
+      "prediction": "FAKE",
+      "confidence": 0.6017643809318542
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\94c797306e98d06f.jpg",
+      "pred": 0.5166766047477722,
+      "prediction": "FAKE",
+      "confidence": 0.5166766047477722
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\94f7a0d575a9770e.jpg",
+      "pred": 0.15839608013629913,
+      "prediction": "REAL",
+      "confidence": 0.8416039198637009
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9503.jpg",
+      "pred": 0.9988138675689697,
+      "prediction": "FAKE",
+      "confidence": 0.9988138675689697
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9518.jpg",
+      "pred": 0.990182101726532,
+      "prediction": "FAKE",
+      "confidence": 0.990182101726532
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9540.jpg",
+      "pred": 0.9989031553268433,
+      "prediction": "FAKE",
+      "confidence": 0.9989031553268433
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9558.jpg",
+      "pred": 0.9973666071891785,
+      "prediction": "FAKE",
+      "confidence": 0.9973666071891785
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\958ed255895d3828.jpg",
+      "pred": 0.29657426476478577,
+      "prediction": "REAL",
+      "confidence": 0.7034257352352142
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9600.jpg",
+      "pred": 0.9914052486419678,
+      "prediction": "FAKE",
+      "confidence": 0.9914052486419678
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9611507f89e3632e.jpg",
+      "pred": 0.4890219271183014,
+      "prediction": "REAL",
+      "confidence": 0.5109780728816986
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9623.jpg",
+      "pred": 0.9993695616722107,
+      "prediction": "FAKE",
+      "confidence": 0.9993695616722107
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9626.jpg",
+      "pred": 0.9991551637649536,
+      "prediction": "FAKE",
+      "confidence": 0.9991551637649536
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9627.jpg",
+      "pred": 0.9996480941772461,
+      "prediction": "FAKE",
+      "confidence": 0.9996480941772461
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\962922027e39b63a.jpg",
+      "pred": 0.0928751528263092,
+      "prediction": "REAL",
+      "confidence": 0.9071248471736908
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\964a0c5d3ee47574.jpg",
+      "pred": 0.10667520761489868,
+      "prediction": "REAL",
+      "confidence": 0.8933247923851013
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9656.jpg",
+      "pred": 0.9998273849487305,
+      "prediction": "FAKE",
+      "confidence": 0.9998273849487305
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9662.jpg",
+      "pred": 0.9862253665924072,
+      "prediction": "FAKE",
+      "confidence": 0.9862253665924072
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9691.jpg",
+      "pred": 0.996479332447052,
+      "prediction": "FAKE",
+      "confidence": 0.996479332447052
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\969fab911da5cbe3.jpg",
+      "pred": 0.09873197227716446,
+      "prediction": "REAL",
+      "confidence": 0.9012680277228355
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\96cc65dcbf0d8da2.jpg",
+      "pred": 0.019691748544573784,
+      "prediction": "REAL",
+      "confidence": 0.9803082514554262
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\96f1a26a98ecd5a8.jpg",
+      "pred": 0.20761965215206146,
+      "prediction": "REAL",
+      "confidence": 0.7923803478479385
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9732.jpg",
+      "pred": 0.33145198225975037,
+      "prediction": "REAL",
+      "confidence": 0.6685480177402496
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9749.jpg",
+      "pred": 0.9997993111610413,
+      "prediction": "FAKE",
+      "confidence": 0.9997993111610413
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\97727c94fa0dfd93.jpg",
+      "pred": 0.4700329303741455,
+      "prediction": "REAL",
+      "confidence": 0.5299670696258545
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9774.jpg",
+      "pred": 0.9902306199073792,
+      "prediction": "FAKE",
+      "confidence": 0.9902306199073792
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9788f8134f75e77e.jpg",
+      "pred": 0.36809226870536804,
+      "prediction": "REAL",
+      "confidence": 0.631907731294632
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9792.jpg",
+      "pred": 0.9961681962013245,
+      "prediction": "FAKE",
+      "confidence": 0.9961681962013245
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9799.jpg",
+      "pred": 0.991910994052887,
+      "prediction": "FAKE",
+      "confidence": 0.991910994052887
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\97cb9cdd69ec06a9.jpg",
+      "pred": 0.014982027001678944,
+      "prediction": "REAL",
+      "confidence": 0.9850179729983211
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\97d7b062260fafd4.jpg",
+      "pred": 0.25030064582824707,
+      "prediction": "REAL",
+      "confidence": 0.7496993541717529
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9800.jpg",
+      "pred": 0.9885578155517578,
+      "prediction": "FAKE",
+      "confidence": 0.9885578155517578
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9802.jpg",
+      "pred": 0.9042248725891113,
+      "prediction": "FAKE",
+      "confidence": 0.9042248725891113
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9802ba303c4cdd29.jpg",
+      "pred": 0.1614617258310318,
+      "prediction": "REAL",
+      "confidence": 0.8385382741689682
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\980a10a588f5789f.jpg",
+      "pred": 0.13895845413208008,
+      "prediction": "REAL",
+      "confidence": 0.8610415458679199
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9837.jpg",
+      "pred": 0.9766215682029724,
+      "prediction": "FAKE",
+      "confidence": 0.9766215682029724
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9859.jpg",
+      "pred": 0.9159067869186401,
+      "prediction": "FAKE",
+      "confidence": 0.9159067869186401
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9888.jpg",
+      "pred": 0.9718125462532043,
+      "prediction": "FAKE",
+      "confidence": 0.9718125462532043
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\98a1550d4fcb435e.jpg",
+      "pred": 0.061622608453035355,
+      "prediction": "REAL",
+      "confidence": 0.9383773915469646
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\98b4da4317d5454a.jpg",
+      "pred": 0.15850543975830078,
+      "prediction": "REAL",
+      "confidence": 0.8414945602416992
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9902efe0b60c7ea6.jpg",
+      "pred": 0.17174167931079865,
+      "prediction": "REAL",
+      "confidence": 0.8282583206892014
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9914c4242a6d3c7a.jpg",
+      "pred": 0.020814182236790657,
+      "prediction": "REAL",
+      "confidence": 0.9791858177632093
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\992b2ba19f5fa473.jpg",
+      "pred": 0.34145817160606384,
+      "prediction": "REAL",
+      "confidence": 0.6585418283939362
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9949.jpg",
+      "pred": 0.9977988600730896,
+      "prediction": "FAKE",
+      "confidence": 0.9977988600730896
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9955.jpg",
+      "pred": 0.9751665592193604,
+      "prediction": "FAKE",
+      "confidence": 0.9751665592193604
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\99604506733f941e.jpg",
+      "pred": 0.21621474623680115,
+      "prediction": "REAL",
+      "confidence": 0.7837852537631989
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9993.jpg",
+      "pred": 0.3706391751766205,
+      "prediction": "REAL",
+      "confidence": 0.6293608248233795
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\99ad96c9aa06877e.jpg",
+      "pred": 0.49518680572509766,
+      "prediction": "REAL",
+      "confidence": 0.5048131942749023
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\99bb25296eea2206.jpg",
+      "pred": 0.016826128587126732,
+      "prediction": "REAL",
+      "confidence": 0.9831738714128733
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\99c695ad08157985.jpg",
+      "pred": 0.1773243099451065,
+      "prediction": "REAL",
+      "confidence": 0.8226756900548935
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9a39d9932a861e32.jpg",
+      "pred": 0.9710236191749573,
+      "prediction": "FAKE",
+      "confidence": 0.9710236191749573
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9ab42513e839f611.jpg",
+      "pred": 0.04291693866252899,
+      "prediction": "REAL",
+      "confidence": 0.957083061337471
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9ac274f045965197.jpg",
+      "pred": 0.0365842804312706,
+      "prediction": "REAL",
+      "confidence": 0.9634157195687294
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9ac8c8b1905c0e71.jpg",
+      "pred": 0.25800928473472595,
+      "prediction": "REAL",
+      "confidence": 0.741990715265274
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9b08ffab24f5b8b7.jpg",
+      "pred": 0.17264942824840546,
+      "prediction": "REAL",
+      "confidence": 0.8273505717515945
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9b43acfe9a6cb4a7.jpg",
+      "pred": 0.2123463898897171,
+      "prediction": "REAL",
+      "confidence": 0.7876536101102829
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9b4e7e7ea4a8f347.jpg",
+      "pred": 0.004106554202735424,
+      "prediction": "REAL",
+      "confidence": 0.9958934457972646
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9b696834d8cc182a.jpg",
+      "pred": 0.10121380537748337,
+      "prediction": "REAL",
+      "confidence": 0.8987861946225166
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9b8b322730895889.jpg",
+      "pred": 0.6599123477935791,
+      "prediction": "FAKE",
+      "confidence": 0.6599123477935791
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9bbcf87c86fa51c3.jpg",
+      "pred": 0.5214712619781494,
+      "prediction": "FAKE",
+      "confidence": 0.5214712619781494
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9be4968923a9ae89.jpg",
+      "pred": 0.4113842844963074,
+      "prediction": "REAL",
+      "confidence": 0.5886157155036926
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9c38b9dbdab98b67.jpg",
+      "pred": 0.013532225973904133,
+      "prediction": "REAL",
+      "confidence": 0.9864677740260959
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9c8156ae1a569bcf.jpg",
+      "pred": 0.028906455263495445,
+      "prediction": "REAL",
+      "confidence": 0.9710935447365046
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9ca056de9cb2ce0d.jpg",
+      "pred": 0.19341982901096344,
+      "prediction": "REAL",
+      "confidence": 0.8065801709890366
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9d58fe07d0e04c63.jpg",
+      "pred": 0.016261015087366104,
+      "prediction": "REAL",
+      "confidence": 0.9837389849126339
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9d5b7dc4ec593cb7.jpg",
+      "pred": 0.29637306928634644,
+      "prediction": "REAL",
+      "confidence": 0.7036269307136536
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9da8832c42a8d402.jpg",
+      "pred": 0.026303259655833244,
+      "prediction": "REAL",
+      "confidence": 0.9736967403441668
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9de5b808ea76b74a.jpg",
+      "pred": 0.5235540270805359,
+      "prediction": "FAKE",
+      "confidence": 0.5235540270805359
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9e07366ed50fd557.jpg",
+      "pred": 0.05395764112472534,
+      "prediction": "REAL",
+      "confidence": 0.9460423588752747
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9e25167122c722a0.jpg",
+      "pred": 0.017313573509454727,
+      "prediction": "REAL",
+      "confidence": 0.9826864264905453
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9e44a38143bf9619.jpg",
+      "pred": 0.08933883160352707,
+      "prediction": "REAL",
+      "confidence": 0.9106611683964729
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9e4cd22aaf75c7d7.jpg",
+      "pred": 0.3508780300617218,
+      "prediction": "REAL",
+      "confidence": 0.6491219699382782
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9e8065b04665d985.jpg",
+      "pred": 0.04693438857793808,
+      "prediction": "REAL",
+      "confidence": 0.9530656114220619
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9ec5eb43ee84cd5b.jpg",
+      "pred": 0.574801504611969,
+      "prediction": "FAKE",
+      "confidence": 0.574801504611969
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9ed7c27b825407e8.jpg",
+      "pred": 0.14777880907058716,
+      "prediction": "REAL",
+      "confidence": 0.8522211909294128
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9ef60788ef6dba08.jpg",
+      "pred": 0.042597416788339615,
+      "prediction": "REAL",
+      "confidence": 0.9574025832116604
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9f2cfde932b41c19.jpg",
+      "pred": 0.13169096410274506,
+      "prediction": "REAL",
+      "confidence": 0.8683090358972549
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9f5e59f37846e923.jpg",
+      "pred": 0.1176944375038147,
+      "prediction": "REAL",
+      "confidence": 0.8823055624961853
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9f7fb04f1bf673ca.jpg",
+      "pred": 0.2034917175769806,
+      "prediction": "REAL",
+      "confidence": 0.7965082824230194
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9f961c99d7849f52.jpg",
+      "pred": 0.42861029505729675,
+      "prediction": "REAL",
+      "confidence": 0.5713897049427032
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9f970ac6e585356a.jpg",
+      "pred": 0.37071147561073303,
+      "prediction": "REAL",
+      "confidence": 0.629288524389267
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9f9d3fdf81369e61.jpg",
+      "pred": 0.35234904289245605,
+      "prediction": "REAL",
+      "confidence": 0.647650957107544
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\9fd249b6ac5948e2.jpg",
+      "pred": 0.034536026418209076,
+      "prediction": "REAL",
+      "confidence": 0.9654639735817909
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a073f43821f32ba7.jpg",
+      "pred": 0.3343427777290344,
+      "prediction": "REAL",
+      "confidence": 0.6656572222709656
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a08d95973bb12663.jpg",
+      "pred": 0.12172415107488632,
+      "prediction": "REAL",
+      "confidence": 0.8782758489251137
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a0bbed8fea704df4.jpg",
+      "pred": 0.2118423879146576,
+      "prediction": "REAL",
+      "confidence": 0.7881576120853424
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a18b77ee8adf16c0.jpg",
+      "pred": 0.041186656802892685,
+      "prediction": "REAL",
+      "confidence": 0.9588133431971073
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a25b14a65e393c51.jpg",
+      "pred": 0.1739097386598587,
+      "prediction": "REAL",
+      "confidence": 0.8260902613401413
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a25d141562669c6f.jpg",
+      "pred": 0.20456629991531372,
+      "prediction": "REAL",
+      "confidence": 0.7954337000846863
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a28f6f0587748782.jpg",
+      "pred": 0.19253812730312347,
+      "prediction": "REAL",
+      "confidence": 0.8074618726968765
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a2c0570e9c261516.jpg",
+      "pred": 0.001878793933428824,
+      "prediction": "REAL",
+      "confidence": 0.9981212060665712
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a2d945e2768282cc.jpg",
+      "pred": 0.13936777412891388,
+      "prediction": "REAL",
+      "confidence": 0.8606322258710861
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a31af5a7178f3176.jpg",
+      "pred": 0.20407509803771973,
+      "prediction": "REAL",
+      "confidence": 0.7959249019622803
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a3a996262688beec.jpg",
+      "pred": 0.2620389461517334,
+      "prediction": "REAL",
+      "confidence": 0.7379610538482666
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a3bebbfd35ba5e08.jpg",
+      "pred": 0.014334045350551605,
+      "prediction": "REAL",
+      "confidence": 0.9856659546494484
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a3c92a739330e174.jpg",
+      "pred": 0.22756513953208923,
+      "prediction": "REAL",
+      "confidence": 0.7724348604679108
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a3e1a1c0d665aebc.jpg",
+      "pred": 0.007690565660595894,
+      "prediction": "REAL",
+      "confidence": 0.9923094343394041
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a42cfd90870ce899.jpg",
+      "pred": 0.18508945405483246,
+      "prediction": "REAL",
+      "confidence": 0.8149105459451675
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a4caa0802b2b8f5e.jpg",
+      "pred": 0.03618836775422096,
+      "prediction": "REAL",
+      "confidence": 0.963811632245779
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a4e7ef5036f2fb00.jpg",
+      "pred": 0.32470476627349854,
+      "prediction": "REAL",
+      "confidence": 0.6752952337265015
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a4f44922cc88c44a.jpg",
+      "pred": 0.4605799913406372,
+      "prediction": "REAL",
+      "confidence": 0.5394200086593628
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a50584fc95de2df8.jpg",
+      "pred": 0.026115328073501587,
+      "prediction": "REAL",
+      "confidence": 0.9738846719264984
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a5242b7efd3685fe.jpg",
+      "pred": 0.6885964870452881,
+      "prediction": "FAKE",
+      "confidence": 0.6885964870452881
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a576ab495bed472d.jpg",
+      "pred": 0.1740114688873291,
+      "prediction": "REAL",
+      "confidence": 0.8259885311126709
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a6094f9c9516f5d0.jpg",
+      "pred": 0.06602248549461365,
+      "prediction": "REAL",
+      "confidence": 0.9339775145053864
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a65287836703397b.jpg",
+      "pred": 0.23779304325580597,
+      "prediction": "REAL",
+      "confidence": 0.762206956744194
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a66d6803a349fc63.jpg",
+      "pred": 0.007639480289071798,
+      "prediction": "REAL",
+      "confidence": 0.9923605197109282
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a676e29fa7b9c57f.jpg",
+      "pred": 0.2214113175868988,
+      "prediction": "REAL",
+      "confidence": 0.7785886824131012
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a6baa8fe00e01063.jpg",
+      "pred": 0.16408342123031616,
+      "prediction": "REAL",
+      "confidence": 0.8359165787696838
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a6bb44b51fe1489f.jpg",
+      "pred": 0.3009808659553528,
+      "prediction": "REAL",
+      "confidence": 0.6990191340446472
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a6bd57cb4b4cdab3.jpg",
+      "pred": 0.021456053480505943,
+      "prediction": "REAL",
+      "confidence": 0.9785439465194941
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a6bd76a0aa5ac696.jpg",
+      "pred": 0.23249557614326477,
+      "prediction": "REAL",
+      "confidence": 0.7675044238567352
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a6e7da80b651b37b.jpg",
+      "pred": 0.1469709426164627,
+      "prediction": "REAL",
+      "confidence": 0.8530290573835373
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a752be9947ae2714.jpg",
+      "pred": 0.021790819242596626,
+      "prediction": "REAL",
+      "confidence": 0.9782091807574034
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a766249f8040f1bb.jpg",
+      "pred": 0.6204029321670532,
+      "prediction": "FAKE",
+      "confidence": 0.6204029321670532
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a782fbcd4a0de46d.jpg",
+      "pred": 0.0869404599070549,
+      "prediction": "REAL",
+      "confidence": 0.9130595400929451
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a7b83479bf113c28.jpg",
+      "pred": 0.32511940598487854,
+      "prediction": "REAL",
+      "confidence": 0.6748805940151215
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a80744b196e1eaba.jpg",
+      "pred": 0.7940484881401062,
+      "prediction": "FAKE",
+      "confidence": 0.7940484881401062
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a814470425cf4560.jpg",
+      "pred": 0.3856393098831177,
+      "prediction": "REAL",
+      "confidence": 0.6143606901168823
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a81af186c278c424.jpg",
+      "pred": 0.08713148534297943,
+      "prediction": "REAL",
+      "confidence": 0.9128685146570206
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a82070e054b4ca3c.jpg",
+      "pred": 0.5078463554382324,
+      "prediction": "FAKE",
+      "confidence": 0.5078463554382324
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a83d0f29bb6da954.jpg",
+      "pred": 0.007526725064963102,
+      "prediction": "REAL",
+      "confidence": 0.9924732749350369
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a88fed4141f2da4d.jpg",
+      "pred": 0.19644564390182495,
+      "prediction": "REAL",
+      "confidence": 0.803554356098175
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a8a482b6d15a3582.jpg",
+      "pred": 0.24328401684761047,
+      "prediction": "REAL",
+      "confidence": 0.7567159831523895
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a8e542209da2a24c.jpg",
+      "pred": 0.248879536986351,
+      "prediction": "REAL",
+      "confidence": 0.751120463013649
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a8e588e384c86bae.jpg",
+      "pred": 0.18302355706691742,
+      "prediction": "REAL",
+      "confidence": 0.8169764429330826
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a907967b7ad95466.jpg",
+      "pred": 0.06921253353357315,
+      "prediction": "REAL",
+      "confidence": 0.9307874664664268
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a9302564d7575e64.jpg",
+      "pred": 0.03230130299925804,
+      "prediction": "REAL",
+      "confidence": 0.967698697000742
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a93851518bb9d82b.jpg",
+      "pred": 0.5943968296051025,
+      "prediction": "FAKE",
+      "confidence": 0.5943968296051025
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a9c42858036c2a80.jpg",
+      "pred": 0.07965511083602905,
+      "prediction": "REAL",
+      "confidence": 0.920344889163971
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\a9d4c7d40dabb089.jpg",
+      "pred": 0.17301255464553833,
+      "prediction": "REAL",
+      "confidence": 0.8269874453544617
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aa11b95b2cc22018.jpg",
+      "pred": 0.06195741146802902,
+      "prediction": "REAL",
+      "confidence": 0.938042588531971
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aa12cdaf5ea95a59.jpg",
+      "pred": 0.04217696934938431,
+      "prediction": "REAL",
+      "confidence": 0.9578230306506157
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aa159f88e636f64c.jpg",
+      "pred": 0.396696001291275,
+      "prediction": "REAL",
+      "confidence": 0.603303998708725
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aa2ac685050ae238.jpg",
+      "pred": 0.029652763158082962,
+      "prediction": "REAL",
+      "confidence": 0.970347236841917
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aa5256f58b6c37ec.jpg",
+      "pred": 0.08007154613733292,
+      "prediction": "REAL",
+      "confidence": 0.9199284538626671
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aa5e8f975dfbc591.jpg",
+      "pred": 0.12534970045089722,
+      "prediction": "REAL",
+      "confidence": 0.8746502995491028
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aaaa866f9acf542b.jpg",
+      "pred": 0.1684436947107315,
+      "prediction": "REAL",
+      "confidence": 0.8315563052892685
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aae9ad06ce7d888a.jpg",
+      "pred": 0.10615352541208267,
+      "prediction": "REAL",
+      "confidence": 0.8938464745879173
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\abc8af84c57671aa.jpg",
+      "pred": 0.3790268301963806,
+      "prediction": "REAL",
+      "confidence": 0.6209731698036194
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ac3c46d1ed449f03.jpg",
+      "pred": 0.04153706878423691,
+      "prediction": "REAL",
+      "confidence": 0.9584629312157631
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ac54be300b423cca.jpg",
+      "pred": 0.0028533886652439833,
+      "prediction": "REAL",
+      "confidence": 0.997146611334756
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ac5f6e1c7d86a751.jpg",
+      "pred": 0.0830141231417656,
+      "prediction": "REAL",
+      "confidence": 0.9169858768582344
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ac8070912dc46901.jpg",
+      "pred": 0.2201823592185974,
+      "prediction": "REAL",
+      "confidence": 0.7798176407814026
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ace3f0c119da99b6.jpg",
+      "pred": 0.4112696647644043,
+      "prediction": "REAL",
+      "confidence": 0.5887303352355957
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ace7c9da21b94080.jpg",
+      "pred": 0.003482002764940262,
+      "prediction": "REAL",
+      "confidence": 0.9965179972350597
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ad03429681935a5e.jpg",
+      "pred": 0.0721505731344223,
+      "prediction": "REAL",
+      "confidence": 0.9278494268655777
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ad2414539a06624e.jpg",
+      "pred": 0.2974591553211212,
+      "prediction": "REAL",
+      "confidence": 0.7025408446788788
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ad308ce64ea2785d.jpg",
+      "pred": 0.10053949058055878,
+      "prediction": "REAL",
+      "confidence": 0.8994605094194412
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ad734e8fb46c23a1.jpg",
+      "pred": 0.7473968863487244,
+      "prediction": "FAKE",
+      "confidence": 0.7473968863487244
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\add4aff6afa8ccbf.jpg",
+      "pred": 0.5323891043663025,
+      "prediction": "FAKE",
+      "confidence": 0.5323891043663025
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ae331d5bcb6b2e62.jpg",
+      "pred": 0.3569526970386505,
+      "prediction": "REAL",
+      "confidence": 0.6430473029613495
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ae52b4d7b395a60f.jpg",
+      "pred": 0.3974359631538391,
+      "prediction": "REAL",
+      "confidence": 0.6025640368461609
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ae836b63eea0c89d.jpg",
+      "pred": 0.2967938184738159,
+      "prediction": "REAL",
+      "confidence": 0.7032061815261841
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aef7daaad2af5a48.jpg",
+      "pred": 0.478884756565094,
+      "prediction": "REAL",
+      "confidence": 0.521115243434906
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aefeb4536f806311.jpg",
+      "pred": 0.030499501153826714,
+      "prediction": "REAL",
+      "confidence": 0.9695004988461733
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\af76b09d4dc97f89.jpg",
+      "pred": 0.19656647741794586,
+      "prediction": "REAL",
+      "confidence": 0.8034335225820541
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\af800dc93b3e4002.jpg",
+      "pred": 0.7586203813552856,
+      "prediction": "FAKE",
+      "confidence": 0.7586203813552856
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\af8b34d5f768172c.jpg",
+      "pred": 0.1262066513299942,
+      "prediction": "REAL",
+      "confidence": 0.8737933486700058
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\af8d6251af0ca462.jpg",
+      "pred": 0.21010683476924896,
+      "prediction": "REAL",
+      "confidence": 0.789893165230751
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\af9269c1f4428947.jpg",
+      "pred": 0.28507667779922485,
+      "prediction": "REAL",
+      "confidence": 0.7149233222007751
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\afc136b41be8317c.jpg",
+      "pred": 0.08711758255958557,
+      "prediction": "REAL",
+      "confidence": 0.9128824174404144
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\aff316f5ff31f1c0.jpg",
+      "pred": 0.1819189488887787,
+      "prediction": "REAL",
+      "confidence": 0.8180810511112213
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b000b32d54a0af67.jpg",
+      "pred": 0.31328675150871277,
+      "prediction": "REAL",
+      "confidence": 0.6867132484912872
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b0140f0da0282042.jpg",
+      "pred": 0.2831903398036957,
+      "prediction": "REAL",
+      "confidence": 0.7168096601963043
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b01655f2703aafcb.jpg",
+      "pred": 0.10811283439397812,
+      "prediction": "REAL",
+      "confidence": 0.8918871656060219
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b0738caacb984d3a.jpg",
+      "pred": 0.18757347762584686,
+      "prediction": "REAL",
+      "confidence": 0.8124265223741531
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b0b28079dd8b567a.jpg",
+      "pred": 0.6135572195053101,
+      "prediction": "FAKE",
+      "confidence": 0.6135572195053101
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b0b8019ff637aa47.jpg",
+      "pred": 0.012644395232200623,
+      "prediction": "REAL",
+      "confidence": 0.9873556047677994
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b0e0e6b6acdf7b51.jpg",
+      "pred": 0.13630478084087372,
+      "prediction": "REAL",
+      "confidence": 0.8636952191591263
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b0e1bbf25acf2120.jpg",
+      "pred": 0.005717223510146141,
+      "prediction": "REAL",
+      "confidence": 0.9942827764898539
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b0efe5c7e3574bd7.jpg",
+      "pred": 0.34994399547576904,
+      "prediction": "REAL",
+      "confidence": 0.650056004524231
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b0f139ac400e79de.jpg",
+      "pred": 0.343671053647995,
+      "prediction": "REAL",
+      "confidence": 0.656328946352005
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b108a5f10b2f5e23.jpg",
+      "pred": 0.4432842433452606,
+      "prediction": "REAL",
+      "confidence": 0.5567157566547394
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b14476106d68f2fa.jpg",
+      "pred": 0.274590402841568,
+      "prediction": "REAL",
+      "confidence": 0.725409597158432
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b168a672087396b7.jpg",
+      "pred": 0.392295777797699,
+      "prediction": "REAL",
+      "confidence": 0.607704222202301
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b179d4ee06f7df55.jpg",
+      "pred": 0.07975620776414871,
+      "prediction": "REAL",
+      "confidence": 0.9202437922358513
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b256aa0fb709534a.jpg",
+      "pred": 0.9748543500900269,
+      "prediction": "FAKE",
+      "confidence": 0.9748543500900269
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b27683a5860e6cf5.jpg",
+      "pred": 0.09575113654136658,
+      "prediction": "REAL",
+      "confidence": 0.9042488634586334
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b2b04ff8d879ecb4.jpg",
+      "pred": 0.23322243988513947,
+      "prediction": "REAL",
+      "confidence": 0.7667775601148605
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b2c1059287e56d6f.jpg",
+      "pred": 0.32342949509620667,
+      "prediction": "REAL",
+      "confidence": 0.6765705049037933
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b2f2e9740d2a5535.jpg",
+      "pred": 0.29938170313835144,
+      "prediction": "REAL",
+      "confidence": 0.7006182968616486
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b2f8ec7da18e454e.jpg",
+      "pred": 0.00685415044426918,
+      "prediction": "REAL",
+      "confidence": 0.9931458495557308
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b32b30eab0a6a322.jpg",
+      "pred": 0.21755559742450714,
+      "prediction": "REAL",
+      "confidence": 0.7824444025754929
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b33bf979700c53f7.jpg",
+      "pred": 0.3018665313720703,
+      "prediction": "REAL",
+      "confidence": 0.6981334686279297
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b341813136daad57.jpg",
+      "pred": 0.12519393861293793,
+      "prediction": "REAL",
+      "confidence": 0.8748060613870621
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b36d2dcca3c80a81.jpg",
+      "pred": 0.05337046459317207,
+      "prediction": "REAL",
+      "confidence": 0.9466295354068279
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b3c655662d210efb.jpg",
+      "pred": 0.14680133759975433,
+      "prediction": "REAL",
+      "confidence": 0.8531986624002457
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b3c72b488ab3198b.jpg",
+      "pred": 0.1627274751663208,
+      "prediction": "REAL",
+      "confidence": 0.8372725248336792
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b3ddcf356ab13316.jpg",
+      "pred": 0.05216158553957939,
+      "prediction": "REAL",
+      "confidence": 0.9478384144604206
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b3f1b3cf2ebdab08.jpg",
+      "pred": 0.49288785457611084,
+      "prediction": "REAL",
+      "confidence": 0.5071121454238892
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b40768ad2050d97c.jpg",
+      "pred": 0.16055308282375336,
+      "prediction": "REAL",
+      "confidence": 0.8394469171762466
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b42794bfb5546428.jpg",
+      "pred": 0.40911680459976196,
+      "prediction": "REAL",
+      "confidence": 0.590883195400238
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b49139086a88b97b.jpg",
+      "pred": 0.05354990437626839,
+      "prediction": "REAL",
+      "confidence": 0.9464500956237316
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b496439af36f7dbf.jpg",
+      "pred": 0.055092789232730865,
+      "prediction": "REAL",
+      "confidence": 0.9449072107672691
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b49c01a5101590e3.jpg",
+      "pred": 0.28374427556991577,
+      "prediction": "REAL",
+      "confidence": 0.7162557244300842
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b4a23a64530a3503.jpg",
+      "pred": 0.046734292060136795,
+      "prediction": "REAL",
+      "confidence": 0.9532657079398632
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b4ae48e2f770a513.jpg",
+      "pred": 0.20128652453422546,
+      "prediction": "REAL",
+      "confidence": 0.7987134754657745
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b4b3fc0cba3d5f20.jpg",
+      "pred": 0.4375849664211273,
+      "prediction": "REAL",
+      "confidence": 0.5624150335788727
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b4d8af0a8afe1b35.jpg",
+      "pred": 0.1802988201379776,
+      "prediction": "REAL",
+      "confidence": 0.8197011798620224
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b4e28dc59ae1be76.jpg",
+      "pred": 0.1263175904750824,
+      "prediction": "REAL",
+      "confidence": 0.8736824095249176
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b52060b6ab9a8102.jpg",
+      "pred": 0.2593444883823395,
+      "prediction": "REAL",
+      "confidence": 0.7406555116176605
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b52fcab5150744ce.jpg",
+      "pred": 0.09397511184215546,
+      "prediction": "REAL",
+      "confidence": 0.9060248881578445
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b5451f96a6afc446.jpg",
+      "pred": 0.13204409182071686,
+      "prediction": "REAL",
+      "confidence": 0.8679559081792831
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b545b448fa1967e8.jpg",
+      "pred": 0.02492988482117653,
+      "prediction": "REAL",
+      "confidence": 0.9750701151788235
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b58d91a7e35fe740.jpg",
+      "pred": 0.08582104742527008,
+      "prediction": "REAL",
+      "confidence": 0.9141789525747299
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b5b1814ff759d84c.jpg",
+      "pred": 0.19618578255176544,
+      "prediction": "REAL",
+      "confidence": 0.8038142174482346
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b5b41739bc924c7c.jpg",
+      "pred": 0.24733896553516388,
+      "prediction": "REAL",
+      "confidence": 0.7526610344648361
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b5ba1f34c0b7b14a.jpg",
+      "pred": 0.3941613435745239,
+      "prediction": "REAL",
+      "confidence": 0.6058386564254761
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b5f118d727464873.jpg",
+      "pred": 0.44183915853500366,
+      "prediction": "REAL",
+      "confidence": 0.5581608414649963
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b62820db3ae38fd4.jpg",
+      "pred": 0.127873957157135,
+      "prediction": "REAL",
+      "confidence": 0.872126042842865
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b64662664ed08538.jpg",
+      "pred": 0.18727950751781464,
+      "prediction": "REAL",
+      "confidence": 0.8127204924821854
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b66028de6c4e0c82.jpg",
+      "pred": 0.0037731181364506483,
+      "prediction": "REAL",
+      "confidence": 0.9962268818635494
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b6696382ebacd9d0.jpg",
+      "pred": 0.23619039356708527,
+      "prediction": "REAL",
+      "confidence": 0.7638096064329147
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b6b0eb2c52e8e642.jpg",
+      "pred": 0.09128639847040176,
+      "prediction": "REAL",
+      "confidence": 0.9087136015295982
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b6b8729459a488cf.jpg",
+      "pred": 0.43869563937187195,
+      "prediction": "REAL",
+      "confidence": 0.561304360628128
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b6ed94fc62d562ab.jpg",
+      "pred": 0.2689712643623352,
+      "prediction": "REAL",
+      "confidence": 0.7310287356376648
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b761df0f9d965323.jpg",
+      "pred": 0.2140078842639923,
+      "prediction": "REAL",
+      "confidence": 0.7859921157360077
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b787d4a868f0924f.jpg",
+      "pred": 0.22354456782341003,
+      "prediction": "REAL",
+      "confidence": 0.77645543217659
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b7a91f64e9fd2b45.jpg",
+      "pred": 0.1768091917037964,
+      "prediction": "REAL",
+      "confidence": 0.8231908082962036
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b7c99ffee592a550.jpg",
+      "pred": 0.12669126689434052,
+      "prediction": "REAL",
+      "confidence": 0.8733087331056595
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b7e26ded7b5093f4.jpg",
+      "pred": 0.04631567746400833,
+      "prediction": "REAL",
+      "confidence": 0.9536843225359917
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b7e918c64a971fe7.jpg",
+      "pred": 0.13865125179290771,
+      "prediction": "REAL",
+      "confidence": 0.8613487482070923
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b7f35a04a1e84a84.jpg",
+      "pred": 0.4788056015968323,
+      "prediction": "REAL",
+      "confidence": 0.5211943984031677
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b7ff275a4c3b478f.jpg",
+      "pred": 0.6205472946166992,
+      "prediction": "FAKE",
+      "confidence": 0.6205472946166992
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b81275bcdf8e70b8.jpg",
+      "pred": 0.3994072377681732,
+      "prediction": "REAL",
+      "confidence": 0.6005927622318268
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b86e030e0a4fc447.jpg",
+      "pred": 0.07635882496833801,
+      "prediction": "REAL",
+      "confidence": 0.923641175031662
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b8a2a12255cc8ff9.jpg",
+      "pred": 0.4528149962425232,
+      "prediction": "REAL",
+      "confidence": 0.5471850037574768
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b8fbfca597a8cb8b.jpg",
+      "pred": 0.13261350989341736,
+      "prediction": "REAL",
+      "confidence": 0.8673864901065826
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b8fc3d2d9bd925c1.jpg",
+      "pred": 0.03351927548646927,
+      "prediction": "REAL",
+      "confidence": 0.9664807245135307
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b917e074f334d668.jpg",
+      "pred": 0.4650353491306305,
+      "prediction": "REAL",
+      "confidence": 0.5349646508693695
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\b95615da1e6242a0.jpg",
+      "pred": 0.11830531805753708,
+      "prediction": "REAL",
+      "confidence": 0.8816946819424629
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ba02e9b1ba8e4c42.jpg",
+      "pred": 0.2314661145210266,
+      "prediction": "REAL",
+      "confidence": 0.7685338854789734
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ba4597bc021892ca.jpg",
+      "pred": 0.3855913579463959,
+      "prediction": "REAL",
+      "confidence": 0.6144086420536041
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ba4729296c775a4c.jpg",
+      "pred": 0.3152531385421753,
+      "prediction": "REAL",
+      "confidence": 0.6847468614578247
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ba4edb9b0d790354.jpg",
+      "pred": 0.18008609116077423,
+      "prediction": "REAL",
+      "confidence": 0.8199139088392258
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ba79371e34234746.jpg",
+      "pred": 0.204437717795372,
+      "prediction": "REAL",
+      "confidence": 0.795562282204628
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ba84d326764a2045.jpg",
+      "pred": 0.35006776452064514,
+      "prediction": "REAL",
+      "confidence": 0.6499322354793549
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bace3af0efb392da.jpg",
+      "pred": 0.0343937911093235,
+      "prediction": "REAL",
+      "confidence": 0.9656062088906765
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bae5cffe53859f93.jpg",
+      "pred": 0.28853148221969604,
+      "prediction": "REAL",
+      "confidence": 0.711468517780304
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bb526e3d6b676373.jpg",
+      "pred": 0.05295325070619583,
+      "prediction": "REAL",
+      "confidence": 0.9470467492938042
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bb5c838f66aefce4.jpg",
+      "pred": 0.19852395355701447,
+      "prediction": "REAL",
+      "confidence": 0.8014760464429855
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bb5e5efe3cf35461.jpg",
+      "pred": 0.2822546660900116,
+      "prediction": "REAL",
+      "confidence": 0.7177453339099884
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bb818ee6260d4ec0.jpg",
+      "pred": 0.32179296016693115,
+      "prediction": "REAL",
+      "confidence": 0.6782070398330688
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bbc09950b5007f06.jpg",
+      "pred": 0.16319148242473602,
+      "prediction": "REAL",
+      "confidence": 0.836808517575264
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bc29126d409407e8.jpg",
+      "pred": 0.5714401006698608,
+      "prediction": "FAKE",
+      "confidence": 0.5714401006698608
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bc60c55dedde4c16.jpg",
+      "pred": 0.17076531052589417,
+      "prediction": "REAL",
+      "confidence": 0.8292346894741058
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bc736aecbd0b9b7c.jpg",
+      "pred": 0.07736344635486603,
+      "prediction": "REAL",
+      "confidence": 0.922636553645134
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bc980eeca320a6b0.jpg",
+      "pred": 0.15908588469028473,
+      "prediction": "REAL",
+      "confidence": 0.8409141153097153
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bcaea2cd19f0c49c.jpg",
+      "pred": 0.457294762134552,
+      "prediction": "REAL",
+      "confidence": 0.542705237865448
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bcba1c91eb31872d.jpg",
+      "pred": 0.03662952408194542,
+      "prediction": "REAL",
+      "confidence": 0.9633704759180546
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bce51bd78507b053.jpg",
+      "pred": 0.3124183118343353,
+      "prediction": "REAL",
+      "confidence": 0.6875816881656647
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bd1727873043e70b.jpg",
+      "pred": 0.6292020082473755,
+      "prediction": "FAKE",
+      "confidence": 0.6292020082473755
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bd42a3a32945cdce.jpg",
+      "pred": 0.09659747034311295,
+      "prediction": "REAL",
+      "confidence": 0.903402529656887
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bd5b4e41877d4138.jpg",
+      "pred": 0.1295832097530365,
+      "prediction": "REAL",
+      "confidence": 0.8704167902469635
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bd85dc2e938f7d93.jpg",
+      "pred": 0.530677855014801,
+      "prediction": "FAKE",
+      "confidence": 0.530677855014801
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bdf3b435f0521357.jpg",
+      "pred": 0.44359084963798523,
+      "prediction": "REAL",
+      "confidence": 0.5564091503620148
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bdf47d7903ccb4d4.jpg",
+      "pred": 0.008977997116744518,
+      "prediction": "REAL",
+      "confidence": 0.9910220028832555
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\be103d6250e7c47d.jpg",
+      "pred": 0.023108012974262238,
+      "prediction": "REAL",
+      "confidence": 0.9768919870257378
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\be6cee3fef2c89b2.jpg",
+      "pred": 0.3729468286037445,
+      "prediction": "REAL",
+      "confidence": 0.6270531713962555
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\be79644704719f66.jpg",
+      "pred": 0.0862533375620842,
+      "prediction": "REAL",
+      "confidence": 0.9137466624379158
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\be7ae84d6c1eddac.jpg",
+      "pred": 0.18855878710746765,
+      "prediction": "REAL",
+      "confidence": 0.8114412128925323
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\be9b6ea84bdad6d9.jpg",
+      "pred": 0.7189563512802124,
+      "prediction": "FAKE",
+      "confidence": 0.7189563512802124
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bed9b726a25df0ae.jpg",
+      "pred": 0.4740355908870697,
+      "prediction": "REAL",
+      "confidence": 0.5259644091129303
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bf2e39b79fa24910.jpg",
+      "pred": 0.46436670422554016,
+      "prediction": "REAL",
+      "confidence": 0.5356332957744598
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bf6c86a4f64ab3e6.jpg",
+      "pred": 0.7785343527793884,
+      "prediction": "FAKE",
+      "confidence": 0.7785343527793884
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bfb1afcfc500ed44.jpg",
+      "pred": 0.05092053860425949,
+      "prediction": "REAL",
+      "confidence": 0.9490794613957405
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\bfdace24ddc2da1c.jpg",
+      "pred": 0.03739793971180916,
+      "prediction": "REAL",
+      "confidence": 0.9626020602881908
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c08d04557b59d8f7.jpg",
+      "pred": 0.34542977809906006,
+      "prediction": "REAL",
+      "confidence": 0.6545702219009399
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c0a9d70f11b044d0.jpg",
+      "pred": 0.370757132768631,
+      "prediction": "REAL",
+      "confidence": 0.629242867231369
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c0c2829777b7ed15.jpg",
+      "pred": 0.2225664108991623,
+      "prediction": "REAL",
+      "confidence": 0.7774335891008377
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c130e4885da03bc7.jpg",
+      "pred": 0.1315862238407135,
+      "prediction": "REAL",
+      "confidence": 0.8684137761592865
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c13dc0a3963410d7.jpg",
+      "pred": 0.4342503249645233,
+      "prediction": "REAL",
+      "confidence": 0.5657496750354767
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c15d85196b695d11.jpg",
+      "pred": 0.30127283930778503,
+      "prediction": "REAL",
+      "confidence": 0.698727160692215
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c1babc0e548b229a.jpg",
+      "pred": 0.5612784028053284,
+      "prediction": "FAKE",
+      "confidence": 0.5612784028053284
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c22988e6cab0b6c4.jpg",
+      "pred": 0.18380749225616455,
+      "prediction": "REAL",
+      "confidence": 0.8161925077438354
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c2a5dc33151ca2cb.jpg",
+      "pred": 0.041138965636491776,
+      "prediction": "REAL",
+      "confidence": 0.9588610343635082
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c2ca0de76e712688.jpg",
+      "pred": 0.02282002568244934,
+      "prediction": "REAL",
+      "confidence": 0.9771799743175507
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c2cfff3fdc0f4943.jpg",
+      "pred": 0.16170446574687958,
+      "prediction": "REAL",
+      "confidence": 0.8382955342531204
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c368977492fb8dfc.jpg",
+      "pred": 0.11870850622653961,
+      "prediction": "REAL",
+      "confidence": 0.8812914937734604
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c3994c0d880b8521.jpg",
+      "pred": 0.3812393248081207,
+      "prediction": "REAL",
+      "confidence": 0.6187606751918793
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c3cf31288aa8240e.jpg",
+      "pred": 0.08153421431779861,
+      "prediction": "REAL",
+      "confidence": 0.9184657856822014
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c3dec88ed7446fa4.jpg",
+      "pred": 0.14350172877311707,
+      "prediction": "REAL",
+      "confidence": 0.8564982712268829
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c45febedc483ff9e.jpg",
+      "pred": 0.2687932848930359,
+      "prediction": "REAL",
+      "confidence": 0.7312067151069641
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c47b65f3002e3723.jpg",
+      "pred": 0.081414133310318,
+      "prediction": "REAL",
+      "confidence": 0.918585866689682
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c4afff8e7074999b.jpg",
+      "pred": 0.11668876558542252,
+      "prediction": "REAL",
+      "confidence": 0.8833112344145775
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c4b1c380e0b1df74.jpg",
+      "pred": 0.03254622966051102,
+      "prediction": "REAL",
+      "confidence": 0.967453770339489
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c4d74b189ebaa1e7.jpg",
+      "pred": 0.17802156507968903,
+      "prediction": "REAL",
+      "confidence": 0.821978434920311
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c520402ad1c418d5.jpg",
+      "pred": 0.10741495341062546,
+      "prediction": "REAL",
+      "confidence": 0.8925850465893745
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c57bfeedc8838d19.jpg",
+      "pred": 0.5737419724464417,
+      "prediction": "FAKE",
+      "confidence": 0.5737419724464417
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c57f4a3b5adf813e.jpg",
+      "pred": 0.026197193190455437,
+      "prediction": "REAL",
+      "confidence": 0.9738028068095446
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c5edb346cb10129d.jpg",
+      "pred": 0.08343306183815002,
+      "prediction": "REAL",
+      "confidence": 0.91656693816185
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c5fbebfb5f53a711.jpg",
+      "pred": 0.47144556045532227,
+      "prediction": "REAL",
+      "confidence": 0.5285544395446777
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c6283c4fe7735de0.jpg",
+      "pred": 0.019270827993750572,
+      "prediction": "REAL",
+      "confidence": 0.9807291720062494
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c657d3d32a9f3bff.jpg",
+      "pred": 0.21270398795604706,
+      "prediction": "REAL",
+      "confidence": 0.7872960120439529
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c67616ac1b64b724.jpg",
+      "pred": 0.1654767096042633,
+      "prediction": "REAL",
+      "confidence": 0.8345232903957367
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c68852b04a047bb1.jpg",
+      "pred": 0.1328185796737671,
+      "prediction": "REAL",
+      "confidence": 0.8671814203262329
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c694d49950ac6621.jpg",
+      "pred": 0.06703825294971466,
+      "prediction": "REAL",
+      "confidence": 0.9329617470502853
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c721958f1b0c3364.jpg",
+      "pred": 0.03740222007036209,
+      "prediction": "REAL",
+      "confidence": 0.9625977799296379
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c7c47b1790688919.jpg",
+      "pred": 0.46774041652679443,
+      "prediction": "REAL",
+      "confidence": 0.5322595834732056
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c7cef3a8410e3a80.jpg",
+      "pred": 0.02112944796681404,
+      "prediction": "REAL",
+      "confidence": 0.978870552033186
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c8224fb883e5aea9.jpg",
+      "pred": 0.5972115993499756,
+      "prediction": "FAKE",
+      "confidence": 0.5972115993499756
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c829436ef9c6f80e.jpg",
+      "pred": 0.11637306213378906,
+      "prediction": "REAL",
+      "confidence": 0.8836269378662109
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c860c1f4d1a0af86.jpg",
+      "pred": 0.06306932866573334,
+      "prediction": "REAL",
+      "confidence": 0.9369306713342667
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c86486bc2820429d.jpg",
+      "pred": 0.4082685112953186,
+      "prediction": "REAL",
+      "confidence": 0.5917314887046814
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c88b58423cb0e48f.jpg",
+      "pred": 0.37267306447029114,
+      "prediction": "REAL",
+      "confidence": 0.6273269355297089
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c89aed8d660cf2b4.jpg",
+      "pred": 0.0036320332437753677,
+      "prediction": "REAL",
+      "confidence": 0.9963679667562246
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c8a9e6f0788273e6.jpg",
+      "pred": 0.0978846400976181,
+      "prediction": "REAL",
+      "confidence": 0.9021153599023819
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c8e2249e9e63e938.jpg",
+      "pred": 0.17848022282123566,
+      "prediction": "REAL",
+      "confidence": 0.8215197771787643
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c90b30b2f74dcfe1.jpg",
+      "pred": 0.16765515506267548,
+      "prediction": "REAL",
+      "confidence": 0.8323448449373245
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c94055f64cb5e886.jpg",
+      "pred": 0.05743907764554024,
+      "prediction": "REAL",
+      "confidence": 0.9425609223544598
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c98b19d909c88156.jpg",
+      "pred": 0.00380557868629694,
+      "prediction": "REAL",
+      "confidence": 0.9961944213137031
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c98df8108448c574.jpg",
+      "pred": 0.33245059847831726,
+      "prediction": "REAL",
+      "confidence": 0.6675494015216827
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c9a0d471ead95cef.jpg",
+      "pred": 0.19601114094257355,
+      "prediction": "REAL",
+      "confidence": 0.8039888590574265
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c9a637e204dcd0b6.jpg",
+      "pred": 0.04138544946908951,
+      "prediction": "REAL",
+      "confidence": 0.9586145505309105
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\c9b2f4238fb82acb.jpg",
+      "pred": 0.06224610656499863,
+      "prediction": "REAL",
+      "confidence": 0.9377538934350014
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca041f1aefd5c2b6.jpg",
+      "pred": 0.11657590419054031,
+      "prediction": "REAL",
+      "confidence": 0.8834240958094597
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca2693388ffdfe34.jpg",
+      "pred": 0.27415138483047485,
+      "prediction": "REAL",
+      "confidence": 0.7258486151695251
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca39a51d16bfcfdd.jpg",
+      "pred": 0.03860278055071831,
+      "prediction": "REAL",
+      "confidence": 0.9613972194492817
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca43ea478b4eb160.jpg",
+      "pred": 0.037292540073394775,
+      "prediction": "REAL",
+      "confidence": 0.9627074599266052
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca4599bde396e36f.jpg",
+      "pred": 0.25238141417503357,
+      "prediction": "REAL",
+      "confidence": 0.7476185858249664
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca5fa382d072236a.jpg",
+      "pred": 0.014669829048216343,
+      "prediction": "REAL",
+      "confidence": 0.9853301709517837
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca6fca67a59673f9.jpg",
+      "pred": 0.7422283291816711,
+      "prediction": "FAKE",
+      "confidence": 0.7422283291816711
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca746e69a0d7519e.jpg",
+      "pred": 0.01677984744310379,
+      "prediction": "REAL",
+      "confidence": 0.9832201525568962
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ca95c9939a7e75d2.jpg",
+      "pred": 0.32365283370018005,
+      "prediction": "REAL",
+      "confidence": 0.67634716629982
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cab3e91281ed2864.jpg",
+      "pred": 0.2578981816768646,
+      "prediction": "REAL",
+      "confidence": 0.7421018183231354
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cad29b15e8bcda29.jpg",
+      "pred": 0.022995494306087494,
+      "prediction": "REAL",
+      "confidence": 0.9770045056939125
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cae34398557c37aa.jpg",
+      "pred": 0.405296266078949,
+      "prediction": "REAL",
+      "confidence": 0.594703733921051
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\caf816fcdcce63a5.jpg",
+      "pred": 0.04309067130088806,
+      "prediction": "REAL",
+      "confidence": 0.9569093286991119
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cb141ccdd873786f.jpg",
+      "pred": 0.10051187127828598,
+      "prediction": "REAL",
+      "confidence": 0.899488128721714
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cb16834ae6500d9c.jpg",
+      "pred": 0.19444282352924347,
+      "prediction": "REAL",
+      "confidence": 0.8055571764707565
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cb58129bc6961def.jpg",
+      "pred": 0.415723979473114,
+      "prediction": "REAL",
+      "confidence": 0.584276020526886
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cbc2dc51fb9c76fd.jpg",
+      "pred": 0.03866531699895859,
+      "prediction": "REAL",
+      "confidence": 0.9613346830010414
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cbd18d48f5796101.jpg",
+      "pred": 0.4856731593608856,
+      "prediction": "REAL",
+      "confidence": 0.5143268406391144
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cc597e01c402da0b.jpg",
+      "pred": 0.12417099624872208,
+      "prediction": "REAL",
+      "confidence": 0.8758290037512779
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cc7cf602f07b0c42.jpg",
+      "pred": 0.004881672561168671,
+      "prediction": "REAL",
+      "confidence": 0.9951183274388313
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cc944ea0f4ea44e6.jpg",
+      "pred": 0.4563204348087311,
+      "prediction": "REAL",
+      "confidence": 0.5436795651912689
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ccecce0cf997663d.jpg",
+      "pred": 0.16534295678138733,
+      "prediction": "REAL",
+      "confidence": 0.8346570432186127
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ccf81e11ab485354.jpg",
+      "pred": 0.7033759951591492,
+      "prediction": "FAKE",
+      "confidence": 0.7033759951591492
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ccfec2f2f5826204.jpg",
+      "pred": 0.13313643634319305,
+      "prediction": "REAL",
+      "confidence": 0.866863563656807
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cd04413a18fb1790.jpg",
+      "pred": 0.053419556468725204,
+      "prediction": "REAL",
+      "confidence": 0.9465804435312748
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cd09788b10576909.jpg",
+      "pred": 0.237191841006279,
+      "prediction": "REAL",
+      "confidence": 0.762808158993721
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cd648a9d12e0ac1c.jpg",
+      "pred": 0.01206439733505249,
+      "prediction": "REAL",
+      "confidence": 0.9879356026649475
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cdb906f7251b374a.jpg",
+      "pred": 0.09867577254772186,
+      "prediction": "REAL",
+      "confidence": 0.9013242274522781
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cdbe713e901470d0.jpg",
+      "pred": 0.2657807171344757,
+      "prediction": "REAL",
+      "confidence": 0.7342192828655243
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ce0aa882f1efc38d.jpg",
+      "pred": 0.21265679597854614,
+      "prediction": "REAL",
+      "confidence": 0.7873432040214539
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ce26a2c063c537c8.jpg",
+      "pred": 0.17325079441070557,
+      "prediction": "REAL",
+      "confidence": 0.8267492055892944
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ce2a26ee71340b52.jpg",
+      "pred": 0.4397639036178589,
+      "prediction": "REAL",
+      "confidence": 0.5602360963821411
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ce3a1b22400e155f.jpg",
+      "pred": 0.11432192474603653,
+      "prediction": "REAL",
+      "confidence": 0.8856780752539635
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ce474a261a3f7b65.jpg",
+      "pred": 0.13676530122756958,
+      "prediction": "REAL",
+      "confidence": 0.8632346987724304
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ce59352d48e7e422.jpg",
+      "pred": 0.3865415155887604,
+      "prediction": "REAL",
+      "confidence": 0.6134584844112396
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ce9331da59b70dde.jpg",
+      "pred": 0.07484354078769684,
+      "prediction": "REAL",
+      "confidence": 0.9251564592123032
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ceaa216147b33d38.jpg",
+      "pred": 0.06848028302192688,
+      "prediction": "REAL",
+      "confidence": 0.9315197169780731
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cf002833b030dac7.jpg",
+      "pred": 0.3732554316520691,
+      "prediction": "REAL",
+      "confidence": 0.6267445683479309
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cf233a8d74b8f2be.jpg",
+      "pred": 0.33407822251319885,
+      "prediction": "REAL",
+      "confidence": 0.6659217774868011
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cf23485f881aaa59.jpg",
+      "pred": 0.40303510427474976,
+      "prediction": "REAL",
+      "confidence": 0.5969648957252502
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cf61c8a5784fe348.jpg",
+      "pred": 0.06209532916545868,
+      "prediction": "REAL",
+      "confidence": 0.9379046708345413
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cf7c0a5cdcb7c7b2.jpg",
+      "pred": 0.01624774932861328,
+      "prediction": "REAL",
+      "confidence": 0.9837522506713867
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cfedad5e9d6626d8.jpg",
+      "pred": 0.1127171441912651,
+      "prediction": "REAL",
+      "confidence": 0.8872828558087349
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\cffd62ae5523109b.jpg",
+      "pred": 0.10032755136489868,
+      "prediction": "REAL",
+      "confidence": 0.8996724486351013
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d025c1aba27e1b1b.jpg",
+      "pred": 0.05707359313964844,
+      "prediction": "REAL",
+      "confidence": 0.9429264068603516
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d08363bf965502aa.jpg",
+      "pred": 0.04380667954683304,
+      "prediction": "REAL",
+      "confidence": 0.956193320453167
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d085002f82891a28.jpg",
+      "pred": 0.20021817088127136,
+      "prediction": "REAL",
+      "confidence": 0.7997818291187286
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d09a36ace5286a40.jpg",
+      "pred": 0.3351496756076813,
+      "prediction": "REAL",
+      "confidence": 0.6648503243923187
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d0b37d1fd8e514d9.jpg",
+      "pred": 0.15175466239452362,
+      "prediction": "REAL",
+      "confidence": 0.8482453376054764
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d0c4f4fd5d0acdf5.jpg",
+      "pred": 0.08547914028167725,
+      "prediction": "REAL",
+      "confidence": 0.9145208597183228
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d1115e74b7be05ba.jpg",
+      "pred": 0.016863632947206497,
+      "prediction": "REAL",
+      "confidence": 0.9831363670527935
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d111d447ba534fed.jpg",
+      "pred": 0.38872212171554565,
+      "prediction": "REAL",
+      "confidence": 0.6112778782844543
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d178ba9383bca1a4.jpg",
+      "pred": 0.25560784339904785,
+      "prediction": "REAL",
+      "confidence": 0.7443921566009521
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d17e8385526fb664.jpg",
+      "pred": 0.2665124535560608,
+      "prediction": "REAL",
+      "confidence": 0.7334875464439392
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d18b6e7c07fe206b.jpg",
+      "pred": 0.3568021059036255,
+      "prediction": "REAL",
+      "confidence": 0.6431978940963745
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d1b3bb4e186591c9.jpg",
+      "pred": 0.5590084791183472,
+      "prediction": "FAKE",
+      "confidence": 0.5590084791183472
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d1dbeeac42c1b62a.jpg",
+      "pred": 0.33880797028541565,
+      "prediction": "REAL",
+      "confidence": 0.6611920297145844
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d1f476d6469533ed.jpg",
+      "pred": 0.02545846998691559,
+      "prediction": "REAL",
+      "confidence": 0.9745415300130844
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d2317f65fe06e552.jpg",
+      "pred": 0.6261976957321167,
+      "prediction": "FAKE",
+      "confidence": 0.6261976957321167
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d233d2ea7d710894.jpg",
+      "pred": 0.4073834717273712,
+      "prediction": "REAL",
+      "confidence": 0.5926165282726288
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d23a9b1b43caacd4.jpg",
+      "pred": 0.6154786348342896,
+      "prediction": "FAKE",
+      "confidence": 0.6154786348342896
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d23b07c53869273f.jpg",
+      "pred": 0.08594536036252975,
+      "prediction": "REAL",
+      "confidence": 0.9140546396374702
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d275a3daf0cc2670.jpg",
+      "pred": 0.524075448513031,
+      "prediction": "FAKE",
+      "confidence": 0.524075448513031
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d28ea1bc1492adf6.jpg",
+      "pred": 0.3107938766479492,
+      "prediction": "REAL",
+      "confidence": 0.6892061233520508
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d2fd78e1602b76bd.jpg",
+      "pred": 0.014000498689711094,
+      "prediction": "REAL",
+      "confidence": 0.9859995013102889
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d3542698eb5942e8.jpg",
+      "pred": 0.041091132909059525,
+      "prediction": "REAL",
+      "confidence": 0.9589088670909405
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d469d4bf4fc219cd.jpg",
+      "pred": 0.300678014755249,
+      "prediction": "REAL",
+      "confidence": 0.699321985244751
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d47107258e1a75a1.jpg",
+      "pred": 0.14022497832775116,
+      "prediction": "REAL",
+      "confidence": 0.8597750216722488
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d48bfe6a99d1098d.jpg",
+      "pred": 0.19879938662052155,
+      "prediction": "REAL",
+      "confidence": 0.8012006133794785
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d4a12e8e24ea5a25.jpg",
+      "pred": 0.2981054186820984,
+      "prediction": "REAL",
+      "confidence": 0.7018945813179016
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d4a6fac3b2d19ce6.jpg",
+      "pred": 0.010599898174405098,
+      "prediction": "REAL",
+      "confidence": 0.9894001018255949
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d4e70e27882253f2.jpg",
+      "pred": 0.25068730115890503,
+      "prediction": "REAL",
+      "confidence": 0.749312698841095
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d51883673ba7bff0.jpg",
+      "pred": 0.07726528495550156,
+      "prediction": "REAL",
+      "confidence": 0.9227347150444984
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d548d01f24f27d91.jpg",
+      "pred": 0.7077780365943909,
+      "prediction": "FAKE",
+      "confidence": 0.7077780365943909
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d54ca73e197de24e.jpg",
+      "pred": 0.18948227167129517,
+      "prediction": "REAL",
+      "confidence": 0.8105177283287048
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d54d9854c8d33791.jpg",
+      "pred": 0.04677503556013107,
+      "prediction": "REAL",
+      "confidence": 0.9532249644398689
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d554c944a7569eec.jpg",
+      "pred": 0.28489089012145996,
+      "prediction": "REAL",
+      "confidence": 0.71510910987854
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d59a3940853d1b68.jpg",
+      "pred": 0.25672563910484314,
+      "prediction": "REAL",
+      "confidence": 0.7432743608951569
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d5dd0b685780f3c0.jpg",
+      "pred": 0.047271374613046646,
+      "prediction": "REAL",
+      "confidence": 0.9527286253869534
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d5f6df4271100f3c.jpg",
+      "pred": 0.5775483250617981,
+      "prediction": "FAKE",
+      "confidence": 0.5775483250617981
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d641ddffff967eda.jpg",
+      "pred": 0.0829000398516655,
+      "prediction": "REAL",
+      "confidence": 0.9170999601483345
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d6da7d5d1f023491.jpg",
+      "pred": 0.19876629114151,
+      "prediction": "REAL",
+      "confidence": 0.80123370885849
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d6df14c5ff4b4535.jpg",
+      "pred": 0.07516560703516006,
+      "prediction": "REAL",
+      "confidence": 0.9248343929648399
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d6ffe139bee1f3b8.jpg",
+      "pred": 0.19936729967594147,
+      "prediction": "REAL",
+      "confidence": 0.8006327003240585
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d70ba060d87a2573.jpg",
+      "pred": 0.32439956068992615,
+      "prediction": "REAL",
+      "confidence": 0.6756004393100739
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d82976cdb7461605.jpg",
+      "pred": 0.009085028432309628,
+      "prediction": "REAL",
+      "confidence": 0.9909149715676904
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d82d8f2eb2b80e97.jpg",
+      "pred": 0.047434546053409576,
+      "prediction": "REAL",
+      "confidence": 0.9525654539465904
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d82f609796619ee9.jpg",
+      "pred": 0.41725924611091614,
+      "prediction": "REAL",
+      "confidence": 0.5827407538890839
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d8425c293bb15dfd.jpg",
+      "pred": 0.054710548371076584,
+      "prediction": "REAL",
+      "confidence": 0.9452894516289234
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d904127fb3c02c93.jpg",
+      "pred": 0.03904448822140694,
+      "prediction": "REAL",
+      "confidence": 0.9609555117785931
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d90443d70ac83318.jpg",
+      "pred": 0.012558188289403915,
+      "prediction": "REAL",
+      "confidence": 0.9874418117105961
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d9336bd427ec80d6.jpg",
+      "pred": 0.03600601479411125,
+      "prediction": "REAL",
+      "confidence": 0.9639939852058887
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d961e8fe5b51bd0c.jpg",
+      "pred": 0.0911327600479126,
+      "prediction": "REAL",
+      "confidence": 0.9088672399520874
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d9747a0963532a72.jpg",
+      "pred": 0.3468035161495209,
+      "prediction": "REAL",
+      "confidence": 0.6531964838504791
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\d9dc15044ec11b7d.jpg",
+      "pred": 0.17278827726840973,
+      "prediction": "REAL",
+      "confidence": 0.8272117227315903
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\da5b8a2a65d094c1.jpg",
+      "pred": 0.059418387711048126,
+      "prediction": "REAL",
+      "confidence": 0.9405816122889519
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\da66db7afc4864f8.jpg",
+      "pred": 0.10115230828523636,
+      "prediction": "REAL",
+      "confidence": 0.8988476917147636
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\da918ca6de189700.jpg",
+      "pred": 0.03375308960676193,
+      "prediction": "REAL",
+      "confidence": 0.9662469103932381
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\daf66669d7f85086.jpg",
+      "pred": 0.178557351231575,
+      "prediction": "REAL",
+      "confidence": 0.821442648768425
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\db0a13acf4bd88b7.jpg",
+      "pred": 0.02199295349419117,
+      "prediction": "REAL",
+      "confidence": 0.9780070465058088
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\db5cb5fb1da163ec.jpg",
+      "pred": 0.42040666937828064,
+      "prediction": "REAL",
+      "confidence": 0.5795933306217194
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\db667d6a0fa412f9.jpg",
+      "pred": 0.4690239727497101,
+      "prediction": "REAL",
+      "confidence": 0.5309760272502899
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dba646bf11169316.jpg",
+      "pred": 0.5588050484657288,
+      "prediction": "FAKE",
+      "confidence": 0.5588050484657288
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dbbb5e53c9bfd8d1.jpg",
+      "pred": 0.1795825958251953,
+      "prediction": "REAL",
+      "confidence": 0.8204174041748047
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dbc11ab41593a530.jpg",
+      "pred": 0.10817687958478928,
+      "prediction": "REAL",
+      "confidence": 0.8918231204152107
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dbf9442da2ca6d52.jpg",
+      "pred": 0.11317706853151321,
+      "prediction": "REAL",
+      "confidence": 0.8868229314684868
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dc173696fb1a8359.jpg",
+      "pred": 0.6226454377174377,
+      "prediction": "FAKE",
+      "confidence": 0.6226454377174377
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dc37d175fb1c6fbf.jpg",
+      "pred": 0.106539785861969,
+      "prediction": "REAL",
+      "confidence": 0.893460214138031
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dc957356cc19cbe9.jpg",
+      "pred": 0.017241306602954865,
+      "prediction": "REAL",
+      "confidence": 0.9827586933970451
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dcabc3d1c48c9d0e.jpg",
+      "pred": 0.23373393714427948,
+      "prediction": "REAL",
+      "confidence": 0.7662660628557205
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dcb4938979ca6f05.jpg",
+      "pred": 0.12971210479736328,
+      "prediction": "REAL",
+      "confidence": 0.8702878952026367
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dcbc678cf737b3c7.jpg",
+      "pred": 0.1204516589641571,
+      "prediction": "REAL",
+      "confidence": 0.8795483410358429
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dcfbda4f0bee43e8.jpg",
+      "pred": 0.14605434238910675,
+      "prediction": "REAL",
+      "confidence": 0.8539456576108932
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dcfc24edc18fb179.jpg",
+      "pred": 0.06472714245319366,
+      "prediction": "REAL",
+      "confidence": 0.9352728575468063
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dd2be5942e0d0797.jpg",
+      "pred": 0.1513514667749405,
+      "prediction": "REAL",
+      "confidence": 0.8486485332250595
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dd838681e1693f34.jpg",
+      "pred": 0.04112368822097778,
+      "prediction": "REAL",
+      "confidence": 0.9588763117790222
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dd8b718359503168.jpg",
+      "pred": 0.45563986897468567,
+      "prediction": "REAL",
+      "confidence": 0.5443601310253143
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ddc624beb70423fa.jpg",
+      "pred": 0.07371887564659119,
+      "prediction": "REAL",
+      "confidence": 0.9262811243534088
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ddd65fc139cf4fe4.jpg",
+      "pred": 0.08573058247566223,
+      "prediction": "REAL",
+      "confidence": 0.9142694175243378
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\de4a919a3517a5ce.jpg",
+      "pred": 0.5908457636833191,
+      "prediction": "FAKE",
+      "confidence": 0.5908457636833191
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\dec9908f78a65aae.jpg",
+      "pred": 0.1735151708126068,
+      "prediction": "REAL",
+      "confidence": 0.8264848291873932
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\df54e12918debcc6.jpg",
+      "pred": 0.024892602115869522,
+      "prediction": "REAL",
+      "confidence": 0.9751073978841305
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\df5c2285ad530a05.jpg",
+      "pred": 0.08960800617933273,
+      "prediction": "REAL",
+      "confidence": 0.9103919938206673
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\df72247962ae2810.jpg",
+      "pred": 0.11969214677810669,
+      "prediction": "REAL",
+      "confidence": 0.8803078532218933
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e02ecce9f569335f.jpg",
+      "pred": 0.31809914112091064,
+      "prediction": "REAL",
+      "confidence": 0.6819008588790894
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e03c5e377489d728.jpg",
+      "pred": 0.2833172678947449,
+      "prediction": "REAL",
+      "confidence": 0.7166827321052551
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e05adf6f942e8657.jpg",
+      "pred": 0.01785896345973015,
+      "prediction": "REAL",
+      "confidence": 0.9821410365402699
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e11d29857dbf81ff.jpg",
+      "pred": 0.08707284927368164,
+      "prediction": "REAL",
+      "confidence": 0.9129271507263184
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e1299ec59dd6d322.jpg",
+      "pred": 0.0013307437766343355,
+      "prediction": "REAL",
+      "confidence": 0.9986692562233657
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e143520fac44d0a2.jpg",
+      "pred": 0.1274508386850357,
+      "prediction": "REAL",
+      "confidence": 0.8725491613149643
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e17e4d4af7e2ad77.jpg",
+      "pred": 0.09769736230373383,
+      "prediction": "REAL",
+      "confidence": 0.9023026376962662
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e19e15a47baec9f0.jpg",
+      "pred": 0.11520139873027802,
+      "prediction": "REAL",
+      "confidence": 0.884798601269722
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e1e7c184588ac873.jpg",
+      "pred": 0.04727494344115257,
+      "prediction": "REAL",
+      "confidence": 0.9527250565588474
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e201ad649bcd3ea2.jpg",
+      "pred": 0.07353723049163818,
+      "prediction": "REAL",
+      "confidence": 0.9264627695083618
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e2080ba8276a19b3.jpg",
+      "pred": 0.45815303921699524,
+      "prediction": "REAL",
+      "confidence": 0.5418469607830048
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e21a674a5fa93338.jpg",
+      "pred": 0.16425080597400665,
+      "prediction": "REAL",
+      "confidence": 0.8357491940259933
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e248a52ca6c94eeb.jpg",
+      "pred": 0.15594300627708435,
+      "prediction": "REAL",
+      "confidence": 0.8440569937229156
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e252a894fed2078c.jpg",
+      "pred": 0.34588131308555603,
+      "prediction": "REAL",
+      "confidence": 0.654118686914444
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e27976ca703304c3.jpg",
+      "pred": 0.11656677722930908,
+      "prediction": "REAL",
+      "confidence": 0.8834332227706909
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e2cf533cc3114486.jpg",
+      "pred": 0.23598383367061615,
+      "prediction": "REAL",
+      "confidence": 0.7640161663293839
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e30c99371ec790fb.jpg",
+      "pred": 0.02173481322824955,
+      "prediction": "REAL",
+      "confidence": 0.9782651867717505
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e394611b4b4b553e.jpg",
+      "pred": 0.5327746272087097,
+      "prediction": "FAKE",
+      "confidence": 0.5327746272087097
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e459ac73259d8808.jpg",
+      "pred": 0.174143984913826,
+      "prediction": "REAL",
+      "confidence": 0.825856015086174
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e48ac49de0edeaf0.jpg",
+      "pred": 0.09993419796228409,
+      "prediction": "REAL",
+      "confidence": 0.9000658020377159
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e49929b7468c2613.jpg",
+      "pred": 0.7885942459106445,
+      "prediction": "FAKE",
+      "confidence": 0.7885942459106445
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e49b6a2eaa7f038c.jpg",
+      "pred": 0.0173049196600914,
+      "prediction": "REAL",
+      "confidence": 0.9826950803399086
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e4c2b2291f72c9df.jpg",
+      "pred": 0.9530683159828186,
+      "prediction": "FAKE",
+      "confidence": 0.9530683159828186
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e4f1d15c501731a8.jpg",
+      "pred": 0.561602771282196,
+      "prediction": "FAKE",
+      "confidence": 0.561602771282196
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e4fb43fec75addcd.jpg",
+      "pred": 0.013549900613725185,
+      "prediction": "REAL",
+      "confidence": 0.9864500993862748
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e520567140888d68.jpg",
+      "pred": 0.2319978028535843,
+      "prediction": "REAL",
+      "confidence": 0.7680021971464157
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e574d2b11194842b.jpg",
+      "pred": 0.2884604334831238,
+      "prediction": "REAL",
+      "confidence": 0.7115395665168762
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e59762c827cad29d.jpg",
+      "pred": 0.8429279327392578,
+      "prediction": "FAKE",
+      "confidence": 0.8429279327392578
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e5b9d0bc80d57b1a.jpg",
+      "pred": 0.20384669303894043,
+      "prediction": "REAL",
+      "confidence": 0.7961533069610596
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e5dfba71e61a835d.jpg",
+      "pred": 0.07836424559354782,
+      "prediction": "REAL",
+      "confidence": 0.9216357544064522
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e5ec1d0b64fce06b.jpg",
+      "pred": 0.26143842935562134,
+      "prediction": "REAL",
+      "confidence": 0.7385615706443787
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e5fa6c992e5e1875.jpg",
+      "pred": 0.3761884272098541,
+      "prediction": "REAL",
+      "confidence": 0.6238115727901459
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e5fbf553ef99502b.jpg",
+      "pred": 0.037883657962083817,
+      "prediction": "REAL",
+      "confidence": 0.9621163420379162
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e5ffdb77320e55ae.jpg",
+      "pred": 0.9595019817352295,
+      "prediction": "FAKE",
+      "confidence": 0.9595019817352295
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e6043433652f21ea.jpg",
+      "pred": 0.44599607586860657,
+      "prediction": "REAL",
+      "confidence": 0.5540039241313934
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e6065081df556388.jpg",
+      "pred": 0.23239685595035553,
+      "prediction": "REAL",
+      "confidence": 0.7676031440496445
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e6066e1037ae3128.jpg",
+      "pred": 0.2824326455593109,
+      "prediction": "REAL",
+      "confidence": 0.7175673544406891
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e644a6e02dba8da3.jpg",
+      "pred": 0.17049911618232727,
+      "prediction": "REAL",
+      "confidence": 0.8295008838176727
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e69460f567b26802.jpg",
+      "pred": 0.20373767614364624,
+      "prediction": "REAL",
+      "confidence": 0.7962623238563538
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e69ba39d1fc375b4.jpg",
+      "pred": 0.28579312562942505,
+      "prediction": "REAL",
+      "confidence": 0.714206874370575
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e6bf103d19b88708.jpg",
+      "pred": 0.05481269583106041,
+      "prediction": "REAL",
+      "confidence": 0.9451873041689396
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e6dd3deecac2e039.jpg",
+      "pred": 0.10994347184896469,
+      "prediction": "REAL",
+      "confidence": 0.8900565281510353
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e6f389c88edb65a6.jpg",
+      "pred": 0.5423856377601624,
+      "prediction": "FAKE",
+      "confidence": 0.5423856377601624
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e7b8de0154110c47.jpg",
+      "pred": 0.21063783764839172,
+      "prediction": "REAL",
+      "confidence": 0.7893621623516083
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e7c6feb12558cc37.jpg",
+      "pred": 0.20910094678401947,
+      "prediction": "REAL",
+      "confidence": 0.7908990532159805
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e7ce71384cd07f09.jpg",
+      "pred": 0.36805108189582825,
+      "prediction": "REAL",
+      "confidence": 0.6319489181041718
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e7e8dc4cf52ecc62.jpg",
+      "pred": 0.0780443474650383,
+      "prediction": "REAL",
+      "confidence": 0.9219556525349617
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e813358b0e1ed0df.jpg",
+      "pred": 0.1566992700099945,
+      "prediction": "REAL",
+      "confidence": 0.8433007299900055
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e825801d0570e0f4.jpg",
+      "pred": 0.03679351508617401,
+      "prediction": "REAL",
+      "confidence": 0.963206484913826
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e855e3561a6c50b5.jpg",
+      "pred": 0.4334546625614166,
+      "prediction": "REAL",
+      "confidence": 0.5665453374385834
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e8a2cb3aeb2a08b6.jpg",
+      "pred": 0.1163318008184433,
+      "prediction": "REAL",
+      "confidence": 0.8836681991815567
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e8b02d564ae5b847.jpg",
+      "pred": 0.2652137875556946,
+      "prediction": "REAL",
+      "confidence": 0.7347862124443054
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e8e56559be3f49e9.jpg",
+      "pred": 0.05203021690249443,
+      "prediction": "REAL",
+      "confidence": 0.9479697830975056
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e8f43dc967d14ba5.jpg",
+      "pred": 0.001641695387661457,
+      "prediction": "REAL",
+      "confidence": 0.9983583046123385
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e928a49ee8b85d8e.jpg",
+      "pred": 0.19101813435554504,
+      "prediction": "REAL",
+      "confidence": 0.808981865644455
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e95c9758701a8779.jpg",
+      "pred": 0.14769135415554047,
+      "prediction": "REAL",
+      "confidence": 0.8523086458444595
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e96b7ce5da21a285.jpg",
+      "pred": 0.03968929871916771,
+      "prediction": "REAL",
+      "confidence": 0.9603107012808323
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e993cf455708ee25.jpg",
+      "pred": 0.8176496028900146,
+      "prediction": "FAKE",
+      "confidence": 0.8176496028900146
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\e9e718b467d29fee.jpg",
+      "pred": 0.3466959297657013,
+      "prediction": "REAL",
+      "confidence": 0.6533040702342987
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ea0224af95fcb689.jpg",
+      "pred": 0.09254259616136551,
+      "prediction": "REAL",
+      "confidence": 0.9074574038386345
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ea0dfe3d77b2c5a8.jpg",
+      "pred": 0.253726601600647,
+      "prediction": "REAL",
+      "confidence": 0.746273398399353
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eaa621be0a24470e.jpg",
+      "pred": 0.585918128490448,
+      "prediction": "FAKE",
+      "confidence": 0.585918128490448
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eac5a8fb21c07df7.jpg",
+      "pred": 0.3310595452785492,
+      "prediction": "REAL",
+      "confidence": 0.6689404547214508
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eaf281498042ed34.jpg",
+      "pred": 0.08286575973033905,
+      "prediction": "REAL",
+      "confidence": 0.917134240269661
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eafbad0a58bb2cec.jpg",
+      "pred": 0.14375516772270203,
+      "prediction": "REAL",
+      "confidence": 0.856244832277298
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eb16e63d230b1619.jpg",
+      "pred": 0.07993403822183609,
+      "prediction": "REAL",
+      "confidence": 0.9200659617781639
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eb29c58a12bdcb5d.jpg",
+      "pred": 0.19081498682498932,
+      "prediction": "REAL",
+      "confidence": 0.8091850131750107
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eb9ac584827fcb23.jpg",
+      "pred": 0.14003033936023712,
+      "prediction": "REAL",
+      "confidence": 0.8599696606397629
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eb9faf23ccf09c19.jpg",
+      "pred": 0.11128191649913788,
+      "prediction": "REAL",
+      "confidence": 0.8887180835008621
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ebca64a18c80731a.jpg",
+      "pred": 0.06537587940692902,
+      "prediction": "REAL",
+      "confidence": 0.934624120593071
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ebd24f21d75e89bb.jpg",
+      "pred": 0.5761406421661377,
+      "prediction": "FAKE",
+      "confidence": 0.5761406421661377
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ec90e93967a1b895.jpg",
+      "pred": 0.3774389326572418,
+      "prediction": "REAL",
+      "confidence": 0.6225610673427582
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ece1437cb23e7c00.jpg",
+      "pred": 0.2768046259880066,
+      "prediction": "REAL",
+      "confidence": 0.7231953740119934
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ed5bd7a39e20b536.jpg",
+      "pred": 0.18866539001464844,
+      "prediction": "REAL",
+      "confidence": 0.8113346099853516
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ed62ade9944c9229.jpg",
+      "pred": 0.5131838917732239,
+      "prediction": "FAKE",
+      "confidence": 0.5131838917732239
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ede99f867f9f6f2b.jpg",
+      "pred": 0.3039959669113159,
+      "prediction": "REAL",
+      "confidence": 0.6960040330886841
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ee20a3bb7136c879.jpg",
+      "pred": 0.10980749130249023,
+      "prediction": "REAL",
+      "confidence": 0.8901925086975098
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ee30729e22f1ed16.jpg",
+      "pred": 0.0325886532664299,
+      "prediction": "REAL",
+      "confidence": 0.9674113467335701
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ee668c4c86869e29.jpg",
+      "pred": 0.5617539882659912,
+      "prediction": "FAKE",
+      "confidence": 0.5617539882659912
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eea394c6a0f1fabc.jpg",
+      "pred": 0.09227079898118973,
+      "prediction": "REAL",
+      "confidence": 0.9077292010188103
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eeae90cc06df4e04.jpg",
+      "pred": 0.03133353963494301,
+      "prediction": "REAL",
+      "confidence": 0.968666460365057
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\eec6bb2d0bfe9bc2.jpg",
+      "pred": 0.028867537155747414,
+      "prediction": "REAL",
+      "confidence": 0.9711324628442526
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ef0e17cbfbd3ff0d.jpg",
+      "pred": 0.18410839140415192,
+      "prediction": "REAL",
+      "confidence": 0.8158916085958481
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ef15623c5df0400e.jpg",
+      "pred": 0.009643543511629105,
+      "prediction": "REAL",
+      "confidence": 0.9903564564883709
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ef7b66f50e0fd447.jpg",
+      "pred": 0.2832643389701843,
+      "prediction": "REAL",
+      "confidence": 0.7167356610298157
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ef7e36e7e5882f9e.jpg",
+      "pred": 0.22907286882400513,
+      "prediction": "REAL",
+      "confidence": 0.7709271311759949
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ef8d3c4edc1e3208.jpg",
+      "pred": 0.056557051837444305,
+      "prediction": "REAL",
+      "confidence": 0.9434429481625557
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\efee1dbdab63369a.jpg",
+      "pred": 0.45175689458847046,
+      "prediction": "REAL",
+      "confidence": 0.5482431054115295
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f024a42236965ddd.jpg",
+      "pred": 0.15068945288658142,
+      "prediction": "REAL",
+      "confidence": 0.8493105471134186
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f040284cb7ad15fb.jpg",
+      "pred": 0.24736720323562622,
+      "prediction": "REAL",
+      "confidence": 0.7526327967643738
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f0ad7f47a229c4b0.jpg",
+      "pred": 0.6124874353408813,
+      "prediction": "FAKE",
+      "confidence": 0.6124874353408813
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f0f41c153c474172.jpg",
+      "pred": 0.2648080885410309,
+      "prediction": "REAL",
+      "confidence": 0.7351919114589691
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f14f975094041e0e.jpg",
+      "pred": 0.538840651512146,
+      "prediction": "FAKE",
+      "confidence": 0.538840651512146
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f1571b82d26a0ec2.jpg",
+      "pred": 0.19680055975914001,
+      "prediction": "REAL",
+      "confidence": 0.80319944024086
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f15859b4059f35a9.jpg",
+      "pred": 0.34036383032798767,
+      "prediction": "REAL",
+      "confidence": 0.6596361696720123
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f177fceaff6bd067.jpg",
+      "pred": 0.08064731955528259,
+      "prediction": "REAL",
+      "confidence": 0.9193526804447174
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f1a4ddd67827f7e2.jpg",
+      "pred": 0.3627440333366394,
+      "prediction": "REAL",
+      "confidence": 0.6372559666633606
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f1bb89a7d7bf3aa9.jpg",
+      "pred": 0.13142575323581696,
+      "prediction": "REAL",
+      "confidence": 0.868574246764183
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f1c432d821c58f36.jpg",
+      "pred": 0.6831886172294617,
+      "prediction": "FAKE",
+      "confidence": 0.6831886172294617
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f1ea361d6e7c9231.jpg",
+      "pred": 0.02982107363641262,
+      "prediction": "REAL",
+      "confidence": 0.9701789263635874
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f2453201c9a5e25c.jpg",
+      "pred": 0.02941235527396202,
+      "prediction": "REAL",
+      "confidence": 0.970587644726038
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f2741fc7e8d12311.jpg",
+      "pred": 0.14443057775497437,
+      "prediction": "REAL",
+      "confidence": 0.8555694222450256
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f285d2b17f974607.jpg",
+      "pred": 0.014273497276008129,
+      "prediction": "REAL",
+      "confidence": 0.9857265027239919
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f2ac339954066c30.jpg",
+      "pred": 0.17438191175460815,
+      "prediction": "REAL",
+      "confidence": 0.8256180882453918
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f2e44fd8f9d59216.jpg",
+      "pred": 0.002879140665754676,
+      "prediction": "REAL",
+      "confidence": 0.9971208593342453
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f36695c8eeda713c.jpg",
+      "pred": 0.007130760233849287,
+      "prediction": "REAL",
+      "confidence": 0.9928692397661507
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f37c857e02cef4c4.jpg",
+      "pred": 0.18023522198200226,
+      "prediction": "REAL",
+      "confidence": 0.8197647780179977
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f3893d68e1cea33d.jpg",
+      "pred": 0.17979393899440765,
+      "prediction": "REAL",
+      "confidence": 0.8202060610055923
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f3a49edfcdeb8234.jpg",
+      "pred": 0.04367784410715103,
+      "prediction": "REAL",
+      "confidence": 0.956322155892849
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f3b01734d6f220cc.jpg",
+      "pred": 0.024993447586894035,
+      "prediction": "REAL",
+      "confidence": 0.975006552413106
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f3e8062a8004d842.jpg",
+      "pred": 0.4356231689453125,
+      "prediction": "REAL",
+      "confidence": 0.5643768310546875
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f4155031e8f6045b.jpg",
+      "pred": 0.44676434993743896,
+      "prediction": "REAL",
+      "confidence": 0.553235650062561
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f418845cb5c68028.jpg",
+      "pred": 0.04117901623249054,
+      "prediction": "REAL",
+      "confidence": 0.9588209837675095
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f42c5682ed6f65fe.jpg",
+      "pred": 0.3102438449859619,
+      "prediction": "REAL",
+      "confidence": 0.6897561550140381
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f441e60372199abc.jpg",
+      "pred": 0.031896766275167465,
+      "prediction": "REAL",
+      "confidence": 0.9681032337248325
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f45b797624dbb9b6.jpg",
+      "pred": 0.9153385162353516,
+      "prediction": "FAKE",
+      "confidence": 0.9153385162353516
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f474ea1d51a0ec80.jpg",
+      "pred": 0.09989501535892487,
+      "prediction": "REAL",
+      "confidence": 0.9001049846410751
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f498b8b4eca8a602.jpg",
+      "pred": 0.5377776622772217,
+      "prediction": "FAKE",
+      "confidence": 0.5377776622772217
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f55301bfae5a729b.jpg",
+      "pred": 0.10371717810630798,
+      "prediction": "REAL",
+      "confidence": 0.896282821893692
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f561f25cda877473.jpg",
+      "pred": 0.6567519903182983,
+      "prediction": "FAKE",
+      "confidence": 0.6567519903182983
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f56d88b8ca03704e.jpg",
+      "pred": 0.06734558194875717,
+      "prediction": "REAL",
+      "confidence": 0.9326544180512428
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f58ced1efc5a7c71.jpg",
+      "pred": 0.2653081715106964,
+      "prediction": "REAL",
+      "confidence": 0.7346918284893036
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f6130f63652c911c.jpg",
+      "pred": 0.3966362774372101,
+      "prediction": "REAL",
+      "confidence": 0.6033637225627899
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f61e1b7725e32804.jpg",
+      "pred": 0.5071123242378235,
+      "prediction": "FAKE",
+      "confidence": 0.5071123242378235
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f698f5f715090a80.jpg",
+      "pred": 0.0937776044011116,
+      "prediction": "REAL",
+      "confidence": 0.9062223955988884
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f6f624ec8e5de398.jpg",
+      "pred": 0.529123067855835,
+      "prediction": "FAKE",
+      "confidence": 0.529123067855835
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f7488ab1b4815285.jpg",
+      "pred": 0.18834833800792694,
+      "prediction": "REAL",
+      "confidence": 0.8116516619920731
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f76b040d57cbb8ce.jpg",
+      "pred": 0.2859460413455963,
+      "prediction": "REAL",
+      "confidence": 0.7140539586544037
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f7e988b4aca0bbf4.jpg",
+      "pred": 0.016934717074036598,
+      "prediction": "REAL",
+      "confidence": 0.9830652829259634
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f823b1c39bf5a6da.jpg",
+      "pred": 0.5480791926383972,
+      "prediction": "FAKE",
+      "confidence": 0.5480791926383972
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f855edd82e85e23e.jpg",
+      "pred": 0.014614001847803593,
+      "prediction": "REAL",
+      "confidence": 0.9853859981521964
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f874cbd694d8312b.jpg",
+      "pred": 0.013033934868872166,
+      "prediction": "REAL",
+      "confidence": 0.9869660651311278
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f8876efcaa8fcf15.jpg",
+      "pred": 0.04182453826069832,
+      "prediction": "REAL",
+      "confidence": 0.9581754617393017
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f8a7ff387dfbda02.jpg",
+      "pred": 0.018944546580314636,
+      "prediction": "REAL",
+      "confidence": 0.9810554534196854
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f8fbb4aaac8df822.jpg",
+      "pred": 0.15470679104328156,
+      "prediction": "REAL",
+      "confidence": 0.8452932089567184
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f92216d0ce07423e.jpg",
+      "pred": 0.04378535598516464,
+      "prediction": "REAL",
+      "confidence": 0.9562146440148354
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f9601e8e07c7894a.jpg",
+      "pred": 0.28882792592048645,
+      "prediction": "REAL",
+      "confidence": 0.7111720740795135
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\f9b007995197d3aa.jpg",
+      "pred": 0.29052186012268066,
+      "prediction": "REAL",
+      "confidence": 0.7094781398773193
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fabb44f15ce61ed6.jpg",
+      "pred": 0.03608224168419838,
+      "prediction": "REAL",
+      "confidence": 0.9639177583158016
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\faf4f08501edbc21.jpg",
+      "pred": 0.00531292799860239,
+      "prediction": "REAL",
+      "confidence": 0.9946870720013976
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fb2607761f6fbe9e.jpg",
+      "pred": 0.14283457398414612,
+      "prediction": "REAL",
+      "confidence": 0.8571654260158539
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fb47e40196902f5a.jpg",
+      "pred": 0.047844160348176956,
+      "prediction": "REAL",
+      "confidence": 0.952155839651823
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fbd6c861bca466dd.jpg",
+      "pred": 0.24769625067710876,
+      "prediction": "REAL",
+      "confidence": 0.7523037493228912
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fc0cc4951577c4d8.jpg",
+      "pred": 0.3008235991001129,
+      "prediction": "REAL",
+      "confidence": 0.6991764008998871
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fc5b79d66428e421.jpg",
+      "pred": 0.04435952752828598,
+      "prediction": "REAL",
+      "confidence": 0.955640472471714
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fcc4b239f3334259.jpg",
+      "pred": 0.16907340288162231,
+      "prediction": "REAL",
+      "confidence": 0.8309265971183777
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fcd64deb90c969c1.jpg",
+      "pred": 0.3443288207054138,
+      "prediction": "REAL",
+      "confidence": 0.6556711792945862
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fd34719760e627a5.jpg",
+      "pred": 0.10681426525115967,
+      "prediction": "REAL",
+      "confidence": 0.8931857347488403
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fd7c5f3476fd9bdb.jpg",
+      "pred": 0.05230775848031044,
+      "prediction": "REAL",
+      "confidence": 0.9476922415196896
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fd7ee9d1095bd55b.jpg",
+      "pred": 0.0857502669095993,
+      "prediction": "REAL",
+      "confidence": 0.9142497330904007
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fd870fcc13862ac5.jpg",
+      "pred": 0.4166875183582306,
+      "prediction": "REAL",
+      "confidence": 0.5833124816417694
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fd939074529e2906.jpg",
+      "pred": 0.028483213856816292,
+      "prediction": "REAL",
+      "confidence": 0.9715167861431837
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fd9508c81ab78628.jpg",
+      "pred": 0.38569319248199463,
+      "prediction": "REAL",
+      "confidence": 0.6143068075180054
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fda446d101d78b33.jpg",
+      "pred": 0.3581356406211853,
+      "prediction": "REAL",
+      "confidence": 0.6418643593788147
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fda6b3107deb38ad.jpg",
+      "pred": 0.6638968586921692,
+      "prediction": "FAKE",
+      "confidence": 0.6638968586921692
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fdf3c1bef97cf140.jpg",
+      "pred": 0.02273256704211235,
+      "prediction": "REAL",
+      "confidence": 0.9772674329578876
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fe4cf40c676be6ff.jpg",
+      "pred": 0.19441644847393036,
+      "prediction": "REAL",
+      "confidence": 0.8055835515260696
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fe68ac82d26fcf40.jpg",
+      "pred": 0.4608851671218872,
+      "prediction": "REAL",
+      "confidence": 0.5391148328781128
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fe9ad2c32193675f.jpg",
+      "pred": 0.21080566942691803,
+      "prediction": "REAL",
+      "confidence": 0.789194330573082
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fed074b88a4f957a.jpg",
+      "pred": 0.05844053626060486,
+      "prediction": "REAL",
+      "confidence": 0.9415594637393951
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\fedb04dabd62f95d.jpg",
+      "pred": 0.09838312119245529,
+      "prediction": "REAL",
+      "confidence": 0.9016168788075447
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ff40c23bcd9345f8.jpg",
+      "pred": 0.2026689350605011,
+      "prediction": "REAL",
+      "confidence": 0.7973310649394989
+    },
+    {
+      "image_path": "C:\\Users\\yukai\\Downloads\\R3GAN\\ff4fdd9777e9618f.jpg",
+      "pred": 0.32712170481681824,
+      "prediction": "REAL",
+      "confidence": 0.6728782951831818
+    }
+  ]
+}

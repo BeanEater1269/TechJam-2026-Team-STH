@@ -18,8 +18,18 @@ const ALL_CONDITION_LABELS = {
   color_down: "Color darker", color_up: "Color brighter", crop80: "Crop 80%",
 };
 
-const MODEL_ORDER = ["base", "concat", "film"];
-const MODEL_COLORS = { base: "#7d8590", concat: "#3ddc84", film: "#4da3ff" }; // base=grey control, concat=green, film=blue
+// Per-backbone model order/display comes from results.json itself (built by
+// scripts/build_dashboard_data.py) -- NOT a hardcoded constant here, since b32 (frozen
+// at base/concat/film) and l14 (extended with concat_drift/concat_drift_liqe) now have
+// different model sets. Colors are still a fixed lookup, keyed by model_key, so a given
+// model always renders the same color regardless of which backbone tab it's on.
+const MODEL_COLORS = {
+  base: "#7d8590",              // grey control
+  concat: "#3ddc84",            // green
+  concat_drift: "#2dd4d4",      // teal -- the model the team settled on
+  concat_drift_liqe: "#ffab40", // amber -- "we tried this, it made things worse"
+  film: "#4da3ff",              // blue
+};
 const GRID_COLOR = "#23272f";
 const TEXT_COLOR = "#7d8590";
 const FONT_FAMILY = "JetBrains Mono, ui-monospace, monospace";
@@ -32,9 +42,9 @@ function pct(x) {
 }
 
 function renderSummary(backboneKey) {
-  const models = DATA.backbones[backboneKey].models;
+  const { order, models } = DATA.backbones[backboneKey];
   const container = document.getElementById("clean-summary");
-  container.innerHTML = MODEL_ORDER.map((modelKey) => {
+  container.innerHTML = order.map((modelKey) => {
     const m = models[modelKey];
     return `
       <div class="stat-card">
@@ -48,7 +58,7 @@ function renderSummary(backboneKey) {
 }
 
 function renderGroupCharts(backboneKey) {
-  const models = DATA.backbones[backboneKey].models;
+  const { order, models } = DATA.backbones[backboneKey];
   const grid = document.getElementById("chart-grid");
   grid.innerHTML = "";
   charts.forEach((c) => c.destroy());
@@ -65,7 +75,7 @@ function renderGroupCharts(backboneKey) {
       type: "bar",
       data: {
         labels: group.severityLabels,
-        datasets: MODEL_ORDER.map((modelKey) => ({
+        datasets: order.map((modelKey) => ({
           label: models[modelKey].display_name,
           data: group.keys.map((key) => models[modelKey].results[key]?.auc ?? null),
           backgroundColor: MODEL_COLORS[modelKey],
@@ -93,11 +103,25 @@ function renderGroupCharts(backboneKey) {
 }
 
 function renderDetailTable(backboneKey) {
-  const models = DATA.backbones[backboneKey].models;
+  const { order, models } = DATA.backbones[backboneKey];
+
+  // Header is built here, not static HTML -- column count varies by backbone (b32:
+  // 3 models, l14: 5), so a fixed <thead> in results.html can't cover both.
+  const thead = document.querySelector("#detail-table thead");
+  thead.innerHTML = `
+    <tr>
+      <th>Condition</th>
+      ${order.map((modelKey) => `<th colspan="2">${models[modelKey].display_name}</th>`).join("")}
+    </tr>
+    <tr class="subhead">
+      <th></th>
+      ${order.map(() => `<th>Acc.</th><th>AUC</th>`).join("")}
+    </tr>`;
+
   const tbody = document.querySelector("#detail-table tbody");
   const rows = Object.keys(ALL_CONDITION_LABELS)
     .map((key) => {
-      const cells = MODEL_ORDER.map((modelKey) => {
+      const cells = order.map((modelKey) => {
         const r = models[modelKey].results[key];
         return `<td>${pct(r.accuracy)}</td><td>${r.auc.toFixed(3)}</td>`;
       }).join("");

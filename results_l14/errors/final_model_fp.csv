@@ -1,0 +1,1244 @@
+img_id,variant,source_dataset,generator_family,label,prob,path
+cifake_0618 (3),clean,cifake,real,0,0.8877595067024231,data\cache\clean\test\cifake_0618 (3)\clean.jpg
+cifake_0793,clean,cifake,real,0,0.8612890243530273,data\cache\clean\test\cifake_0793\clean.jpg
+cifake_1139,clean,cifake,real,0,0.9030388593673706,data\cache\clean\test\cifake_1139\clean.jpg
+cifake_1435 (2),clean,cifake,real,0,0.5351458191871643,data\cache\clean\test\cifake_1435 (2)\clean.jpg
+cifake_1974,clean,cifake,real,0,0.633155345916748,data\cache\clean\test\cifake_1974\clean.jpg
+cifake_2071,clean,cifake,real,0,0.8618682026863098,data\cache\clean\test\cifake_2071\clean.jpg
+cifake_2122,clean,cifake,real,0,0.7163991332054138,data\cache\clean\test\cifake_2122\clean.jpg
+cifake_2547,clean,cifake,real,0,0.531883180141449,data\cache\clean\test\cifake_2547\clean.jpg
+cifake_2633 (10),clean,cifake,real,0,0.683347225189209,data\cache\clean\test\cifake_2633 (10)\clean.jpg
+cifake_2660,clean,cifake,real,0,0.6390236616134644,data\cache\clean\test\cifake_2660\clean.jpg
+cifake_2874 (4),clean,cifake,real,0,0.5224328637123108,data\cache\clean\test\cifake_2874 (4)\clean.jpg
+cifake_3891 (3),clean,cifake,real,0,0.7216476202011108,data\cache\clean\test\cifake_3891 (3)\clean.jpg
+cifake_3916 (8),clean,cifake,real,0,0.8249779939651489,data\cache\clean\test\cifake_3916 (8)\clean.jpg
+cifake_4660 (5),clean,cifake,real,0,0.9637469053268433,data\cache\clean\test\cifake_4660 (5)\clean.jpg
+cifake_4673 (5),clean,cifake,real,0,0.659050464630127,data\cache\clean\test\cifake_4673 (5)\clean.jpg
+sidset_011c2e4461eb1fdc,clean,sidset,real,0,0.6099841594696045,data\cache\clean\test\sidset_011c2e4461eb1fdc\clean.jpg
+sidset_036df955965cb2f9,clean,sidset,real,0,0.545011579990387,data\cache\clean\test\sidset_036df955965cb2f9\clean.jpg
+sidset_038789965a8f7606,clean,sidset,real,0,0.5783727765083313,data\cache\clean\test\sidset_038789965a8f7606\clean.jpg
+sidset_075db643445af8e3,clean,sidset,real,0,0.6230976581573486,data\cache\clean\test\sidset_075db643445af8e3\clean.jpg
+sidset_09f7329f0c1c9fd4,clean,sidset,real,0,0.6597311496734619,data\cache\clean\test\sidset_09f7329f0c1c9fd4\clean.jpg
+sidset_0f8102c25fc764ea,clean,sidset,real,0,0.9352763891220093,data\cache\clean\test\sidset_0f8102c25fc764ea\clean.jpg
+sidset_14312756c1c94efa,clean,sidset,real,0,0.9997827410697937,data\cache\clean\test\sidset_14312756c1c94efa\clean.jpg
+sidset_1577f06c8ee59ef0,clean,sidset,real,0,0.9186303615570068,data\cache\clean\test\sidset_1577f06c8ee59ef0\clean.jpg
+sidset_16c4058cc17896fc,clean,sidset,real,0,0.5585577487945557,data\cache\clean\test\sidset_16c4058cc17896fc\clean.jpg
+sidset_1d24e17c0f598d7a,clean,sidset,real,0,0.5213238596916199,data\cache\clean\test\sidset_1d24e17c0f598d7a\clean.jpg
+sidset_22b07f2ffcaf319c,clean,sidset,real,0,0.961636483669281,data\cache\clean\test\sidset_22b07f2ffcaf319c\clean.jpg
+sidset_26c389b400ea1653,clean,sidset,real,0,0.7798479795455933,data\cache\clean\test\sidset_26c389b400ea1653\clean.jpg
+sidset_31f7ec5269c0f867,clean,sidset,real,0,0.5759621858596802,data\cache\clean\test\sidset_31f7ec5269c0f867\clean.jpg
+sidset_34866edcc2800ae0,clean,sidset,real,0,0.5198753476142883,data\cache\clean\test\sidset_34866edcc2800ae0\clean.jpg
+sidset_35f6c1138217d58e,clean,sidset,real,0,0.6261977553367615,data\cache\clean\test\sidset_35f6c1138217d58e\clean.jpg
+sidset_39a3f029e2e17dd3,clean,sidset,real,0,0.9552653431892395,data\cache\clean\test\sidset_39a3f029e2e17dd3\clean.jpg
+sidset_3beca4d6152a4aa5,clean,sidset,real,0,0.5128729343414307,data\cache\clean\test\sidset_3beca4d6152a4aa5\clean.jpg
+sidset_4e4b9b1d6e8b2aca,clean,sidset,real,0,0.5044013261795044,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\clean.jpg
+sidset_52bf81b2d7f84101,clean,sidset,real,0,0.6086275577545166,data\cache\clean\test\sidset_52bf81b2d7f84101\clean.jpg
+sidset_55ed6c0bbd54e07d,clean,sidset,real,0,0.7471520304679871,data\cache\clean\test\sidset_55ed6c0bbd54e07d\clean.jpg
+sidset_5a165a26bf8ca4be,clean,sidset,real,0,0.7447517514228821,data\cache\clean\test\sidset_5a165a26bf8ca4be\clean.jpg
+sidset_5b291a7b5ae05cf0,clean,sidset,real,0,0.6237651109695435,data\cache\clean\test\sidset_5b291a7b5ae05cf0\clean.jpg
+sidset_5b8f12b78d13bfcd,clean,sidset,real,0,0.8229974508285522,data\cache\clean\test\sidset_5b8f12b78d13bfcd\clean.jpg
+sidset_5ba522a91162ae70,clean,sidset,real,0,0.981940507888794,data\cache\clean\test\sidset_5ba522a91162ae70\clean.jpg
+sidset_615f67f3acd96d5c,clean,sidset,real,0,0.6912354230880737,data\cache\clean\test\sidset_615f67f3acd96d5c\clean.jpg
+sidset_65d4916b9f3f47ba,clean,sidset,real,0,0.5449026226997375,data\cache\clean\test\sidset_65d4916b9f3f47ba\clean.jpg
+sidset_6b7167d906f4ff1f,clean,sidset,real,0,0.8891553282737732,data\cache\clean\test\sidset_6b7167d906f4ff1f\clean.jpg
+sidset_796b6212cfecb3de,clean,sidset,real,0,0.6526086330413818,data\cache\clean\test\sidset_796b6212cfecb3de\clean.jpg
+sidset_7974984b83c15934,clean,sidset,real,0,0.5339807271957397,data\cache\clean\test\sidset_7974984b83c15934\clean.jpg
+sidset_7f1ce0ac000e1d6c,clean,sidset,real,0,0.9336852431297302,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\clean.jpg
+sidset_832e43df048c6d1a,clean,sidset,real,0,0.7620201110839844,data\cache\clean\test\sidset_832e43df048c6d1a\clean.jpg
+sidset_8619862cda88466c,clean,sidset,real,0,0.5111408829689026,data\cache\clean\test\sidset_8619862cda88466c\clean.jpg
+sidset_9e2a9b16ff46f867,clean,sidset,real,0,0.5177420973777771,data\cache\clean\test\sidset_9e2a9b16ff46f867\clean.jpg
+sidset_a3032d75347e6fa2,clean,sidset,real,0,0.6474308967590332,data\cache\clean\test\sidset_a3032d75347e6fa2\clean.jpg
+sidset_a8ad741ef85002f3,clean,sidset,real,0,0.6933118104934692,data\cache\clean\test\sidset_a8ad741ef85002f3\clean.jpg
+sidset_ab1441008986f237,clean,sidset,real,0,0.7996653914451599,data\cache\clean\test\sidset_ab1441008986f237\clean.jpg
+sidset_ac54ef2834f8bc74,clean,sidset,real,0,0.7426894903182983,data\cache\clean\test\sidset_ac54ef2834f8bc74\clean.jpg
+sidset_ae2a3178c574c716,clean,sidset,real,0,0.5143102407455444,data\cache\clean\test\sidset_ae2a3178c574c716\clean.jpg
+sidset_b3a42a0308a160fa,clean,sidset,real,0,0.6168403625488281,data\cache\clean\test\sidset_b3a42a0308a160fa\clean.jpg
+sidset_b8d2d5fcb72a3a65,clean,sidset,real,0,0.5596821308135986,data\cache\clean\test\sidset_b8d2d5fcb72a3a65\clean.jpg
+sidset_bc70b06f0d603efd,clean,sidset,real,0,0.9085764288902283,data\cache\clean\test\sidset_bc70b06f0d603efd\clean.jpg
+sidset_c5a378b0ea24d25e,clean,sidset,real,0,0.7012302279472351,data\cache\clean\test\sidset_c5a378b0ea24d25e\clean.jpg
+sidset_cb68a83278e88b9d,clean,sidset,real,0,0.8895938992500305,data\cache\clean\test\sidset_cb68a83278e88b9d\clean.jpg
+sidset_d652dc17bb0709b8,clean,sidset,real,0,0.9239065647125244,data\cache\clean\test\sidset_d652dc17bb0709b8\clean.jpg
+sidset_de2d4b37000ff09c,clean,sidset,real,0,0.7213082909584045,data\cache\clean\test\sidset_de2d4b37000ff09c\clean.jpg
+sidset_e35ca53982ee8372,clean,sidset,real,0,0.6946122646331787,data\cache\clean\test\sidset_e35ca53982ee8372\clean.jpg
+sidset_e67f5961f8d7c753,clean,sidset,real,0,0.5636197328567505,data\cache\clean\test\sidset_e67f5961f8d7c753\clean.jpg
+sidset_e6f037cc020a3c67,clean,sidset,real,0,0.6101888418197632,data\cache\clean\test\sidset_e6f037cc020a3c67\clean.jpg
+sidset_e8e76505f6a37089,clean,sidset,real,0,0.5209318995475769,data\cache\clean\test\sidset_e8e76505f6a37089\clean.jpg
+sidset_e99541e9ff8fadb2,clean,sidset,real,0,0.5022289156913757,data\cache\clean\test\sidset_e99541e9ff8fadb2\clean.jpg
+sidset_f5044c17014681a8,clean,sidset,real,0,0.5235721468925476,data\cache\clean\test\sidset_f5044c17014681a8\clean.jpg
+sidset_fac95db1f3df9775,clean,sidset,real,0,0.5757954120635986,data\cache\clean\test\sidset_fac95db1f3df9775\clean.jpg
+sidset_fe0bec3214706d60,clean,sidset,real,0,0.9227132797241211,data\cache\clean\test\sidset_fe0bec3214706d60\clean.jpg
+cifake_0618 (3),blur_s0.5,cifake,real,0,0.8899160623550415,data\cache\clean\test\cifake_0618 (3)\blur_s0.5.jpg
+cifake_0793,blur_s0.5,cifake,real,0,0.8556477427482605,data\cache\clean\test\cifake_0793\blur_s0.5.jpg
+cifake_1139,blur_s0.5,cifake,real,0,0.9043759703636169,data\cache\clean\test\cifake_1139\blur_s0.5.jpg
+cifake_1435 (2),blur_s0.5,cifake,real,0,0.5363914966583252,data\cache\clean\test\cifake_1435 (2)\blur_s0.5.jpg
+cifake_1974,blur_s0.5,cifake,real,0,0.6330236196517944,data\cache\clean\test\cifake_1974\blur_s0.5.jpg
+cifake_2071,blur_s0.5,cifake,real,0,0.8610502481460571,data\cache\clean\test\cifake_2071\blur_s0.5.jpg
+cifake_2122,blur_s0.5,cifake,real,0,0.7216069102287292,data\cache\clean\test\cifake_2122\blur_s0.5.jpg
+cifake_2547,blur_s0.5,cifake,real,0,0.5357791781425476,data\cache\clean\test\cifake_2547\blur_s0.5.jpg
+cifake_2633 (10),blur_s0.5,cifake,real,0,0.6833513379096985,data\cache\clean\test\cifake_2633 (10)\blur_s0.5.jpg
+cifake_2660,blur_s0.5,cifake,real,0,0.6439689993858337,data\cache\clean\test\cifake_2660\blur_s0.5.jpg
+cifake_2874 (4),blur_s0.5,cifake,real,0,0.5226492285728455,data\cache\clean\test\cifake_2874 (4)\blur_s0.5.jpg
+cifake_3891 (3),blur_s0.5,cifake,real,0,0.7217907905578613,data\cache\clean\test\cifake_3891 (3)\blur_s0.5.jpg
+cifake_3916 (8),blur_s0.5,cifake,real,0,0.8233711123466492,data\cache\clean\test\cifake_3916 (8)\blur_s0.5.jpg
+cifake_4660 (5),blur_s0.5,cifake,real,0,0.9643335342407227,data\cache\clean\test\cifake_4660 (5)\blur_s0.5.jpg
+cifake_4673 (5),blur_s0.5,cifake,real,0,0.6601192355155945,data\cache\clean\test\cifake_4673 (5)\blur_s0.5.jpg
+sidset_011c2e4461eb1fdc,blur_s0.5,sidset,real,0,0.5799756646156311,data\cache\clean\test\sidset_011c2e4461eb1fdc\blur_s0.5.jpg
+sidset_038789965a8f7606,blur_s0.5,sidset,real,0,0.5671336650848389,data\cache\clean\test\sidset_038789965a8f7606\blur_s0.5.jpg
+sidset_075db643445af8e3,blur_s0.5,sidset,real,0,0.6244809627532959,data\cache\clean\test\sidset_075db643445af8e3\blur_s0.5.jpg
+sidset_09f7329f0c1c9fd4,blur_s0.5,sidset,real,0,0.5689436197280884,data\cache\clean\test\sidset_09f7329f0c1c9fd4\blur_s0.5.jpg
+sidset_0f8102c25fc764ea,blur_s0.5,sidset,real,0,0.907140851020813,data\cache\clean\test\sidset_0f8102c25fc764ea\blur_s0.5.jpg
+sidset_14312756c1c94efa,blur_s0.5,sidset,real,0,0.9996672868728638,data\cache\clean\test\sidset_14312756c1c94efa\blur_s0.5.jpg
+sidset_1577f06c8ee59ef0,blur_s0.5,sidset,real,0,0.8893911838531494,data\cache\clean\test\sidset_1577f06c8ee59ef0\blur_s0.5.jpg
+sidset_16c4058cc17896fc,blur_s0.5,sidset,real,0,0.5708009004592896,data\cache\clean\test\sidset_16c4058cc17896fc\blur_s0.5.jpg
+sidset_22b07f2ffcaf319c,blur_s0.5,sidset,real,0,0.9573665261268616,data\cache\clean\test\sidset_22b07f2ffcaf319c\blur_s0.5.jpg
+sidset_26c389b400ea1653,blur_s0.5,sidset,real,0,0.837791919708252,data\cache\clean\test\sidset_26c389b400ea1653\blur_s0.5.jpg
+sidset_31f7ec5269c0f867,blur_s0.5,sidset,real,0,0.5564644932746887,data\cache\clean\test\sidset_31f7ec5269c0f867\blur_s0.5.jpg
+sidset_35f6c1138217d58e,blur_s0.5,sidset,real,0,0.6317125558853149,data\cache\clean\test\sidset_35f6c1138217d58e\blur_s0.5.jpg
+sidset_39a3f029e2e17dd3,blur_s0.5,sidset,real,0,0.9549077749252319,data\cache\clean\test\sidset_39a3f029e2e17dd3\blur_s0.5.jpg
+sidset_3beca4d6152a4aa5,blur_s0.5,sidset,real,0,0.5178680419921875,data\cache\clean\test\sidset_3beca4d6152a4aa5\blur_s0.5.jpg
+sidset_52bf81b2d7f84101,blur_s0.5,sidset,real,0,0.6260095238685608,data\cache\clean\test\sidset_52bf81b2d7f84101\blur_s0.5.jpg
+sidset_55ed6c0bbd54e07d,blur_s0.5,sidset,real,0,0.6404716372489929,data\cache\clean\test\sidset_55ed6c0bbd54e07d\blur_s0.5.jpg
+sidset_5a165a26bf8ca4be,blur_s0.5,sidset,real,0,0.6659895181655884,data\cache\clean\test\sidset_5a165a26bf8ca4be\blur_s0.5.jpg
+sidset_5b291a7b5ae05cf0,blur_s0.5,sidset,real,0,0.6228782534599304,data\cache\clean\test\sidset_5b291a7b5ae05cf0\blur_s0.5.jpg
+sidset_5b8f12b78d13bfcd,blur_s0.5,sidset,real,0,0.8082619309425354,data\cache\clean\test\sidset_5b8f12b78d13bfcd\blur_s0.5.jpg
+sidset_5ba522a91162ae70,blur_s0.5,sidset,real,0,0.9727234840393066,data\cache\clean\test\sidset_5ba522a91162ae70\blur_s0.5.jpg
+sidset_615f67f3acd96d5c,blur_s0.5,sidset,real,0,0.7134963274002075,data\cache\clean\test\sidset_615f67f3acd96d5c\blur_s0.5.jpg
+sidset_65d4916b9f3f47ba,blur_s0.5,sidset,real,0,0.5118906497955322,data\cache\clean\test\sidset_65d4916b9f3f47ba\blur_s0.5.jpg
+sidset_6b7167d906f4ff1f,blur_s0.5,sidset,real,0,0.8695164918899536,data\cache\clean\test\sidset_6b7167d906f4ff1f\blur_s0.5.jpg
+sidset_796b6212cfecb3de,blur_s0.5,sidset,real,0,0.6813517212867737,data\cache\clean\test\sidset_796b6212cfecb3de\blur_s0.5.jpg
+sidset_7974984b83c15934,blur_s0.5,sidset,real,0,0.5368658900260925,data\cache\clean\test\sidset_7974984b83c15934\blur_s0.5.jpg
+sidset_7f1ce0ac000e1d6c,blur_s0.5,sidset,real,0,0.9263355135917664,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\blur_s0.5.jpg
+sidset_832e43df048c6d1a,blur_s0.5,sidset,real,0,0.7072576284408569,data\cache\clean\test\sidset_832e43df048c6d1a\blur_s0.5.jpg
+sidset_a3032d75347e6fa2,blur_s0.5,sidset,real,0,0.6506400108337402,data\cache\clean\test\sidset_a3032d75347e6fa2\blur_s0.5.jpg
+sidset_a8ad741ef85002f3,blur_s0.5,sidset,real,0,0.6796156764030457,data\cache\clean\test\sidset_a8ad741ef85002f3\blur_s0.5.jpg
+sidset_ab1441008986f237,blur_s0.5,sidset,real,0,0.782539963722229,data\cache\clean\test\sidset_ab1441008986f237\blur_s0.5.jpg
+sidset_ac54ef2834f8bc74,blur_s0.5,sidset,real,0,0.7360926866531372,data\cache\clean\test\sidset_ac54ef2834f8bc74\blur_s0.5.jpg
+sidset_ae2a3178c574c716,blur_s0.5,sidset,real,0,0.5008059740066528,data\cache\clean\test\sidset_ae2a3178c574c716\blur_s0.5.jpg
+sidset_b3a42a0308a160fa,blur_s0.5,sidset,real,0,0.5741338729858398,data\cache\clean\test\sidset_b3a42a0308a160fa\blur_s0.5.jpg
+sidset_bc70b06f0d603efd,blur_s0.5,sidset,real,0,0.8555025458335876,data\cache\clean\test\sidset_bc70b06f0d603efd\blur_s0.5.jpg
+sidset_c4527bae1db9f157,blur_s0.5,sidset,real,0,0.5056028962135315,data\cache\clean\test\sidset_c4527bae1db9f157\blur_s0.5.jpg
+sidset_c5a378b0ea24d25e,blur_s0.5,sidset,real,0,0.7056465744972229,data\cache\clean\test\sidset_c5a378b0ea24d25e\blur_s0.5.jpg
+sidset_cb68a83278e88b9d,blur_s0.5,sidset,real,0,0.9013851284980774,data\cache\clean\test\sidset_cb68a83278e88b9d\blur_s0.5.jpg
+sidset_d652dc17bb0709b8,blur_s0.5,sidset,real,0,0.9362987875938416,data\cache\clean\test\sidset_d652dc17bb0709b8\blur_s0.5.jpg
+sidset_de2d4b37000ff09c,blur_s0.5,sidset,real,0,0.6809656023979187,data\cache\clean\test\sidset_de2d4b37000ff09c\blur_s0.5.jpg
+sidset_e35ca53982ee8372,blur_s0.5,sidset,real,0,0.5974881649017334,data\cache\clean\test\sidset_e35ca53982ee8372\blur_s0.5.jpg
+sidset_e67f5961f8d7c753,blur_s0.5,sidset,real,0,0.5262414813041687,data\cache\clean\test\sidset_e67f5961f8d7c753\blur_s0.5.jpg
+sidset_e6f037cc020a3c67,blur_s0.5,sidset,real,0,0.583857536315918,data\cache\clean\test\sidset_e6f037cc020a3c67\blur_s0.5.jpg
+sidset_e8e76505f6a37089,blur_s0.5,sidset,real,0,0.5749009251594543,data\cache\clean\test\sidset_e8e76505f6a37089\blur_s0.5.jpg
+sidset_f5044c17014681a8,blur_s0.5,sidset,real,0,0.5068722367286682,data\cache\clean\test\sidset_f5044c17014681a8\blur_s0.5.jpg
+sidset_fac95db1f3df9775,blur_s0.5,sidset,real,0,0.5535710453987122,data\cache\clean\test\sidset_fac95db1f3df9775\blur_s0.5.jpg
+sidset_fe0bec3214706d60,blur_s0.5,sidset,real,0,0.9214172959327698,data\cache\clean\test\sidset_fe0bec3214706d60\blur_s0.5.jpg
+cifake_0618 (3),blur_s1.0,cifake,real,0,0.8879411220550537,data\cache\clean\test\cifake_0618 (3)\blur_s1.0.jpg
+cifake_0793,blur_s1.0,cifake,real,0,0.8576509952545166,data\cache\clean\test\cifake_0793\blur_s1.0.jpg
+cifake_1139,blur_s1.0,cifake,real,0,0.9027127623558044,data\cache\clean\test\cifake_1139\blur_s1.0.jpg
+cifake_1435 (2),blur_s1.0,cifake,real,0,0.5520442128181458,data\cache\clean\test\cifake_1435 (2)\blur_s1.0.jpg
+cifake_1974,blur_s1.0,cifake,real,0,0.6239803433418274,data\cache\clean\test\cifake_1974\blur_s1.0.jpg
+cifake_2071,blur_s1.0,cifake,real,0,0.8627403378486633,data\cache\clean\test\cifake_2071\blur_s1.0.jpg
+cifake_2122,blur_s1.0,cifake,real,0,0.7145757675170898,data\cache\clean\test\cifake_2122\blur_s1.0.jpg
+cifake_2547,blur_s1.0,cifake,real,0,0.5299539566040039,data\cache\clean\test\cifake_2547\blur_s1.0.jpg
+cifake_2633 (10),blur_s1.0,cifake,real,0,0.693917989730835,data\cache\clean\test\cifake_2633 (10)\blur_s1.0.jpg
+cifake_2660,blur_s1.0,cifake,real,0,0.6306064128875732,data\cache\clean\test\cifake_2660\blur_s1.0.jpg
+cifake_2874 (4),blur_s1.0,cifake,real,0,0.5286837816238403,data\cache\clean\test\cifake_2874 (4)\blur_s1.0.jpg
+cifake_3891 (3),blur_s1.0,cifake,real,0,0.7215461730957031,data\cache\clean\test\cifake_3891 (3)\blur_s1.0.jpg
+cifake_3916 (8),blur_s1.0,cifake,real,0,0.8343451619148254,data\cache\clean\test\cifake_3916 (8)\blur_s1.0.jpg
+cifake_4660 (5),blur_s1.0,cifake,real,0,0.9633052945137024,data\cache\clean\test\cifake_4660 (5)\blur_s1.0.jpg
+cifake_4673 (5),blur_s1.0,cifake,real,0,0.6653434634208679,data\cache\clean\test\cifake_4673 (5)\blur_s1.0.jpg
+sidset_011c2e4461eb1fdc,blur_s1.0,sidset,real,0,0.5786423683166504,data\cache\clean\test\sidset_011c2e4461eb1fdc\blur_s1.0.jpg
+sidset_038789965a8f7606,blur_s1.0,sidset,real,0,0.5537247657775879,data\cache\clean\test\sidset_038789965a8f7606\blur_s1.0.jpg
+sidset_075db643445af8e3,blur_s1.0,sidset,real,0,0.5488727688789368,data\cache\clean\test\sidset_075db643445af8e3\blur_s1.0.jpg
+sidset_09f7329f0c1c9fd4,blur_s1.0,sidset,real,0,0.5262367129325867,data\cache\clean\test\sidset_09f7329f0c1c9fd4\blur_s1.0.jpg
+sidset_0f8102c25fc764ea,blur_s1.0,sidset,real,0,0.844017505645752,data\cache\clean\test\sidset_0f8102c25fc764ea\blur_s1.0.jpg
+sidset_14312756c1c94efa,blur_s1.0,sidset,real,0,0.9989557266235352,data\cache\clean\test\sidset_14312756c1c94efa\blur_s1.0.jpg
+sidset_1577f06c8ee59ef0,blur_s1.0,sidset,real,0,0.8915148377418518,data\cache\clean\test\sidset_1577f06c8ee59ef0\blur_s1.0.jpg
+sidset_16c4058cc17896fc,blur_s1.0,sidset,real,0,0.5342108607292175,data\cache\clean\test\sidset_16c4058cc17896fc\blur_s1.0.jpg
+sidset_1d24e17c0f598d7a,blur_s1.0,sidset,real,0,0.5150708556175232,data\cache\clean\test\sidset_1d24e17c0f598d7a\blur_s1.0.jpg
+sidset_22b07f2ffcaf319c,blur_s1.0,sidset,real,0,0.9354128241539001,data\cache\clean\test\sidset_22b07f2ffcaf319c\blur_s1.0.jpg
+sidset_26c389b400ea1653,blur_s1.0,sidset,real,0,0.827253520488739,data\cache\clean\test\sidset_26c389b400ea1653\blur_s1.0.jpg
+sidset_35f6c1138217d58e,blur_s1.0,sidset,real,0,0.6570955514907837,data\cache\clean\test\sidset_35f6c1138217d58e\blur_s1.0.jpg
+sidset_39a3f029e2e17dd3,blur_s1.0,sidset,real,0,0.9567568898200989,data\cache\clean\test\sidset_39a3f029e2e17dd3\blur_s1.0.jpg
+sidset_3beca4d6152a4aa5,blur_s1.0,sidset,real,0,0.5672475099563599,data\cache\clean\test\sidset_3beca4d6152a4aa5\blur_s1.0.jpg
+sidset_524db7cc1caac0b0,blur_s1.0,sidset,real,0,0.6013152599334717,data\cache\clean\test\sidset_524db7cc1caac0b0\blur_s1.0.jpg
+sidset_52bf81b2d7f84101,blur_s1.0,sidset,real,0,0.6106653809547424,data\cache\clean\test\sidset_52bf81b2d7f84101\blur_s1.0.jpg
+sidset_5a165a26bf8ca4be,blur_s1.0,sidset,real,0,0.6458562016487122,data\cache\clean\test\sidset_5a165a26bf8ca4be\blur_s1.0.jpg
+sidset_5b291a7b5ae05cf0,blur_s1.0,sidset,real,0,0.6234904527664185,data\cache\clean\test\sidset_5b291a7b5ae05cf0\blur_s1.0.jpg
+sidset_5b8f12b78d13bfcd,blur_s1.0,sidset,real,0,0.7600860595703125,data\cache\clean\test\sidset_5b8f12b78d13bfcd\blur_s1.0.jpg
+sidset_5ba522a91162ae70,blur_s1.0,sidset,real,0,0.966618001461029,data\cache\clean\test\sidset_5ba522a91162ae70\blur_s1.0.jpg
+sidset_615f67f3acd96d5c,blur_s1.0,sidset,real,0,0.6588551998138428,data\cache\clean\test\sidset_615f67f3acd96d5c\blur_s1.0.jpg
+sidset_6b7167d906f4ff1f,blur_s1.0,sidset,real,0,0.8506767153739929,data\cache\clean\test\sidset_6b7167d906f4ff1f\blur_s1.0.jpg
+sidset_796b6212cfecb3de,blur_s1.0,sidset,real,0,0.6870624423027039,data\cache\clean\test\sidset_796b6212cfecb3de\blur_s1.0.jpg
+sidset_7974984b83c15934,blur_s1.0,sidset,real,0,0.5206106901168823,data\cache\clean\test\sidset_7974984b83c15934\blur_s1.0.jpg
+sidset_7b550aceb5ec111f,blur_s1.0,sidset,real,0,0.6149112582206726,data\cache\clean\test\sidset_7b550aceb5ec111f\blur_s1.0.jpg
+sidset_7f1ce0ac000e1d6c,blur_s1.0,sidset,real,0,0.8882232904434204,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\blur_s1.0.jpg
+sidset_832e43df048c6d1a,blur_s1.0,sidset,real,0,0.6055309772491455,data\cache\clean\test\sidset_832e43df048c6d1a\blur_s1.0.jpg
+sidset_a3032d75347e6fa2,blur_s1.0,sidset,real,0,0.6899204850196838,data\cache\clean\test\sidset_a3032d75347e6fa2\blur_s1.0.jpg
+sidset_a8ad741ef85002f3,blur_s1.0,sidset,real,0,0.6353171467781067,data\cache\clean\test\sidset_a8ad741ef85002f3\blur_s1.0.jpg
+sidset_ab1441008986f237,blur_s1.0,sidset,real,0,0.5794597864151001,data\cache\clean\test\sidset_ab1441008986f237\blur_s1.0.jpg
+sidset_ac54ef2834f8bc74,blur_s1.0,sidset,real,0,0.7137083411216736,data\cache\clean\test\sidset_ac54ef2834f8bc74\blur_s1.0.jpg
+sidset_bc70b06f0d603efd,blur_s1.0,sidset,real,0,0.8088632822036743,data\cache\clean\test\sidset_bc70b06f0d603efd\blur_s1.0.jpg
+sidset_c4527bae1db9f157,blur_s1.0,sidset,real,0,0.5764381289482117,data\cache\clean\test\sidset_c4527bae1db9f157\blur_s1.0.jpg
+sidset_c5a378b0ea24d25e,blur_s1.0,sidset,real,0,0.6782536506652832,data\cache\clean\test\sidset_c5a378b0ea24d25e\blur_s1.0.jpg
+sidset_c7d3774f16039f96,blur_s1.0,sidset,real,0,0.5317946076393127,data\cache\clean\test\sidset_c7d3774f16039f96\blur_s1.0.jpg
+sidset_cb68a83278e88b9d,blur_s1.0,sidset,real,0,0.9021469354629517,data\cache\clean\test\sidset_cb68a83278e88b9d\blur_s1.0.jpg
+sidset_d652dc17bb0709b8,blur_s1.0,sidset,real,0,0.8864483833312988,data\cache\clean\test\sidset_d652dc17bb0709b8\blur_s1.0.jpg
+sidset_de2d4b37000ff09c,blur_s1.0,sidset,real,0,0.5139694213867188,data\cache\clean\test\sidset_de2d4b37000ff09c\blur_s1.0.jpg
+sidset_e6f037cc020a3c67,blur_s1.0,sidset,real,0,0.5855529308319092,data\cache\clean\test\sidset_e6f037cc020a3c67\blur_s1.0.jpg
+sidset_f5044c17014681a8,blur_s1.0,sidset,real,0,0.5355326533317566,data\cache\clean\test\sidset_f5044c17014681a8\blur_s1.0.jpg
+sidset_fe0bec3214706d60,blur_s1.0,sidset,real,0,0.9097874760627747,data\cache\clean\test\sidset_fe0bec3214706d60\blur_s1.0.jpg
+cifake_0618 (3),blur_s2.0,cifake,real,0,0.8960778713226318,data\cache\clean\test\cifake_0618 (3)\blur_s2.0.jpg
+cifake_0793,blur_s2.0,cifake,real,0,0.852684497833252,data\cache\clean\test\cifake_0793\blur_s2.0.jpg
+cifake_1139,blur_s2.0,cifake,real,0,0.8813625574111938,data\cache\clean\test\cifake_1139\blur_s2.0.jpg
+cifake_1974,blur_s2.0,cifake,real,0,0.592568576335907,data\cache\clean\test\cifake_1974\blur_s2.0.jpg
+cifake_2071,blur_s2.0,cifake,real,0,0.8644564151763916,data\cache\clean\test\cifake_2071\blur_s2.0.jpg
+cifake_2122,blur_s2.0,cifake,real,0,0.6702592968940735,data\cache\clean\test\cifake_2122\blur_s2.0.jpg
+cifake_2633 (10),blur_s2.0,cifake,real,0,0.7545374035835266,data\cache\clean\test\cifake_2633 (10)\blur_s2.0.jpg
+cifake_2660,blur_s2.0,cifake,real,0,0.5829868316650391,data\cache\clean\test\cifake_2660\blur_s2.0.jpg
+cifake_2874 (4),blur_s2.0,cifake,real,0,0.5105355381965637,data\cache\clean\test\cifake_2874 (4)\blur_s2.0.jpg
+cifake_3891 (3),blur_s2.0,cifake,real,0,0.6805008053779602,data\cache\clean\test\cifake_3891 (3)\blur_s2.0.jpg
+cifake_3916 (8),blur_s2.0,cifake,real,0,0.7918007373809814,data\cache\clean\test\cifake_3916 (8)\blur_s2.0.jpg
+cifake_4660 (5),blur_s2.0,cifake,real,0,0.9627223610877991,data\cache\clean\test\cifake_4660 (5)\blur_s2.0.jpg
+cifake_4673 (5),blur_s2.0,cifake,real,0,0.5984218120574951,data\cache\clean\test\cifake_4673 (5)\blur_s2.0.jpg
+sidset_011c2e4461eb1fdc,blur_s2.0,sidset,real,0,0.5598868131637573,data\cache\clean\test\sidset_011c2e4461eb1fdc\blur_s2.0.jpg
+sidset_038789965a8f7606,blur_s2.0,sidset,real,0,0.5298189520835876,data\cache\clean\test\sidset_038789965a8f7606\blur_s2.0.jpg
+sidset_0f8102c25fc764ea,blur_s2.0,sidset,real,0,0.8756910562515259,data\cache\clean\test\sidset_0f8102c25fc764ea\blur_s2.0.jpg
+sidset_1232f7869a64bb9f,blur_s2.0,sidset,real,0,0.5959022045135498,data\cache\clean\test\sidset_1232f7869a64bb9f\blur_s2.0.jpg
+sidset_14312756c1c94efa,blur_s2.0,sidset,real,0,0.9967544674873352,data\cache\clean\test\sidset_14312756c1c94efa\blur_s2.0.jpg
+sidset_1577f06c8ee59ef0,blur_s2.0,sidset,real,0,0.9200721383094788,data\cache\clean\test\sidset_1577f06c8ee59ef0\blur_s2.0.jpg
+sidset_16c4058cc17896fc,blur_s2.0,sidset,real,0,0.6503452062606812,data\cache\clean\test\sidset_16c4058cc17896fc\blur_s2.0.jpg
+sidset_22b07f2ffcaf319c,blur_s2.0,sidset,real,0,0.9425085783004761,data\cache\clean\test\sidset_22b07f2ffcaf319c\blur_s2.0.jpg
+sidset_26c389b400ea1653,blur_s2.0,sidset,real,0,0.6286664009094238,data\cache\clean\test\sidset_26c389b400ea1653\blur_s2.0.jpg
+sidset_35f6c1138217d58e,blur_s2.0,sidset,real,0,0.6090805530548096,data\cache\clean\test\sidset_35f6c1138217d58e\blur_s2.0.jpg
+sidset_39a3f029e2e17dd3,blur_s2.0,sidset,real,0,0.9552710652351379,data\cache\clean\test\sidset_39a3f029e2e17dd3\blur_s2.0.jpg
+sidset_3beca4d6152a4aa5,blur_s2.0,sidset,real,0,0.6076730489730835,data\cache\clean\test\sidset_3beca4d6152a4aa5\blur_s2.0.jpg
+sidset_524db7cc1caac0b0,blur_s2.0,sidset,real,0,0.7350882291793823,data\cache\clean\test\sidset_524db7cc1caac0b0\blur_s2.0.jpg
+sidset_5a165a26bf8ca4be,blur_s2.0,sidset,real,0,0.7861633896827698,data\cache\clean\test\sidset_5a165a26bf8ca4be\blur_s2.0.jpg
+sidset_5b291a7b5ae05cf0,blur_s2.0,sidset,real,0,0.5921245813369751,data\cache\clean\test\sidset_5b291a7b5ae05cf0\blur_s2.0.jpg
+sidset_5b8f12b78d13bfcd,blur_s2.0,sidset,real,0,0.6985334753990173,data\cache\clean\test\sidset_5b8f12b78d13bfcd\blur_s2.0.jpg
+sidset_5ba522a91162ae70,blur_s2.0,sidset,real,0,0.9751086235046387,data\cache\clean\test\sidset_5ba522a91162ae70\blur_s2.0.jpg
+sidset_5bfa50b83754c8c0,blur_s2.0,sidset,real,0,0.5692481398582458,data\cache\clean\test\sidset_5bfa50b83754c8c0\blur_s2.0.jpg
+sidset_5c175a143c23a7b8,blur_s2.0,sidset,real,0,0.7661787271499634,data\cache\clean\test\sidset_5c175a143c23a7b8\blur_s2.0.jpg
+sidset_615f67f3acd96d5c,blur_s2.0,sidset,real,0,0.6669731736183167,data\cache\clean\test\sidset_615f67f3acd96d5c\blur_s2.0.jpg
+sidset_65d4916b9f3f47ba,blur_s2.0,sidset,real,0,0.6768290996551514,data\cache\clean\test\sidset_65d4916b9f3f47ba\blur_s2.0.jpg
+sidset_6a9b88d93d860623,blur_s2.0,sidset,real,0,0.6198230385780334,data\cache\clean\test\sidset_6a9b88d93d860623\blur_s2.0.jpg
+sidset_6b7167d906f4ff1f,blur_s2.0,sidset,real,0,0.7249863147735596,data\cache\clean\test\sidset_6b7167d906f4ff1f\blur_s2.0.jpg
+sidset_725e4f2f78a9cd86,blur_s2.0,sidset,real,0,0.5753126740455627,data\cache\clean\test\sidset_725e4f2f78a9cd86\blur_s2.0.jpg
+sidset_759a21da57c25774,blur_s2.0,sidset,real,0,0.567701518535614,data\cache\clean\test\sidset_759a21da57c25774\blur_s2.0.jpg
+sidset_772850bc0fb9e17c,blur_s2.0,sidset,real,0,0.872840940952301,data\cache\clean\test\sidset_772850bc0fb9e17c\blur_s2.0.jpg
+sidset_7974984b83c15934,blur_s2.0,sidset,real,0,0.509003758430481,data\cache\clean\test\sidset_7974984b83c15934\blur_s2.0.jpg
+sidset_7b550aceb5ec111f,blur_s2.0,sidset,real,0,0.5355101227760315,data\cache\clean\test\sidset_7b550aceb5ec111f\blur_s2.0.jpg
+sidset_7f1ce0ac000e1d6c,blur_s2.0,sidset,real,0,0.8335578441619873,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\blur_s2.0.jpg
+sidset_832e43df048c6d1a,blur_s2.0,sidset,real,0,0.6044240593910217,data\cache\clean\test\sidset_832e43df048c6d1a\blur_s2.0.jpg
+sidset_8619862cda88466c,blur_s2.0,sidset,real,0,0.6137252449989319,data\cache\clean\test\sidset_8619862cda88466c\blur_s2.0.jpg
+sidset_8d98f1eeb3935d09,blur_s2.0,sidset,real,0,0.7147185206413269,data\cache\clean\test\sidset_8d98f1eeb3935d09\blur_s2.0.jpg
+sidset_a3032d75347e6fa2,blur_s2.0,sidset,real,0,0.8106621503829956,data\cache\clean\test\sidset_a3032d75347e6fa2\blur_s2.0.jpg
+sidset_a429805728e89e7d,blur_s2.0,sidset,real,0,0.8495088815689087,data\cache\clean\test\sidset_a429805728e89e7d\blur_s2.0.jpg
+sidset_a5b01f2aa66b2e86,blur_s2.0,sidset,real,0,0.5854173302650452,data\cache\clean\test\sidset_a5b01f2aa66b2e86\blur_s2.0.jpg
+sidset_a8ad741ef85002f3,blur_s2.0,sidset,real,0,0.806376576423645,data\cache\clean\test\sidset_a8ad741ef85002f3\blur_s2.0.jpg
+sidset_ac54ef2834f8bc74,blur_s2.0,sidset,real,0,0.8377407193183899,data\cache\clean\test\sidset_ac54ef2834f8bc74\blur_s2.0.jpg
+sidset_b2a36196721315df,blur_s2.0,sidset,real,0,0.5838614106178284,data\cache\clean\test\sidset_b2a36196721315df\blur_s2.0.jpg
+sidset_b6d4573c9d24dcf3,blur_s2.0,sidset,real,0,0.598437488079071,data\cache\clean\test\sidset_b6d4573c9d24dcf3\blur_s2.0.jpg
+sidset_bc70b06f0d603efd,blur_s2.0,sidset,real,0,0.9925841093063354,data\cache\clean\test\sidset_bc70b06f0d603efd\blur_s2.0.jpg
+sidset_c104d5a827c3dc84,blur_s2.0,sidset,real,0,0.646332323551178,data\cache\clean\test\sidset_c104d5a827c3dc84\blur_s2.0.jpg
+sidset_c4527bae1db9f157,blur_s2.0,sidset,real,0,0.6350486874580383,data\cache\clean\test\sidset_c4527bae1db9f157\blur_s2.0.jpg
+sidset_c5a378b0ea24d25e,blur_s2.0,sidset,real,0,0.592501163482666,data\cache\clean\test\sidset_c5a378b0ea24d25e\blur_s2.0.jpg
+sidset_c7d3774f16039f96,blur_s2.0,sidset,real,0,0.7465981245040894,data\cache\clean\test\sidset_c7d3774f16039f96\blur_s2.0.jpg
+sidset_cb68a83278e88b9d,blur_s2.0,sidset,real,0,0.8896700143814087,data\cache\clean\test\sidset_cb68a83278e88b9d\blur_s2.0.jpg
+sidset_ce09a25a50fdfe47,blur_s2.0,sidset,real,0,0.8032020330429077,data\cache\clean\test\sidset_ce09a25a50fdfe47\blur_s2.0.jpg
+sidset_d3f2cb1aea46d03a,blur_s2.0,sidset,real,0,0.5354442000389099,data\cache\clean\test\sidset_d3f2cb1aea46d03a\blur_s2.0.jpg
+sidset_d652dc17bb0709b8,blur_s2.0,sidset,real,0,0.6265131235122681,data\cache\clean\test\sidset_d652dc17bb0709b8\blur_s2.0.jpg
+sidset_d7c9ba7b7774dcd9,blur_s2.0,sidset,real,0,0.5665134787559509,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\blur_s2.0.jpg
+sidset_db325b24acd0df24,blur_s2.0,sidset,real,0,0.5046752095222473,data\cache\clean\test\sidset_db325b24acd0df24\blur_s2.0.jpg
+sidset_de2d4b37000ff09c,blur_s2.0,sidset,real,0,0.6380335092544556,data\cache\clean\test\sidset_de2d4b37000ff09c\blur_s2.0.jpg
+sidset_e35ca53982ee8372,blur_s2.0,sidset,real,0,0.714847981929779,data\cache\clean\test\sidset_e35ca53982ee8372\blur_s2.0.jpg
+sidset_e67f5961f8d7c753,blur_s2.0,sidset,real,0,0.546352207660675,data\cache\clean\test\sidset_e67f5961f8d7c753\blur_s2.0.jpg
+sidset_e99541e9ff8fadb2,blur_s2.0,sidset,real,0,0.907884955406189,data\cache\clean\test\sidset_e99541e9ff8fadb2\blur_s2.0.jpg
+sidset_fac95db1f3df9775,blur_s2.0,sidset,real,0,0.765330970287323,data\cache\clean\test\sidset_fac95db1f3df9775\blur_s2.0.jpg
+sidset_fe0bec3214706d60,blur_s2.0,sidset,real,0,0.9460223317146301,data\cache\clean\test\sidset_fe0bec3214706d60\blur_s2.0.jpg
+cifake_0618 (3),color_down,cifake,real,0,0.9457880258560181,data\cache\clean\test\cifake_0618 (3)\color_down.jpg
+cifake_1139,color_down,cifake,real,0,0.5885360836982727,data\cache\clean\test\cifake_1139\color_down.jpg
+cifake_1435 (2),color_down,cifake,real,0,0.5223327279090881,data\cache\clean\test\cifake_1435 (2)\color_down.jpg
+cifake_1974,color_down,cifake,real,0,0.8228639960289001,data\cache\clean\test\cifake_1974\color_down.jpg
+cifake_2071,color_down,cifake,real,0,0.7694640755653381,data\cache\clean\test\cifake_2071\color_down.jpg
+cifake_2122,color_down,cifake,real,0,0.7932885885238647,data\cache\clean\test\cifake_2122\color_down.jpg
+cifake_4660 (5),color_down,cifake,real,0,0.7835434079170227,data\cache\clean\test\cifake_4660 (5)\color_down.jpg
+cifake_4673 (5),color_down,cifake,real,0,0.7038085460662842,data\cache\clean\test\cifake_4673 (5)\color_down.jpg
+sidset_036df955965cb2f9,color_down,sidset,real,0,0.8603955507278442,data\cache\clean\test\sidset_036df955965cb2f9\color_down.jpg
+sidset_038789965a8f7606,color_down,sidset,real,0,0.5629912614822388,data\cache\clean\test\sidset_038789965a8f7606\color_down.jpg
+sidset_09f7329f0c1c9fd4,color_down,sidset,real,0,0.7916490435600281,data\cache\clean\test\sidset_09f7329f0c1c9fd4\color_down.jpg
+sidset_0f8102c25fc764ea,color_down,sidset,real,0,0.8311437964439392,data\cache\clean\test\sidset_0f8102c25fc764ea\color_down.jpg
+sidset_1232f7869a64bb9f,color_down,sidset,real,0,0.5597935914993286,data\cache\clean\test\sidset_1232f7869a64bb9f\color_down.jpg
+sidset_14312756c1c94efa,color_down,sidset,real,0,0.9994862079620361,data\cache\clean\test\sidset_14312756c1c94efa\color_down.jpg
+sidset_1493e45feef507e8,color_down,sidset,real,0,0.748781144618988,data\cache\clean\test\sidset_1493e45feef507e8\color_down.jpg
+sidset_1577f06c8ee59ef0,color_down,sidset,real,0,0.8727440237998962,data\cache\clean\test\sidset_1577f06c8ee59ef0\color_down.jpg
+sidset_16c4058cc17896fc,color_down,sidset,real,0,0.7146300077438354,data\cache\clean\test\sidset_16c4058cc17896fc\color_down.jpg
+sidset_1d24e17c0f598d7a,color_down,sidset,real,0,0.6987721920013428,data\cache\clean\test\sidset_1d24e17c0f598d7a\color_down.jpg
+sidset_22b07f2ffcaf319c,color_down,sidset,real,0,0.8590137958526611,data\cache\clean\test\sidset_22b07f2ffcaf319c\color_down.jpg
+sidset_26c389b400ea1653,color_down,sidset,real,0,0.6003323197364807,data\cache\clean\test\sidset_26c389b400ea1653\color_down.jpg
+sidset_31f067358de9e261,color_down,sidset,real,0,0.543186604976654,data\cache\clean\test\sidset_31f067358de9e261\color_down.jpg
+sidset_31f7ec5269c0f867,color_down,sidset,real,0,0.6366738677024841,data\cache\clean\test\sidset_31f7ec5269c0f867\color_down.jpg
+sidset_35f6c1138217d58e,color_down,sidset,real,0,0.5888307690620422,data\cache\clean\test\sidset_35f6c1138217d58e\color_down.jpg
+sidset_39a3f029e2e17dd3,color_down,sidset,real,0,0.9900220036506653,data\cache\clean\test\sidset_39a3f029e2e17dd3\color_down.jpg
+sidset_3e2450c24133fb44,color_down,sidset,real,0,0.5516794919967651,data\cache\clean\test\sidset_3e2450c24133fb44\color_down.jpg
+sidset_4e4b9b1d6e8b2aca,color_down,sidset,real,0,0.5889806747436523,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\color_down.jpg
+sidset_52bf81b2d7f84101,color_down,sidset,real,0,0.6823682188987732,data\cache\clean\test\sidset_52bf81b2d7f84101\color_down.jpg
+sidset_5a165a26bf8ca4be,color_down,sidset,real,0,0.7188788056373596,data\cache\clean\test\sidset_5a165a26bf8ca4be\color_down.jpg
+sidset_5b291a7b5ae05cf0,color_down,sidset,real,0,0.5624599456787109,data\cache\clean\test\sidset_5b291a7b5ae05cf0\color_down.jpg
+sidset_5b8f12b78d13bfcd,color_down,sidset,real,0,0.8186272978782654,data\cache\clean\test\sidset_5b8f12b78d13bfcd\color_down.jpg
+sidset_5ba522a91162ae70,color_down,sidset,real,0,0.7548236846923828,data\cache\clean\test\sidset_5ba522a91162ae70\color_down.jpg
+sidset_5bfa50b83754c8c0,color_down,sidset,real,0,0.7141196131706238,data\cache\clean\test\sidset_5bfa50b83754c8c0\color_down.jpg
+sidset_615f67f3acd96d5c,color_down,sidset,real,0,0.6388933062553406,data\cache\clean\test\sidset_615f67f3acd96d5c\color_down.jpg
+sidset_6b7167d906f4ff1f,color_down,sidset,real,0,0.9746164679527283,data\cache\clean\test\sidset_6b7167d906f4ff1f\color_down.jpg
+sidset_6cd755669fbaa2d8,color_down,sidset,real,0,0.6324842572212219,data\cache\clean\test\sidset_6cd755669fbaa2d8\color_down.jpg
+sidset_70f5dafbaa7da68a,color_down,sidset,real,0,0.5495283603668213,data\cache\clean\test\sidset_70f5dafbaa7da68a\color_down.jpg
+sidset_759a21da57c25774,color_down,sidset,real,0,0.9440929889678955,data\cache\clean\test\sidset_759a21da57c25774\color_down.jpg
+sidset_772850bc0fb9e17c,color_down,sidset,real,0,0.7709968686103821,data\cache\clean\test\sidset_772850bc0fb9e17c\color_down.jpg
+sidset_7974984b83c15934,color_down,sidset,real,0,0.5061118006706238,data\cache\clean\test\sidset_7974984b83c15934\color_down.jpg
+sidset_7b550aceb5ec111f,color_down,sidset,real,0,0.7249919772148132,data\cache\clean\test\sidset_7b550aceb5ec111f\color_down.jpg
+sidset_7f1ce0ac000e1d6c,color_down,sidset,real,0,0.8477939963340759,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\color_down.jpg
+sidset_832e43df048c6d1a,color_down,sidset,real,0,0.8698152899742126,data\cache\clean\test\sidset_832e43df048c6d1a\color_down.jpg
+sidset_8619862cda88466c,color_down,sidset,real,0,0.9338544607162476,data\cache\clean\test\sidset_8619862cda88466c\color_down.jpg
+sidset_88431f034d786206,color_down,sidset,real,0,0.6466655731201172,data\cache\clean\test\sidset_88431f034d786206\color_down.jpg
+sidset_a3032d75347e6fa2,color_down,sidset,real,0,0.5362300872802734,data\cache\clean\test\sidset_a3032d75347e6fa2\color_down.jpg
+sidset_a4268c0135ca2c65,color_down,sidset,real,0,0.5473784804344177,data\cache\clean\test\sidset_a4268c0135ca2c65\color_down.jpg
+sidset_a5b01f2aa66b2e86,color_down,sidset,real,0,0.9406151175498962,data\cache\clean\test\sidset_a5b01f2aa66b2e86\color_down.jpg
+sidset_a8ad741ef85002f3,color_down,sidset,real,0,0.8466783761978149,data\cache\clean\test\sidset_a8ad741ef85002f3\color_down.jpg
+sidset_ac54ef2834f8bc74,color_down,sidset,real,0,0.570626974105835,data\cache\clean\test\sidset_ac54ef2834f8bc74\color_down.jpg
+sidset_ae2a3178c574c716,color_down,sidset,real,0,0.5041996240615845,data\cache\clean\test\sidset_ae2a3178c574c716\color_down.jpg
+sidset_b230de6baca8d392,color_down,sidset,real,0,0.7286706566810608,data\cache\clean\test\sidset_b230de6baca8d392\color_down.jpg
+sidset_bc70b06f0d603efd,color_down,sidset,real,0,0.975753664970398,data\cache\clean\test\sidset_bc70b06f0d603efd\color_down.jpg
+sidset_c5a378b0ea24d25e,color_down,sidset,real,0,0.526236891746521,data\cache\clean\test\sidset_c5a378b0ea24d25e\color_down.jpg
+sidset_c90419b9eb89527a,color_down,sidset,real,0,0.7378988862037659,data\cache\clean\test\sidset_c90419b9eb89527a\color_down.jpg
+sidset_cb18ee804b0ae4b6,color_down,sidset,real,0,0.5023254156112671,data\cache\clean\test\sidset_cb18ee804b0ae4b6\color_down.jpg
+sidset_cb68a83278e88b9d,color_down,sidset,real,0,0.8491511344909668,data\cache\clean\test\sidset_cb68a83278e88b9d\color_down.jpg
+sidset_d652dc17bb0709b8,color_down,sidset,real,0,0.6087806820869446,data\cache\clean\test\sidset_d652dc17bb0709b8\color_down.jpg
+sidset_e35ca53982ee8372,color_down,sidset,real,0,0.7474027276039124,data\cache\clean\test\sidset_e35ca53982ee8372\color_down.jpg
+sidset_e6f037cc020a3c67,color_down,sidset,real,0,0.5674106478691101,data\cache\clean\test\sidset_e6f037cc020a3c67\color_down.jpg
+sidset_e99541e9ff8fadb2,color_down,sidset,real,0,0.9438754320144653,data\cache\clean\test\sidset_e99541e9ff8fadb2\color_down.jpg
+sidset_ef3f636bfc78f3a5,color_down,sidset,real,0,0.5007637739181519,data\cache\clean\test\sidset_ef3f636bfc78f3a5\color_down.jpg
+sidset_f5044c17014681a8,color_down,sidset,real,0,0.5987169146537781,data\cache\clean\test\sidset_f5044c17014681a8\color_down.jpg
+sidset_fac95db1f3df9775,color_down,sidset,real,0,0.8458179831504822,data\cache\clean\test\sidset_fac95db1f3df9775\color_down.jpg
+sidset_fe0bec3214706d60,color_down,sidset,real,0,0.9337542057037354,data\cache\clean\test\sidset_fe0bec3214706d60\color_down.jpg
+cifake_0091 (9),color_up,cifake,real,0,0.6174908876419067,data\cache\clean\test\cifake_0091 (9)\color_up.jpg
+cifake_0235,color_up,cifake,real,0,0.5702495574951172,data\cache\clean\test\cifake_0235\color_up.jpg
+cifake_0240 (9),color_up,cifake,real,0,0.5232505798339844,data\cache\clean\test\cifake_0240 (9)\color_up.jpg
+cifake_0618 (3),color_up,cifake,real,0,0.8116531372070312,data\cache\clean\test\cifake_0618 (3)\color_up.jpg
+cifake_0858 (3),color_up,cifake,real,0,0.8386741280555725,data\cache\clean\test\cifake_0858 (3)\color_up.jpg
+cifake_0967 (9),color_up,cifake,real,0,0.6382741928100586,data\cache\clean\test\cifake_0967 (9)\color_up.jpg
+cifake_1974,color_up,cifake,real,0,0.8170993328094482,data\cache\clean\test\cifake_1974\color_up.jpg
+cifake_2071,color_up,cifake,real,0,0.8171160221099854,data\cache\clean\test\cifake_2071\color_up.jpg
+cifake_2094 (3),color_up,cifake,real,0,0.5743184089660645,data\cache\clean\test\cifake_2094 (3)\color_up.jpg
+cifake_2122,color_up,cifake,real,0,0.8155770301818848,data\cache\clean\test\cifake_2122\color_up.jpg
+cifake_2633 (10),color_up,cifake,real,0,0.6257452368736267,data\cache\clean\test\cifake_2633 (10)\color_up.jpg
+cifake_3051 (7),color_up,cifake,real,0,0.921962320804596,data\cache\clean\test\cifake_3051 (7)\color_up.jpg
+cifake_3891 (3),color_up,cifake,real,0,0.9126940965652466,data\cache\clean\test\cifake_3891 (3)\color_up.jpg
+cifake_4660 (5),color_up,cifake,real,0,0.9567734599113464,data\cache\clean\test\cifake_4660 (5)\color_up.jpg
+cifake_4673 (5),color_up,cifake,real,0,0.8637734055519104,data\cache\clean\test\cifake_4673 (5)\color_up.jpg
+sidset_011c2e4461eb1fdc,color_up,sidset,real,0,0.5563926696777344,data\cache\clean\test\sidset_011c2e4461eb1fdc\color_up.jpg
+sidset_036df955965cb2f9,color_up,sidset,real,0,0.8574345707893372,data\cache\clean\test\sidset_036df955965cb2f9\color_up.jpg
+sidset_038789965a8f7606,color_up,sidset,real,0,0.5618171095848083,data\cache\clean\test\sidset_038789965a8f7606\color_up.jpg
+sidset_04dca235b99ad328,color_up,sidset,real,0,0.5090083479881287,data\cache\clean\test\sidset_04dca235b99ad328\color_up.jpg
+sidset_04f2ca3f7633822b,color_up,sidset,real,0,0.8013029098510742,data\cache\clean\test\sidset_04f2ca3f7633822b\color_up.jpg
+sidset_075db643445af8e3,color_up,sidset,real,0,0.8823861479759216,data\cache\clean\test\sidset_075db643445af8e3\color_up.jpg
+sidset_0deb07ac44f13954,color_up,sidset,real,0,0.6078730225563049,data\cache\clean\test\sidset_0deb07ac44f13954\color_up.jpg
+sidset_0f8102c25fc764ea,color_up,sidset,real,0,0.8201677203178406,data\cache\clean\test\sidset_0f8102c25fc764ea\color_up.jpg
+sidset_14312756c1c94efa,color_up,sidset,real,0,0.9993491768836975,data\cache\clean\test\sidset_14312756c1c94efa\color_up.jpg
+sidset_1493e45feef507e8,color_up,sidset,real,0,0.6081916093826294,data\cache\clean\test\sidset_1493e45feef507e8\color_up.jpg
+sidset_1577f06c8ee59ef0,color_up,sidset,real,0,0.9109222888946533,data\cache\clean\test\sidset_1577f06c8ee59ef0\color_up.jpg
+sidset_18e30e95478d3da6,color_up,sidset,real,0,0.5775165557861328,data\cache\clean\test\sidset_18e30e95478d3da6\color_up.jpg
+sidset_1cae0a8c943c87f1,color_up,sidset,real,0,0.5264696478843689,data\cache\clean\test\sidset_1cae0a8c943c87f1\color_up.jpg
+sidset_1d24e17c0f598d7a,color_up,sidset,real,0,0.8813780546188354,data\cache\clean\test\sidset_1d24e17c0f598d7a\color_up.jpg
+sidset_22b07f2ffcaf319c,color_up,sidset,real,0,0.9680376648902893,data\cache\clean\test\sidset_22b07f2ffcaf319c\color_up.jpg
+sidset_26c389b400ea1653,color_up,sidset,real,0,0.8823997974395752,data\cache\clean\test\sidset_26c389b400ea1653\color_up.jpg
+sidset_31f7ec5269c0f867,color_up,sidset,real,0,0.6134310960769653,data\cache\clean\test\sidset_31f7ec5269c0f867\color_up.jpg
+sidset_34866edcc2800ae0,color_up,sidset,real,0,0.8378448486328125,data\cache\clean\test\sidset_34866edcc2800ae0\color_up.jpg
+sidset_35f6c1138217d58e,color_up,sidset,real,0,0.739007294178009,data\cache\clean\test\sidset_35f6c1138217d58e\color_up.jpg
+sidset_39a3f029e2e17dd3,color_up,sidset,real,0,0.923798143863678,data\cache\clean\test\sidset_39a3f029e2e17dd3\color_up.jpg
+sidset_3beca4d6152a4aa5,color_up,sidset,real,0,0.5947366952896118,data\cache\clean\test\sidset_3beca4d6152a4aa5\color_up.jpg
+sidset_41fb52633e2258f5,color_up,sidset,real,0,0.6995967626571655,data\cache\clean\test\sidset_41fb52633e2258f5\color_up.jpg
+sidset_52bf81b2d7f84101,color_up,sidset,real,0,0.8100770711898804,data\cache\clean\test\sidset_52bf81b2d7f84101\color_up.jpg
+sidset_5a165a26bf8ca4be,color_up,sidset,real,0,0.9071996212005615,data\cache\clean\test\sidset_5a165a26bf8ca4be\color_up.jpg
+sidset_5b291a7b5ae05cf0,color_up,sidset,real,0,0.627055287361145,data\cache\clean\test\sidset_5b291a7b5ae05cf0\color_up.jpg
+sidset_5b8f12b78d13bfcd,color_up,sidset,real,0,0.8279200792312622,data\cache\clean\test\sidset_5b8f12b78d13bfcd\color_up.jpg
+sidset_5ba522a91162ae70,color_up,sidset,real,0,0.8813782334327698,data\cache\clean\test\sidset_5ba522a91162ae70\color_up.jpg
+sidset_615f67f3acd96d5c,color_up,sidset,real,0,0.7423293590545654,data\cache\clean\test\sidset_615f67f3acd96d5c\color_up.jpg
+sidset_65d4916b9f3f47ba,color_up,sidset,real,0,0.5435758829116821,data\cache\clean\test\sidset_65d4916b9f3f47ba\color_up.jpg
+sidset_6b7167d906f4ff1f,color_up,sidset,real,0,0.9061079621315002,data\cache\clean\test\sidset_6b7167d906f4ff1f\color_up.jpg
+sidset_796b6212cfecb3de,color_up,sidset,real,0,0.8332477807998657,data\cache\clean\test\sidset_796b6212cfecb3de\color_up.jpg
+sidset_7974984b83c15934,color_up,sidset,real,0,0.5276339650154114,data\cache\clean\test\sidset_7974984b83c15934\color_up.jpg
+sidset_7b550aceb5ec111f,color_up,sidset,real,0,0.5880789756774902,data\cache\clean\test\sidset_7b550aceb5ec111f\color_up.jpg
+sidset_7f1ce0ac000e1d6c,color_up,sidset,real,0,0.9572003483772278,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\color_up.jpg
+sidset_832e43df048c6d1a,color_up,sidset,real,0,0.9003990888595581,data\cache\clean\test\sidset_832e43df048c6d1a\color_up.jpg
+sidset_85928afd9860bcb5,color_up,sidset,real,0,0.5325697660446167,data\cache\clean\test\sidset_85928afd9860bcb5\color_up.jpg
+sidset_87e6f806902a63fc,color_up,sidset,real,0,0.5800254940986633,data\cache\clean\test\sidset_87e6f806902a63fc\color_up.jpg
+sidset_88431f034d786206,color_up,sidset,real,0,0.8154193758964539,data\cache\clean\test\sidset_88431f034d786206\color_up.jpg
+sidset_9548acaeca2f5124,color_up,sidset,real,0,0.5074188709259033,data\cache\clean\test\sidset_9548acaeca2f5124\color_up.jpg
+sidset_a3032d75347e6fa2,color_up,sidset,real,0,0.6471102237701416,data\cache\clean\test\sidset_a3032d75347e6fa2\color_up.jpg
+sidset_a5b01f2aa66b2e86,color_up,sidset,real,0,0.7166273593902588,data\cache\clean\test\sidset_a5b01f2aa66b2e86\color_up.jpg
+sidset_a68752f61204ef57,color_up,sidset,real,0,0.5157654285430908,data\cache\clean\test\sidset_a68752f61204ef57\color_up.jpg
+sidset_ab1441008986f237,color_up,sidset,real,0,0.8158422112464905,data\cache\clean\test\sidset_ab1441008986f237\color_up.jpg
+sidset_ac54ef2834f8bc74,color_up,sidset,real,0,0.927274763584137,data\cache\clean\test\sidset_ac54ef2834f8bc74\color_up.jpg
+sidset_ae2a3178c574c716,color_up,sidset,real,0,0.6084471344947815,data\cache\clean\test\sidset_ae2a3178c574c716\color_up.jpg
+sidset_b230de6baca8d392,color_up,sidset,real,0,0.7552667856216431,data\cache\clean\test\sidset_b230de6baca8d392\color_up.jpg
+sidset_bc70b06f0d603efd,color_up,sidset,real,0,0.6781112551689148,data\cache\clean\test\sidset_bc70b06f0d603efd\color_up.jpg
+sidset_c5a378b0ea24d25e,color_up,sidset,real,0,0.7787152528762817,data\cache\clean\test\sidset_c5a378b0ea24d25e\color_up.jpg
+sidset_c7d3774f16039f96,color_up,sidset,real,0,0.7518195509910583,data\cache\clean\test\sidset_c7d3774f16039f96\color_up.jpg
+sidset_c90419b9eb89527a,color_up,sidset,real,0,0.7223041653633118,data\cache\clean\test\sidset_c90419b9eb89527a\color_up.jpg
+sidset_cb68a83278e88b9d,color_up,sidset,real,0,0.9894017577171326,data\cache\clean\test\sidset_cb68a83278e88b9d\color_up.jpg
+sidset_d652dc17bb0709b8,color_up,sidset,real,0,0.8778921365737915,data\cache\clean\test\sidset_d652dc17bb0709b8\color_up.jpg
+sidset_d7c9ba7b7774dcd9,color_up,sidset,real,0,0.8688884377479553,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\color_up.jpg
+sidset_de2d4b37000ff09c,color_up,sidset,real,0,0.8023474812507629,data\cache\clean\test\sidset_de2d4b37000ff09c\color_up.jpg
+sidset_e35ca53982ee8372,color_up,sidset,real,0,0.8309361338615417,data\cache\clean\test\sidset_e35ca53982ee8372\color_up.jpg
+sidset_e67f5961f8d7c753,color_up,sidset,real,0,0.6060385704040527,data\cache\clean\test\sidset_e67f5961f8d7c753\color_up.jpg
+sidset_e6f037cc020a3c67,color_up,sidset,real,0,0.5930180549621582,data\cache\clean\test\sidset_e6f037cc020a3c67\color_up.jpg
+sidset_e8e76505f6a37089,color_up,sidset,real,0,0.74896240234375,data\cache\clean\test\sidset_e8e76505f6a37089\color_up.jpg
+sidset_f5044c17014681a8,color_up,sidset,real,0,0.683205246925354,data\cache\clean\test\sidset_f5044c17014681a8\color_up.jpg
+sidset_fac95db1f3df9775,color_up,sidset,real,0,0.7495881915092468,data\cache\clean\test\sidset_fac95db1f3df9775\color_up.jpg
+sidset_fe0bec3214706d60,color_up,sidset,real,0,0.8070108294487,data\cache\clean\test\sidset_fe0bec3214706d60\color_up.jpg
+cifake_0005 (3),crop80,cifake,real,0,0.6735122799873352,data\cache\clean\test\cifake_0005 (3)\crop80.jpg
+cifake_0793,crop80,cifake,real,0,0.8849301934242249,data\cache\clean\test\cifake_0793\crop80.jpg
+cifake_1435 (2),crop80,cifake,real,0,0.6241729855537415,data\cache\clean\test\cifake_1435 (2)\crop80.jpg
+cifake_1614 (9),crop80,cifake,real,0,0.6242194771766663,data\cache\clean\test\cifake_1614 (9)\crop80.jpg
+cifake_1974,crop80,cifake,real,0,0.7737118601799011,data\cache\clean\test\cifake_1974\crop80.jpg
+cifake_2071,crop80,cifake,real,0,0.7251233458518982,data\cache\clean\test\cifake_2071\crop80.jpg
+cifake_2820 (8),crop80,cifake,real,0,0.6130154132843018,data\cache\clean\test\cifake_2820 (8)\crop80.jpg
+cifake_2857 (10),crop80,cifake,real,0,0.6236042380332947,data\cache\clean\test\cifake_2857 (10)\crop80.jpg
+cifake_3051 (7),crop80,cifake,real,0,0.8804105520248413,data\cache\clean\test\cifake_3051 (7)\crop80.jpg
+cifake_3891 (3),crop80,cifake,real,0,0.7520656585693359,data\cache\clean\test\cifake_3891 (3)\crop80.jpg
+cifake_4660 (5),crop80,cifake,real,0,0.833612322807312,data\cache\clean\test\cifake_4660 (5)\crop80.jpg
+cifake_4932 (2),crop80,cifake,real,0,0.5609420537948608,data\cache\clean\test\cifake_4932 (2)\crop80.jpg
+sidset_011c2e4461eb1fdc,crop80,sidset,real,0,0.8902361392974854,data\cache\clean\test\sidset_011c2e4461eb1fdc\crop80.jpg
+sidset_038789965a8f7606,crop80,sidset,real,0,0.5301703214645386,data\cache\clean\test\sidset_038789965a8f7606\crop80.jpg
+sidset_04dca235b99ad328,crop80,sidset,real,0,0.8788425326347351,data\cache\clean\test\sidset_04dca235b99ad328\crop80.jpg
+sidset_075db643445af8e3,crop80,sidset,real,0,0.8262910842895508,data\cache\clean\test\sidset_075db643445af8e3\crop80.jpg
+sidset_09f7329f0c1c9fd4,crop80,sidset,real,0,0.9335176944732666,data\cache\clean\test\sidset_09f7329f0c1c9fd4\crop80.jpg
+sidset_0deb07ac44f13954,crop80,sidset,real,0,0.5983964800834656,data\cache\clean\test\sidset_0deb07ac44f13954\crop80.jpg
+sidset_0f8102c25fc764ea,crop80,sidset,real,0,0.9287452101707458,data\cache\clean\test\sidset_0f8102c25fc764ea\crop80.jpg
+sidset_14312756c1c94efa,crop80,sidset,real,0,0.9994864463806152,data\cache\clean\test\sidset_14312756c1c94efa\crop80.jpg
+sidset_1577f06c8ee59ef0,crop80,sidset,real,0,0.984148383140564,data\cache\clean\test\sidset_1577f06c8ee59ef0\crop80.jpg
+sidset_16fa9e4213b57ab5,crop80,sidset,real,0,0.6992932558059692,data\cache\clean\test\sidset_16fa9e4213b57ab5\crop80.jpg
+sidset_1d24e17c0f598d7a,crop80,sidset,real,0,0.7051676511764526,data\cache\clean\test\sidset_1d24e17c0f598d7a\crop80.jpg
+sidset_22b07f2ffcaf319c,crop80,sidset,real,0,0.9419575929641724,data\cache\clean\test\sidset_22b07f2ffcaf319c\crop80.jpg
+sidset_247241c5aa1f3f9c,crop80,sidset,real,0,0.5341889262199402,data\cache\clean\test\sidset_247241c5aa1f3f9c\crop80.jpg
+sidset_2c1459dad82c7713,crop80,sidset,real,0,0.5196954011917114,data\cache\clean\test\sidset_2c1459dad82c7713\crop80.jpg
+sidset_31f7ec5269c0f867,crop80,sidset,real,0,0.5370776057243347,data\cache\clean\test\sidset_31f7ec5269c0f867\crop80.jpg
+sidset_323ba9351251cf37,crop80,sidset,real,0,0.8207921981811523,data\cache\clean\test\sidset_323ba9351251cf37\crop80.jpg
+sidset_34866edcc2800ae0,crop80,sidset,real,0,0.770461916923523,data\cache\clean\test\sidset_34866edcc2800ae0\crop80.jpg
+sidset_35f6c1138217d58e,crop80,sidset,real,0,0.8307963609695435,data\cache\clean\test\sidset_35f6c1138217d58e\crop80.jpg
+sidset_39a3f029e2e17dd3,crop80,sidset,real,0,0.9686004519462585,data\cache\clean\test\sidset_39a3f029e2e17dd3\crop80.jpg
+sidset_3beca4d6152a4aa5,crop80,sidset,real,0,0.5249930024147034,data\cache\clean\test\sidset_3beca4d6152a4aa5\crop80.jpg
+sidset_4881f2f53c803fdf,crop80,sidset,real,0,0.5830060243606567,data\cache\clean\test\sidset_4881f2f53c803fdf\crop80.jpg
+sidset_4e4b9b1d6e8b2aca,crop80,sidset,real,0,0.7100648880004883,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\crop80.jpg
+sidset_52bf81b2d7f84101,crop80,sidset,real,0,0.5450051426887512,data\cache\clean\test\sidset_52bf81b2d7f84101\crop80.jpg
+sidset_5a165a26bf8ca4be,crop80,sidset,real,0,0.8855990171432495,data\cache\clean\test\sidset_5a165a26bf8ca4be\crop80.jpg
+sidset_5b291a7b5ae05cf0,crop80,sidset,real,0,0.6898373961448669,data\cache\clean\test\sidset_5b291a7b5ae05cf0\crop80.jpg
+sidset_5b8f12b78d13bfcd,crop80,sidset,real,0,0.7868883013725281,data\cache\clean\test\sidset_5b8f12b78d13bfcd\crop80.jpg
+sidset_5ba522a91162ae70,crop80,sidset,real,0,0.9693906307220459,data\cache\clean\test\sidset_5ba522a91162ae70\crop80.jpg
+sidset_5fd49a9afbba9bd6,crop80,sidset,real,0,0.583583414554596,data\cache\clean\test\sidset_5fd49a9afbba9bd6\crop80.jpg
+sidset_615f67f3acd96d5c,crop80,sidset,real,0,0.5780487656593323,data\cache\clean\test\sidset_615f67f3acd96d5c\crop80.jpg
+sidset_69fb26faa8ba7f57,crop80,sidset,real,0,0.9504346251487732,data\cache\clean\test\sidset_69fb26faa8ba7f57\crop80.jpg
+sidset_6b7167d906f4ff1f,crop80,sidset,real,0,0.6842666268348694,data\cache\clean\test\sidset_6b7167d906f4ff1f\crop80.jpg
+sidset_70f5dafbaa7da68a,crop80,sidset,real,0,0.7372466325759888,data\cache\clean\test\sidset_70f5dafbaa7da68a\crop80.jpg
+sidset_796b6212cfecb3de,crop80,sidset,real,0,0.7588231563568115,data\cache\clean\test\sidset_796b6212cfecb3de\crop80.jpg
+sidset_7974984b83c15934,crop80,sidset,real,0,0.5007281303405762,data\cache\clean\test\sidset_7974984b83c15934\crop80.jpg
+sidset_7f1ce0ac000e1d6c,crop80,sidset,real,0,0.9084445834159851,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\crop80.jpg
+sidset_832e43df048c6d1a,crop80,sidset,real,0,0.9115700721740723,data\cache\clean\test\sidset_832e43df048c6d1a\crop80.jpg
+sidset_8619862cda88466c,crop80,sidset,real,0,0.5640268921852112,data\cache\clean\test\sidset_8619862cda88466c\crop80.jpg
+sidset_869ee92950f5f574,crop80,sidset,real,0,0.6174746751785278,data\cache\clean\test\sidset_869ee92950f5f574\crop80.jpg
+sidset_8d98f1eeb3935d09,crop80,sidset,real,0,0.6229310631752014,data\cache\clean\test\sidset_8d98f1eeb3935d09\crop80.jpg
+sidset_9bd8ecc186d59fe9,crop80,sidset,real,0,0.5272848606109619,data\cache\clean\test\sidset_9bd8ecc186d59fe9\crop80.jpg
+sidset_9e2a9b16ff46f867,crop80,sidset,real,0,0.5904401540756226,data\cache\clean\test\sidset_9e2a9b16ff46f867\crop80.jpg
+sidset_a3032d75347e6fa2,crop80,sidset,real,0,0.8844344019889832,data\cache\clean\test\sidset_a3032d75347e6fa2\crop80.jpg
+sidset_a3293aebf3086c9f,crop80,sidset,real,0,0.5312105417251587,data\cache\clean\test\sidset_a3293aebf3086c9f\crop80.jpg
+sidset_a429805728e89e7d,crop80,sidset,real,0,0.8649563789367676,data\cache\clean\test\sidset_a429805728e89e7d\crop80.jpg
+sidset_a8ad741ef85002f3,crop80,sidset,real,0,0.9619247317314148,data\cache\clean\test\sidset_a8ad741ef85002f3\crop80.jpg
+sidset_ab1441008986f237,crop80,sidset,real,0,0.6406961679458618,data\cache\clean\test\sidset_ab1441008986f237\crop80.jpg
+sidset_abb21498da6986f6,crop80,sidset,real,0,0.718898594379425,data\cache\clean\test\sidset_abb21498da6986f6\crop80.jpg
+sidset_ac54ef2834f8bc74,crop80,sidset,real,0,0.8250048160552979,data\cache\clean\test\sidset_ac54ef2834f8bc74\crop80.jpg
+sidset_af18b6bd4586f20d,crop80,sidset,real,0,0.5429702997207642,data\cache\clean\test\sidset_af18b6bd4586f20d\crop80.jpg
+sidset_b230de6baca8d392,crop80,sidset,real,0,0.6574414372444153,data\cache\clean\test\sidset_b230de6baca8d392\crop80.jpg
+sidset_b3a42a0308a160fa,crop80,sidset,real,0,0.6892091631889343,data\cache\clean\test\sidset_b3a42a0308a160fa\crop80.jpg
+sidset_b8d2d5fcb72a3a65,crop80,sidset,real,0,0.8702188730239868,data\cache\clean\test\sidset_b8d2d5fcb72a3a65\crop80.jpg
+sidset_bc70b06f0d603efd,crop80,sidset,real,0,0.9459987282752991,data\cache\clean\test\sidset_bc70b06f0d603efd\crop80.jpg
+sidset_c5a378b0ea24d25e,crop80,sidset,real,0,0.532612144947052,data\cache\clean\test\sidset_c5a378b0ea24d25e\crop80.jpg
+sidset_c72cb4148936aed0,crop80,sidset,real,0,0.5014796257019043,data\cache\clean\test\sidset_c72cb4148936aed0\crop80.jpg
+sidset_c7d3774f16039f96,crop80,sidset,real,0,0.984306812286377,data\cache\clean\test\sidset_c7d3774f16039f96\crop80.jpg
+sidset_cb68a83278e88b9d,crop80,sidset,real,0,0.9676149487495422,data\cache\clean\test\sidset_cb68a83278e88b9d\crop80.jpg
+sidset_d652dc17bb0709b8,crop80,sidset,real,0,0.8374218344688416,data\cache\clean\test\sidset_d652dc17bb0709b8\crop80.jpg
+sidset_d7c9ba7b7774dcd9,crop80,sidset,real,0,0.788637101650238,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\crop80.jpg
+sidset_d95699590a6b3fa6,crop80,sidset,real,0,0.5187218189239502,data\cache\clean\test\sidset_d95699590a6b3fa6\crop80.jpg
+sidset_e6f037cc020a3c67,crop80,sidset,real,0,0.8442313075065613,data\cache\clean\test\sidset_e6f037cc020a3c67\crop80.jpg
+sidset_f2be8bd472d53987,crop80,sidset,real,0,0.778770387172699,data\cache\clean\test\sidset_f2be8bd472d53987\crop80.jpg
+sidset_f5044c17014681a8,crop80,sidset,real,0,0.6742516756057739,data\cache\clean\test\sidset_f5044c17014681a8\crop80.jpg
+sidset_fac95db1f3df9775,crop80,sidset,real,0,0.8128964304924011,data\cache\clean\test\sidset_fac95db1f3df9775\crop80.jpg
+sidset_fe0bec3214706d60,crop80,sidset,real,0,0.8888059258460999,data\cache\clean\test\sidset_fe0bec3214706d60\crop80.jpg
+cifake_0005 (3),jpeg_q30,cifake,real,0,0.6491028666496277,data\cache\clean\test\cifake_0005 (3)\jpeg_q30.jpg
+cifake_0260 (4),jpeg_q30,cifake,real,0,0.580822765827179,data\cache\clean\test\cifake_0260 (4)\jpeg_q30.jpg
+cifake_0485 (9),jpeg_q30,cifake,real,0,0.746640145778656,data\cache\clean\test\cifake_0485 (9)\jpeg_q30.jpg
+cifake_0793,jpeg_q30,cifake,real,0,0.6479783654212952,data\cache\clean\test\cifake_0793\jpeg_q30.jpg
+cifake_0967 (9),jpeg_q30,cifake,real,0,0.7486216425895691,data\cache\clean\test\cifake_0967 (9)\jpeg_q30.jpg
+cifake_1139,jpeg_q30,cifake,real,0,0.6066321730613708,data\cache\clean\test\cifake_1139\jpeg_q30.jpg
+cifake_1306 (9),jpeg_q30,cifake,real,0,0.7211745381355286,data\cache\clean\test\cifake_1306 (9)\jpeg_q30.jpg
+cifake_1974,jpeg_q30,cifake,real,0,0.88991779088974,data\cache\clean\test\cifake_1974\jpeg_q30.jpg
+cifake_2633 (10),jpeg_q30,cifake,real,0,0.5976452827453613,data\cache\clean\test\cifake_2633 (10)\jpeg_q30.jpg
+cifake_2660,jpeg_q30,cifake,real,0,0.7008609771728516,data\cache\clean\test\cifake_2660\jpeg_q30.jpg
+cifake_3051 (7),jpeg_q30,cifake,real,0,0.72333163022995,data\cache\clean\test\cifake_3051 (7)\jpeg_q30.jpg
+cifake_3458 (9),jpeg_q30,cifake,real,0,0.7154569625854492,data\cache\clean\test\cifake_3458 (9)\jpeg_q30.jpg
+cifake_3461 (5),jpeg_q30,cifake,real,0,0.6187835931777954,data\cache\clean\test\cifake_3461 (5)\jpeg_q30.jpg
+cifake_3891 (3),jpeg_q30,cifake,real,0,0.5391397476196289,data\cache\clean\test\cifake_3891 (3)\jpeg_q30.jpg
+cifake_4533 (5),jpeg_q30,cifake,real,0,0.5911973714828491,data\cache\clean\test\cifake_4533 (5)\jpeg_q30.jpg
+cifake_4673 (5),jpeg_q30,cifake,real,0,0.6971291899681091,data\cache\clean\test\cifake_4673 (5)\jpeg_q30.jpg
+cifake_4932 (2),jpeg_q30,cifake,real,0,0.659844696521759,data\cache\clean\test\cifake_4932 (2)\jpeg_q30.jpg
+sidset_011c2e4461eb1fdc,jpeg_q30,sidset,real,0,0.5344431400299072,data\cache\clean\test\sidset_011c2e4461eb1fdc\jpeg_q30.jpg
+sidset_036df955965cb2f9,jpeg_q30,sidset,real,0,0.8303965926170349,data\cache\clean\test\sidset_036df955965cb2f9\jpeg_q30.jpg
+sidset_038789965a8f7606,jpeg_q30,sidset,real,0,0.575190544128418,data\cache\clean\test\sidset_038789965a8f7606\jpeg_q30.jpg
+sidset_075db643445af8e3,jpeg_q30,sidset,real,0,0.7960309982299805,data\cache\clean\test\sidset_075db643445af8e3\jpeg_q30.jpg
+sidset_09f7329f0c1c9fd4,jpeg_q30,sidset,real,0,0.8183216452598572,data\cache\clean\test\sidset_09f7329f0c1c9fd4\jpeg_q30.jpg
+sidset_0df1386082a76670,jpeg_q30,sidset,real,0,0.8334690928459167,data\cache\clean\test\sidset_0df1386082a76670\jpeg_q30.jpg
+sidset_0f8102c25fc764ea,jpeg_q30,sidset,real,0,0.9835188388824463,data\cache\clean\test\sidset_0f8102c25fc764ea\jpeg_q30.jpg
+sidset_1232f7869a64bb9f,jpeg_q30,sidset,real,0,0.7868843078613281,data\cache\clean\test\sidset_1232f7869a64bb9f\jpeg_q30.jpg
+sidset_14312756c1c94efa,jpeg_q30,sidset,real,0,0.9991015195846558,data\cache\clean\test\sidset_14312756c1c94efa\jpeg_q30.jpg
+sidset_1493e45feef507e8,jpeg_q30,sidset,real,0,0.7382685542106628,data\cache\clean\test\sidset_1493e45feef507e8\jpeg_q30.jpg
+sidset_1577f06c8ee59ef0,jpeg_q30,sidset,real,0,0.9370595812797546,data\cache\clean\test\sidset_1577f06c8ee59ef0\jpeg_q30.jpg
+sidset_18e30e95478d3da6,jpeg_q30,sidset,real,0,0.6119498014450073,data\cache\clean\test\sidset_18e30e95478d3da6\jpeg_q30.jpg
+sidset_22b07f2ffcaf319c,jpeg_q30,sidset,real,0,0.9264199137687683,data\cache\clean\test\sidset_22b07f2ffcaf319c\jpeg_q30.jpg
+sidset_247241c5aa1f3f9c,jpeg_q30,sidset,real,0,0.6101753115653992,data\cache\clean\test\sidset_247241c5aa1f3f9c\jpeg_q30.jpg
+sidset_262ab01448a69651,jpeg_q30,sidset,real,0,0.6775892376899719,data\cache\clean\test\sidset_262ab01448a69651\jpeg_q30.jpg
+sidset_26c389b400ea1653,jpeg_q30,sidset,real,0,0.7548772096633911,data\cache\clean\test\sidset_26c389b400ea1653\jpeg_q30.jpg
+sidset_31d44fee2c336e78,jpeg_q30,sidset,real,0,0.7000259757041931,data\cache\clean\test\sidset_31d44fee2c336e78\jpeg_q30.jpg
+sidset_31f7ec5269c0f867,jpeg_q30,sidset,real,0,0.8533776998519897,data\cache\clean\test\sidset_31f7ec5269c0f867\jpeg_q30.jpg
+sidset_34866edcc2800ae0,jpeg_q30,sidset,real,0,0.8137909173965454,data\cache\clean\test\sidset_34866edcc2800ae0\jpeg_q30.jpg
+sidset_35f6c1138217d58e,jpeg_q30,sidset,real,0,0.508533239364624,data\cache\clean\test\sidset_35f6c1138217d58e\jpeg_q30.jpg
+sidset_39a3f029e2e17dd3,jpeg_q30,sidset,real,0,0.9635633230209351,data\cache\clean\test\sidset_39a3f029e2e17dd3\jpeg_q30.jpg
+sidset_45a6cb8b20ae57d2,jpeg_q30,sidset,real,0,0.5248091220855713,data\cache\clean\test\sidset_45a6cb8b20ae57d2\jpeg_q30.jpg
+sidset_4e4b9b1d6e8b2aca,jpeg_q30,sidset,real,0,0.6596906781196594,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\jpeg_q30.jpg
+sidset_52bf81b2d7f84101,jpeg_q30,sidset,real,0,0.5890941619873047,data\cache\clean\test\sidset_52bf81b2d7f84101\jpeg_q30.jpg
+sidset_55ed6c0bbd54e07d,jpeg_q30,sidset,real,0,0.6250677704811096,data\cache\clean\test\sidset_55ed6c0bbd54e07d\jpeg_q30.jpg
+sidset_5a165a26bf8ca4be,jpeg_q30,sidset,real,0,0.8830356001853943,data\cache\clean\test\sidset_5a165a26bf8ca4be\jpeg_q30.jpg
+sidset_5b291a7b5ae05cf0,jpeg_q30,sidset,real,0,0.5151636600494385,data\cache\clean\test\sidset_5b291a7b5ae05cf0\jpeg_q30.jpg
+sidset_5b8f12b78d13bfcd,jpeg_q30,sidset,real,0,0.8883238434791565,data\cache\clean\test\sidset_5b8f12b78d13bfcd\jpeg_q30.jpg
+sidset_5ba522a91162ae70,jpeg_q30,sidset,real,0,0.9400554299354553,data\cache\clean\test\sidset_5ba522a91162ae70\jpeg_q30.jpg
+sidset_615f67f3acd96d5c,jpeg_q30,sidset,real,0,0.6448206305503845,data\cache\clean\test\sidset_615f67f3acd96d5c\jpeg_q30.jpg
+sidset_62d3110113ec4633,jpeg_q30,sidset,real,0,0.6355695128440857,data\cache\clean\test\sidset_62d3110113ec4633\jpeg_q30.jpg
+sidset_65d4916b9f3f47ba,jpeg_q30,sidset,real,0,0.6939205527305603,data\cache\clean\test\sidset_65d4916b9f3f47ba\jpeg_q30.jpg
+sidset_67e679dca692a59d,jpeg_q30,sidset,real,0,0.5377143025398254,data\cache\clean\test\sidset_67e679dca692a59d\jpeg_q30.jpg
+sidset_6b7167d906f4ff1f,jpeg_q30,sidset,real,0,0.8017694354057312,data\cache\clean\test\sidset_6b7167d906f4ff1f\jpeg_q30.jpg
+sidset_759a21da57c25774,jpeg_q30,sidset,real,0,0.8219000101089478,data\cache\clean\test\sidset_759a21da57c25774\jpeg_q30.jpg
+sidset_772850bc0fb9e17c,jpeg_q30,sidset,real,0,0.8521910309791565,data\cache\clean\test\sidset_772850bc0fb9e17c\jpeg_q30.jpg
+sidset_796b6212cfecb3de,jpeg_q30,sidset,real,0,0.5713742971420288,data\cache\clean\test\sidset_796b6212cfecb3de\jpeg_q30.jpg
+sidset_7974984b83c15934,jpeg_q30,sidset,real,0,0.5254177451133728,data\cache\clean\test\sidset_7974984b83c15934\jpeg_q30.jpg
+sidset_7b550aceb5ec111f,jpeg_q30,sidset,real,0,0.8984922766685486,data\cache\clean\test\sidset_7b550aceb5ec111f\jpeg_q30.jpg
+sidset_7f1ce0ac000e1d6c,jpeg_q30,sidset,real,0,0.9411510229110718,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\jpeg_q30.jpg
+sidset_832e43df048c6d1a,jpeg_q30,sidset,real,0,0.6870450973510742,data\cache\clean\test\sidset_832e43df048c6d1a\jpeg_q30.jpg
+sidset_8619862cda88466c,jpeg_q30,sidset,real,0,0.7457973957061768,data\cache\clean\test\sidset_8619862cda88466c\jpeg_q30.jpg
+sidset_869ee92950f5f574,jpeg_q30,sidset,real,0,0.5203759074211121,data\cache\clean\test\sidset_869ee92950f5f574\jpeg_q30.jpg
+sidset_87e6f806902a63fc,jpeg_q30,sidset,real,0,0.5586795806884766,data\cache\clean\test\sidset_87e6f806902a63fc\jpeg_q30.jpg
+sidset_8cad4d70e806910a,jpeg_q30,sidset,real,0,0.5451637506484985,data\cache\clean\test\sidset_8cad4d70e806910a\jpeg_q30.jpg
+sidset_8d98f1eeb3935d09,jpeg_q30,sidset,real,0,0.7445194721221924,data\cache\clean\test\sidset_8d98f1eeb3935d09\jpeg_q30.jpg
+sidset_a3032d75347e6fa2,jpeg_q30,sidset,real,0,0.8574316501617432,data\cache\clean\test\sidset_a3032d75347e6fa2\jpeg_q30.jpg
+sidset_a429805728e89e7d,jpeg_q30,sidset,real,0,0.8485062718391418,data\cache\clean\test\sidset_a429805728e89e7d\jpeg_q30.jpg
+sidset_a68752f61204ef57,jpeg_q30,sidset,real,0,0.6315109133720398,data\cache\clean\test\sidset_a68752f61204ef57\jpeg_q30.jpg
+sidset_a79f0b1ae413f9bc,jpeg_q30,sidset,real,0,0.5316559076309204,data\cache\clean\test\sidset_a79f0b1ae413f9bc\jpeg_q30.jpg
+sidset_a8ad741ef85002f3,jpeg_q30,sidset,real,0,0.7272512912750244,data\cache\clean\test\sidset_a8ad741ef85002f3\jpeg_q30.jpg
+sidset_ab1441008986f237,jpeg_q30,sidset,real,0,0.9364272356033325,data\cache\clean\test\sidset_ab1441008986f237\jpeg_q30.jpg
+sidset_ac54ef2834f8bc74,jpeg_q30,sidset,real,0,0.9052770137786865,data\cache\clean\test\sidset_ac54ef2834f8bc74\jpeg_q30.jpg
+sidset_ae2a3178c574c716,jpeg_q30,sidset,real,0,0.5541564226150513,data\cache\clean\test\sidset_ae2a3178c574c716\jpeg_q30.jpg
+sidset_b230de6baca8d392,jpeg_q30,sidset,real,0,0.6959043145179749,data\cache\clean\test\sidset_b230de6baca8d392\jpeg_q30.jpg
+sidset_b3a42a0308a160fa,jpeg_q30,sidset,real,0,0.5350396633148193,data\cache\clean\test\sidset_b3a42a0308a160fa\jpeg_q30.jpg
+sidset_b476dc9881140333,jpeg_q30,sidset,real,0,0.7688375115394592,data\cache\clean\test\sidset_b476dc9881140333\jpeg_q30.jpg
+sidset_bc70b06f0d603efd,jpeg_q30,sidset,real,0,0.937523603439331,data\cache\clean\test\sidset_bc70b06f0d603efd\jpeg_q30.jpg
+sidset_c5a378b0ea24d25e,jpeg_q30,sidset,real,0,0.8631806373596191,data\cache\clean\test\sidset_c5a378b0ea24d25e\jpeg_q30.jpg
+sidset_c5f4e20e7d2e391c,jpeg_q30,sidset,real,0,0.5653882026672363,data\cache\clean\test\sidset_c5f4e20e7d2e391c\jpeg_q30.jpg
+sidset_c7d3774f16039f96,jpeg_q30,sidset,real,0,0.8660814166069031,data\cache\clean\test\sidset_c7d3774f16039f96\jpeg_q30.jpg
+sidset_cac550631e35c126,jpeg_q30,sidset,real,0,0.6963847279548645,data\cache\clean\test\sidset_cac550631e35c126\jpeg_q30.jpg
+sidset_cb68a83278e88b9d,jpeg_q30,sidset,real,0,0.9503200650215149,data\cache\clean\test\sidset_cb68a83278e88b9d\jpeg_q30.jpg
+sidset_cefabeb567a88f94,jpeg_q30,sidset,real,0,0.6052472591400146,data\cache\clean\test\sidset_cefabeb567a88f94\jpeg_q30.jpg
+sidset_d652dc17bb0709b8,jpeg_q30,sidset,real,0,0.9829598665237427,data\cache\clean\test\sidset_d652dc17bb0709b8\jpeg_q30.jpg
+sidset_d7c9ba7b7774dcd9,jpeg_q30,sidset,real,0,0.5247544050216675,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\jpeg_q30.jpg
+sidset_df089363fbc3dff5,jpeg_q30,sidset,real,0,0.7189066410064697,data\cache\clean\test\sidset_df089363fbc3dff5\jpeg_q30.jpg
+sidset_e35ca53982ee8372,jpeg_q30,sidset,real,0,0.5158763527870178,data\cache\clean\test\sidset_e35ca53982ee8372\jpeg_q30.jpg
+sidset_e547ceb84d50e7bf,jpeg_q30,sidset,real,0,0.7326425313949585,data\cache\clean\test\sidset_e547ceb84d50e7bf\jpeg_q30.jpg
+sidset_e67f5961f8d7c753,jpeg_q30,sidset,real,0,0.6920074224472046,data\cache\clean\test\sidset_e67f5961f8d7c753\jpeg_q30.jpg
+sidset_e6f037cc020a3c67,jpeg_q30,sidset,real,0,0.5948262810707092,data\cache\clean\test\sidset_e6f037cc020a3c67\jpeg_q30.jpg
+sidset_e8e76505f6a37089,jpeg_q30,sidset,real,0,0.5439929366111755,data\cache\clean\test\sidset_e8e76505f6a37089\jpeg_q30.jpg
+sidset_e99541e9ff8fadb2,jpeg_q30,sidset,real,0,0.6361827850341797,data\cache\clean\test\sidset_e99541e9ff8fadb2\jpeg_q30.jpg
+sidset_ea40598e1128af27,jpeg_q30,sidset,real,0,0.5420094132423401,data\cache\clean\test\sidset_ea40598e1128af27\jpeg_q30.jpg
+sidset_ee3e421ae3a8270d,jpeg_q30,sidset,real,0,0.613862156867981,data\cache\clean\test\sidset_ee3e421ae3a8270d\jpeg_q30.jpg
+sidset_f5044c17014681a8,jpeg_q30,sidset,real,0,0.6763819456100464,data\cache\clean\test\sidset_f5044c17014681a8\jpeg_q30.jpg
+sidset_fac95db1f3df9775,jpeg_q30,sidset,real,0,0.6410625576972961,data\cache\clean\test\sidset_fac95db1f3df9775\jpeg_q30.jpg
+sidset_fe0bec3214706d60,jpeg_q30,sidset,real,0,0.8907373547554016,data\cache\clean\test\sidset_fe0bec3214706d60\jpeg_q30.jpg
+cifake_0167 (10),jpeg_q50,cifake,real,0,0.5454989671707153,data\cache\clean\test\cifake_0167 (10)\jpeg_q50.jpg
+cifake_0179 (9),jpeg_q50,cifake,real,0,0.6918348073959351,data\cache\clean\test\cifake_0179 (9)\jpeg_q50.jpg
+cifake_0260 (4),jpeg_q50,cifake,real,0,0.5092664361000061,data\cache\clean\test\cifake_0260 (4)\jpeg_q50.jpg
+cifake_0485 (9),jpeg_q50,cifake,real,0,0.6959092617034912,data\cache\clean\test\cifake_0485 (9)\jpeg_q50.jpg
+cifake_0618 (3),jpeg_q50,cifake,real,0,0.6947101950645447,data\cache\clean\test\cifake_0618 (3)\jpeg_q50.jpg
+cifake_1139,jpeg_q50,cifake,real,0,0.5058032274246216,data\cache\clean\test\cifake_1139\jpeg_q50.jpg
+cifake_1220 (2),jpeg_q50,cifake,real,0,0.6228232383728027,data\cache\clean\test\cifake_1220 (2)\jpeg_q50.jpg
+cifake_1306 (9),jpeg_q50,cifake,real,0,0.7358158230781555,data\cache\clean\test\cifake_1306 (9)\jpeg_q50.jpg
+cifake_1974,jpeg_q50,cifake,real,0,0.87258380651474,data\cache\clean\test\cifake_1974\jpeg_q50.jpg
+cifake_2122,jpeg_q50,cifake,real,0,0.6060707569122314,data\cache\clean\test\cifake_2122\jpeg_q50.jpg
+cifake_2547,jpeg_q50,cifake,real,0,0.6235550045967102,data\cache\clean\test\cifake_2547\jpeg_q50.jpg
+cifake_2633 (10),jpeg_q50,cifake,real,0,0.6718142032623291,data\cache\clean\test\cifake_2633 (10)\jpeg_q50.jpg
+cifake_2660,jpeg_q50,cifake,real,0,0.6546200513839722,data\cache\clean\test\cifake_2660\jpeg_q50.jpg
+cifake_2666 (9),jpeg_q50,cifake,real,0,0.7031410932540894,data\cache\clean\test\cifake_2666 (9)\jpeg_q50.jpg
+cifake_2698 (9),jpeg_q50,cifake,real,0,0.6387338638305664,data\cache\clean\test\cifake_2698 (9)\jpeg_q50.jpg
+cifake_3458 (9),jpeg_q50,cifake,real,0,0.580223798751831,data\cache\clean\test\cifake_3458 (9)\jpeg_q50.jpg
+cifake_3872,jpeg_q50,cifake,real,0,0.6313639879226685,data\cache\clean\test\cifake_3872\jpeg_q50.jpg
+cifake_3891 (3),jpeg_q50,cifake,real,0,0.5605792999267578,data\cache\clean\test\cifake_3891 (3)\jpeg_q50.jpg
+cifake_4660 (5),jpeg_q50,cifake,real,0,0.8915001153945923,data\cache\clean\test\cifake_4660 (5)\jpeg_q50.jpg
+cifake_4673 (5),jpeg_q50,cifake,real,0,0.6858958005905151,data\cache\clean\test\cifake_4673 (5)\jpeg_q50.jpg
+cifake_4707,jpeg_q50,cifake,real,0,0.5742323398590088,data\cache\clean\test\cifake_4707\jpeg_q50.jpg
+cifake_4932 (2),jpeg_q50,cifake,real,0,0.6446152925491333,data\cache\clean\test\cifake_4932 (2)\jpeg_q50.jpg
+sidset_00c87b600b1f0aa2,jpeg_q50,sidset,real,0,0.572890043258667,data\cache\clean\test\sidset_00c87b600b1f0aa2\jpeg_q50.jpg
+sidset_036df955965cb2f9,jpeg_q50,sidset,real,0,0.7842169404029846,data\cache\clean\test\sidset_036df955965cb2f9\jpeg_q50.jpg
+sidset_038789965a8f7606,jpeg_q50,sidset,real,0,0.588878333568573,data\cache\clean\test\sidset_038789965a8f7606\jpeg_q50.jpg
+sidset_04dca235b99ad328,jpeg_q50,sidset,real,0,0.6456029415130615,data\cache\clean\test\sidset_04dca235b99ad328\jpeg_q50.jpg
+sidset_09f7329f0c1c9fd4,jpeg_q50,sidset,real,0,0.8803539872169495,data\cache\clean\test\sidset_09f7329f0c1c9fd4\jpeg_q50.jpg
+sidset_0f8102c25fc764ea,jpeg_q50,sidset,real,0,0.9567567706108093,data\cache\clean\test\sidset_0f8102c25fc764ea\jpeg_q50.jpg
+sidset_1232f7869a64bb9f,jpeg_q50,sidset,real,0,0.7966033816337585,data\cache\clean\test\sidset_1232f7869a64bb9f\jpeg_q50.jpg
+sidset_14312756c1c94efa,jpeg_q50,sidset,real,0,0.9976613521575928,data\cache\clean\test\sidset_14312756c1c94efa\jpeg_q50.jpg
+sidset_1577f06c8ee59ef0,jpeg_q50,sidset,real,0,0.9350801706314087,data\cache\clean\test\sidset_1577f06c8ee59ef0\jpeg_q50.jpg
+sidset_18e31327000165d6,jpeg_q50,sidset,real,0,0.5061823725700378,data\cache\clean\test\sidset_18e31327000165d6\jpeg_q50.jpg
+sidset_1d24e17c0f598d7a,jpeg_q50,sidset,real,0,0.5241720080375671,data\cache\clean\test\sidset_1d24e17c0f598d7a\jpeg_q50.jpg
+sidset_22b07f2ffcaf319c,jpeg_q50,sidset,real,0,0.9467347860336304,data\cache\clean\test\sidset_22b07f2ffcaf319c\jpeg_q50.jpg
+sidset_26c389b400ea1653,jpeg_q50,sidset,real,0,0.6730499863624573,data\cache\clean\test\sidset_26c389b400ea1653\jpeg_q50.jpg
+sidset_31d44fee2c336e78,jpeg_q50,sidset,real,0,0.557096004486084,data\cache\clean\test\sidset_31d44fee2c336e78\jpeg_q50.jpg
+sidset_31f7ec5269c0f867,jpeg_q50,sidset,real,0,0.8683774471282959,data\cache\clean\test\sidset_31f7ec5269c0f867\jpeg_q50.jpg
+sidset_35f6c1138217d58e,jpeg_q50,sidset,real,0,0.5110062956809998,data\cache\clean\test\sidset_35f6c1138217d58e\jpeg_q50.jpg
+sidset_39a3f029e2e17dd3,jpeg_q50,sidset,real,0,0.975632905960083,data\cache\clean\test\sidset_39a3f029e2e17dd3\jpeg_q50.jpg
+sidset_3beca4d6152a4aa5,jpeg_q50,sidset,real,0,0.5469145178794861,data\cache\clean\test\sidset_3beca4d6152a4aa5\jpeg_q50.jpg
+sidset_45a6cb8b20ae57d2,jpeg_q50,sidset,real,0,0.5643160939216614,data\cache\clean\test\sidset_45a6cb8b20ae57d2\jpeg_q50.jpg
+sidset_52bf81b2d7f84101,jpeg_q50,sidset,real,0,0.5456607937812805,data\cache\clean\test\sidset_52bf81b2d7f84101\jpeg_q50.jpg
+sidset_5a165a26bf8ca4be,jpeg_q50,sidset,real,0,0.704094409942627,data\cache\clean\test\sidset_5a165a26bf8ca4be\jpeg_q50.jpg
+sidset_5b291a7b5ae05cf0,jpeg_q50,sidset,real,0,0.5650935173034668,data\cache\clean\test\sidset_5b291a7b5ae05cf0\jpeg_q50.jpg
+sidset_5b8f12b78d13bfcd,jpeg_q50,sidset,real,0,0.9554790258407593,data\cache\clean\test\sidset_5b8f12b78d13bfcd\jpeg_q50.jpg
+sidset_5ba522a91162ae70,jpeg_q50,sidset,real,0,0.981826663017273,data\cache\clean\test\sidset_5ba522a91162ae70\jpeg_q50.jpg
+sidset_5c175a143c23a7b8,jpeg_q50,sidset,real,0,0.5760301947593689,data\cache\clean\test\sidset_5c175a143c23a7b8\jpeg_q50.jpg
+sidset_615f67f3acd96d5c,jpeg_q50,sidset,real,0,0.9127237796783447,data\cache\clean\test\sidset_615f67f3acd96d5c\jpeg_q50.jpg
+sidset_62d3110113ec4633,jpeg_q50,sidset,real,0,0.7271429300308228,data\cache\clean\test\sidset_62d3110113ec4633\jpeg_q50.jpg
+sidset_63bbe94724c1d946,jpeg_q50,sidset,real,0,0.7368926405906677,data\cache\clean\test\sidset_63bbe94724c1d946\jpeg_q50.jpg
+sidset_65d4916b9f3f47ba,jpeg_q50,sidset,real,0,0.6170689463615417,data\cache\clean\test\sidset_65d4916b9f3f47ba\jpeg_q50.jpg
+sidset_6b7167d906f4ff1f,jpeg_q50,sidset,real,0,0.8583609461784363,data\cache\clean\test\sidset_6b7167d906f4ff1f\jpeg_q50.jpg
+sidset_772850bc0fb9e17c,jpeg_q50,sidset,real,0,0.8345756530761719,data\cache\clean\test\sidset_772850bc0fb9e17c\jpeg_q50.jpg
+sidset_796b6212cfecb3de,jpeg_q50,sidset,real,0,0.7427717447280884,data\cache\clean\test\sidset_796b6212cfecb3de\jpeg_q50.jpg
+sidset_7974984b83c15934,jpeg_q50,sidset,real,0,0.530561089515686,data\cache\clean\test\sidset_7974984b83c15934\jpeg_q50.jpg
+sidset_7b550aceb5ec111f,jpeg_q50,sidset,real,0,0.9180840849876404,data\cache\clean\test\sidset_7b550aceb5ec111f\jpeg_q50.jpg
+sidset_7f1ce0ac000e1d6c,jpeg_q50,sidset,real,0,0.8891473412513733,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\jpeg_q50.jpg
+sidset_832e43df048c6d1a,jpeg_q50,sidset,real,0,0.7401853203773499,data\cache\clean\test\sidset_832e43df048c6d1a\jpeg_q50.jpg
+sidset_8619862cda88466c,jpeg_q50,sidset,real,0,0.6292833089828491,data\cache\clean\test\sidset_8619862cda88466c\jpeg_q50.jpg
+sidset_8865c586ab64c0f9,jpeg_q50,sidset,real,0,0.5493361353874207,data\cache\clean\test\sidset_8865c586ab64c0f9\jpeg_q50.jpg
+sidset_a3032d75347e6fa2,jpeg_q50,sidset,real,0,0.84652179479599,data\cache\clean\test\sidset_a3032d75347e6fa2\jpeg_q50.jpg
+sidset_a4268c0135ca2c65,jpeg_q50,sidset,real,0,0.6675876975059509,data\cache\clean\test\sidset_a4268c0135ca2c65\jpeg_q50.jpg
+sidset_a429805728e89e7d,jpeg_q50,sidset,real,0,0.8192970752716064,data\cache\clean\test\sidset_a429805728e89e7d\jpeg_q50.jpg
+sidset_a63f5e61fd9dc5ef,jpeg_q50,sidset,real,0,0.7660762071609497,data\cache\clean\test\sidset_a63f5e61fd9dc5ef\jpeg_q50.jpg
+sidset_a68752f61204ef57,jpeg_q50,sidset,real,0,0.6673151850700378,data\cache\clean\test\sidset_a68752f61204ef57\jpeg_q50.jpg
+sidset_a8ad741ef85002f3,jpeg_q50,sidset,real,0,0.5357030034065247,data\cache\clean\test\sidset_a8ad741ef85002f3\jpeg_q50.jpg
+sidset_ab1441008986f237,jpeg_q50,sidset,real,0,0.7607114911079407,data\cache\clean\test\sidset_ab1441008986f237\jpeg_q50.jpg
+sidset_ac54ef2834f8bc74,jpeg_q50,sidset,real,0,0.9170616865158081,data\cache\clean\test\sidset_ac54ef2834f8bc74\jpeg_q50.jpg
+sidset_b230de6baca8d392,jpeg_q50,sidset,real,0,0.6046041250228882,data\cache\clean\test\sidset_b230de6baca8d392\jpeg_q50.jpg
+sidset_b476dc9881140333,jpeg_q50,sidset,real,0,0.6972323060035706,data\cache\clean\test\sidset_b476dc9881140333\jpeg_q50.jpg
+sidset_bc70b06f0d603efd,jpeg_q50,sidset,real,0,0.9440769553184509,data\cache\clean\test\sidset_bc70b06f0d603efd\jpeg_q50.jpg
+sidset_c2f7255d9f5d9469,jpeg_q50,sidset,real,0,0.5463846325874329,data\cache\clean\test\sidset_c2f7255d9f5d9469\jpeg_q50.jpg
+sidset_c4527bae1db9f157,jpeg_q50,sidset,real,0,0.7766286134719849,data\cache\clean\test\sidset_c4527bae1db9f157\jpeg_q50.jpg
+sidset_c5a378b0ea24d25e,jpeg_q50,sidset,real,0,0.9476966261863708,data\cache\clean\test\sidset_c5a378b0ea24d25e\jpeg_q50.jpg
+sidset_c5f4e20e7d2e391c,jpeg_q50,sidset,real,0,0.565081775188446,data\cache\clean\test\sidset_c5f4e20e7d2e391c\jpeg_q50.jpg
+sidset_cac550631e35c126,jpeg_q50,sidset,real,0,0.5273690223693848,data\cache\clean\test\sidset_cac550631e35c126\jpeg_q50.jpg
+sidset_cb68a83278e88b9d,jpeg_q50,sidset,real,0,0.9091345071792603,data\cache\clean\test\sidset_cb68a83278e88b9d\jpeg_q50.jpg
+sidset_d652dc17bb0709b8,jpeg_q50,sidset,real,0,0.962607204914093,data\cache\clean\test\sidset_d652dc17bb0709b8\jpeg_q50.jpg
+sidset_df089363fbc3dff5,jpeg_q50,sidset,real,0,0.7005785703659058,data\cache\clean\test\sidset_df089363fbc3dff5\jpeg_q50.jpg
+sidset_e35ca53982ee8372,jpeg_q50,sidset,real,0,0.7960910201072693,data\cache\clean\test\sidset_e35ca53982ee8372\jpeg_q50.jpg
+sidset_e67f5961f8d7c753,jpeg_q50,sidset,real,0,0.7015003561973572,data\cache\clean\test\sidset_e67f5961f8d7c753\jpeg_q50.jpg
+sidset_e6f037cc020a3c67,jpeg_q50,sidset,real,0,0.7458258867263794,data\cache\clean\test\sidset_e6f037cc020a3c67\jpeg_q50.jpg
+sidset_e99541e9ff8fadb2,jpeg_q50,sidset,real,0,0.5858197212219238,data\cache\clean\test\sidset_e99541e9ff8fadb2\jpeg_q50.jpg
+sidset_ea40598e1128af27,jpeg_q50,sidset,real,0,0.616478443145752,data\cache\clean\test\sidset_ea40598e1128af27\jpeg_q50.jpg
+sidset_f5044c17014681a8,jpeg_q50,sidset,real,0,0.759138822555542,data\cache\clean\test\sidset_f5044c17014681a8\jpeg_q50.jpg
+sidset_fac95db1f3df9775,jpeg_q50,sidset,real,0,0.5568383932113647,data\cache\clean\test\sidset_fac95db1f3df9775\jpeg_q50.jpg
+sidset_fe0bec3214706d60,jpeg_q50,sidset,real,0,0.9358857870101929,data\cache\clean\test\sidset_fe0bec3214706d60\jpeg_q50.jpg
+cifake_0005 (3),jpeg_q70,cifake,real,0,0.6171349883079529,data\cache\clean\test\cifake_0005 (3)\jpeg_q70.jpg
+cifake_0179 (9),jpeg_q70,cifake,real,0,0.8330638408660889,data\cache\clean\test\cifake_0179 (9)\jpeg_q70.jpg
+cifake_0235,jpeg_q70,cifake,real,0,0.7009955048561096,data\cache\clean\test\cifake_0235\jpeg_q70.jpg
+cifake_0302 (9),jpeg_q70,cifake,real,0,0.6835882663726807,data\cache\clean\test\cifake_0302 (9)\jpeg_q70.jpg
+cifake_0539 (5),jpeg_q70,cifake,real,0,0.6201361417770386,data\cache\clean\test\cifake_0539 (5)\jpeg_q70.jpg
+cifake_0793,jpeg_q70,cifake,real,0,0.7690874338150024,data\cache\clean\test\cifake_0793\jpeg_q70.jpg
+cifake_0967 (9),jpeg_q70,cifake,real,0,0.6311153769493103,data\cache\clean\test\cifake_0967 (9)\jpeg_q70.jpg
+cifake_1139,jpeg_q70,cifake,real,0,0.7676032185554504,data\cache\clean\test\cifake_1139\jpeg_q70.jpg
+cifake_1974,jpeg_q70,cifake,real,0,0.798685610294342,data\cache\clean\test\cifake_1974\jpeg_q70.jpg
+cifake_2071,jpeg_q70,cifake,real,0,0.6265261173248291,data\cache\clean\test\cifake_2071\jpeg_q70.jpg
+cifake_2094 (3),jpeg_q70,cifake,real,0,0.5428045988082886,data\cache\clean\test\cifake_2094 (3)\jpeg_q70.jpg
+cifake_2122,jpeg_q70,cifake,real,0,0.6971080303192139,data\cache\clean\test\cifake_2122\jpeg_q70.jpg
+cifake_2398 (9),jpeg_q70,cifake,real,0,0.5385585427284241,data\cache\clean\test\cifake_2398 (9)\jpeg_q70.jpg
+cifake_2633 (10),jpeg_q70,cifake,real,0,0.7377892732620239,data\cache\clean\test\cifake_2633 (10)\jpeg_q70.jpg
+cifake_2660,jpeg_q70,cifake,real,0,0.7092187404632568,data\cache\clean\test\cifake_2660\jpeg_q70.jpg
+cifake_2698 (9),jpeg_q70,cifake,real,0,0.6577895283699036,data\cache\clean\test\cifake_2698 (9)\jpeg_q70.jpg
+cifake_3051 (7),jpeg_q70,cifake,real,0,0.750249981880188,data\cache\clean\test\cifake_3051 (7)\jpeg_q70.jpg
+cifake_4186 (5),jpeg_q70,cifake,real,0,0.5213926434516907,data\cache\clean\test\cifake_4186 (5)\jpeg_q70.jpg
+cifake_4660 (5),jpeg_q70,cifake,real,0,0.8729883432388306,data\cache\clean\test\cifake_4660 (5)\jpeg_q70.jpg
+cifake_4673 (5),jpeg_q70,cifake,real,0,0.9502913951873779,data\cache\clean\test\cifake_4673 (5)\jpeg_q70.jpg
+cifake_4932 (2),jpeg_q70,cifake,real,0,0.6402773857116699,data\cache\clean\test\cifake_4932 (2)\jpeg_q70.jpg
+sidset_038789965a8f7606,jpeg_q70,sidset,real,0,0.5655758380889893,data\cache\clean\test\sidset_038789965a8f7606\jpeg_q70.jpg
+sidset_09f7329f0c1c9fd4,jpeg_q70,sidset,real,0,0.959846556186676,data\cache\clean\test\sidset_09f7329f0c1c9fd4\jpeg_q70.jpg
+sidset_0f8102c25fc764ea,jpeg_q70,sidset,real,0,0.9346169829368591,data\cache\clean\test\sidset_0f8102c25fc764ea\jpeg_q70.jpg
+sidset_1232f7869a64bb9f,jpeg_q70,sidset,real,0,0.5352931618690491,data\cache\clean\test\sidset_1232f7869a64bb9f\jpeg_q70.jpg
+sidset_14312756c1c94efa,jpeg_q70,sidset,real,0,0.9980542659759521,data\cache\clean\test\sidset_14312756c1c94efa\jpeg_q70.jpg
+sidset_1577f06c8ee59ef0,jpeg_q70,sidset,real,0,0.8027875423431396,data\cache\clean\test\sidset_1577f06c8ee59ef0\jpeg_q70.jpg
+sidset_18e30e95478d3da6,jpeg_q70,sidset,real,0,0.5674218535423279,data\cache\clean\test\sidset_18e30e95478d3da6\jpeg_q70.jpg
+sidset_1d24e17c0f598d7a,jpeg_q70,sidset,real,0,0.6419803500175476,data\cache\clean\test\sidset_1d24e17c0f598d7a\jpeg_q70.jpg
+sidset_22b07f2ffcaf319c,jpeg_q70,sidset,real,0,0.8918464779853821,data\cache\clean\test\sidset_22b07f2ffcaf319c\jpeg_q70.jpg
+sidset_26c389b400ea1653,jpeg_q70,sidset,real,0,0.7305415272712708,data\cache\clean\test\sidset_26c389b400ea1653\jpeg_q70.jpg
+sidset_31f7ec5269c0f867,jpeg_q70,sidset,real,0,0.8787217140197754,data\cache\clean\test\sidset_31f7ec5269c0f867\jpeg_q70.jpg
+sidset_39a3f029e2e17dd3,jpeg_q70,sidset,real,0,0.9695936441421509,data\cache\clean\test\sidset_39a3f029e2e17dd3\jpeg_q70.jpg
+sidset_3beca4d6152a4aa5,jpeg_q70,sidset,real,0,0.5929822325706482,data\cache\clean\test\sidset_3beca4d6152a4aa5\jpeg_q70.jpg
+sidset_55ed6c0bbd54e07d,jpeg_q70,sidset,real,0,0.6529158353805542,data\cache\clean\test\sidset_55ed6c0bbd54e07d\jpeg_q70.jpg
+sidset_5a165a26bf8ca4be,jpeg_q70,sidset,real,0,0.7082405090332031,data\cache\clean\test\sidset_5a165a26bf8ca4be\jpeg_q70.jpg
+sidset_5b291a7b5ae05cf0,jpeg_q70,sidset,real,0,0.5960577726364136,data\cache\clean\test\sidset_5b291a7b5ae05cf0\jpeg_q70.jpg
+sidset_5b8f12b78d13bfcd,jpeg_q70,sidset,real,0,0.8966124057769775,data\cache\clean\test\sidset_5b8f12b78d13bfcd\jpeg_q70.jpg
+sidset_5ba522a91162ae70,jpeg_q70,sidset,real,0,0.972100019454956,data\cache\clean\test\sidset_5ba522a91162ae70\jpeg_q70.jpg
+sidset_615f67f3acd96d5c,jpeg_q70,sidset,real,0,0.8788425326347351,data\cache\clean\test\sidset_615f67f3acd96d5c\jpeg_q70.jpg
+sidset_62d3110113ec4633,jpeg_q70,sidset,real,0,0.892440915107727,data\cache\clean\test\sidset_62d3110113ec4633\jpeg_q70.jpg
+sidset_65d4916b9f3f47ba,jpeg_q70,sidset,real,0,0.5988687872886658,data\cache\clean\test\sidset_65d4916b9f3f47ba\jpeg_q70.jpg
+sidset_6b7167d906f4ff1f,jpeg_q70,sidset,real,0,0.829808235168457,data\cache\clean\test\sidset_6b7167d906f4ff1f\jpeg_q70.jpg
+sidset_772850bc0fb9e17c,jpeg_q70,sidset,real,0,0.5967636704444885,data\cache\clean\test\sidset_772850bc0fb9e17c\jpeg_q70.jpg
+sidset_796b6212cfecb3de,jpeg_q70,sidset,real,0,0.729559063911438,data\cache\clean\test\sidset_796b6212cfecb3de\jpeg_q70.jpg
+sidset_7974984b83c15934,jpeg_q70,sidset,real,0,0.5496835708618164,data\cache\clean\test\sidset_7974984b83c15934\jpeg_q70.jpg
+sidset_7b550aceb5ec111f,jpeg_q70,sidset,real,0,0.7633668184280396,data\cache\clean\test\sidset_7b550aceb5ec111f\jpeg_q70.jpg
+sidset_7f1ce0ac000e1d6c,jpeg_q70,sidset,real,0,0.8966144919395447,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\jpeg_q70.jpg
+sidset_832e43df048c6d1a,jpeg_q70,sidset,real,0,0.6975892186164856,data\cache\clean\test\sidset_832e43df048c6d1a\jpeg_q70.jpg
+sidset_8865c586ab64c0f9,jpeg_q70,sidset,real,0,0.5717685222625732,data\cache\clean\test\sidset_8865c586ab64c0f9\jpeg_q70.jpg
+sidset_8d2495ea75218578,jpeg_q70,sidset,real,0,0.5920203924179077,data\cache\clean\test\sidset_8d2495ea75218578\jpeg_q70.jpg
+sidset_9e2a9b16ff46f867,jpeg_q70,sidset,real,0,0.5021659135818481,data\cache\clean\test\sidset_9e2a9b16ff46f867\jpeg_q70.jpg
+sidset_a3032d75347e6fa2,jpeg_q70,sidset,real,0,0.5956233143806458,data\cache\clean\test\sidset_a3032d75347e6fa2\jpeg_q70.jpg
+sidset_a429805728e89e7d,jpeg_q70,sidset,real,0,0.7543492317199707,data\cache\clean\test\sidset_a429805728e89e7d\jpeg_q70.jpg
+sidset_a8ad741ef85002f3,jpeg_q70,sidset,real,0,0.6775570511817932,data\cache\clean\test\sidset_a8ad741ef85002f3\jpeg_q70.jpg
+sidset_ab1441008986f237,jpeg_q70,sidset,real,0,0.6492058038711548,data\cache\clean\test\sidset_ab1441008986f237\jpeg_q70.jpg
+sidset_ac54ef2834f8bc74,jpeg_q70,sidset,real,0,0.6825194358825684,data\cache\clean\test\sidset_ac54ef2834f8bc74\jpeg_q70.jpg
+sidset_b230de6baca8d392,jpeg_q70,sidset,real,0,0.6082916855812073,data\cache\clean\test\sidset_b230de6baca8d392\jpeg_q70.jpg
+sidset_b476dc9881140333,jpeg_q70,sidset,real,0,0.5417269468307495,data\cache\clean\test\sidset_b476dc9881140333\jpeg_q70.jpg
+sidset_bc70b06f0d603efd,jpeg_q70,sidset,real,0,0.9336177706718445,data\cache\clean\test\sidset_bc70b06f0d603efd\jpeg_q70.jpg
+sidset_c4527bae1db9f157,jpeg_q70,sidset,real,0,0.5559830069541931,data\cache\clean\test\sidset_c4527bae1db9f157\jpeg_q70.jpg
+sidset_c5a378b0ea24d25e,jpeg_q70,sidset,real,0,0.7201155424118042,data\cache\clean\test\sidset_c5a378b0ea24d25e\jpeg_q70.jpg
+sidset_c5f4e20e7d2e391c,jpeg_q70,sidset,real,0,0.5137583017349243,data\cache\clean\test\sidset_c5f4e20e7d2e391c\jpeg_q70.jpg
+sidset_cb68a83278e88b9d,jpeg_q70,sidset,real,0,0.854432225227356,data\cache\clean\test\sidset_cb68a83278e88b9d\jpeg_q70.jpg
+sidset_d652dc17bb0709b8,jpeg_q70,sidset,real,0,0.9753308296203613,data\cache\clean\test\sidset_d652dc17bb0709b8\jpeg_q70.jpg
+sidset_df089363fbc3dff5,jpeg_q70,sidset,real,0,0.5663167834281921,data\cache\clean\test\sidset_df089363fbc3dff5\jpeg_q70.jpg
+sidset_e67f5961f8d7c753,jpeg_q70,sidset,real,0,0.7070942521095276,data\cache\clean\test\sidset_e67f5961f8d7c753\jpeg_q70.jpg
+sidset_e6f037cc020a3c67,jpeg_q70,sidset,real,0,0.8085563778877258,data\cache\clean\test\sidset_e6f037cc020a3c67\jpeg_q70.jpg
+sidset_e8e76505f6a37089,jpeg_q70,sidset,real,0,0.5323880314826965,data\cache\clean\test\sidset_e8e76505f6a37089\jpeg_q70.jpg
+sidset_e99541e9ff8fadb2,jpeg_q70,sidset,real,0,0.6220216155052185,data\cache\clean\test\sidset_e99541e9ff8fadb2\jpeg_q70.jpg
+sidset_f5044c17014681a8,jpeg_q70,sidset,real,0,0.5163121223449707,data\cache\clean\test\sidset_f5044c17014681a8\jpeg_q70.jpg
+sidset_f64413457848d278,jpeg_q70,sidset,real,0,0.5760318040847778,data\cache\clean\test\sidset_f64413457848d278\jpeg_q70.jpg
+sidset_fe0bec3214706d60,jpeg_q70,sidset,real,0,0.9381054043769836,data\cache\clean\test\sidset_fe0bec3214706d60\jpeg_q70.jpg
+cifake_0235,jpeg_q90,cifake,real,0,0.5193151235580444,data\cache\clean\test\cifake_0235\jpeg_q90.jpg
+cifake_0618 (3),jpeg_q90,cifake,real,0,0.9316170811653137,data\cache\clean\test\cifake_0618 (3)\jpeg_q90.jpg
+cifake_1139,jpeg_q90,cifake,real,0,0.9110915660858154,data\cache\clean\test\cifake_1139\jpeg_q90.jpg
+cifake_1435 (2),jpeg_q90,cifake,real,0,0.5175263285636902,data\cache\clean\test\cifake_1435 (2)\jpeg_q90.jpg
+cifake_1974,jpeg_q90,cifake,real,0,0.7164925932884216,data\cache\clean\test\cifake_1974\jpeg_q90.jpg
+cifake_2071,jpeg_q90,cifake,real,0,0.8776664733886719,data\cache\clean\test\cifake_2071\jpeg_q90.jpg
+cifake_2122,jpeg_q90,cifake,real,0,0.6568046808242798,data\cache\clean\test\cifake_2122\jpeg_q90.jpg
+cifake_2633 (10),jpeg_q90,cifake,real,0,0.6619351506233215,data\cache\clean\test\cifake_2633 (10)\jpeg_q90.jpg
+cifake_2660,jpeg_q90,cifake,real,0,0.6416086554527283,data\cache\clean\test\cifake_2660\jpeg_q90.jpg
+cifake_3891 (3),jpeg_q90,cifake,real,0,0.5643531680107117,data\cache\clean\test\cifake_3891 (3)\jpeg_q90.jpg
+cifake_4660 (5),jpeg_q90,cifake,real,0,0.9244998097419739,data\cache\clean\test\cifake_4660 (5)\jpeg_q90.jpg
+cifake_4673 (5),jpeg_q90,cifake,real,0,0.7103253602981567,data\cache\clean\test\cifake_4673 (5)\jpeg_q90.jpg
+sidset_00c87b600b1f0aa2,jpeg_q90,sidset,real,0,0.5275812745094299,data\cache\clean\test\sidset_00c87b600b1f0aa2\jpeg_q90.jpg
+sidset_036df955965cb2f9,jpeg_q90,sidset,real,0,0.9283668994903564,data\cache\clean\test\sidset_036df955965cb2f9\jpeg_q90.jpg
+sidset_038789965a8f7606,jpeg_q90,sidset,real,0,0.5628687739372253,data\cache\clean\test\sidset_038789965a8f7606\jpeg_q90.jpg
+sidset_075db643445af8e3,jpeg_q90,sidset,real,0,0.7165433764457703,data\cache\clean\test\sidset_075db643445af8e3\jpeg_q90.jpg
+sidset_09f7329f0c1c9fd4,jpeg_q90,sidset,real,0,0.8485618829727173,data\cache\clean\test\sidset_09f7329f0c1c9fd4\jpeg_q90.jpg
+sidset_0f8102c25fc764ea,jpeg_q90,sidset,real,0,0.9396584033966064,data\cache\clean\test\sidset_0f8102c25fc764ea\jpeg_q90.jpg
+sidset_14312756c1c94efa,jpeg_q90,sidset,real,0,0.9996554851531982,data\cache\clean\test\sidset_14312756c1c94efa\jpeg_q90.jpg
+sidset_1577f06c8ee59ef0,jpeg_q90,sidset,real,0,0.9494290351867676,data\cache\clean\test\sidset_1577f06c8ee59ef0\jpeg_q90.jpg
+sidset_16c4058cc17896fc,jpeg_q90,sidset,real,0,0.6345687508583069,data\cache\clean\test\sidset_16c4058cc17896fc\jpeg_q90.jpg
+sidset_18e30e95478d3da6,jpeg_q90,sidset,real,0,0.6922239661216736,data\cache\clean\test\sidset_18e30e95478d3da6\jpeg_q90.jpg
+sidset_1d24e17c0f598d7a,jpeg_q90,sidset,real,0,0.6090052127838135,data\cache\clean\test\sidset_1d24e17c0f598d7a\jpeg_q90.jpg
+sidset_22b07f2ffcaf319c,jpeg_q90,sidset,real,0,0.9656680822372437,data\cache\clean\test\sidset_22b07f2ffcaf319c\jpeg_q90.jpg
+sidset_26c389b400ea1653,jpeg_q90,sidset,real,0,0.8209295868873596,data\cache\clean\test\sidset_26c389b400ea1653\jpeg_q90.jpg
+sidset_31f7ec5269c0f867,jpeg_q90,sidset,real,0,0.7919489145278931,data\cache\clean\test\sidset_31f7ec5269c0f867\jpeg_q90.jpg
+sidset_34866edcc2800ae0,jpeg_q90,sidset,real,0,0.5988114476203918,data\cache\clean\test\sidset_34866edcc2800ae0\jpeg_q90.jpg
+sidset_35f6c1138217d58e,jpeg_q90,sidset,real,0,0.5877339243888855,data\cache\clean\test\sidset_35f6c1138217d58e\jpeg_q90.jpg
+sidset_39a3f029e2e17dd3,jpeg_q90,sidset,real,0,0.9666088819503784,data\cache\clean\test\sidset_39a3f029e2e17dd3\jpeg_q90.jpg
+sidset_3beca4d6152a4aa5,jpeg_q90,sidset,real,0,0.5585262179374695,data\cache\clean\test\sidset_3beca4d6152a4aa5\jpeg_q90.jpg
+sidset_52bf81b2d7f84101,jpeg_q90,sidset,real,0,0.6814783215522766,data\cache\clean\test\sidset_52bf81b2d7f84101\jpeg_q90.jpg
+sidset_55ed6c0bbd54e07d,jpeg_q90,sidset,real,0,0.7768140435218811,data\cache\clean\test\sidset_55ed6c0bbd54e07d\jpeg_q90.jpg
+sidset_5a165a26bf8ca4be,jpeg_q90,sidset,real,0,0.8280766010284424,data\cache\clean\test\sidset_5a165a26bf8ca4be\jpeg_q90.jpg
+sidset_5b291a7b5ae05cf0,jpeg_q90,sidset,real,0,0.6123781204223633,data\cache\clean\test\sidset_5b291a7b5ae05cf0\jpeg_q90.jpg
+sidset_5b8f12b78d13bfcd,jpeg_q90,sidset,real,0,0.7679010629653931,data\cache\clean\test\sidset_5b8f12b78d13bfcd\jpeg_q90.jpg
+sidset_5ba522a91162ae70,jpeg_q90,sidset,real,0,0.9889028668403625,data\cache\clean\test\sidset_5ba522a91162ae70\jpeg_q90.jpg
+sidset_5c175a143c23a7b8,jpeg_q90,sidset,real,0,0.5108064413070679,data\cache\clean\test\sidset_5c175a143c23a7b8\jpeg_q90.jpg
+sidset_615f67f3acd96d5c,jpeg_q90,sidset,real,0,0.7702649235725403,data\cache\clean\test\sidset_615f67f3acd96d5c\jpeg_q90.jpg
+sidset_62d3110113ec4633,jpeg_q90,sidset,real,0,0.8646361827850342,data\cache\clean\test\sidset_62d3110113ec4633\jpeg_q90.jpg
+sidset_65d4916b9f3f47ba,jpeg_q90,sidset,real,0,0.6575993299484253,data\cache\clean\test\sidset_65d4916b9f3f47ba\jpeg_q90.jpg
+sidset_6b7167d906f4ff1f,jpeg_q90,sidset,real,0,0.9232833385467529,data\cache\clean\test\sidset_6b7167d906f4ff1f\jpeg_q90.jpg
+sidset_772850bc0fb9e17c,jpeg_q90,sidset,real,0,0.5352575182914734,data\cache\clean\test\sidset_772850bc0fb9e17c\jpeg_q90.jpg
+sidset_796b6212cfecb3de,jpeg_q90,sidset,real,0,0.7558073401451111,data\cache\clean\test\sidset_796b6212cfecb3de\jpeg_q90.jpg
+sidset_7974984b83c15934,jpeg_q90,sidset,real,0,0.5348384976387024,data\cache\clean\test\sidset_7974984b83c15934\jpeg_q90.jpg
+sidset_7b550aceb5ec111f,jpeg_q90,sidset,real,0,0.7221498489379883,data\cache\clean\test\sidset_7b550aceb5ec111f\jpeg_q90.jpg
+sidset_7f1ce0ac000e1d6c,jpeg_q90,sidset,real,0,0.9196981191635132,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\jpeg_q90.jpg
+sidset_832e43df048c6d1a,jpeg_q90,sidset,real,0,0.6785649061203003,data\cache\clean\test\sidset_832e43df048c6d1a\jpeg_q90.jpg
+sidset_8619862cda88466c,jpeg_q90,sidset,real,0,0.5776811242103577,data\cache\clean\test\sidset_8619862cda88466c\jpeg_q90.jpg
+sidset_9e2a9b16ff46f867,jpeg_q90,sidset,real,0,0.6111616492271423,data\cache\clean\test\sidset_9e2a9b16ff46f867\jpeg_q90.jpg
+sidset_a3032d75347e6fa2,jpeg_q90,sidset,real,0,0.6701120138168335,data\cache\clean\test\sidset_a3032d75347e6fa2\jpeg_q90.jpg
+sidset_a8ad741ef85002f3,jpeg_q90,sidset,real,0,0.832566499710083,data\cache\clean\test\sidset_a8ad741ef85002f3\jpeg_q90.jpg
+sidset_ab1441008986f237,jpeg_q90,sidset,real,0,0.8445854187011719,data\cache\clean\test\sidset_ab1441008986f237\jpeg_q90.jpg
+sidset_ac54ef2834f8bc74,jpeg_q90,sidset,real,0,0.8454572558403015,data\cache\clean\test\sidset_ac54ef2834f8bc74\jpeg_q90.jpg
+sidset_b230de6baca8d392,jpeg_q90,sidset,real,0,0.5691882967948914,data\cache\clean\test\sidset_b230de6baca8d392\jpeg_q90.jpg
+sidset_b3a42a0308a160fa,jpeg_q90,sidset,real,0,0.6357460618019104,data\cache\clean\test\sidset_b3a42a0308a160fa\jpeg_q90.jpg
+sidset_b476dc9881140333,jpeg_q90,sidset,real,0,0.6655375957489014,data\cache\clean\test\sidset_b476dc9881140333\jpeg_q90.jpg
+sidset_b6d4573c9d24dcf3,jpeg_q90,sidset,real,0,0.5383835434913635,data\cache\clean\test\sidset_b6d4573c9d24dcf3\jpeg_q90.jpg
+sidset_b8d2d5fcb72a3a65,jpeg_q90,sidset,real,0,0.5485994815826416,data\cache\clean\test\sidset_b8d2d5fcb72a3a65\jpeg_q90.jpg
+sidset_bc70b06f0d603efd,jpeg_q90,sidset,real,0,0.7926583290100098,data\cache\clean\test\sidset_bc70b06f0d603efd\jpeg_q90.jpg
+sidset_c5a378b0ea24d25e,jpeg_q90,sidset,real,0,0.8969208002090454,data\cache\clean\test\sidset_c5a378b0ea24d25e\jpeg_q90.jpg
+sidset_c7d3774f16039f96,jpeg_q90,sidset,real,0,0.501696765422821,data\cache\clean\test\sidset_c7d3774f16039f96\jpeg_q90.jpg
+sidset_cb68a83278e88b9d,jpeg_q90,sidset,real,0,0.8856126666069031,data\cache\clean\test\sidset_cb68a83278e88b9d\jpeg_q90.jpg
+sidset_d652dc17bb0709b8,jpeg_q90,sidset,real,0,0.9623112678527832,data\cache\clean\test\sidset_d652dc17bb0709b8\jpeg_q90.jpg
+sidset_d7c9ba7b7774dcd9,jpeg_q90,sidset,real,0,0.7029351592063904,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\jpeg_q90.jpg
+sidset_e35ca53982ee8372,jpeg_q90,sidset,real,0,0.7401437163352966,data\cache\clean\test\sidset_e35ca53982ee8372\jpeg_q90.jpg
+sidset_e67f5961f8d7c753,jpeg_q90,sidset,real,0,0.6499132513999939,data\cache\clean\test\sidset_e67f5961f8d7c753\jpeg_q90.jpg
+sidset_e6f037cc020a3c67,jpeg_q90,sidset,real,0,0.7560027241706848,data\cache\clean\test\sidset_e6f037cc020a3c67\jpeg_q90.jpg
+sidset_e83254d4c55675a6,jpeg_q90,sidset,real,0,0.5724025964736938,data\cache\clean\test\sidset_e83254d4c55675a6\jpeg_q90.jpg
+sidset_e8e76505f6a37089,jpeg_q90,sidset,real,0,0.5042258501052856,data\cache\clean\test\sidset_e8e76505f6a37089\jpeg_q90.jpg
+sidset_ea40598e1128af27,jpeg_q90,sidset,real,0,0.5028702616691589,data\cache\clean\test\sidset_ea40598e1128af27\jpeg_q90.jpg
+sidset_f5044c17014681a8,jpeg_q90,sidset,real,0,0.5599557757377625,data\cache\clean\test\sidset_f5044c17014681a8\jpeg_q90.jpg
+sidset_f64413457848d278,jpeg_q90,sidset,real,0,0.5014544129371643,data\cache\clean\test\sidset_f64413457848d278\jpeg_q90.jpg
+sidset_fac95db1f3df9775,jpeg_q90,sidset,real,0,0.5114027261734009,data\cache\clean\test\sidset_fac95db1f3df9775\jpeg_q90.jpg
+sidset_fe0bec3214706d60,jpeg_q90,sidset,real,0,0.9284158945083618,data\cache\clean\test\sidset_fe0bec3214706d60\jpeg_q90.jpg
+cifake_0005 (3),noise_s0.02,cifake,real,0,0.5527629256248474,data\cache\clean\test\cifake_0005 (3)\noise_s0.02.jpg
+cifake_0085,noise_s0.02,cifake,real,0,0.5904414057731628,data\cache\clean\test\cifake_0085\noise_s0.02.jpg
+cifake_0179 (9),noise_s0.02,cifake,real,0,0.8026987314224243,data\cache\clean\test\cifake_0179 (9)\noise_s0.02.jpg
+cifake_0235,noise_s0.02,cifake,real,0,0.6491380333900452,data\cache\clean\test\cifake_0235\noise_s0.02.jpg
+cifake_0239 (10),noise_s0.02,cifake,real,0,0.6293417811393738,data\cache\clean\test\cifake_0239 (10)\noise_s0.02.jpg
+cifake_0260 (4),noise_s0.02,cifake,real,0,0.5611483454704285,data\cache\clean\test\cifake_0260 (4)\noise_s0.02.jpg
+cifake_0485 (9),noise_s0.02,cifake,real,0,0.753441572189331,data\cache\clean\test\cifake_0485 (9)\noise_s0.02.jpg
+cifake_0793,noise_s0.02,cifake,real,0,0.9301060438156128,data\cache\clean\test\cifake_0793\noise_s0.02.jpg
+cifake_0811,noise_s0.02,cifake,real,0,0.5357535481452942,data\cache\clean\test\cifake_0811\noise_s0.02.jpg
+cifake_0858 (3),noise_s0.02,cifake,real,0,0.5789291262626648,data\cache\clean\test\cifake_0858 (3)\noise_s0.02.jpg
+cifake_0967 (9),noise_s0.02,cifake,real,0,0.658069908618927,data\cache\clean\test\cifake_0967 (9)\noise_s0.02.jpg
+cifake_1331 (2),noise_s0.02,cifake,real,0,0.8567945957183838,data\cache\clean\test\cifake_1331 (2)\noise_s0.02.jpg
+cifake_1353 (9),noise_s0.02,cifake,real,0,0.7412378191947937,data\cache\clean\test\cifake_1353 (9)\noise_s0.02.jpg
+cifake_1974,noise_s0.02,cifake,real,0,0.7014338970184326,data\cache\clean\test\cifake_1974\noise_s0.02.jpg
+cifake_2547,noise_s0.02,cifake,real,0,0.7461141347885132,data\cache\clean\test\cifake_2547\noise_s0.02.jpg
+cifake_2660,noise_s0.02,cifake,real,0,0.5773289203643799,data\cache\clean\test\cifake_2660\noise_s0.02.jpg
+cifake_2773 (6),noise_s0.02,cifake,real,0,0.6252299547195435,data\cache\clean\test\cifake_2773 (6)\noise_s0.02.jpg
+cifake_3042 (4),noise_s0.02,cifake,real,0,0.7210385203361511,data\cache\clean\test\cifake_3042 (4)\noise_s0.02.jpg
+cifake_3051 (7),noise_s0.02,cifake,real,0,0.5465244650840759,data\cache\clean\test\cifake_3051 (7)\noise_s0.02.jpg
+cifake_3280 (8),noise_s0.02,cifake,real,0,0.7353163361549377,data\cache\clean\test\cifake_3280 (8)\noise_s0.02.jpg
+cifake_3614,noise_s0.02,cifake,real,0,0.7404478788375854,data\cache\clean\test\cifake_3614\noise_s0.02.jpg
+cifake_3891 (3),noise_s0.02,cifake,real,0,0.5417838096618652,data\cache\clean\test\cifake_3891 (3)\noise_s0.02.jpg
+cifake_4389,noise_s0.02,cifake,real,0,0.5936408042907715,data\cache\clean\test\cifake_4389\noise_s0.02.jpg
+cifake_4660 (5),noise_s0.02,cifake,real,0,0.5915185213088989,data\cache\clean\test\cifake_4660 (5)\noise_s0.02.jpg
+cifake_4673 (5),noise_s0.02,cifake,real,0,0.8320295214653015,data\cache\clean\test\cifake_4673 (5)\noise_s0.02.jpg
+cifake_4932 (2),noise_s0.02,cifake,real,0,0.7334885597229004,data\cache\clean\test\cifake_4932 (2)\noise_s0.02.jpg
+sidset_011c2e4461eb1fdc,noise_s0.02,sidset,real,0,0.5495933294296265,data\cache\clean\test\sidset_011c2e4461eb1fdc\noise_s0.02.jpg
+sidset_01cfa603553a1a45,noise_s0.02,sidset,real,0,0.5303841233253479,data\cache\clean\test\sidset_01cfa603553a1a45\noise_s0.02.jpg
+sidset_036df955965cb2f9,noise_s0.02,sidset,real,0,0.8671918511390686,data\cache\clean\test\sidset_036df955965cb2f9\noise_s0.02.jpg
+sidset_038789965a8f7606,noise_s0.02,sidset,real,0,0.5814427733421326,data\cache\clean\test\sidset_038789965a8f7606\noise_s0.02.jpg
+sidset_075db643445af8e3,noise_s0.02,sidset,real,0,0.8290881514549255,data\cache\clean\test\sidset_075db643445af8e3\noise_s0.02.jpg
+sidset_09f7329f0c1c9fd4,noise_s0.02,sidset,real,0,0.6811907887458801,data\cache\clean\test\sidset_09f7329f0c1c9fd4\noise_s0.02.jpg
+sidset_0deb07ac44f13954,noise_s0.02,sidset,real,0,0.5019450187683105,data\cache\clean\test\sidset_0deb07ac44f13954\noise_s0.02.jpg
+sidset_0f8102c25fc764ea,noise_s0.02,sidset,real,0,0.9374226331710815,data\cache\clean\test\sidset_0f8102c25fc764ea\noise_s0.02.jpg
+sidset_14312756c1c94efa,noise_s0.02,sidset,real,0,0.9981995820999146,data\cache\clean\test\sidset_14312756c1c94efa\noise_s0.02.jpg
+sidset_1493e45feef507e8,noise_s0.02,sidset,real,0,0.5491542816162109,data\cache\clean\test\sidset_1493e45feef507e8\noise_s0.02.jpg
+sidset_1577f06c8ee59ef0,noise_s0.02,sidset,real,0,0.9209541082382202,data\cache\clean\test\sidset_1577f06c8ee59ef0\noise_s0.02.jpg
+sidset_1d24e17c0f598d7a,noise_s0.02,sidset,real,0,0.5318824052810669,data\cache\clean\test\sidset_1d24e17c0f598d7a\noise_s0.02.jpg
+sidset_22b07f2ffcaf319c,noise_s0.02,sidset,real,0,0.9793744087219238,data\cache\clean\test\sidset_22b07f2ffcaf319c\noise_s0.02.jpg
+sidset_262ab01448a69651,noise_s0.02,sidset,real,0,0.5491763949394226,data\cache\clean\test\sidset_262ab01448a69651\noise_s0.02.jpg
+sidset_26c389b400ea1653,noise_s0.02,sidset,real,0,0.7373104691505432,data\cache\clean\test\sidset_26c389b400ea1653\noise_s0.02.jpg
+sidset_31f7ec5269c0f867,noise_s0.02,sidset,real,0,0.8104825019836426,data\cache\clean\test\sidset_31f7ec5269c0f867\noise_s0.02.jpg
+sidset_34866edcc2800ae0,noise_s0.02,sidset,real,0,0.8586952090263367,data\cache\clean\test\sidset_34866edcc2800ae0\noise_s0.02.jpg
+sidset_35f6c1138217d58e,noise_s0.02,sidset,real,0,0.748940646648407,data\cache\clean\test\sidset_35f6c1138217d58e\noise_s0.02.jpg
+sidset_39a3f029e2e17dd3,noise_s0.02,sidset,real,0,0.9639614820480347,data\cache\clean\test\sidset_39a3f029e2e17dd3\noise_s0.02.jpg
+sidset_45a6cb8b20ae57d2,noise_s0.02,sidset,real,0,0.565542459487915,data\cache\clean\test\sidset_45a6cb8b20ae57d2\noise_s0.02.jpg
+sidset_4e4b9b1d6e8b2aca,noise_s0.02,sidset,real,0,0.5762624740600586,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\noise_s0.02.jpg
+sidset_4efd021afbfb3ae6,noise_s0.02,sidset,real,0,0.5271457433700562,data\cache\clean\test\sidset_4efd021afbfb3ae6\noise_s0.02.jpg
+sidset_52bf81b2d7f84101,noise_s0.02,sidset,real,0,0.6933043599128723,data\cache\clean\test\sidset_52bf81b2d7f84101\noise_s0.02.jpg
+sidset_5a165a26bf8ca4be,noise_s0.02,sidset,real,0,0.9342567324638367,data\cache\clean\test\sidset_5a165a26bf8ca4be\noise_s0.02.jpg
+sidset_5b291a7b5ae05cf0,noise_s0.02,sidset,real,0,0.5199541449546814,data\cache\clean\test\sidset_5b291a7b5ae05cf0\noise_s0.02.jpg
+sidset_5b8f12b78d13bfcd,noise_s0.02,sidset,real,0,0.7454808950424194,data\cache\clean\test\sidset_5b8f12b78d13bfcd\noise_s0.02.jpg
+sidset_5ba522a91162ae70,noise_s0.02,sidset,real,0,0.9067617654800415,data\cache\clean\test\sidset_5ba522a91162ae70\noise_s0.02.jpg
+sidset_615f67f3acd96d5c,noise_s0.02,sidset,real,0,0.8790071606636047,data\cache\clean\test\sidset_615f67f3acd96d5c\noise_s0.02.jpg
+sidset_62d3110113ec4633,noise_s0.02,sidset,real,0,0.5929757952690125,data\cache\clean\test\sidset_62d3110113ec4633\noise_s0.02.jpg
+sidset_630624a387e04a88,noise_s0.02,sidset,real,0,0.612487256526947,data\cache\clean\test\sidset_630624a387e04a88\noise_s0.02.jpg
+sidset_63bbe94724c1d946,noise_s0.02,sidset,real,0,0.5027858018875122,data\cache\clean\test\sidset_63bbe94724c1d946\noise_s0.02.jpg
+sidset_65d4916b9f3f47ba,noise_s0.02,sidset,real,0,0.5776185393333435,data\cache\clean\test\sidset_65d4916b9f3f47ba\noise_s0.02.jpg
+sidset_796b6212cfecb3de,noise_s0.02,sidset,real,0,0.8581345677375793,data\cache\clean\test\sidset_796b6212cfecb3de\noise_s0.02.jpg
+sidset_7974984b83c15934,noise_s0.02,sidset,real,0,0.531355082988739,data\cache\clean\test\sidset_7974984b83c15934\noise_s0.02.jpg
+sidset_7b550aceb5ec111f,noise_s0.02,sidset,real,0,0.6941490769386292,data\cache\clean\test\sidset_7b550aceb5ec111f\noise_s0.02.jpg
+sidset_7f1ce0ac000e1d6c,noise_s0.02,sidset,real,0,0.9384024143218994,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\noise_s0.02.jpg
+sidset_832e43df048c6d1a,noise_s0.02,sidset,real,0,0.8277565240859985,data\cache\clean\test\sidset_832e43df048c6d1a\noise_s0.02.jpg
+sidset_8865c586ab64c0f9,noise_s0.02,sidset,real,0,0.672460675239563,data\cache\clean\test\sidset_8865c586ab64c0f9\noise_s0.02.jpg
+sidset_8d98f1eeb3935d09,noise_s0.02,sidset,real,0,0.6482575535774231,data\cache\clean\test\sidset_8d98f1eeb3935d09\noise_s0.02.jpg
+sidset_9e2a9b16ff46f867,noise_s0.02,sidset,real,0,0.7126813530921936,data\cache\clean\test\sidset_9e2a9b16ff46f867\noise_s0.02.jpg
+sidset_a3032d75347e6fa2,noise_s0.02,sidset,real,0,0.6960019469261169,data\cache\clean\test\sidset_a3032d75347e6fa2\noise_s0.02.jpg
+sidset_a68752f61204ef57,noise_s0.02,sidset,real,0,0.681786298751831,data\cache\clean\test\sidset_a68752f61204ef57\noise_s0.02.jpg
+sidset_a79f0b1ae413f9bc,noise_s0.02,sidset,real,0,0.6481359004974365,data\cache\clean\test\sidset_a79f0b1ae413f9bc\noise_s0.02.jpg
+sidset_a8ad741ef85002f3,noise_s0.02,sidset,real,0,0.7045149207115173,data\cache\clean\test\sidset_a8ad741ef85002f3\noise_s0.02.jpg
+sidset_ab1441008986f237,noise_s0.02,sidset,real,0,0.7654553055763245,data\cache\clean\test\sidset_ab1441008986f237\noise_s0.02.jpg
+sidset_ac54ef2834f8bc74,noise_s0.02,sidset,real,0,0.8921598792076111,data\cache\clean\test\sidset_ac54ef2834f8bc74\noise_s0.02.jpg
+sidset_ae2a3178c574c716,noise_s0.02,sidset,real,0,0.5236321687698364,data\cache\clean\test\sidset_ae2a3178c574c716\noise_s0.02.jpg
+sidset_b230de6baca8d392,noise_s0.02,sidset,real,0,0.7852881550788879,data\cache\clean\test\sidset_b230de6baca8d392\noise_s0.02.jpg
+sidset_b476dc9881140333,noise_s0.02,sidset,real,0,0.7229151129722595,data\cache\clean\test\sidset_b476dc9881140333\noise_s0.02.jpg
+sidset_bc70b06f0d603efd,noise_s0.02,sidset,real,0,0.9819413423538208,data\cache\clean\test\sidset_bc70b06f0d603efd\noise_s0.02.jpg
+sidset_c104d5a827c3dc84,noise_s0.02,sidset,real,0,0.6539212465286255,data\cache\clean\test\sidset_c104d5a827c3dc84\noise_s0.02.jpg
+sidset_c4527bae1db9f157,noise_s0.02,sidset,real,0,0.5315922498703003,data\cache\clean\test\sidset_c4527bae1db9f157\noise_s0.02.jpg
+sidset_c5a378b0ea24d25e,noise_s0.02,sidset,real,0,0.7942157983779907,data\cache\clean\test\sidset_c5a378b0ea24d25e\noise_s0.02.jpg
+sidset_c7d3774f16039f96,noise_s0.02,sidset,real,0,0.5129537582397461,data\cache\clean\test\sidset_c7d3774f16039f96\noise_s0.02.jpg
+sidset_cac550631e35c126,noise_s0.02,sidset,real,0,0.5030481219291687,data\cache\clean\test\sidset_cac550631e35c126\noise_s0.02.jpg
+sidset_cb68a83278e88b9d,noise_s0.02,sidset,real,0,0.9187151789665222,data\cache\clean\test\sidset_cb68a83278e88b9d\noise_s0.02.jpg
+sidset_d652dc17bb0709b8,noise_s0.02,sidset,real,0,0.9772465229034424,data\cache\clean\test\sidset_d652dc17bb0709b8\noise_s0.02.jpg
+sidset_d7c9ba7b7774dcd9,noise_s0.02,sidset,real,0,0.5613104104995728,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\noise_s0.02.jpg
+sidset_de2d4b37000ff09c,noise_s0.02,sidset,real,0,0.7602879405021667,data\cache\clean\test\sidset_de2d4b37000ff09c\noise_s0.02.jpg
+sidset_df089363fbc3dff5,noise_s0.02,sidset,real,0,0.5516082644462585,data\cache\clean\test\sidset_df089363fbc3dff5\noise_s0.02.jpg
+sidset_e14e3989daa0bebd,noise_s0.02,sidset,real,0,0.5807799696922302,data\cache\clean\test\sidset_e14e3989daa0bebd\noise_s0.02.jpg
+sidset_e35ca53982ee8372,noise_s0.02,sidset,real,0,0.5976224541664124,data\cache\clean\test\sidset_e35ca53982ee8372\noise_s0.02.jpg
+sidset_e67f5961f8d7c753,noise_s0.02,sidset,real,0,0.5574618577957153,data\cache\clean\test\sidset_e67f5961f8d7c753\noise_s0.02.jpg
+sidset_e6f037cc020a3c67,noise_s0.02,sidset,real,0,0.5610417127609253,data\cache\clean\test\sidset_e6f037cc020a3c67\noise_s0.02.jpg
+sidset_e8e76505f6a37089,noise_s0.02,sidset,real,0,0.7171758413314819,data\cache\clean\test\sidset_e8e76505f6a37089\noise_s0.02.jpg
+sidset_f5044c17014681a8,noise_s0.02,sidset,real,0,0.5600621700286865,data\cache\clean\test\sidset_f5044c17014681a8\noise_s0.02.jpg
+sidset_fac95db1f3df9775,noise_s0.02,sidset,real,0,0.6304025650024414,data\cache\clean\test\sidset_fac95db1f3df9775\noise_s0.02.jpg
+sidset_fe0bec3214706d60,noise_s0.02,sidset,real,0,0.8975999355316162,data\cache\clean\test\sidset_fe0bec3214706d60\noise_s0.02.jpg
+cifake_0005 (3),noise_s0.05,cifake,real,0,0.5518453121185303,data\cache\clean\test\cifake_0005 (3)\noise_s0.05.jpg
+cifake_0179 (9),noise_s0.05,cifake,real,0,0.5811992287635803,data\cache\clean\test\cifake_0179 (9)\noise_s0.05.jpg
+cifake_0260 (4),noise_s0.05,cifake,real,0,0.6910529732704163,data\cache\clean\test\cifake_0260 (4)\noise_s0.05.jpg
+cifake_0793,noise_s0.05,cifake,real,0,0.916506290435791,data\cache\clean\test\cifake_0793\noise_s0.05.jpg
+cifake_0811,noise_s0.05,cifake,real,0,0.704670250415802,data\cache\clean\test\cifake_0811\noise_s0.05.jpg
+cifake_0858 (3),noise_s0.05,cifake,real,0,0.5509405136108398,data\cache\clean\test\cifake_0858 (3)\noise_s0.05.jpg
+cifake_0967 (9),noise_s0.05,cifake,real,0,0.5416405200958252,data\cache\clean\test\cifake_0967 (9)\noise_s0.05.jpg
+cifake_1353 (9),noise_s0.05,cifake,real,0,0.7738558053970337,data\cache\clean\test\cifake_1353 (9)\noise_s0.05.jpg
+cifake_1545 (5),noise_s0.05,cifake,real,0,0.7523173689842224,data\cache\clean\test\cifake_1545 (5)\noise_s0.05.jpg
+cifake_2547,noise_s0.05,cifake,real,0,0.7018952369689941,data\cache\clean\test\cifake_2547\noise_s0.05.jpg
+cifake_2602 (7),noise_s0.05,cifake,real,0,0.8293015360832214,data\cache\clean\test\cifake_2602 (7)\noise_s0.05.jpg
+cifake_2660,noise_s0.05,cifake,real,0,0.5164918899536133,data\cache\clean\test\cifake_2660\noise_s0.05.jpg
+cifake_3280 (8),noise_s0.05,cifake,real,0,0.5482696294784546,data\cache\clean\test\cifake_3280 (8)\noise_s0.05.jpg
+cifake_3458 (9),noise_s0.05,cifake,real,0,0.5266919732093811,data\cache\clean\test\cifake_3458 (9)\noise_s0.05.jpg
+cifake_3614,noise_s0.05,cifake,real,0,0.7931137084960938,data\cache\clean\test\cifake_3614\noise_s0.05.jpg
+cifake_4186 (5),noise_s0.05,cifake,real,0,0.7346448302268982,data\cache\clean\test\cifake_4186 (5)\noise_s0.05.jpg
+cifake_4609 (2),noise_s0.05,cifake,real,0,0.7823469042778015,data\cache\clean\test\cifake_4609 (2)\noise_s0.05.jpg
+cifake_4660 (5),noise_s0.05,cifake,real,0,0.6211199760437012,data\cache\clean\test\cifake_4660 (5)\noise_s0.05.jpg
+cifake_4673 (5),noise_s0.05,cifake,real,0,0.8857879042625427,data\cache\clean\test\cifake_4673 (5)\noise_s0.05.jpg
+cifake_4932 (2),noise_s0.05,cifake,real,0,0.6297557353973389,data\cache\clean\test\cifake_4932 (2)\noise_s0.05.jpg
+sidset_011c2e4461eb1fdc,noise_s0.05,sidset,real,0,0.6462979912757874,data\cache\clean\test\sidset_011c2e4461eb1fdc\noise_s0.05.jpg
+sidset_01cfa603553a1a45,noise_s0.05,sidset,real,0,0.8588370680809021,data\cache\clean\test\sidset_01cfa603553a1a45\noise_s0.05.jpg
+sidset_036df955965cb2f9,noise_s0.05,sidset,real,0,0.7276028394699097,data\cache\clean\test\sidset_036df955965cb2f9\noise_s0.05.jpg
+sidset_038789965a8f7606,noise_s0.05,sidset,real,0,0.5863981246948242,data\cache\clean\test\sidset_038789965a8f7606\noise_s0.05.jpg
+sidset_04f2ca3f7633822b,noise_s0.05,sidset,real,0,0.5571299195289612,data\cache\clean\test\sidset_04f2ca3f7633822b\noise_s0.05.jpg
+sidset_075db643445af8e3,noise_s0.05,sidset,real,0,0.511684238910675,data\cache\clean\test\sidset_075db643445af8e3\noise_s0.05.jpg
+sidset_09f7329f0c1c9fd4,noise_s0.05,sidset,real,0,0.9772437810897827,data\cache\clean\test\sidset_09f7329f0c1c9fd4\noise_s0.05.jpg
+sidset_0f8102c25fc764ea,noise_s0.05,sidset,real,0,0.9341381192207336,data\cache\clean\test\sidset_0f8102c25fc764ea\noise_s0.05.jpg
+sidset_14312756c1c94efa,noise_s0.05,sidset,real,0,0.9992615580558777,data\cache\clean\test\sidset_14312756c1c94efa\noise_s0.05.jpg
+sidset_1577f06c8ee59ef0,noise_s0.05,sidset,real,0,0.9476767182350159,data\cache\clean\test\sidset_1577f06c8ee59ef0\noise_s0.05.jpg
+sidset_1d24e17c0f598d7a,noise_s0.05,sidset,real,0,0.5355660319328308,data\cache\clean\test\sidset_1d24e17c0f598d7a\noise_s0.05.jpg
+sidset_22b07f2ffcaf319c,noise_s0.05,sidset,real,0,0.9922699928283691,data\cache\clean\test\sidset_22b07f2ffcaf319c\noise_s0.05.jpg
+sidset_262ab01448a69651,noise_s0.05,sidset,real,0,0.7189367413520813,data\cache\clean\test\sidset_262ab01448a69651\noise_s0.05.jpg
+sidset_26c389b400ea1653,noise_s0.05,sidset,real,0,0.6632079482078552,data\cache\clean\test\sidset_26c389b400ea1653\noise_s0.05.jpg
+sidset_31f7ec5269c0f867,noise_s0.05,sidset,real,0,0.7449662089347839,data\cache\clean\test\sidset_31f7ec5269c0f867\noise_s0.05.jpg
+sidset_34866edcc2800ae0,noise_s0.05,sidset,real,0,0.9626413583755493,data\cache\clean\test\sidset_34866edcc2800ae0\noise_s0.05.jpg
+sidset_35f6c1138217d58e,noise_s0.05,sidset,real,0,0.679611086845398,data\cache\clean\test\sidset_35f6c1138217d58e\noise_s0.05.jpg
+sidset_39a3f029e2e17dd3,noise_s0.05,sidset,real,0,0.9361963868141174,data\cache\clean\test\sidset_39a3f029e2e17dd3\noise_s0.05.jpg
+sidset_41fb52633e2258f5,noise_s0.05,sidset,real,0,0.679531455039978,data\cache\clean\test\sidset_41fb52633e2258f5\noise_s0.05.jpg
+sidset_45a6cb8b20ae57d2,noise_s0.05,sidset,real,0,0.6882460117340088,data\cache\clean\test\sidset_45a6cb8b20ae57d2\noise_s0.05.jpg
+sidset_4e4b9b1d6e8b2aca,noise_s0.05,sidset,real,0,0.6446845531463623,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\noise_s0.05.jpg
+sidset_4efd021afbfb3ae6,noise_s0.05,sidset,real,0,0.5094147324562073,data\cache\clean\test\sidset_4efd021afbfb3ae6\noise_s0.05.jpg
+sidset_52bf81b2d7f84101,noise_s0.05,sidset,real,0,0.7149907946586609,data\cache\clean\test\sidset_52bf81b2d7f84101\noise_s0.05.jpg
+sidset_55ed6c0bbd54e07d,noise_s0.05,sidset,real,0,0.7414331436157227,data\cache\clean\test\sidset_55ed6c0bbd54e07d\noise_s0.05.jpg
+sidset_5a165a26bf8ca4be,noise_s0.05,sidset,real,0,0.9497607350349426,data\cache\clean\test\sidset_5a165a26bf8ca4be\noise_s0.05.jpg
+sidset_5ac8dbc3e9cad39f,noise_s0.05,sidset,real,0,0.6303588151931763,data\cache\clean\test\sidset_5ac8dbc3e9cad39f\noise_s0.05.jpg
+sidset_5b8f12b78d13bfcd,noise_s0.05,sidset,real,0,0.7942689657211304,data\cache\clean\test\sidset_5b8f12b78d13bfcd\noise_s0.05.jpg
+sidset_5ba522a91162ae70,noise_s0.05,sidset,real,0,0.929607629776001,data\cache\clean\test\sidset_5ba522a91162ae70\noise_s0.05.jpg
+sidset_615f67f3acd96d5c,noise_s0.05,sidset,real,0,0.9030960202217102,data\cache\clean\test\sidset_615f67f3acd96d5c\noise_s0.05.jpg
+sidset_630624a387e04a88,noise_s0.05,sidset,real,0,0.7464014887809753,data\cache\clean\test\sidset_630624a387e04a88\noise_s0.05.jpg
+sidset_63bbe94724c1d946,noise_s0.05,sidset,real,0,0.5060480237007141,data\cache\clean\test\sidset_63bbe94724c1d946\noise_s0.05.jpg
+sidset_656916e9c7039df4,noise_s0.05,sidset,real,0,0.8864792585372925,data\cache\clean\test\sidset_656916e9c7039df4\noise_s0.05.jpg
+sidset_65d4916b9f3f47ba,noise_s0.05,sidset,real,0,0.6735953688621521,data\cache\clean\test\sidset_65d4916b9f3f47ba\noise_s0.05.jpg
+sidset_67e679dca692a59d,noise_s0.05,sidset,real,0,0.6037114262580872,data\cache\clean\test\sidset_67e679dca692a59d\noise_s0.05.jpg
+sidset_6b7167d906f4ff1f,noise_s0.05,sidset,real,0,0.6982545852661133,data\cache\clean\test\sidset_6b7167d906f4ff1f\noise_s0.05.jpg
+sidset_6f3ce9ca0af3863c,noise_s0.05,sidset,real,0,0.5068522095680237,data\cache\clean\test\sidset_6f3ce9ca0af3863c\noise_s0.05.jpg
+sidset_70f5dafbaa7da68a,noise_s0.05,sidset,real,0,0.7998930215835571,data\cache\clean\test\sidset_70f5dafbaa7da68a\noise_s0.05.jpg
+sidset_725e4f2f78a9cd86,noise_s0.05,sidset,real,0,0.6115651726722717,data\cache\clean\test\sidset_725e4f2f78a9cd86\noise_s0.05.jpg
+sidset_759a21da57c25774,noise_s0.05,sidset,real,0,0.7047310471534729,data\cache\clean\test\sidset_759a21da57c25774\noise_s0.05.jpg
+sidset_772850bc0fb9e17c,noise_s0.05,sidset,real,0,0.8425427079200745,data\cache\clean\test\sidset_772850bc0fb9e17c\noise_s0.05.jpg
+sidset_796b6212cfecb3de,noise_s0.05,sidset,real,0,0.9179936647415161,data\cache\clean\test\sidset_796b6212cfecb3de\noise_s0.05.jpg
+sidset_7974984b83c15934,noise_s0.05,sidset,real,0,0.568267285823822,data\cache\clean\test\sidset_7974984b83c15934\noise_s0.05.jpg
+sidset_7b550aceb5ec111f,noise_s0.05,sidset,real,0,0.9546875953674316,data\cache\clean\test\sidset_7b550aceb5ec111f\noise_s0.05.jpg
+sidset_7f1ce0ac000e1d6c,noise_s0.05,sidset,real,0,0.924220621585846,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\noise_s0.05.jpg
+sidset_832e43df048c6d1a,noise_s0.05,sidset,real,0,0.8914828896522522,data\cache\clean\test\sidset_832e43df048c6d1a\noise_s0.05.jpg
+sidset_8619862cda88466c,noise_s0.05,sidset,real,0,0.6566752195358276,data\cache\clean\test\sidset_8619862cda88466c\noise_s0.05.jpg
+sidset_87e6f806902a63fc,noise_s0.05,sidset,real,0,0.5953973531723022,data\cache\clean\test\sidset_87e6f806902a63fc\noise_s0.05.jpg
+sidset_8d2495ea75218578,noise_s0.05,sidset,real,0,0.6567288637161255,data\cache\clean\test\sidset_8d2495ea75218578\noise_s0.05.jpg
+sidset_8d98f1eeb3935d09,noise_s0.05,sidset,real,0,0.9199392795562744,data\cache\clean\test\sidset_8d98f1eeb3935d09\noise_s0.05.jpg
+sidset_9e2a9b16ff46f867,noise_s0.05,sidset,real,0,0.7094535231590271,data\cache\clean\test\sidset_9e2a9b16ff46f867\noise_s0.05.jpg
+sidset_a3032d75347e6fa2,noise_s0.05,sidset,real,0,0.7967032194137573,data\cache\clean\test\sidset_a3032d75347e6fa2\noise_s0.05.jpg
+sidset_a3293aebf3086c9f,noise_s0.05,sidset,real,0,0.5244086980819702,data\cache\clean\test\sidset_a3293aebf3086c9f\noise_s0.05.jpg
+sidset_a5b01f2aa66b2e86,noise_s0.05,sidset,real,0,0.7069947123527527,data\cache\clean\test\sidset_a5b01f2aa66b2e86\noise_s0.05.jpg
+sidset_a68752f61204ef57,noise_s0.05,sidset,real,0,0.9329626560211182,data\cache\clean\test\sidset_a68752f61204ef57\noise_s0.05.jpg
+sidset_a79f0b1ae413f9bc,noise_s0.05,sidset,real,0,0.9223704934120178,data\cache\clean\test\sidset_a79f0b1ae413f9bc\noise_s0.05.jpg
+sidset_a8ad741ef85002f3,noise_s0.05,sidset,real,0,0.6135973334312439,data\cache\clean\test\sidset_a8ad741ef85002f3\noise_s0.05.jpg
+sidset_ab1441008986f237,noise_s0.05,sidset,real,0,0.7096447944641113,data\cache\clean\test\sidset_ab1441008986f237\noise_s0.05.jpg
+sidset_ac54ef2834f8bc74,noise_s0.05,sidset,real,0,0.8956748843193054,data\cache\clean\test\sidset_ac54ef2834f8bc74\noise_s0.05.jpg
+sidset_ada487d9073d8dd5,noise_s0.05,sidset,real,0,0.5557469129562378,data\cache\clean\test\sidset_ada487d9073d8dd5\noise_s0.05.jpg
+sidset_ae2a3178c574c716,noise_s0.05,sidset,real,0,0.7891498804092407,data\cache\clean\test\sidset_ae2a3178c574c716\noise_s0.05.jpg
+sidset_b230de6baca8d392,noise_s0.05,sidset,real,0,0.8977770805358887,data\cache\clean\test\sidset_b230de6baca8d392\noise_s0.05.jpg
+sidset_b476dc9881140333,noise_s0.05,sidset,real,0,0.6056679487228394,data\cache\clean\test\sidset_b476dc9881140333\noise_s0.05.jpg
+sidset_bc70b06f0d603efd,noise_s0.05,sidset,real,0,0.9993676543235779,data\cache\clean\test\sidset_bc70b06f0d603efd\noise_s0.05.jpg
+sidset_c104d5a827c3dc84,noise_s0.05,sidset,real,0,0.6971449255943298,data\cache\clean\test\sidset_c104d5a827c3dc84\noise_s0.05.jpg
+sidset_c2f7255d9f5d9469,noise_s0.05,sidset,real,0,0.5135082602500916,data\cache\clean\test\sidset_c2f7255d9f5d9469\noise_s0.05.jpg
+sidset_c4527bae1db9f157,noise_s0.05,sidset,real,0,0.6562963724136353,data\cache\clean\test\sidset_c4527bae1db9f157\noise_s0.05.jpg
+sidset_c5a378b0ea24d25e,noise_s0.05,sidset,real,0,0.5976649522781372,data\cache\clean\test\sidset_c5a378b0ea24d25e\noise_s0.05.jpg
+sidset_c5f4e20e7d2e391c,noise_s0.05,sidset,real,0,0.7979924082756042,data\cache\clean\test\sidset_c5f4e20e7d2e391c\noise_s0.05.jpg
+sidset_c7d3774f16039f96,noise_s0.05,sidset,real,0,0.7818353176116943,data\cache\clean\test\sidset_c7d3774f16039f96\noise_s0.05.jpg
+sidset_cac550631e35c126,noise_s0.05,sidset,real,0,0.7200173735618591,data\cache\clean\test\sidset_cac550631e35c126\noise_s0.05.jpg
+sidset_cb68a83278e88b9d,noise_s0.05,sidset,real,0,0.964352011680603,data\cache\clean\test\sidset_cb68a83278e88b9d\noise_s0.05.jpg
+sidset_cefabeb567a88f94,noise_s0.05,sidset,real,0,0.5803269147872925,data\cache\clean\test\sidset_cefabeb567a88f94\noise_s0.05.jpg
+sidset_d652dc17bb0709b8,noise_s0.05,sidset,real,0,0.9624872803688049,data\cache\clean\test\sidset_d652dc17bb0709b8\noise_s0.05.jpg
+sidset_d7c9ba7b7774dcd9,noise_s0.05,sidset,real,0,0.7143282294273376,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\noise_s0.05.jpg
+sidset_de2d4b37000ff09c,noise_s0.05,sidset,real,0,0.8505036234855652,data\cache\clean\test\sidset_de2d4b37000ff09c\noise_s0.05.jpg
+sidset_df089363fbc3dff5,noise_s0.05,sidset,real,0,0.6934127807617188,data\cache\clean\test\sidset_df089363fbc3dff5\noise_s0.05.jpg
+sidset_e35ca53982ee8372,noise_s0.05,sidset,real,0,0.6215982437133789,data\cache\clean\test\sidset_e35ca53982ee8372\noise_s0.05.jpg
+sidset_e67f5961f8d7c753,noise_s0.05,sidset,real,0,0.7077186703681946,data\cache\clean\test\sidset_e67f5961f8d7c753\noise_s0.05.jpg
+sidset_e6f037cc020a3c67,noise_s0.05,sidset,real,0,0.6197702884674072,data\cache\clean\test\sidset_e6f037cc020a3c67\noise_s0.05.jpg
+sidset_e8e76505f6a37089,noise_s0.05,sidset,real,0,0.7759650945663452,data\cache\clean\test\sidset_e8e76505f6a37089\noise_s0.05.jpg
+sidset_f5044c17014681a8,noise_s0.05,sidset,real,0,0.5701435804367065,data\cache\clean\test\sidset_f5044c17014681a8\noise_s0.05.jpg
+sidset_f897e748d7e721a1,noise_s0.05,sidset,real,0,0.5005224347114563,data\cache\clean\test\sidset_f897e748d7e721a1\noise_s0.05.jpg
+sidset_fac95db1f3df9775,noise_s0.05,sidset,real,0,0.7588023543357849,data\cache\clean\test\sidset_fac95db1f3df9775\noise_s0.05.jpg
+sidset_fe0bec3214706d60,noise_s0.05,sidset,real,0,0.7992979288101196,data\cache\clean\test\sidset_fe0bec3214706d60\noise_s0.05.jpg
+cifake_0260 (4),noise_s0.1,cifake,real,0,0.776710033416748,data\cache\clean\test\cifake_0260 (4)\noise_s0.1.jpg
+cifake_0302 (9),noise_s0.1,cifake,real,0,0.5412766933441162,data\cache\clean\test\cifake_0302 (9)\noise_s0.1.jpg
+cifake_0793,noise_s0.1,cifake,real,0,0.7231356501579285,data\cache\clean\test\cifake_0793\noise_s0.1.jpg
+cifake_0930 (4),noise_s0.1,cifake,real,0,0.5216661691665649,data\cache\clean\test\cifake_0930 (4)\noise_s0.1.jpg
+cifake_1306 (9),noise_s0.1,cifake,real,0,0.5088571906089783,data\cache\clean\test\cifake_1306 (9)\noise_s0.1.jpg
+cifake_1353 (9),noise_s0.1,cifake,real,0,0.7843843698501587,data\cache\clean\test\cifake_1353 (9)\noise_s0.1.jpg
+cifake_1545 (5),noise_s0.1,cifake,real,0,0.6033294200897217,data\cache\clean\test\cifake_1545 (5)\noise_s0.1.jpg
+cifake_2122,noise_s0.1,cifake,real,0,0.6926140785217285,data\cache\clean\test\cifake_2122\noise_s0.1.jpg
+cifake_2660,noise_s0.1,cifake,real,0,0.5910271406173706,data\cache\clean\test\cifake_2660\noise_s0.1.jpg
+cifake_3458 (9),noise_s0.1,cifake,real,0,0.5061361193656921,data\cache\clean\test\cifake_3458 (9)\noise_s0.1.jpg
+cifake_3614,noise_s0.1,cifake,real,0,0.5148071646690369,data\cache\clean\test\cifake_3614\noise_s0.1.jpg
+cifake_4186 (5),noise_s0.1,cifake,real,0,0.7866417765617371,data\cache\clean\test\cifake_4186 (5)\noise_s0.1.jpg
+cifake_4533 (5),noise_s0.1,cifake,real,0,0.6894378066062927,data\cache\clean\test\cifake_4533 (5)\noise_s0.1.jpg
+cifake_4609 (2),noise_s0.1,cifake,real,0,0.6127905249595642,data\cache\clean\test\cifake_4609 (2)\noise_s0.1.jpg
+cifake_4660 (5),noise_s0.1,cifake,real,0,0.5439337491989136,data\cache\clean\test\cifake_4660 (5)\noise_s0.1.jpg
+cifake_4673 (5),noise_s0.1,cifake,real,0,0.6824020743370056,data\cache\clean\test\cifake_4673 (5)\noise_s0.1.jpg
+sidset_011c2e4461eb1fdc,noise_s0.1,sidset,real,0,0.8865619897842407,data\cache\clean\test\sidset_011c2e4461eb1fdc\noise_s0.1.jpg
+sidset_01cfa603553a1a45,noise_s0.1,sidset,real,0,0.7493069171905518,data\cache\clean\test\sidset_01cfa603553a1a45\noise_s0.1.jpg
+sidset_036df955965cb2f9,noise_s0.1,sidset,real,0,0.6240554451942444,data\cache\clean\test\sidset_036df955965cb2f9\noise_s0.1.jpg
+sidset_038789965a8f7606,noise_s0.1,sidset,real,0,0.6043725609779358,data\cache\clean\test\sidset_038789965a8f7606\noise_s0.1.jpg
+sidset_09f7329f0c1c9fd4,noise_s0.1,sidset,real,0,0.9155283570289612,data\cache\clean\test\sidset_09f7329f0c1c9fd4\noise_s0.1.jpg
+sidset_0df1386082a76670,noise_s0.1,sidset,real,0,0.6810440421104431,data\cache\clean\test\sidset_0df1386082a76670\noise_s0.1.jpg
+sidset_0f8102c25fc764ea,noise_s0.1,sidset,real,0,0.6805419921875,data\cache\clean\test\sidset_0f8102c25fc764ea\noise_s0.1.jpg
+sidset_14312756c1c94efa,noise_s0.1,sidset,real,0,0.9996283054351807,data\cache\clean\test\sidset_14312756c1c94efa\noise_s0.1.jpg
+sidset_1577f06c8ee59ef0,noise_s0.1,sidset,real,0,0.864721417427063,data\cache\clean\test\sidset_1577f06c8ee59ef0\noise_s0.1.jpg
+sidset_1ed900cda10bf246,noise_s0.1,sidset,real,0,0.6262319087982178,data\cache\clean\test\sidset_1ed900cda10bf246\noise_s0.1.jpg
+sidset_22b07f2ffcaf319c,noise_s0.1,sidset,real,0,0.9827070832252502,data\cache\clean\test\sidset_22b07f2ffcaf319c\noise_s0.1.jpg
+sidset_26c389b400ea1653,noise_s0.1,sidset,real,0,0.6351252794265747,data\cache\clean\test\sidset_26c389b400ea1653\noise_s0.1.jpg
+sidset_277a9cbfa73ac8b3,noise_s0.1,sidset,real,0,0.6122308373451233,data\cache\clean\test\sidset_277a9cbfa73ac8b3\noise_s0.1.jpg
+sidset_31f7ec5269c0f867,noise_s0.1,sidset,real,0,0.5228261947631836,data\cache\clean\test\sidset_31f7ec5269c0f867\noise_s0.1.jpg
+sidset_326f495eb261b65e,noise_s0.1,sidset,real,0,0.7580696940422058,data\cache\clean\test\sidset_326f495eb261b65e\noise_s0.1.jpg
+sidset_34866edcc2800ae0,noise_s0.1,sidset,real,0,0.846443772315979,data\cache\clean\test\sidset_34866edcc2800ae0\noise_s0.1.jpg
+sidset_35f6c1138217d58e,noise_s0.1,sidset,real,0,0.5190168023109436,data\cache\clean\test\sidset_35f6c1138217d58e\noise_s0.1.jpg
+sidset_39a3f029e2e17dd3,noise_s0.1,sidset,real,0,0.79244464635849,data\cache\clean\test\sidset_39a3f029e2e17dd3\noise_s0.1.jpg
+sidset_45a6cb8b20ae57d2,noise_s0.1,sidset,real,0,0.6417942047119141,data\cache\clean\test\sidset_45a6cb8b20ae57d2\noise_s0.1.jpg
+sidset_4649ab3dc76d14bc,noise_s0.1,sidset,real,0,0.5503329634666443,data\cache\clean\test\sidset_4649ab3dc76d14bc\noise_s0.1.jpg
+sidset_49baa2f231291dbd,noise_s0.1,sidset,real,0,0.7398360967636108,data\cache\clean\test\sidset_49baa2f231291dbd\noise_s0.1.jpg
+sidset_4e4b9b1d6e8b2aca,noise_s0.1,sidset,real,0,0.9269934892654419,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\noise_s0.1.jpg
+sidset_52bf81b2d7f84101,noise_s0.1,sidset,real,0,0.6287282705307007,data\cache\clean\test\sidset_52bf81b2d7f84101\noise_s0.1.jpg
+sidset_54188851eee1c3c4,noise_s0.1,sidset,real,0,0.662721574306488,data\cache\clean\test\sidset_54188851eee1c3c4\noise_s0.1.jpg
+sidset_55ed6c0bbd54e07d,noise_s0.1,sidset,real,0,0.9160447120666504,data\cache\clean\test\sidset_55ed6c0bbd54e07d\noise_s0.1.jpg
+sidset_5a165a26bf8ca4be,noise_s0.1,sidset,real,0,0.8689016699790955,data\cache\clean\test\sidset_5a165a26bf8ca4be\noise_s0.1.jpg
+sidset_5ac8dbc3e9cad39f,noise_s0.1,sidset,real,0,0.7559338212013245,data\cache\clean\test\sidset_5ac8dbc3e9cad39f\noise_s0.1.jpg
+sidset_5ae51a789c118b75,noise_s0.1,sidset,real,0,0.6104859709739685,data\cache\clean\test\sidset_5ae51a789c118b75\noise_s0.1.jpg
+sidset_5b8f12b78d13bfcd,noise_s0.1,sidset,real,0,0.6479109525680542,data\cache\clean\test\sidset_5b8f12b78d13bfcd\noise_s0.1.jpg
+sidset_5ba522a91162ae70,noise_s0.1,sidset,real,0,0.7558716535568237,data\cache\clean\test\sidset_5ba522a91162ae70\noise_s0.1.jpg
+sidset_615f67f3acd96d5c,noise_s0.1,sidset,real,0,0.8230701088905334,data\cache\clean\test\sidset_615f67f3acd96d5c\noise_s0.1.jpg
+sidset_62d3110113ec4633,noise_s0.1,sidset,real,0,0.8425533771514893,data\cache\clean\test\sidset_62d3110113ec4633\noise_s0.1.jpg
+sidset_630624a387e04a88,noise_s0.1,sidset,real,0,0.6402453780174255,data\cache\clean\test\sidset_630624a387e04a88\noise_s0.1.jpg
+sidset_65d4916b9f3f47ba,noise_s0.1,sidset,real,0,0.6676661372184753,data\cache\clean\test\sidset_65d4916b9f3f47ba\noise_s0.1.jpg
+sidset_67e679dca692a59d,noise_s0.1,sidset,real,0,0.5794863104820251,data\cache\clean\test\sidset_67e679dca692a59d\noise_s0.1.jpg
+sidset_6b7167d906f4ff1f,noise_s0.1,sidset,real,0,0.8625268340110779,data\cache\clean\test\sidset_6b7167d906f4ff1f\noise_s0.1.jpg
+sidset_6fc49bbc6acde1e9,noise_s0.1,sidset,real,0,0.7708389163017273,data\cache\clean\test\sidset_6fc49bbc6acde1e9\noise_s0.1.jpg
+sidset_70f5dafbaa7da68a,noise_s0.1,sidset,real,0,0.5360282063484192,data\cache\clean\test\sidset_70f5dafbaa7da68a\noise_s0.1.jpg
+sidset_725e4f2f78a9cd86,noise_s0.1,sidset,real,0,0.8940460681915283,data\cache\clean\test\sidset_725e4f2f78a9cd86\noise_s0.1.jpg
+sidset_730bc32ab8e0b6e6,noise_s0.1,sidset,real,0,0.6652781367301941,data\cache\clean\test\sidset_730bc32ab8e0b6e6\noise_s0.1.jpg
+sidset_759a21da57c25774,noise_s0.1,sidset,real,0,0.7601991295814514,data\cache\clean\test\sidset_759a21da57c25774\noise_s0.1.jpg
+sidset_772850bc0fb9e17c,noise_s0.1,sidset,real,0,0.7960530519485474,data\cache\clean\test\sidset_772850bc0fb9e17c\noise_s0.1.jpg
+sidset_796b6212cfecb3de,noise_s0.1,sidset,real,0,0.7699023485183716,data\cache\clean\test\sidset_796b6212cfecb3de\noise_s0.1.jpg
+sidset_7974984b83c15934,noise_s0.1,sidset,real,0,0.515224277973175,data\cache\clean\test\sidset_7974984b83c15934\noise_s0.1.jpg
+sidset_7b550aceb5ec111f,noise_s0.1,sidset,real,0,0.8495861291885376,data\cache\clean\test\sidset_7b550aceb5ec111f\noise_s0.1.jpg
+sidset_7f1ce0ac000e1d6c,noise_s0.1,sidset,real,0,0.9537608623504639,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\noise_s0.1.jpg
+sidset_832e43df048c6d1a,noise_s0.1,sidset,real,0,0.8680975437164307,data\cache\clean\test\sidset_832e43df048c6d1a\noise_s0.1.jpg
+sidset_8619862cda88466c,noise_s0.1,sidset,real,0,0.8457176089286804,data\cache\clean\test\sidset_8619862cda88466c\noise_s0.1.jpg
+sidset_87e6f806902a63fc,noise_s0.1,sidset,real,0,0.8047786355018616,data\cache\clean\test\sidset_87e6f806902a63fc\noise_s0.1.jpg
+sidset_88431f034d786206,noise_s0.1,sidset,real,0,0.6307499408721924,data\cache\clean\test\sidset_88431f034d786206\noise_s0.1.jpg
+sidset_8cad4d70e806910a,noise_s0.1,sidset,real,0,0.7552348971366882,data\cache\clean\test\sidset_8cad4d70e806910a\noise_s0.1.jpg
+sidset_8d2495ea75218578,noise_s0.1,sidset,real,0,0.6765071749687195,data\cache\clean\test\sidset_8d2495ea75218578\noise_s0.1.jpg
+sidset_8d98f1eeb3935d09,noise_s0.1,sidset,real,0,0.9466967582702637,data\cache\clean\test\sidset_8d98f1eeb3935d09\noise_s0.1.jpg
+sidset_9e2a9b16ff46f867,noise_s0.1,sidset,real,0,0.5725095272064209,data\cache\clean\test\sidset_9e2a9b16ff46f867\noise_s0.1.jpg
+sidset_a3293aebf3086c9f,noise_s0.1,sidset,real,0,0.6127280592918396,data\cache\clean\test\sidset_a3293aebf3086c9f\noise_s0.1.jpg
+sidset_a5b01f2aa66b2e86,noise_s0.1,sidset,real,0,0.6402736306190491,data\cache\clean\test\sidset_a5b01f2aa66b2e86\noise_s0.1.jpg
+sidset_a63f5e61fd9dc5ef,noise_s0.1,sidset,real,0,0.5413929224014282,data\cache\clean\test\sidset_a63f5e61fd9dc5ef\noise_s0.1.jpg
+sidset_a68752f61204ef57,noise_s0.1,sidset,real,0,0.9170118570327759,data\cache\clean\test\sidset_a68752f61204ef57\noise_s0.1.jpg
+sidset_a79f0b1ae413f9bc,noise_s0.1,sidset,real,0,0.8879663944244385,data\cache\clean\test\sidset_a79f0b1ae413f9bc\noise_s0.1.jpg
+sidset_ab1441008986f237,noise_s0.1,sidset,real,0,0.7083114981651306,data\cache\clean\test\sidset_ab1441008986f237\noise_s0.1.jpg
+sidset_ac54ef2834f8bc74,noise_s0.1,sidset,real,0,0.9633820652961731,data\cache\clean\test\sidset_ac54ef2834f8bc74\noise_s0.1.jpg
+sidset_ada487d9073d8dd5,noise_s0.1,sidset,real,0,0.7077332139015198,data\cache\clean\test\sidset_ada487d9073d8dd5\noise_s0.1.jpg
+sidset_ae2a3178c574c716,noise_s0.1,sidset,real,0,0.8040778636932373,data\cache\clean\test\sidset_ae2a3178c574c716\noise_s0.1.jpg
+sidset_af18b6bd4586f20d,noise_s0.1,sidset,real,0,0.9751861691474915,data\cache\clean\test\sidset_af18b6bd4586f20d\noise_s0.1.jpg
+sidset_b230de6baca8d392,noise_s0.1,sidset,real,0,0.699586808681488,data\cache\clean\test\sidset_b230de6baca8d392\noise_s0.1.jpg
+sidset_bc70b06f0d603efd,noise_s0.1,sidset,real,0,0.9996942281723022,data\cache\clean\test\sidset_bc70b06f0d603efd\noise_s0.1.jpg
+sidset_bf7100f88bf3b0f3,noise_s0.1,sidset,real,0,0.7863923907279968,data\cache\clean\test\sidset_bf7100f88bf3b0f3\noise_s0.1.jpg
+sidset_c104d5a827c3dc84,noise_s0.1,sidset,real,0,0.8333038091659546,data\cache\clean\test\sidset_c104d5a827c3dc84\noise_s0.1.jpg
+sidset_c2213c788f154287,noise_s0.1,sidset,real,0,0.5072663426399231,data\cache\clean\test\sidset_c2213c788f154287\noise_s0.1.jpg
+sidset_c2f7255d9f5d9469,noise_s0.1,sidset,real,0,0.6198939085006714,data\cache\clean\test\sidset_c2f7255d9f5d9469\noise_s0.1.jpg
+sidset_c4527bae1db9f157,noise_s0.1,sidset,real,0,0.771220862865448,data\cache\clean\test\sidset_c4527bae1db9f157\noise_s0.1.jpg
+sidset_c5f4e20e7d2e391c,noise_s0.1,sidset,real,0,0.9079007506370544,data\cache\clean\test\sidset_c5f4e20e7d2e391c\noise_s0.1.jpg
+sidset_c7d3774f16039f96,noise_s0.1,sidset,real,0,0.7648909687995911,data\cache\clean\test\sidset_c7d3774f16039f96\noise_s0.1.jpg
+sidset_cac550631e35c126,noise_s0.1,sidset,real,0,0.597649872303009,data\cache\clean\test\sidset_cac550631e35c126\noise_s0.1.jpg
+sidset_cb68a83278e88b9d,noise_s0.1,sidset,real,0,0.9394915103912354,data\cache\clean\test\sidset_cb68a83278e88b9d\noise_s0.1.jpg
+sidset_cba146954697d3a0,noise_s0.1,sidset,real,0,0.5178842544555664,data\cache\clean\test\sidset_cba146954697d3a0\noise_s0.1.jpg
+sidset_d652dc17bb0709b8,noise_s0.1,sidset,real,0,0.9533233642578125,data\cache\clean\test\sidset_d652dc17bb0709b8\noise_s0.1.jpg
+sidset_d7c9ba7b7774dcd9,noise_s0.1,sidset,real,0,0.7803964018821716,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\noise_s0.1.jpg
+sidset_de2d4b37000ff09c,noise_s0.1,sidset,real,0,0.6167251467704773,data\cache\clean\test\sidset_de2d4b37000ff09c\noise_s0.1.jpg
+sidset_df089363fbc3dff5,noise_s0.1,sidset,real,0,0.6471117734909058,data\cache\clean\test\sidset_df089363fbc3dff5\noise_s0.1.jpg
+sidset_e35ca53982ee8372,noise_s0.1,sidset,real,0,0.6500060558319092,data\cache\clean\test\sidset_e35ca53982ee8372\noise_s0.1.jpg
+sidset_e67f5961f8d7c753,noise_s0.1,sidset,real,0,0.7727839350700378,data\cache\clean\test\sidset_e67f5961f8d7c753\noise_s0.1.jpg
+sidset_e8e76505f6a37089,noise_s0.1,sidset,real,0,0.8166654109954834,data\cache\clean\test\sidset_e8e76505f6a37089\noise_s0.1.jpg
+sidset_ef3f636bfc78f3a5,noise_s0.1,sidset,real,0,0.5305301547050476,data\cache\clean\test\sidset_ef3f636bfc78f3a5\noise_s0.1.jpg
+sidset_f5044c17014681a8,noise_s0.1,sidset,real,0,0.5062534213066101,data\cache\clean\test\sidset_f5044c17014681a8\noise_s0.1.jpg
+sidset_f5987c2ee2df2ee2,noise_s0.1,sidset,real,0,0.8469123840332031,data\cache\clean\test\sidset_f5987c2ee2df2ee2\noise_s0.1.jpg
+sidset_fac95db1f3df9775,noise_s0.1,sidset,real,0,0.6850140690803528,data\cache\clean\test\sidset_fac95db1f3df9775\noise_s0.1.jpg
+sidset_fe0bec3214706d60,noise_s0.1,sidset,real,0,0.5201137065887451,data\cache\clean\test\sidset_fe0bec3214706d60\noise_s0.1.jpg
+cifake_0235,resize_0.25,cifake,real,0,0.7213383316993713,data\cache\clean\test\cifake_0235\resize_0.25.jpg
+cifake_0618 (3),resize_0.25,cifake,real,0,0.9291810989379883,data\cache\clean\test\cifake_0618 (3)\resize_0.25.jpg
+cifake_0793,resize_0.25,cifake,real,0,0.8296360969543457,data\cache\clean\test\cifake_0793\resize_0.25.jpg
+cifake_1139,resize_0.25,cifake,real,0,0.9036628007888794,data\cache\clean\test\cifake_1139\resize_0.25.jpg
+cifake_1974,resize_0.25,cifake,real,0,0.7445972561836243,data\cache\clean\test\cifake_1974\resize_0.25.jpg
+cifake_2071,resize_0.25,cifake,real,0,0.8379468321800232,data\cache\clean\test\cifake_2071\resize_0.25.jpg
+cifake_2122,resize_0.25,cifake,real,0,0.5506430268287659,data\cache\clean\test\cifake_2122\resize_0.25.jpg
+cifake_2633 (10),resize_0.25,cifake,real,0,0.5468650460243225,data\cache\clean\test\cifake_2633 (10)\resize_0.25.jpg
+cifake_2660,resize_0.25,cifake,real,0,0.6525253057479858,data\cache\clean\test\cifake_2660\resize_0.25.jpg
+cifake_2874 (4),resize_0.25,cifake,real,0,0.6649812459945679,data\cache\clean\test\cifake_2874 (4)\resize_0.25.jpg
+cifake_3891 (3),resize_0.25,cifake,real,0,0.6032077074050903,data\cache\clean\test\cifake_3891 (3)\resize_0.25.jpg
+cifake_4660 (5),resize_0.25,cifake,real,0,0.9597055912017822,data\cache\clean\test\cifake_4660 (5)\resize_0.25.jpg
+cifake_4673 (5),resize_0.25,cifake,real,0,0.6364859938621521,data\cache\clean\test\cifake_4673 (5)\resize_0.25.jpg
+sidset_011c2e4461eb1fdc,resize_0.25,sidset,real,0,0.5124707818031311,data\cache\clean\test\sidset_011c2e4461eb1fdc\resize_0.25.jpg
+sidset_036df955965cb2f9,resize_0.25,sidset,real,0,0.6562477946281433,data\cache\clean\test\sidset_036df955965cb2f9\resize_0.25.jpg
+sidset_038789965a8f7606,resize_0.25,sidset,real,0,0.5146632194519043,data\cache\clean\test\sidset_038789965a8f7606\resize_0.25.jpg
+sidset_075db643445af8e3,resize_0.25,sidset,real,0,0.6676892042160034,data\cache\clean\test\sidset_075db643445af8e3\resize_0.25.jpg
+sidset_0f8102c25fc764ea,resize_0.25,sidset,real,0,0.9159836173057556,data\cache\clean\test\sidset_0f8102c25fc764ea\resize_0.25.jpg
+sidset_1232f7869a64bb9f,resize_0.25,sidset,real,0,0.6750970482826233,data\cache\clean\test\sidset_1232f7869a64bb9f\resize_0.25.jpg
+sidset_14312756c1c94efa,resize_0.25,sidset,real,0,0.9952057003974915,data\cache\clean\test\sidset_14312756c1c94efa\resize_0.25.jpg
+sidset_1577f06c8ee59ef0,resize_0.25,sidset,real,0,0.9267209768295288,data\cache\clean\test\sidset_1577f06c8ee59ef0\resize_0.25.jpg
+sidset_16c4058cc17896fc,resize_0.25,sidset,real,0,0.7421174645423889,data\cache\clean\test\sidset_16c4058cc17896fc\resize_0.25.jpg
+sidset_18e30e95478d3da6,resize_0.25,sidset,real,0,0.7915505170822144,data\cache\clean\test\sidset_18e30e95478d3da6\resize_0.25.jpg
+sidset_22b07f2ffcaf319c,resize_0.25,sidset,real,0,0.9692877531051636,data\cache\clean\test\sidset_22b07f2ffcaf319c\resize_0.25.jpg
+sidset_247241c5aa1f3f9c,resize_0.25,sidset,real,0,0.6877825260162354,data\cache\clean\test\sidset_247241c5aa1f3f9c\resize_0.25.jpg
+sidset_26c389b400ea1653,resize_0.25,sidset,real,0,0.6854716539382935,data\cache\clean\test\sidset_26c389b400ea1653\resize_0.25.jpg
+sidset_31d44fee2c336e78,resize_0.25,sidset,real,0,0.6620135307312012,data\cache\clean\test\sidset_31d44fee2c336e78\resize_0.25.jpg
+sidset_351df796b93ed2b5,resize_0.25,sidset,real,0,0.6777344346046448,data\cache\clean\test\sidset_351df796b93ed2b5\resize_0.25.jpg
+sidset_39a3f029e2e17dd3,resize_0.25,sidset,real,0,0.9593238830566406,data\cache\clean\test\sidset_39a3f029e2e17dd3\resize_0.25.jpg
+sidset_3beca4d6152a4aa5,resize_0.25,sidset,real,0,0.5715113878250122,data\cache\clean\test\sidset_3beca4d6152a4aa5\resize_0.25.jpg
+sidset_4e4b9b1d6e8b2aca,resize_0.25,sidset,real,0,0.8396503925323486,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\resize_0.25.jpg
+sidset_55ed6c0bbd54e07d,resize_0.25,sidset,real,0,0.5052068829536438,data\cache\clean\test\sidset_55ed6c0bbd54e07d\resize_0.25.jpg
+sidset_5a165a26bf8ca4be,resize_0.25,sidset,real,0,0.7636383175849915,data\cache\clean\test\sidset_5a165a26bf8ca4be\resize_0.25.jpg
+sidset_5b291a7b5ae05cf0,resize_0.25,sidset,real,0,0.6454470157623291,data\cache\clean\test\sidset_5b291a7b5ae05cf0\resize_0.25.jpg
+sidset_5b8f12b78d13bfcd,resize_0.25,sidset,real,0,0.7640596032142639,data\cache\clean\test\sidset_5b8f12b78d13bfcd\resize_0.25.jpg
+sidset_5ba522a91162ae70,resize_0.25,sidset,real,0,0.9825567603111267,data\cache\clean\test\sidset_5ba522a91162ae70\resize_0.25.jpg
+sidset_5c175a143c23a7b8,resize_0.25,sidset,real,0,0.6086147427558899,data\cache\clean\test\sidset_5c175a143c23a7b8\resize_0.25.jpg
+sidset_65d4916b9f3f47ba,resize_0.25,sidset,real,0,0.7677444815635681,data\cache\clean\test\sidset_65d4916b9f3f47ba\resize_0.25.jpg
+sidset_6b7167d906f4ff1f,resize_0.25,sidset,real,0,0.8821876049041748,data\cache\clean\test\sidset_6b7167d906f4ff1f\resize_0.25.jpg
+sidset_725e4f2f78a9cd86,resize_0.25,sidset,real,0,0.6079698204994202,data\cache\clean\test\sidset_725e4f2f78a9cd86\resize_0.25.jpg
+sidset_772850bc0fb9e17c,resize_0.25,sidset,real,0,0.834119439125061,data\cache\clean\test\sidset_772850bc0fb9e17c\resize_0.25.jpg
+sidset_7b550aceb5ec111f,resize_0.25,sidset,real,0,0.7416936159133911,data\cache\clean\test\sidset_7b550aceb5ec111f\resize_0.25.jpg
+sidset_7f1ce0ac000e1d6c,resize_0.25,sidset,real,0,0.7987205982208252,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\resize_0.25.jpg
+sidset_832e43df048c6d1a,resize_0.25,sidset,real,0,0.6939055323600769,data\cache\clean\test\sidset_832e43df048c6d1a\resize_0.25.jpg
+sidset_8619862cda88466c,resize_0.25,sidset,real,0,0.7111532092094421,data\cache\clean\test\sidset_8619862cda88466c\resize_0.25.jpg
+sidset_8d98f1eeb3935d09,resize_0.25,sidset,real,0,0.7322813868522644,data\cache\clean\test\sidset_8d98f1eeb3935d09\resize_0.25.jpg
+sidset_a3032d75347e6fa2,resize_0.25,sidset,real,0,0.6054959893226624,data\cache\clean\test\sidset_a3032d75347e6fa2\resize_0.25.jpg
+sidset_a429805728e89e7d,resize_0.25,sidset,real,0,0.7741000056266785,data\cache\clean\test\sidset_a429805728e89e7d\resize_0.25.jpg
+sidset_a68752f61204ef57,resize_0.25,sidset,real,0,0.6177942752838135,data\cache\clean\test\sidset_a68752f61204ef57\resize_0.25.jpg
+sidset_a8ad741ef85002f3,resize_0.25,sidset,real,0,0.7975496649742126,data\cache\clean\test\sidset_a8ad741ef85002f3\resize_0.25.jpg
+sidset_ab1441008986f237,resize_0.25,sidset,real,0,0.5194141864776611,data\cache\clean\test\sidset_ab1441008986f237\resize_0.25.jpg
+sidset_ac54ef2834f8bc74,resize_0.25,sidset,real,0,0.8943740725517273,data\cache\clean\test\sidset_ac54ef2834f8bc74\resize_0.25.jpg
+sidset_b230de6baca8d392,resize_0.25,sidset,real,0,0.5111159086227417,data\cache\clean\test\sidset_b230de6baca8d392\resize_0.25.jpg
+sidset_b476dc9881140333,resize_0.25,sidset,real,0,0.6226719617843628,data\cache\clean\test\sidset_b476dc9881140333\resize_0.25.jpg
+sidset_b6d4573c9d24dcf3,resize_0.25,sidset,real,0,0.5914719104766846,data\cache\clean\test\sidset_b6d4573c9d24dcf3\resize_0.25.jpg
+sidset_bc70b06f0d603efd,resize_0.25,sidset,real,0,0.9547514915466309,data\cache\clean\test\sidset_bc70b06f0d603efd\resize_0.25.jpg
+sidset_c104d5a827c3dc84,resize_0.25,sidset,real,0,0.5921616554260254,data\cache\clean\test\sidset_c104d5a827c3dc84\resize_0.25.jpg
+sidset_c4527bae1db9f157,resize_0.25,sidset,real,0,0.7811741232872009,data\cache\clean\test\sidset_c4527bae1db9f157\resize_0.25.jpg
+sidset_c5a378b0ea24d25e,resize_0.25,sidset,real,0,0.658326268196106,data\cache\clean\test\sidset_c5a378b0ea24d25e\resize_0.25.jpg
+sidset_c90419b9eb89527a,resize_0.25,sidset,real,0,0.6145392060279846,data\cache\clean\test\sidset_c90419b9eb89527a\resize_0.25.jpg
+sidset_cac550631e35c126,resize_0.25,sidset,real,0,0.6814575791358948,data\cache\clean\test\sidset_cac550631e35c126\resize_0.25.jpg
+sidset_cb68a83278e88b9d,resize_0.25,sidset,real,0,0.9630880951881409,data\cache\clean\test\sidset_cb68a83278e88b9d\resize_0.25.jpg
+sidset_ce09a25a50fdfe47,resize_0.25,sidset,real,0,0.7854829430580139,data\cache\clean\test\sidset_ce09a25a50fdfe47\resize_0.25.jpg
+sidset_d652dc17bb0709b8,resize_0.25,sidset,real,0,0.9064410328865051,data\cache\clean\test\sidset_d652dc17bb0709b8\resize_0.25.jpg
+sidset_de2d4b37000ff09c,resize_0.25,sidset,real,0,0.5817511081695557,data\cache\clean\test\sidset_de2d4b37000ff09c\resize_0.25.jpg
+sidset_e35ca53982ee8372,resize_0.25,sidset,real,0,0.7094061970710754,data\cache\clean\test\sidset_e35ca53982ee8372\resize_0.25.jpg
+sidset_e67f5961f8d7c753,resize_0.25,sidset,real,0,0.6526082158088684,data\cache\clean\test\sidset_e67f5961f8d7c753\resize_0.25.jpg
+sidset_e99541e9ff8fadb2,resize_0.25,sidset,real,0,0.7077152729034424,data\cache\clean\test\sidset_e99541e9ff8fadb2\resize_0.25.jpg
+sidset_f64413457848d278,resize_0.25,sidset,real,0,0.5735635757446289,data\cache\clean\test\sidset_f64413457848d278\resize_0.25.jpg
+sidset_fac95db1f3df9775,resize_0.25,sidset,real,0,0.5650451183319092,data\cache\clean\test\sidset_fac95db1f3df9775\resize_0.25.jpg
+sidset_fe0bec3214706d60,resize_0.25,sidset,real,0,0.9015631675720215,data\cache\clean\test\sidset_fe0bec3214706d60\resize_0.25.jpg
+cifake_0235,resize_0.5,cifake,real,0,0.758683979511261,data\cache\clean\test\cifake_0235\resize_0.5.jpg
+cifake_0618 (3),resize_0.5,cifake,real,0,0.9232558012008667,data\cache\clean\test\cifake_0618 (3)\resize_0.5.jpg
+cifake_0793,resize_0.5,cifake,real,0,0.8074723482131958,data\cache\clean\test\cifake_0793\resize_0.5.jpg
+cifake_1139,resize_0.5,cifake,real,0,0.8802300095558167,data\cache\clean\test\cifake_1139\resize_0.5.jpg
+cifake_1435 (2),resize_0.5,cifake,real,0,0.6099783778190613,data\cache\clean\test\cifake_1435 (2)\resize_0.5.jpg
+cifake_1974,resize_0.5,cifake,real,0,0.7413160800933838,data\cache\clean\test\cifake_1974\resize_0.5.jpg
+cifake_2071,resize_0.5,cifake,real,0,0.5794321298599243,data\cache\clean\test\cifake_2071\resize_0.5.jpg
+cifake_2122,resize_0.5,cifake,real,0,0.6330862641334534,data\cache\clean\test\cifake_2122\resize_0.5.jpg
+cifake_2633 (10),resize_0.5,cifake,real,0,0.6678149700164795,data\cache\clean\test\cifake_2633 (10)\resize_0.5.jpg
+cifake_2660,resize_0.5,cifake,real,0,0.7014166712760925,data\cache\clean\test\cifake_2660\resize_0.5.jpg
+cifake_2874 (4),resize_0.5,cifake,real,0,0.6312612295150757,data\cache\clean\test\cifake_2874 (4)\resize_0.5.jpg
+cifake_3891 (3),resize_0.5,cifake,real,0,0.6722481846809387,data\cache\clean\test\cifake_3891 (3)\resize_0.5.jpg
+cifake_3916 (8),resize_0.5,cifake,real,0,0.5606269836425781,data\cache\clean\test\cifake_3916 (8)\resize_0.5.jpg
+cifake_4660 (5),resize_0.5,cifake,real,0,0.9665770530700684,data\cache\clean\test\cifake_4660 (5)\resize_0.5.jpg
+cifake_4673 (5),resize_0.5,cifake,real,0,0.6536335945129395,data\cache\clean\test\cifake_4673 (5)\resize_0.5.jpg
+sidset_011c2e4461eb1fdc,resize_0.5,sidset,real,0,0.5212978720664978,data\cache\clean\test\sidset_011c2e4461eb1fdc\resize_0.5.jpg
+sidset_01cfa603553a1a45,resize_0.5,sidset,real,0,0.5437815189361572,data\cache\clean\test\sidset_01cfa603553a1a45\resize_0.5.jpg
+sidset_036df955965cb2f9,resize_0.5,sidset,real,0,0.5728224515914917,data\cache\clean\test\sidset_036df955965cb2f9\resize_0.5.jpg
+sidset_038789965a8f7606,resize_0.5,sidset,real,0,0.5458649396896362,data\cache\clean\test\sidset_038789965a8f7606\resize_0.5.jpg
+sidset_075db643445af8e3,resize_0.5,sidset,real,0,0.608914852142334,data\cache\clean\test\sidset_075db643445af8e3\resize_0.5.jpg
+sidset_09f7329f0c1c9fd4,resize_0.5,sidset,real,0,0.5249751806259155,data\cache\clean\test\sidset_09f7329f0c1c9fd4\resize_0.5.jpg
+sidset_0f8102c25fc764ea,resize_0.5,sidset,real,0,0.9249711632728577,data\cache\clean\test\sidset_0f8102c25fc764ea\resize_0.5.jpg
+sidset_14312756c1c94efa,resize_0.5,sidset,real,0,0.9994004964828491,data\cache\clean\test\sidset_14312756c1c94efa\resize_0.5.jpg
+sidset_1577f06c8ee59ef0,resize_0.5,sidset,real,0,0.9383754134178162,data\cache\clean\test\sidset_1577f06c8ee59ef0\resize_0.5.jpg
+sidset_16c4058cc17896fc,resize_0.5,sidset,real,0,0.7340439558029175,data\cache\clean\test\sidset_16c4058cc17896fc\resize_0.5.jpg
+sidset_18e30e95478d3da6,resize_0.5,sidset,real,0,0.5468144416809082,data\cache\clean\test\sidset_18e30e95478d3da6\resize_0.5.jpg
+sidset_1d24e17c0f598d7a,resize_0.5,sidset,real,0,0.5223567485809326,data\cache\clean\test\sidset_1d24e17c0f598d7a\resize_0.5.jpg
+sidset_22b07f2ffcaf319c,resize_0.5,sidset,real,0,0.9630838632583618,data\cache\clean\test\sidset_22b07f2ffcaf319c\resize_0.5.jpg
+sidset_26c389b400ea1653,resize_0.5,sidset,real,0,0.8411699533462524,data\cache\clean\test\sidset_26c389b400ea1653\resize_0.5.jpg
+sidset_31f7ec5269c0f867,resize_0.5,sidset,real,0,0.5797390937805176,data\cache\clean\test\sidset_31f7ec5269c0f867\resize_0.5.jpg
+sidset_34866edcc2800ae0,resize_0.5,sidset,real,0,0.5046619772911072,data\cache\clean\test\sidset_34866edcc2800ae0\resize_0.5.jpg
+sidset_35f6c1138217d58e,resize_0.5,sidset,real,0,0.7584295868873596,data\cache\clean\test\sidset_35f6c1138217d58e\resize_0.5.jpg
+sidset_39a3f029e2e17dd3,resize_0.5,sidset,real,0,0.9548198580741882,data\cache\clean\test\sidset_39a3f029e2e17dd3\resize_0.5.jpg
+sidset_3beca4d6152a4aa5,resize_0.5,sidset,real,0,0.5209981203079224,data\cache\clean\test\sidset_3beca4d6152a4aa5\resize_0.5.jpg
+sidset_4e4b9b1d6e8b2aca,resize_0.5,sidset,real,0,0.5704589486122131,data\cache\clean\test\sidset_4e4b9b1d6e8b2aca\resize_0.5.jpg
+sidset_524db7cc1caac0b0,resize_0.5,sidset,real,0,0.6708790063858032,data\cache\clean\test\sidset_524db7cc1caac0b0\resize_0.5.jpg
+sidset_52bf81b2d7f84101,resize_0.5,sidset,real,0,0.6886842846870422,data\cache\clean\test\sidset_52bf81b2d7f84101\resize_0.5.jpg
+sidset_55ed6c0bbd54e07d,resize_0.5,sidset,real,0,0.6793104410171509,data\cache\clean\test\sidset_55ed6c0bbd54e07d\resize_0.5.jpg
+sidset_5a165a26bf8ca4be,resize_0.5,sidset,real,0,0.8238109946250916,data\cache\clean\test\sidset_5a165a26bf8ca4be\resize_0.5.jpg
+sidset_5b291a7b5ae05cf0,resize_0.5,sidset,real,0,0.6314343810081482,data\cache\clean\test\sidset_5b291a7b5ae05cf0\resize_0.5.jpg
+sidset_5b8f12b78d13bfcd,resize_0.5,sidset,real,0,0.8240152597427368,data\cache\clean\test\sidset_5b8f12b78d13bfcd\resize_0.5.jpg
+sidset_5ba522a91162ae70,resize_0.5,sidset,real,0,0.9819336533546448,data\cache\clean\test\sidset_5ba522a91162ae70\resize_0.5.jpg
+sidset_615f67f3acd96d5c,resize_0.5,sidset,real,0,0.7019902467727661,data\cache\clean\test\sidset_615f67f3acd96d5c\resize_0.5.jpg
+sidset_6b7167d906f4ff1f,resize_0.5,sidset,real,0,0.9432030320167542,data\cache\clean\test\sidset_6b7167d906f4ff1f\resize_0.5.jpg
+sidset_796b6212cfecb3de,resize_0.5,sidset,real,0,0.6854594945907593,data\cache\clean\test\sidset_796b6212cfecb3de\resize_0.5.jpg
+sidset_7974984b83c15934,resize_0.5,sidset,real,0,0.5031094551086426,data\cache\clean\test\sidset_7974984b83c15934\resize_0.5.jpg
+sidset_7b550aceb5ec111f,resize_0.5,sidset,real,0,0.7578192353248596,data\cache\clean\test\sidset_7b550aceb5ec111f\resize_0.5.jpg
+sidset_7f1ce0ac000e1d6c,resize_0.5,sidset,real,0,0.8679331541061401,data\cache\clean\test\sidset_7f1ce0ac000e1d6c\resize_0.5.jpg
+sidset_832e43df048c6d1a,resize_0.5,sidset,real,0,0.7550561428070068,data\cache\clean\test\sidset_832e43df048c6d1a\resize_0.5.jpg
+sidset_8619862cda88466c,resize_0.5,sidset,real,0,0.5982733368873596,data\cache\clean\test\sidset_8619862cda88466c\resize_0.5.jpg
+sidset_a3032d75347e6fa2,resize_0.5,sidset,real,0,0.6649290323257446,data\cache\clean\test\sidset_a3032d75347e6fa2\resize_0.5.jpg
+sidset_a8ad741ef85002f3,resize_0.5,sidset,real,0,0.7558730244636536,data\cache\clean\test\sidset_a8ad741ef85002f3\resize_0.5.jpg
+sidset_ab1441008986f237,resize_0.5,sidset,real,0,0.5810899138450623,data\cache\clean\test\sidset_ab1441008986f237\resize_0.5.jpg
+sidset_ac54ef2834f8bc74,resize_0.5,sidset,real,0,0.6303805708885193,data\cache\clean\test\sidset_ac54ef2834f8bc74\resize_0.5.jpg
+sidset_b3a42a0308a160fa,resize_0.5,sidset,real,0,0.5455636382102966,data\cache\clean\test\sidset_b3a42a0308a160fa\resize_0.5.jpg
+sidset_bc70b06f0d603efd,resize_0.5,sidset,real,0,0.906848669052124,data\cache\clean\test\sidset_bc70b06f0d603efd\resize_0.5.jpg
+sidset_c4527bae1db9f157,resize_0.5,sidset,real,0,0.5040570497512817,data\cache\clean\test\sidset_c4527bae1db9f157\resize_0.5.jpg
+sidset_c5a378b0ea24d25e,resize_0.5,sidset,real,0,0.6401836276054382,data\cache\clean\test\sidset_c5a378b0ea24d25e\resize_0.5.jpg
+sidset_c7d3774f16039f96,resize_0.5,sidset,real,0,0.5778620839118958,data\cache\clean\test\sidset_c7d3774f16039f96\resize_0.5.jpg
+sidset_cb68a83278e88b9d,resize_0.5,sidset,real,0,0.9548529982566833,data\cache\clean\test\sidset_cb68a83278e88b9d\resize_0.5.jpg
+sidset_d652dc17bb0709b8,resize_0.5,sidset,real,0,0.9542595148086548,data\cache\clean\test\sidset_d652dc17bb0709b8\resize_0.5.jpg
+sidset_d7c9ba7b7774dcd9,resize_0.5,sidset,real,0,0.5274949669837952,data\cache\clean\test\sidset_d7c9ba7b7774dcd9\resize_0.5.jpg
+sidset_de2d4b37000ff09c,resize_0.5,sidset,real,0,0.7026491761207581,data\cache\clean\test\sidset_de2d4b37000ff09c\resize_0.5.jpg
+sidset_e35ca53982ee8372,resize_0.5,sidset,real,0,0.627963125705719,data\cache\clean\test\sidset_e35ca53982ee8372\resize_0.5.jpg
+sidset_e67f5961f8d7c753,resize_0.5,sidset,real,0,0.584403932094574,data\cache\clean\test\sidset_e67f5961f8d7c753\resize_0.5.jpg
+sidset_e6f037cc020a3c67,resize_0.5,sidset,real,0,0.5594738125801086,data\cache\clean\test\sidset_e6f037cc020a3c67\resize_0.5.jpg
+sidset_e99541e9ff8fadb2,resize_0.5,sidset,real,0,0.6739521622657776,data\cache\clean\test\sidset_e99541e9ff8fadb2\resize_0.5.jpg
+sidset_f5044c17014681a8,resize_0.5,sidset,real,0,0.5962071418762207,data\cache\clean\test\sidset_f5044c17014681a8\resize_0.5.jpg
+sidset_fac95db1f3df9775,resize_0.5,sidset,real,0,0.5190460085868835,data\cache\clean\test\sidset_fac95db1f3df9775\resize_0.5.jpg
+sidset_fe0bec3214706d60,resize_0.5,sidset,real,0,0.9434304237365723,data\cache\clean\test\sidset_fe0bec3214706d60\resize_0.5.jpg

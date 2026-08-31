@@ -1,0 +1,88 @@
+{
+  "run_name": "concat_drift_train",
+  "script": "training/train_concat_normalize_drift.py",
+  "kind": "train",
+  "model": "concat_drift",
+  "signals": [
+    "laplacian_var",
+    "dct_low_energy",
+    "dct_high_energy",
+    "noise_variance",
+    "clip_drift"
+  ],
+  "signals_normalized": true,
+  "backbone": "ViT-L/14",
+  "backbone_dim": 768,
+  "seed": 42,
+  "device": "cuda",
+  "results": {
+    "epochs": [
+      {
+        "epoch": 1,
+        "avg_loss": 0.5725,
+        "val_acc": 0.921,
+        "val_auc": 0.9713
+      },
+      {
+        "epoch": 2,
+        "avg_loss": 0.413,
+        "val_acc": 0.9373,
+        "val_auc": 0.9758
+      },
+      {
+        "epoch": 3,
+        "avg_loss": 0.3619,
+        "val_acc": 0.9367,
+        "val_auc": 0.9784
+      },
+      {
+        "epoch": 4,
+        "avg_loss": 0.3154,
+        "val_acc": 0.935,
+        "val_auc": 0.9756
+      },
+      {
+        "epoch": 5,
+        "avg_loss": 0.2713,
+        "val_acc": 0.9343,
+        "val_auc": 0.9746
+      },
+      {
+        "epoch": 6,
+        "avg_loss": 0.2331,
+        "val_acc": 0.9307,
+        "val_auc": 0.9754
+      },
+      {
+        "epoch": 7,
+        "avg_loss": 0.2033,
+        "val_acc": 0.9187,
+        "val_auc": 0.9739
+      },
+      {
+        "epoch": 8,
+        "avg_loss": 0.1775,
+        "val_acc": 0.9317,
+        "val_auc": 0.9735
+      },
+      {
+        "epoch": 9,
+        "avg_loss": 0.1627,
+        "val_acc": 0.931,
+        "val_auc": 0.9715
+      },
+      {
+        "epoch": 10,
+        "avg_loss": 0.1385,
+        "val_acc": 0.9297,
+        "val_auc": 0.9733
+      }
+    ],
+    "final": {
+      "epoch": 10,
+      "avg_loss": 0.1385,
+      "val_acc": 0.9297,
+      "val_auc": 0.9733
+    }
+  }
+}
