@@ -2,7 +2,11 @@
 --extra-index-url https://download.pytorch.org/whl/cu126
 torch
 torchvision
-transformers
+transformers==5.16.1    # pinned -- CLIPModel.get_image_features()'s return type isn't
+                        # stable across versions (bare Tensor vs. BaseModelOutputWithPooling),
+                        # and left unpinned this already broke a teammate's run once.
+                        # webdemo/inference.py and clip_drift.py both guard defensively
+                        # either way, but pinning avoids the drift causing it at all.
 pyiqa            # LIQE, later -- pulls in most other IQA metrics too
 setuptools<81    # LIQE needs pkg_resources internally (via openai's clip package) --
                  # removed in newer setuptools. Confirmed: without this, pyiqa

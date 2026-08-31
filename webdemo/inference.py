@@ -26,11 +26,18 @@ something to optimize away. nudge_image()/cosine_similarity() are imported direc
 from scripts/features/clip_drift.py (not reimplemented) so the live nudge is byte-for-
 byte the same procedure the offline training data was generated with.
 
-transformers>=5 changed CLIPModel.get_image_features() to return a
-BaseModelOutputWithPooling instead of a bare tensor -- `.pooler_output` is the correct
-768-dim accessor (confirmed: bit-identical to the classic projected embedding). Do not
-copy extract_embeddings.py's `.get_image_features(**inputs).cpu().numpy()` verbatim;
-that line is currently broken on this transformers version.
+CLIPModel.get_image_features()'s return type is NOT stable across transformers
+versions: transformers>=5 wraps it in a BaseModelOutputWithPooling (`.pooler_output` is
+the correct 768-dim accessor there -- confirmed bit-identical to the classic projected
+embedding), but older versions return a bare Tensor directly, which has no
+`.pooler_output` attribute at all. `requirements.txt` does not pin `transformers`, so
+which one a given install gets depends on exactly when `pip install` resolved it --
+this is NOT a venv-vs-global-python issue, purely a package-version one, and it bit a
+teammate running an older transformers on a completely separate machine/env. _embed()
+below guards with `isinstance(out, torch.Tensor)` so it works either way -- same
+defensive check scripts/features/clip_drift.py already uses for the identical reason.
+Do not copy extract_embeddings.py's `.get_image_features(**inputs).cpu().numpy()`
+verbatim; that line has no such guard and is broken on newer transformers versions.
 """
 import sys
 import threading
@@ -122,7 +129,15 @@ class Predictor:
             inputs = self.clip_processor(images=batch, return_tensors="pt").to(self.device)
             with torch.no_grad():
                 out = self.clip_model.get_image_features(**inputs)
-            chunks.append(out.pooler_output.cpu().numpy())
+            # transformers version drift, not a venv issue: older transformers returns a
+            # bare Tensor here; transformers>=5 (what's pinned nowhere in
+            # requirements.txt, so pip resolves whatever's latest at install time)
+            # returns a BaseModelOutputWithPooling wrapper instead. .pooler_output only
+            # exists on the wrapper -- guard so this works on either, same defensive
+            # check clip_drift.py already uses for the identical reason.
+            if not isinstance(out, torch.Tensor):
+                out = out.pooler_output
+            chunks.append(out.cpu().numpy())
         return np.concatenate(chunks, axis=0)
 
     def predict(self, images: list) -> list:
