@@ -1,9 +1,5 @@
 # Dataset Plan
 
-> Supersedes the original "Track 5, locked as of tonight" plan below in this file's history --
-> the working resolution and source mix both changed once the pipeline was actually built.
-> Numbers here are pulled directly from `data/manifest.csv` (30,000 rows), not estimates.
-
 Base pool: **30,000 images** (before the 15 transform variants), split **15,000 real / 15,000 fake**.
 Working resolution: **512x512** (see "Why 512" below -- this replaced the original 680 plan).
 
@@ -67,10 +63,3 @@ train/test in different disguises):
 is the CLIP embeddings + signal values per item -- a few GB total, not the raw pixels, which
 get discarded after embedding extraction.
 
-## Note: out-of-distribution stress test (separate from this manifest)
-
-In addition to the 30k-image manifest above, we built a supplementary external evaluation set
-(COCO real photos + independently-sourced DALLE-3 generations) to check generalization beyond
-this training distribution. It is **not** part of `data/manifest.csv` and was not trained on --
-see `docs/error_analysis.md` and `validation_result/coco_dalle3_auc_comparison.json` for those
-results and their caveats.
