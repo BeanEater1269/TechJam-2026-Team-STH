@@ -92,7 +92,7 @@ ranking ability. Heavy noise (σ0.1) is the worst case, at -3.4 pts accuracy vs.
 
 ## Limitations
 
-The main trade-off this time around is the lack of prevention against semantic bias, given our inherent focus on robustness to image transformations. Real images from one dataset (Sid_set) result in false positives for scenery images, especially mountain views. Another limitation in our architecture is the lack of direct cropping detection, as we did not have enough time to properly implement the strategy into our system effectively. In the future, on top of heavier emphasis on the dataset, we will be exploring new signals to quantify a wider range of transformations, as well as fine-tuning the vector concatenation. 
+The main trade-off this time around is the lack of prevention against semantic bias, given our inherent focus on robustness to image transformations. Real images from one dataset (SID_SET) result in larger false positives for scenery images, especially mountain views. Another limitation in our architecture is the lack of direct cropping detection, as we did not have enough time to properly implement the strategy into our system effectively. In the future, on top of heavier emphasis on the dataset, we will be exploring new signals to quantify a wider range of transformations, as well as fine-tuning the vector concatenation. 
 
 ## Team contributions
 
