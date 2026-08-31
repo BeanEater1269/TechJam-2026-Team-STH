@@ -1,6 +1,6 @@
 # Track 5 — Robust AIGC Image Detection
 
-TODO: one-paragraph project overview once the pitch is finalized.
+Our solution for Track 5 — Robust AIGC Image Detection is a highly resilient AI image classifier designed to survive real-world platform transformations like JPEG compression, blurring, and color jittering. Instead of relying solely on a base vision model, we augment a frozen CLIP backbone with purpose-built "robustness signals" (including Feature Drift Magnitude, frequency-domain artifacts, and perceptual quality scores). By fusing these signals and applying Degradation-Consistent Paired Training (DCPT)—a consistency regularization technique that forces the model to yield identical predictions for clean and degraded views of the same image—our lightweight MLP classifier maintains high real-vs-fake separability across diverse generator families without sacrificing accuracy on degraded media.
 
 ## Setup
 
@@ -92,9 +92,7 @@ ranking ability. Heavy noise (σ0.1) is the worst case, at -3.4 pts accuracy vs.
 
 ## Limitations
 
-TODO — fill in honestly once trained: expected known weaknesses include the residual,
-tagged upsample risk on a minority of SID-Set real crops, and the standing limitation that
-nothing in this pipeline can *detect* cropping (only tolerate it via multi-view averaging).
+The main trade-off this time around is the lack of prevention against semantic bias, given our inherent focus on robustness to image transformations. Real images from one dataset (Sid_set) result in false positives for scenery images, especially mountain views. Another limitation in our architecture is the lack of direct cropping detection, as we did not have enough time to properly implement the strategy into our system effectively. In the future, on top of heavier emphasis on the dataset, we will be exploring new signals to quantify a wider range of transformations, as well as fine-tuning the vector concatenation. 
 
 ## Team contributions
 
