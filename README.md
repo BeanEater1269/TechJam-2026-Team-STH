@@ -144,8 +144,7 @@ deliverables:
   by-generator-family breakdowns).
 - **`final_model_fn_fp/`** -- representative false positive / false negative images from our
   own held-out test set, referenced in `docs/error_analysis.md`.
-- **`validation_result/`** -- a supplementary out-of-distribution stress test we built
-  ourselves: real COCO photos vs. independently-sourced DALLE-3 generations, entirely outside
+- **`validation_result/`** -- From Judge's Validation set a  real COCO photos vs. independently-sourced DALLE-3  generations, entirely outside
   our training data. `coco_dalle3_auc_comparison.json` has the clean-vs-transformed AUC/accuracy
   comparison (both a balanced and an unbalanced version, clearly labeled).
 - **`validation_fn_fp/`** -- representative false positive / false negative images from that
