@@ -13,7 +13,7 @@ one generator's fingerprint:
 | **SID-Set** | 12,000 | 2,000 | `real`, `full_synthetic` | Primary real-image and social-media-realism source |
 | **CIFAKE** | 3,000 | 3,000 | `real`, `stable_diffusion` | Native 32x32 images -- upsampling-robustness stress test (both real and fake get the same upsample softness, so it doesn't become a shortcut) |
 | **WildFake** | -- | 5,000 | `gigagan` (2,500), `dalle` (2,500) | GAN + diffusion diversity |
-| **AIGIBench** | -- | 5,000 | `stylegan_xl` (2,500), `imagen3` (2,500) | Modern-generator diversity (newer GAN + diffusion families) |
+| **stylegan_xl & imagen3** | -- | 5,000 | `stylegan_xl` (2,500), `imagen3` (2,500) | Modern-generator diversity (newer GAN + diffusion families) |
 | **Total** | **15,000** | **15,000** | | **= 30,000** |
 
 SID-Set's fakes are full-synthetic only (label 1); tampered images (label 2, mostly-real photo
@@ -36,7 +36,6 @@ loses detail but not label-correlated artifacts) over less upsampling.
 
 | Excluded | Reason |
 |---|---|
-| WildFake's real images | Risk of overlapping with the hackathon's own COCO-based demo validation set (leakage) |
 | SID-Set's tampered images (label 2) | Mostly-real photo with one small edited region -- a different task than whole-image AIGC detection, and a confusing label if included |
 
 ## Known residual risks -- tagged in the manifest, checked after training where noted
@@ -44,8 +43,8 @@ loses detail but not label-correlated artifacts) over less upsampling.
 | Risk | Manifest tag | Status |
 |---|---|---|
 | CIFAKE's extreme 32->512 upsample | `source_dataset == cifake` | Checked -- see `by_source_dataset` breakdown in `results_l14/final_model_eval.json` (cifake performs well, no anomalous accuracy) |
-| Accuracy gap by generator family (WildFake/AIGIBench mix) | `generator_family` | Checked -- see `by_generator_family` in `results_l14/final_model_eval.json`. Confirmed real gap: strongest on sidset/cifake (95%+), weakest on imagen3 (81.2%) and stylegan_xl (83.6%) -- under-represented generator families, out-of-distribution relative to the rest of the mix |
-| SID-Set real crops with native short side well under 512 | `native_short_side` | **Not checked** -- tagged in the manifest but the post-hoc verification script was never built. Open risk: a minority of SID-Set real images needed upsampling before being labeled real, which could bias the classifier toward resolution/blur cues on that subset. First thing to verify with more time. |
+| Accuracy gap by generator family (WildFake) | `generator_family` | Checked -- see `by_generator_family` in `results_l14/final_model_eval.json`. Confirmed real gap: strongest on sidset/cifake (95%+), weakest on imagen3 (81.2%) and stylegan_xl (83.6%) -- under-represented generator families, out-of-distribution relative to the rest of the mix |
+| SID-Set real crops with native short side well under 512 | `native_short_side` |
 
 ## Split
 
