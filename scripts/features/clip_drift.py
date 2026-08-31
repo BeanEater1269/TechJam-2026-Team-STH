@@ -88,7 +88,10 @@ def process_split(
             # transformers>=5's get_image_features() returns a BaseModelOutputWithPooling,
             # not a bare tensor -- .pooler_output is the correct embedding accessor
             # (confirmed bit-identical to the classic projected CLIP embedding).
-            nudged_embeds = model.get_image_features(**inputs).pooler_output.cpu().numpy()
+            output = model.get_image_features(**inputs)
+            if not isinstance(output, torch.Tensor):
+                output = output.pooler_output
+            nudged_embeds = output.cpu().numpy()
 
         for img_id, variant, embed, nudged_emb in zip(batch_ids, batch_variants, batch_embeds, nudged_embeds):
             img_ids_out.append(img_id)
