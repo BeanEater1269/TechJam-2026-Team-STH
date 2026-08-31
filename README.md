@@ -153,3 +153,7 @@ deliverables:
 - **`DriftClip.pdf`** -- project poster / one-pager.
 - **Robustness summary table (PDF)** -- compact clean-vs-transformed visual summary, to be
   added.
+
+
+## Video Link
+VideoLink:https://youtu.be/aOOY6EsNVPI
