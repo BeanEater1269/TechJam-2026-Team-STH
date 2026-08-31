@@ -111,9 +111,7 @@ visibly a real photo with a photographer's watermark on it) and `validation_resu
 underlying prediction data and the before/after numbers this produced.
 
 Beyond that: the main trade-off this time around is the lack of prevention against semantic
-bias, given our inherent focus on robustness to image transformations. Real images from one
-dataset (SID-Set) result in larger false positives for scenery images, especially mountain
-views. Another limitation in our architecture is the lack of direct cropping detection, as we
+bias, given our inherent focus on robustness to image transformations. As we
 did not have enough time to properly implement the strategy into our system effectively. In
 the future, on top of heavier emphasis on the dataset, we will be exploring new signals to
 quantify a wider range of transformations, as well as fine-tuning the vector concatenation.
