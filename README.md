@@ -10,17 +10,10 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Before pulling any data: two checks
 
-Both are cheap and gate real decisions below — run them first.
-
-```bash
-# 1. Backbone timing -- on YOUR actual GPU, using any ~100-500 photos already on your machine
-python scripts/check_clip_backbone_timing.py --images <folder of any local jpg/png files> --n 100
-
-# 2. Native resolution -- once you have a small sample (a few hundred images) from each source
-python scripts/check_native_resolution.py --root <sample folder 1> --root <sample folder 2>
-```
+`checkpoints/final_model.pt` and everything else `scripts/infer.py` needs
+(`data/cache/stats/*.npz`) are committed in this repository. 
+To obtain the final model file, please use `git clone`
 
 ## Data
 
@@ -32,25 +25,15 @@ what was considered and rejected.
 ## Reproduction
 
 1. Download data, build the manifest + 80/10/10 split, cache clean + 15 variants, and
-   extract embeddings/signals — see `scripts/build_manifest.py`, `scripts/data_prep/
-   build_cache.py`, `scripts/features/extract_embeddings.py`, `scripts/features/
-   signals.py`, `scripts/features/clip_drift.py`, `scripts/features/liqe.py`.
-2. Train: `python scripts/training/concat_drift_epoch_optimization.py --epochs <N>
-   --backbone-dim 768` (produces `checkpoints/final_model.pt`). Compare candidates with
-   `python scripts/evaluation/collect_results.py --backbone-dim 768` (writes
-   `results_l14/`).
-3. Run inference (this is the part judges need):
-
-   **Setup** (once):
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate        # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-   `checkpoints/final_model.pt` and everything else `scripts/infer.py` needs
-   (`data/cache/stats/*.npz`) are committed in this repository — a plain `git clone`
-   (or unzip, if handed as an archive) is all that's needed, no separate model-weights
-   download and no dataset download required to run inference.
+   extract embeddings/signals. Run the script in the following sequence
+   - `scripts/build_manifest.py`
+   - `scripts/data_prep/ build_cache.py`
+   - `scripts/features/extract_embeddings.py`
+   - `scripts/features/ signals.py`
+   - `scripts/features/clip_drift.py`
+2. Train: run the code `python scripts/training/concat_drift_epoch_optimization.py --epochs <N>
+   --backbone-dim 768` to produce `checkpoints/final_model.pt` for classifier model. 
+3. Run inference:
 
    **Run:**
    ```bash
@@ -64,9 +47,6 @@ what was considered and rejected.
    `confidence` is confidence in that specific label (always >= 0.5). First run
    downloads the CLIP ViT-L/14 backbone (~1.7GB) from Hugging Face — needs internet
    access once, cached locally after that.
-
-   For cropping-tolerance (scores the image twice — whole + center-crop-80% view —
-   and averages), same interface: `python scripts/infer_multiview.py <path> [--out ...]`.
 
 ## Demo
 
