@@ -67,9 +67,7 @@ a visual trait (all blurry, all low-light, all one color palette), that would po
 signal-level blind spot. Instead, the scattershot nature across ~30-40% of this out-of-distribution
 real-image set is more consistent with what we already flagged: a mismatch between our narrow
 real-image training distribution (dominated by SID-Set's specific look) and general photography,
-compounded by the labeling error in how this stress-test set itself was assembled -- see
-[Limitations](../README.md#limitations) for the full discussion and the caveat on that ~30-40%
-figure being an upper bound, not a clean measurement.
+compounded by the labeling error in how this stress-test set itself was assembled
 
 ### False negative
 
