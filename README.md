@@ -69,32 +69,29 @@ dashboard.
 
 ## Results
 
-Final model (`checkpoints/final_model.pt`, ViT-L/14 + drift/quality signals) evaluated
-on 3,000 held-out images per condition — clean plus 15 transformed variants, 48,000
-images total. Full numbers in `results_l14/final_model_eval.json`.
+We evaluate FusionCLIP on clean images and **15 held-out transformation types** representing common image degradations, including blur, JPEG compression, noise, resizing, color shifts, and sharpening.
 
-**Clean vs. transformed (overall)**
+### FusionCLIP vs. DCPT baseline
 
-| Condition | Accuracy | AUC |
-|---|---|---|
-| Clean | 93.6% | 0.977 |
-| Mean of 15 transforms | 92.2% | 0.971 |
-| **Gap** | **-1.3 pts** | **-0.006** |
+The baseline uses the same frozen **CLIP ViT-L/14 + DCPT** training approach but without the four additional engineered signals.
 
-**By transform family**
+| Metric                      | CLIP + DCPT Baseline | FusionCLIP + DCPT |           Change |
+| --------------------------- | -------------------: | ----------------: | ---------------: |
+| Clean Accuracy              |                93.2% |             92.9% |         -0.3 pts |
+| Clean AUC                   |               0.9699 |            0.9699 |              ≈ 0 |
+| Mean Transformed Accuracy   |               91.83% |            91.97% |        +0.14 pts |
+| Mean Transformed AUC        |               0.9646 |            0.9651 |          +0.0005 |
+| Clean → Transformed AUC Gap |               0.0053 |        **0.0048** | **0.0005 lower** |
 
-| Family | Accuracy range | Mean accuracy | Weakest case |
-|---|---|---|---|
-| Blur (σ0.5–2.0) | 92.0–93.6% | 93.0% | σ2.0 |
-| Resize (0.25×–0.5×) | 92.4–93.4% | 92.9% | 0.25× |
-| Crop (80% center) | 92.9% | 92.9% | — |
-| JPEG (q30–q90) | 91.4–92.9% | 92.2% | q30 |
-| Color jitter (±) | 91.2–92.7% | 92.0% | brighten |
-| Gaussian noise (σ0.02–0.1) | 90.2–91.8% | 91.1% | σ0.1 |
+The key result is that FusionCLIP retains the robustness already established by DCPT while providing a **modest additional improvement** from the explicit degradation-aware signals. The clean-to-transformed AUC gap is reduced by approximately **9.4% relative to the DCPT baseline**, from 0.0053 to 0.0048.
 
-AUC stays within ~2 points of clean (0.957–0.977) across every condition — degradation
-under transformation shows up mainly as a threshold/accuracy effect, not a loss of
-ranking ability. Heavy noise (σ0.1) is the worst case, at -3.4 pts accuracy vs. clean.
+Across the 15 held-out transformation types, FusionCLIP achieves approximately **92% accuracy** and maintains a high AUC, showing that its ability to distinguish real from AI-generated images remains stable under common image degradations rather than relying solely on clean-image performance.
+
+### Interpretation
+
+These results suggest that **DCPT is the primary contributor to degradation robustness**, while the engineered signals provide an additional, smaller improvement by exposing low-level degradation information to the classifier.
+
+The improvement is not uniform across every transformation type, so we do not claim that the engineered signals universally improve every degradation. Instead, our results support the more conservative conclusion that **explicit degradation-aware signals can complement DCPT and slightly reduce the overall robustness gap without sacrificing clean-image AUC**.
 
 ## Limitations
 
@@ -110,11 +107,17 @@ See `docs/error_analysis.md` for the concrete examples (including a labeled-fake
 visibly a real photo with a photographer's watermark on it) and `validation_result/` for the
 underlying prediction data and the before/after numbers this produced.
 
+Additionally: The additional robustness gain from FusionCLIP is modest. Our DCPT baseline is already highly robust, so the engineered signals reduce the clean-to-transformed AUC gap only from **0.0053 to 0.0048**. We therefore do not claim that the engineered signals are solely responsible for the overall robustness of the system.
+
 Beyond that: the main trade-off this time around is the lack of prevention against semantic
 bias, given our inherent focus on robustness to image transformations. As we
 did not have enough time to properly implement the strategy into our system effectively. In
 the future, on top of heavier emphasis on the dataset, we will be exploring new signals to
 quantify a wider range of transformations, as well as fine-tuning the vector concatenation.
+
+To add on: Performance varies across transformation types. FusionCLIP improves performance on some degradations more than others, and the engineered signals do not consistently outperform the baseline on every individual transformation.
+
+Last but not least: Our 15 held-out transformations represent common real-world changes such as JPEG compression, blur, noise, resizing, color shifts, and sharpening, but real-world images may undergo combinations of transformations that are not fully represented by our evaluation.
 
 ## Team contributions
 
