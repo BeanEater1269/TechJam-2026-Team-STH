@@ -82,10 +82,19 @@ The baseline uses the same frozen **CLIP ViT-L/14 + DCPT** training approach but
 | Mean Transformed Accuracy   |               91.83% |            91.97% |        +0.14 pts |
 | Mean Transformed AUC        |               0.9646 |            0.9651 |          +0.0005 |
 | Clean → Transformed AUC Gap |               0.0053 |        **0.0048** | **0.0005 lower** |
+| Clean AUC Retention         |               99.45% |        **99.50%** |        +0.05 pts |
 
-The key result is that FusionCLIP retains the robustness already established by DCPT while providing a **modest additional improvement** from the explicit degradation-aware signals. The clean-to-transformed AUC gap is reduced by approximately **9.4% relative to the DCPT baseline**, from 0.0053 to 0.0048.
+FusionCLIP retains approximately 99.5% of its clean AUC after transformation, with mean AUC decreasing from 0.9699 to 0.9651 across the 15 held-out transformation types.
+
+The key result is that FusionCLIP retains the robustness already established by DCPT while providing a **modest additional improvement** from the explicit degradation-aware signals. The clean-to-transformed AUC gap is reduced by approximately **9.4% relative to the DCPT baseline**, from 0.0053 to 0.0048, while clean AUC remains unchanged.
 
 Across the 15 held-out transformation types, FusionCLIP achieves approximately **92% accuracy** and maintains a high AUC, showing that its ability to distinguish real from AI-generated images remains stable under common image degradations rather than relying solely on clean-image performance.
+
+### Comparison with prior work
+
+Robustness to post-processing is a known challenge in AIGC detection — prior work such as Raising the Bar of AI-generated Image Detection with CLIP (Cozzolino et al., CVPRW 2024) has documented substantial degradation in earlier, non-CLIP-based detectors under common post-processing operations. FusionCLIP achieves 99.5% clean AUC retention (0.9699 → 0.9651) across our 15 held-out transformation types, demonstrating that the combination of DCPT training and engineered signals is effective at preserving performance under degradation.
+
+However, datasets and evaluation protocols differ, so this should be interpreted as a general comparison rather than a direct benchmark.
 
 ### Interpretation
 
